@@ -480,6 +480,118 @@
       margin-bottom: 32px;
     }
 
+    .genre-mode-controls {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin: -4px 0 14px;
+      padding: 12px 14px;
+      background: var(--bg-subtle);
+      border: 1px solid var(--border-light);
+    }
+
+    .genre-logic-subcontrols {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      margin-left: 12px;
+      padding-left: 14px;
+      border-left: 2px solid var(--border-light);
+      transition: opacity 0.18s ease, border-color 0.18s ease;
+    }
+
+    .genre-logic-subcontrols:not(.is-disabled) {
+      border-left-color: var(--accent-blue);
+    }
+
+    .genre-logic-subcontrols.is-disabled {
+      opacity: 0.4;
+      pointer-events: none;
+      user-select: none;
+    }
+
+    .toggle-switch-row {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      cursor: pointer;
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--text-primary);
+      line-height: 1.4;
+      width: fit-content;
+      max-width: 100%;
+    }
+
+    .genre-logic-subcontrols .toggle-switch-row {
+      font-weight: 500;
+    }
+
+    .genre-logic-subcontrols.is-disabled .toggle-switch-row {
+      cursor: not-allowed;
+      color: var(--text-muted);
+    }
+
+    .toggle-switch-input {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+
+    .toggle-switch-track {
+      position: relative;
+      flex-shrink: 0;
+      width: 40px;
+      height: 22px;
+      background: #c8ced6;
+      border-radius: 999px;
+      transition: background-color 0.18s ease;
+    }
+
+    .toggle-switch-track::after {
+      content: "";
+      position: absolute;
+      top: 2px;
+      left: 2px;
+      width: 18px;
+      height: 18px;
+      background: #ffffff;
+      border-radius: 50%;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.22);
+      transition: transform 0.18s ease;
+    }
+
+    .toggle-switch-input:checked + .toggle-switch-track {
+      background: var(--accent-blue);
+    }
+
+    .toggle-switch-input:checked + .toggle-switch-track::after {
+      transform: translateX(18px);
+    }
+
+    .toggle-switch-input:focus-visible + .toggle-switch-track {
+      outline: 2px solid var(--accent-blue);
+      outline-offset: 2px;
+    }
+
+    .toggle-switch-input:disabled + .toggle-switch-track {
+      background: #d5dae0;
+    }
+
+    .toggle-switch-input:disabled:checked + .toggle-switch-track {
+      background: #8e96b0;
+    }
+
+    .toggle-switch-text {
+      user-select: none;
+    }
+
     .tile-grid {
       list-style: none;
       margin: 0;
@@ -857,8 +969,63 @@
       line-height: 1.8;
     }
 
-    .about-card p:last-child {
+    .about-card p:last-of-type {
       margin-bottom: 0;
+    }
+
+    .about-social-links {
+      margin-top: 20px;
+      padding-top: 16px;
+      border-top: 1px solid var(--border-light);
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .about-social-icon {
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      transition: transform 0.16s ease, opacity 0.16s ease, box-shadow 0.16s ease;
+    }
+
+    .about-social-icon:hover {
+      transform: translateY(-2px);
+      opacity: 0.92;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.16);
+    }
+
+    .about-social-icon:focus-visible {
+      outline: 2px solid var(--accent-blue);
+      outline-offset: 2px;
+    }
+
+    .about-social-x {
+      background: #111111;
+      color: #ffffff;
+    }
+
+    .about-social-x svg {
+      width: 18px;
+      height: 18px;
+      fill: currentColor;
+      display: block;
+    }
+
+    .about-social-youtube {
+      background: #ff0000;
+      color: #ffffff;
+    }
+
+    .about-social-youtube svg {
+      width: 20px;
+      height: 20px;
+      fill: currentColor;
+      display: block;
     }
 
     .site-footer {
@@ -1362,12 +1529,20 @@
         -webkit-overflow-scrolling: touch;
       }
       .modal-image-stage {
+        --stage-pad-x: 44px;
+        --stage-pad-y: 12px;
+        /* 縦画像 (3024×4032 = 3:4) の規定縦サイズ */
+        --portrait-fixed-height: min(
+          calc((100vw - (var(--stage-pad-x) * 2)) * 4032 / 3024),
+          62dvh
+        );
         position: relative;
         flex-shrink: 0;
-        height: auto;
-        min-height: 180px;
-        padding: 12px 44px;
-        overflow: visible;
+        height: calc(var(--portrait-fixed-height) + (var(--stage-pad-y) * 2));
+        min-height: calc(var(--portrait-fixed-height) + (var(--stage-pad-y) * 2));
+        max-height: calc(var(--portrait-fixed-height) + (var(--stage-pad-y) * 2));
+        padding: var(--stage-pad-y) var(--stage-pad-x);
+        overflow: hidden;
       }
       .modal-nav-btn {
         width: 36px;
@@ -1386,8 +1561,16 @@
       .modal-image-stage img {
         width: auto;
         max-width: 100%;
-        max-height: 62dvh;
+        max-height: var(--portrait-fixed-height);
         height: auto;
+        object-fit: contain;
+      }
+      .modal-image-stage img.is-portrait {
+        height: var(--portrait-fixed-height);
+        width: auto;
+        aspect-ratio: 3024 / 4032;
+        max-width: 100%;
+        max-height: var(--portrait-fixed-height);
         object-fit: contain;
       }
       .modal-info-panel {
@@ -1512,6 +1695,25 @@
 
       <div class="filter-group">
         <h2 class="section-index">ジャンルで探す<span class="index-line"></span></h2>
+        <div class="genre-mode-controls">
+          <label class="toggle-switch-row" for="multiGenreToggle">
+            <input type="checkbox" id="multiGenreToggle" class="toggle-switch-input" role="switch" />
+            <span class="toggle-switch-track" aria-hidden="true"></span>
+            <span class="toggle-switch-text">ジャンル複数選択</span>
+          </label>
+          <div class="genre-logic-subcontrols is-disabled" id="genreLogicSubcontrols" aria-disabled="true">
+            <label class="toggle-switch-row" for="genreLogicAllToggle">
+              <input type="checkbox" id="genreLogicAllToggle" class="toggle-switch-input" role="switch" checked disabled />
+              <span class="toggle-switch-track" aria-hidden="true"></span>
+              <span class="toggle-switch-text">指定ジャンルを全て含む画像を探す</span>
+            </label>
+            <label class="toggle-switch-row" for="genreLogicAnyToggle">
+              <input type="checkbox" id="genreLogicAnyToggle" class="toggle-switch-input" role="switch" disabled />
+              <span class="toggle-switch-track" aria-hidden="true"></span>
+              <span class="toggle-switch-text">指定ジャンルのどれか一つを含む画像を探す</span>
+            </label>
+          </div>
+        </div>
         <div class="genre-collapse-wrap" id="genreCollapseWrap">
           <ul class="tile-grid genre-grid" id="genreFilterList"></ul>
           <div class="genre-fourth-row-blur" id="genreFourthRowBlur" hidden aria-hidden="true"></div>
@@ -1556,6 +1758,32 @@
         <p>Flickrに撮りためた写真を、ジャンル別・ライセンス別に整理したフォトアーカイブです。</p>
         <p>写真はCC0もしくはCC BY（2.0 / 4.0）で自由にご利用いただけます。</p>
         <p>SCP財団やBackroomsなどでの創作活動にぜひお使いください。</p>
+        <div class="about-social-links" aria-label="公式アカウントリンク">
+          <a
+            href="https://x.com/scpowl"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="about-social-icon about-social-x"
+            aria-label="X (@scpowl)"
+            title="X (@scpowl)"
+          >
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+            </svg>
+          </a>
+          <a
+            href="https://m.youtube.com/@%E3%83%95%E3%82%AF%E3%83%AD%E3%82%A6%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC?ra=m"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="about-social-icon about-social-youtube"
+            aria-label="YouTube (フクロウアカデミー)"
+            title="YouTube (フクロウアカデミー)"
+          >
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+            </svg>
+          </a>
+        </div>
       </div>
     </section>
   </main>
@@ -1696,7 +1924,9 @@
       allPhotos: [],
       allTagsIndex: [],
       filteredPhotos: [],
-      selectedGenre: "ALL",
+      selectedGenres: [],
+      isMultiGenreMode: false,
+      multiGenreLogic: "AND",
       isGenreExpanded: false,
       selectedTag: null,
       selectedLicense: "ALL",
@@ -1760,6 +1990,10 @@
       clearFilterBtn: document.getElementById("clearFilterBtn"),
       genreCollapseWrap: document.getElementById("genreCollapseWrap"),
       genreFilterList: document.getElementById("genreFilterList"),
+      multiGenreToggle: document.getElementById("multiGenreToggle"),
+      genreLogicSubcontrols: document.getElementById("genreLogicSubcontrols"),
+      genreLogicAllToggle: document.getElementById("genreLogicAllToggle"),
+      genreLogicAnyToggle: document.getElementById("genreLogicAnyToggle"),
       genreFourthRowBlur: document.getElementById("genreFourthRowBlur"),
       genreExpandBtn: document.getElementById("genreExpandBtn"),
       licenseFilterList: document.getElementById("licenseFilterList"),
@@ -1776,6 +2010,7 @@
       modalPrevBtn: document.getElementById("modalPrevBtn"),
       modalNextBtn: document.getElementById("modalNextBtn"),
       modalBody: document.getElementById("modalBody"),
+      modalImageStage: document.querySelector(".modal-image-stage"),
       modalImage: document.getElementById("modalImage"),
       modalInfoPanel: document.getElementById("modalInfoPanel"),
       modalArchiveNo: document.getElementById("modalArchiveNo"),
@@ -2031,6 +2266,10 @@
       const finalLicenseInfo = applyManualLicenseOverride(override.license, baseLicenseInfo);
       const genres = normalizeGenres(item.genres, item.genre, override);
 
+      const rawW = Number(item.width || item.o_width || item.width_o || item.largeWidth || 0);
+      const rawH = Number(item.height || item.o_height || item.height_o || item.largeHeight || 0);
+      const initialIsPortrait = rawW > 0 && rawH > 0 ? rawH > rawW : null;
+
       return {
         id,
         title,
@@ -2049,7 +2288,8 @@
         genre: genres[0],
         genres,
         licenseCategory: finalLicenseInfo.category,
-        licenseLabel: finalLicenseInfo.label
+        licenseLabel: finalLicenseInfo.label,
+        _isPortrait: initialIsPortrait
       };
     }
 
@@ -2451,12 +2691,67 @@
       }
     }
 
+    function syncGenreToggleControls() {
+      const enabled = Boolean(state.isMultiGenreMode);
+      if (els.multiGenreToggle) {
+        els.multiGenreToggle.checked = enabled;
+      }
+      if (els.genreLogicSubcontrols) {
+        els.genreLogicSubcontrols.classList.toggle("is-disabled", !enabled);
+        els.genreLogicSubcontrols.setAttribute("aria-disabled", enabled ? "false" : "true");
+      }
+      if (els.genreLogicAllToggle) {
+        els.genreLogicAllToggle.disabled = !enabled;
+        els.genreLogicAllToggle.checked = state.multiGenreLogic === "AND";
+      }
+      if (els.genreLogicAnyToggle) {
+        els.genreLogicAnyToggle.disabled = !enabled;
+        els.genreLogicAnyToggle.checked = state.multiGenreLogic === "OR";
+      }
+    }
+
+    function matchesGenreSelection(photo, genresList = state.selectedGenres, logic = state.multiGenreLogic) {
+      if (!Array.isArray(genresList) || genresList.length === 0) {
+        return true;
+      }
+      if (genresList.length === 1) {
+        return photo.genres.includes(genresList[0]);
+      }
+      if (logic === "OR") {
+        return genresList.some((gId) => photo.genres.includes(gId));
+      }
+      return genresList.every((gId) => photo.genres.includes(gId));
+    }
+
+    function matchesLicenseSelection(photo, licenseId = state.selectedLicense) {
+      return !licenseId || licenseId === "ALL" || photo.licenseCategory === licenseId;
+    }
+
+    function matchesQueryAndTag(photo) {
+      const q = state.searchQuery.trim().toLowerCase();
+      const targetTagLower = state.selectedTag ? state.selectedTag.toLowerCase() : null;
+      const matchTag = !targetTagLower ||
+        photo.tags.some((t) => t.toLowerCase() === targetTagLower);
+      const matchQuery = !q ||
+        photo.title.toLowerCase().includes(q) ||
+        photo.licenseLabel.toLowerCase().includes(q) ||
+        photo.tags.some((t) => t.toLowerCase().includes(q)) ||
+        photo.genres.some((gId) => getGenreLabel(gId).toLowerCase().includes(q));
+      return matchTag && matchQuery;
+    }
+
     function renderFilterTiles() {
+      syncGenreToggleControls();
+
+      const genreCountPool = state.allPhotos.filter(
+        (p) => matchesLicenseSelection(p) && matchesQueryAndTag(p)
+      );
+
       els.genreFilterList.innerHTML = "";
       const genresWithCounts = state.genreDefinitions.map((genre, originalIndex) => {
         const count = genre.id === "ALL"
-          ? state.allPhotos.length
-          : state.allPhotos.filter((p) => p.genres.includes(genre.id)).length;
+          ? genreCountPool.length
+          : genreCountPool.filter((p) => p.genres.includes(genre.id)).length;
         return { ...genre, count, originalIndex };
       });
 
@@ -2469,17 +2764,31 @@
 
       genresWithCounts.forEach((genre) => {
         const count = genre.count;
+        const isSelected = genre.id === "ALL"
+          ? state.selectedGenres.length === 0
+          : state.selectedGenres.includes(genre.id);
+
         const li = document.createElement("li");
         const btn = document.createElement("button");
         btn.type = "button";
-        btn.className = `filter-tile ${state.selectedGenre === genre.id ? "is-selected" : ""}`;
+        btn.className = `filter-tile ${isSelected ? "is-selected" : ""}`;
+        btn.setAttribute("aria-pressed", isSelected ? "true" : "false");
         btn.innerHTML = `<span>${escapeHtml(genre.label)}</span><span class="tile-count">${count.toLocaleString()}枚</span>`;
         btn.addEventListener("click", () => {
-          state.selectedGenre = genre.id;
+          if (genre.id === "ALL") {
+            state.selectedGenres = [];
+          } else if (state.isMultiGenreMode) {
+            if (state.selectedGenres.includes(genre.id)) {
+              state.selectedGenres = state.selectedGenres.filter((id) => id !== genre.id);
+            } else {
+              state.selectedGenres = [...state.selectedGenres, genre.id];
+            }
+          } else {
+            state.selectedGenres = [genre.id];
+          }
+
           if (state.selectedTag) {
-            const nextPool = genre.id === "ALL"
-              ? state.allPhotos
-              : state.allPhotos.filter((p) => p.genres.includes(genre.id));
+            const nextPool = state.allPhotos.filter((p) => matchesGenreSelection(p));
             const stillExists = nextPool.some((p) =>
               p.tags.some((t) => t.toLowerCase() === state.selectedTag.toLowerCase())
             );
@@ -2496,16 +2805,22 @@
 
       updateGenreCollapseLayout();
 
+      const licenseCountPool = state.allPhotos.filter(
+        (p) => matchesGenreSelection(p) && matchesQueryAndTag(p)
+      );
+
       els.licenseFilterList.innerHTML = "";
       LICENSE_DEFINITIONS.forEach((lic) => {
         const count = lic.id === "ALL"
-          ? state.allPhotos.length
-          : state.allPhotos.filter((p) => p.licenseCategory === lic.id).length;
+          ? licenseCountPool.length
+          : licenseCountPool.filter((p) => p.licenseCategory === lic.id).length;
 
+        const isSelected = state.selectedLicense === lic.id;
         const li = document.createElement("li");
         const btn = document.createElement("button");
         btn.type = "button";
-        btn.className = `filter-tile ${state.selectedLicense === lic.id ? "is-selected" : ""}`;
+        btn.className = `filter-tile ${isSelected ? "is-selected" : ""}`;
+        btn.setAttribute("aria-pressed", isSelected ? "true" : "false");
         btn.innerHTML = `<span>${escapeHtml(lic.label)}</span><span class="tile-count">${count.toLocaleString()}枚</span>`;
         btn.addEventListener("click", () => {
           state.selectedLicense = lic.id;
@@ -2523,23 +2838,16 @@
       }
 
       const q = state.searchQuery.trim().toLowerCase();
-      const targetTagLower = state.selectedTag ? state.selectedTag.toLowerCase() : null;
 
       state.filteredPhotos = state.allPhotos.filter((photo) => {
-        const matchGenre = state.selectedGenre === "ALL" || photo.genres.includes(state.selectedGenre);
-        const matchTag = !targetTagLower ||
-          photo.tags.some((t) => t.toLowerCase() === targetTagLower);
-        const matchLicense = state.selectedLicense === "ALL" || photo.licenseCategory === state.selectedLicense;
-        const matchQuery = !q ||
-          photo.title.toLowerCase().includes(q) ||
-          photo.licenseLabel.toLowerCase().includes(q) ||
-          photo.tags.some((t) => t.toLowerCase().includes(q)) ||
-          photo.genres.some((gId) => getGenreLabel(gId).toLowerCase().includes(q));
-
-        return matchGenre && matchTag && matchLicense && matchQuery;
+        return (
+          matchesGenreSelection(photo) &&
+          matchesLicenseSelection(photo) &&
+          matchesQueryAndTag(photo)
+        );
       });
 
-      const isFiltered = state.selectedGenre !== "ALL" ||
+      const isFiltered = state.selectedGenres.length > 0 ||
         state.selectedTag !== null ||
         state.selectedLicense !== "ALL" ||
         q !== "";
@@ -2588,7 +2896,7 @@
         const genreBadgesHtml = photo.genres
           .map((gId) => {
             const label = getGenreLabel(gId);
-            const isMatched = state.selectedGenre !== "ALL" && state.selectedGenre === gId;
+            const isMatched = state.selectedGenres.includes(gId);
             return `<span class="card-genre-badge${isMatched ? " is-matched" : ""}">${escapeHtml(label)}</span>`;
           })
           .join("");
@@ -2722,18 +3030,42 @@ ${photo.licenseLabel}`;
       textarea.remove();
     }
 
+    function syncModalImageOrientation(photo, imgEl) {
+      if (!photo) return;
+      if (imgEl && imgEl.naturalWidth > 0 && imgEl.naturalHeight > 0) {
+        photo._isPortrait = imgEl.naturalHeight > imgEl.naturalWidth;
+      }
+      const isPortrait = Boolean(photo._isPortrait);
+      els.modalImage.classList.toggle("is-portrait", isPortrait);
+      if (els.modalImageStage) {
+        els.modalImageStage.classList.toggle("is-portrait", isPortrait);
+      }
+    }
+
+    els.modalImage.addEventListener("load", () => {
+      if (state.currentModalPhoto) {
+        syncModalImageOrientation(state.currentModalPhoto, els.modalImage);
+      }
+    });
+
     function openModal(photo) {
       state.currentModalPhoto = photo;
       els.downloadStatusMsg.textContent = "";
       els.copyLicenseBtn.textContent = "ライセンス表記をコピーする";
 
+      syncModalImageOrientation(photo, null);
       els.modalImage.src = photo.thumbUrl;
       els.modalImage.alt = photo.title;
+      if (els.modalImage.complete && els.modalImage.naturalWidth > 0) {
+        syncModalImageOrientation(photo, els.modalImage);
+      }
       if (photo.largeUrl && photo.largeUrl !== photo.thumbUrl) {
         const highRes = new Image();
         highRes.decoding = "async";
         highRes.onload = () => {
+          photo._isPortrait = highRes.naturalHeight > highRes.naturalWidth;
           if (state.currentModalPhoto && state.currentModalPhoto.id === photo.id) {
+            syncModalImageOrientation(photo, highRes);
             els.modalImage.src = photo.largeUrl;
           }
         };
@@ -2752,7 +3084,7 @@ ${photo.licenseLabel}`;
         genreBtn.textContent = getGenreLabel(gId);
         genreBtn.title = `ジャンル「${getGenreLabel(gId)}」で絞り込む`;
         genreBtn.addEventListener("click", () => {
-          state.selectedGenre = gId;
+          state.selectedGenres = [gId];
           state.selectedTag = null;
           closeModal();
           renderFilterTiles();
@@ -2780,7 +3112,7 @@ ${photo.licenseLabel}`;
           btn.className = "tag-chip";
           btn.textContent = `#${tag}`;
           btn.addEventListener("click", () => {
-            state.selectedGenre = "ALL";
+            state.selectedGenres = [];
             state.selectedTag = tag;
             closeModal();
             renderFilterTiles();
@@ -2829,6 +3161,11 @@ ${photo.licenseLabel}`;
           if (adj && adj.largeUrl) {
             const preloadImg = new Image();
             preloadImg.decoding = "async";
+            preloadImg.onload = () => {
+              if (preloadImg.naturalWidth > 0 && preloadImg.naturalHeight > 0) {
+                adj._isPortrait = preloadImg.naturalHeight > preloadImg.naturalWidth;
+              }
+            };
             preloadImg.src = adj.largeUrl;
           }
         });
@@ -3018,7 +3355,7 @@ ${photo.licenseLabel}`;
     }
 
     function resetAllFilters() {
-      state.selectedGenre = "ALL";
+      state.selectedGenres = [];
       state.selectedTag = null;
       state.selectedLicense = "ALL";
       state.searchQuery = "";
@@ -3057,6 +3394,7 @@ ${photo.licenseLabel}`;
       state.searchQuery = e.target.value;
       state.activeSuggestionIndex = -1;
       renderTagSuggestions();
+      renderFilterTiles();
       applyFilters(true);
     });
 
@@ -3181,6 +3519,60 @@ ${photo.licenseLabel}`;
       });
     });
 
+    if (els.multiGenreToggle) {
+      els.multiGenreToggle.addEventListener("change", (e) => {
+        const enabled = e.target.checked;
+        state.isMultiGenreMode = enabled;
+        if (!enabled && state.selectedGenres.length >= 2) {
+          state.selectedGenres = [];
+        }
+        syncGenreToggleControls();
+        renderFilterTiles();
+        applyFilters(true);
+      });
+    }
+
+    if (els.genreLogicAllToggle) {
+      els.genreLogicAllToggle.addEventListener("change", (e) => {
+        if (!state.isMultiGenreMode) {
+          syncGenreToggleControls();
+          return;
+        }
+        if (e.target.checked) {
+          state.multiGenreLogic = "AND";
+          if (els.genreLogicAnyToggle) {
+            els.genreLogicAnyToggle.checked = false;
+          }
+        } else {
+          e.target.checked = true;
+          state.multiGenreLogic = "AND";
+        }
+        renderFilterTiles();
+        applyFilters(true);
+      });
+    }
+
+    if (els.genreLogicAnyToggle) {
+      els.genreLogicAnyToggle.addEventListener("change", (e) => {
+        if (!state.isMultiGenreMode) {
+          syncGenreToggleControls();
+          return;
+        }
+        if (e.target.checked) {
+          state.multiGenreLogic = "OR";
+          if (els.genreLogicAllToggle) {
+            els.genreLogicAllToggle.checked = false;
+          }
+        } else {
+          e.target.checked = true;
+          state.multiGenreLogic = "OR";
+        }
+        renderFilterTiles();
+        applyFilters(true);
+      });
+    }
+
+    syncGenreToggleControls();
     initArchive();
   </script>
 </body>
