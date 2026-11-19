@@ -3,7 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Japanese Creative Commons Archive</title>
+  <title>Japanese CC Archive</title>
+  <link rel="icon" type="image/png" href="./icon.png" />
+  <link rel="shortcut icon" type="image/png" href="./icon.png" />
+  <link rel="apple-touch-icon" href="./icon.png" />
+  <link rel="preconnect" href="https://live.staticflickr.com" crossorigin />
+  <link rel="dns-prefetch" href="https://www.flickr.com" />
   <!-- SIL Open Font License 1.1: Noto Sans JP / Noto Sans Mono -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -787,6 +792,48 @@
       transform: scale(1.04);
     }
 
+    .card-video-indicator {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      pointer-events: none;
+      background: rgba(0, 0, 0, 0.16);
+      transition: background 0.22s ease;
+    }
+
+    .photo-card:hover .card-video-indicator {
+      background: rgba(0, 0, 0, 0.28);
+    }
+
+    .card-video-play-circle {
+      width: 46px;
+      height: 46px;
+      border-radius: 50%;
+      background: rgba(17, 17, 17, 0.78);
+      border: 1.5px solid rgba(255, 255, 255, 0.88);
+      color: #ffffff;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.36);
+      transition: transform 0.22s ease, background 0.22s ease;
+    }
+
+    .photo-card:hover .card-video-play-circle {
+      transform: scale(1.08);
+      background: var(--accent-blue);
+    }
+
+    .card-video-play-circle svg {
+      width: 18px;
+      height: 18px;
+      fill: currentColor;
+      margin-left: 2px;
+      display: block;
+    }
+
     .card-genre-badges {
       position: absolute;
       top: 8px;
@@ -852,11 +899,19 @@
       padding-top: 8px;
       border-top: 1px solid var(--bg-subtle);
       display: flex;
-      justify-content: flex-start;
+      justify-content: space-between;
       align-items: center;
       font-size: 11px;
       font-weight: 500;
       color: var(--text-secondary);
+    }
+
+    .card-media-tag {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      color: var(--accent-blue);
     }
 
     .pagination-wrap {
@@ -1151,6 +1206,119 @@
       max-height: 100%;
       object-fit: contain;
       display: block;
+    }
+
+    .modal-image-stage img[hidden] {
+      display: none;
+    }
+
+    .modal-video-stage {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+
+    .modal-video-stage[hidden] {
+      display: none;
+    }
+
+    .modal-video-player {
+      width: 100%;
+      height: 100%;
+      max-width: 100%;
+      max-height: 100%;
+      background: #000000;
+      outline: none;
+      display: block;
+    }
+
+    .modal-video-player[hidden] {
+      display: none;
+    }
+
+    .modal-video-iframe {
+      width: 100%;
+      height: 100%;
+      max-width: 100%;
+      max-height: 100%;
+      aspect-ratio: 16 / 9;
+      border: 0;
+      background: #000000;
+      display: block;
+    }
+
+    .modal-video-iframe[hidden] {
+      display: none;
+    }
+
+    .modal-video-poster-overlay {
+      position: absolute;
+      inset: 0;
+      z-index: 10;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      background: rgba(0, 0, 0, 0.24);
+      border: 0;
+      color: #ffffff;
+      cursor: pointer;
+      padding: 16px;
+      transition: background 0.2s ease;
+    }
+
+    .modal-video-poster-overlay[hidden] {
+      display: none;
+    }
+
+    .modal-video-poster-overlay:hover {
+      background: rgba(0, 0, 0, 0.38);
+    }
+
+    .modal-video-poster-overlay:focus-visible {
+      outline: 2px solid #ffffff;
+      outline-offset: -4px;
+    }
+
+    .modal-video-poster-circle {
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+      background: rgba(17, 17, 17, 0.84);
+      border: 2px solid rgba(255, 255, 255, 0.92);
+      color: #ffffff;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.45);
+      transition: transform 0.2s ease, background 0.2s ease;
+    }
+
+    .modal-video-poster-overlay:hover .modal-video-poster-circle {
+      transform: scale(1.08);
+      background: var(--accent-blue);
+    }
+
+    .modal-video-poster-circle svg {
+      width: 24px;
+      height: 24px;
+      fill: currentColor;
+      margin-left: 3px;
+      display: block;
+    }
+
+    .modal-video-poster-label {
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      padding: 4px 12px;
+      background: rgba(17, 17, 17, 0.82);
+      border: 1px solid rgba(255, 255, 255, 0.28);
+      color: #ffffff;
     }
 
     .modal-nav-btn {
@@ -1544,6 +1712,15 @@
         padding: var(--stage-pad-y) var(--stage-pad-x);
         overflow: hidden;
       }
+      .modal-image-stage.is-video {
+        --video-fixed-height: min(
+          calc((100vw - (var(--stage-pad-x) * 2)) * 9 / 16),
+          45dvh
+        );
+        height: calc(max(var(--video-fixed-height), 210px) + (var(--stage-pad-y) * 2));
+        min-height: calc(max(var(--video-fixed-height), 210px) + (var(--stage-pad-y) * 2));
+        max-height: calc(max(var(--video-fixed-height), 210px) + (var(--stage-pad-y) * 2));
+      }
       .modal-nav-btn {
         width: 36px;
         height: 48px;
@@ -1811,6 +1988,37 @@
             </svg>
           </button>
           <img id="modalImage" src="" alt="" />
+          <button
+            type="button"
+            class="modal-video-poster-overlay"
+            id="modalVideoPosterOverlay"
+            aria-label="動画を再生する"
+            hidden
+          >
+            <span class="modal-video-poster-circle" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><polygon points="8,5 19,12 8,19" /></svg>
+            </span>
+            <span class="modal-video-poster-label">動画を再生</span>
+          </button>
+          <div class="modal-video-stage" id="modalVideoStage" hidden>
+            <video
+              id="modalVideoPlayer"
+              class="modal-video-player"
+              controls
+              playsinline
+              preload="none"
+              hidden
+            ></video>
+            <iframe
+              id="modalVideoIframe"
+              class="modal-video-iframe"
+              title="Flickr動画プレーヤー"
+              allow="autoplay; fullscreen; picture-in-picture"
+              allowfullscreen
+              loading="lazy"
+              hidden
+            ></iframe>
+          </div>
           <button type="button" class="modal-nav-btn modal-nav-next" id="modalNextBtn" aria-label="次の写真へ">
             <svg class="modal-nav-triangle" viewBox="0 0 24 24" aria-hidden="true">
               <polygon points="7,3 19,12 7,21" />
@@ -1847,11 +2055,11 @@
                 <span class="flickr-dot-blue"></span>
                 <span class="flickr-dot-pink"></span>
               </span>
-              <span>Flickrで元画像ページを開く ↗</span>
+              <span id="modalFlickrPageLinkLabel">Flickrで元画像ページを開く ↗</span>
             </a>
             <div class="action-buttons">
               <button type="button" class="btn-action btn-download" id="modalDownloadBtn">
-                <span class="btn-icon">↓</span> 保存
+                <span class="btn-icon">↓</span> <span id="modalDownloadBtnLabel">保存</span>
               </button>
               <a class="btn-action btn-share-x" id="modalShareXBtn" href="#" target="_blank" rel="noopener noreferrer">
                 <span class="btn-icon">𝕏</span> Xでシェアする
@@ -2013,6 +2221,10 @@
       modalBody: document.getElementById("modalBody"),
       modalImageStage: document.querySelector(".modal-image-stage"),
       modalImage: document.getElementById("modalImage"),
+      modalVideoPosterOverlay: document.getElementById("modalVideoPosterOverlay"),
+      modalVideoStage: document.getElementById("modalVideoStage"),
+      modalVideoPlayer: document.getElementById("modalVideoPlayer"),
+      modalVideoIframe: document.getElementById("modalVideoIframe"),
       modalInfoPanel: document.getElementById("modalInfoPanel"),
       modalArchiveNo: document.getElementById("modalArchiveNo"),
       modalPublishedDate: document.getElementById("modalPublishedDate"),
@@ -2023,9 +2235,11 @@
       licenseCopyPreview: document.getElementById("licenseCopyPreview"),
       copyLicenseBtn: document.getElementById("copyLicenseBtn"),
       modalDownloadBtn: document.getElementById("modalDownloadBtn"),
+      modalDownloadBtnLabel: document.getElementById("modalDownloadBtnLabel"),
       modalShareXBtn: document.getElementById("modalShareXBtn"),
       downloadStatusMsg: document.getElementById("downloadStatusMsg"),
-      modalFlickrPageLink: document.getElementById("modalFlickrPageLink")
+      modalFlickrPageLink: document.getElementById("modalFlickrPageLink"),
+      modalFlickrPageLinkLabel: document.getElementById("modalFlickrPageLinkLabel")
     };
 
     function openMobileNav() {
@@ -2092,6 +2306,84 @@
 
     function toLargeImageUrl(url) {
       return replaceFlickrSizeSuffix(url, "b");
+    }
+
+    function isDirectVideoFileUrl(url) {
+      const s = String(url || "").trim();
+      if (!s) return false;
+      return /\.(mp4|webm|mov|m4v|ogv|ogg)(?:[?#]|$)/i.test(s) ||
+        /\/play\/(hd|site|orig|mobile)\//i.test(s) ||
+        /live\.staticflickr\.com\/video\//i.test(s);
+    }
+
+    function buildFlickrEmbedPlayerUrl(flickrPageUrl, accountId, photoId) {
+      const page = String(flickrPageUrl || "").trim();
+      if (page && /flickr\.com\/photos\/[^/]+\/\d+/i.test(page)) {
+        const cleanPage = page.replace(/[?#].*$/, "").replace(/\/+$/, "");
+        if (/\/player$/i.test(cleanPage)) {
+          return `${cleanPage}/`;
+        }
+        return `${cleanPage}/player/`;
+      }
+      if (accountId && photoId && /^\d+$/.test(String(photoId))) {
+        return `https://www.flickr.com/photos/${encodeURIComponent(accountId)}/${encodeURIComponent(photoId)}/player/`;
+      }
+      return "";
+    }
+
+    function resolveVideoMediaInfo(item, genres, flickrPageUrl, accountId, photoId, baseUrl, rawOriginal) {
+      const mediaField = String(item.media || item.media_type || item.mediaType || item.type || "").trim().toLowerCase();
+      const explicitVideoFlag = Boolean(
+        item.is_video === true ||
+        item.isVideo === true ||
+        mediaField === "video" ||
+        (Array.isArray(genres) && genres.includes("VIDEOS"))
+      );
+
+      const directCandidates = [
+        item.videoUrl,
+        item.video_url,
+        item.mp4Url,
+        item.mp4_url,
+        item.url_mp4,
+        item.streamUrl,
+        item.stream_url,
+        item.videoSrc,
+        item.video_src,
+        isDirectVideoFileUrl(rawOriginal) ? rawOriginal : "",
+        isDirectVideoFileUrl(baseUrl) ? baseUrl : ""
+      ]
+        .map((u) => String(u || "").trim())
+        .filter(Boolean);
+
+      const secret = String(item.secret || "").trim();
+      const originalSecret = String(item.originalsecret || item.original_secret || "").trim();
+      if (explicitVideoFlag && accountId && photoId && /^\d+$/.test(String(photoId))) {
+        if (secret) {
+          directCandidates.push(`https://www.flickr.com/photos/${accountId}/${photoId}/play/site/${secret}/`);
+          directCandidates.push(`https://www.flickr.com/photos/${accountId}/${photoId}/play/hd/${secret}/`);
+        }
+        if (originalSecret) {
+          directCandidates.push(`https://www.flickr.com/photos/${accountId}/${photoId}/play/orig/${originalSecret}/`);
+        }
+      }
+
+      const uniqueDirectUrls = Array.from(new Set(directCandidates));
+
+      const explicitEmbedUrl = String(
+        item.embedUrl || item.embed_url || item.playerUrl || item.player_url || ""
+      ).trim();
+
+      const isVideo = explicitVideoFlag || uniqueDirectUrls.length > 0 || Boolean(explicitEmbedUrl);
+      const videoEmbedUrl = isVideo
+        ? (explicitEmbedUrl || buildFlickrEmbedPlayerUrl(flickrPageUrl, accountId, photoId))
+        : "";
+
+      return {
+        isVideo,
+        videoUrls: uniqueDirectUrls,
+        videoEmbedUrl
+      };
     }
 
     function parseTimestamp(rawDate) {
@@ -2266,6 +2558,11 @@
       const baseLicenseInfo = resolveLicenseInfo(item.license, extraLicenseFields, tags, description);
       const finalLicenseInfo = applyManualLicenseOverride(override.license, baseLicenseInfo);
       const genres = normalizeGenres(item.genres, item.genre, override);
+      const videoInfo = resolveVideoMediaInfo(item, genres, flickrPageUrl, accountId, id, baseUrl, rawOriginal);
+
+      if (videoInfo.isVideo && state.genreLabelMap.has("VIDEOS") && !genres.includes("VIDEOS")) {
+        genres.push("VIDEOS");
+      }
 
       const rawW = Number(item.width || item.o_width || item.width_o || item.largeWidth || 0);
       const rawH = Number(item.height || item.o_height || item.height_o || item.largeHeight || 0);
@@ -2290,6 +2587,9 @@
         genres,
         licenseCategory: finalLicenseInfo.category,
         licenseLabel: finalLicenseInfo.label,
+        isVideo: videoInfo.isVideo,
+        videoUrls: videoInfo.videoUrls,
+        videoEmbedUrl: videoInfo.videoEmbedUrl,
         _isPortrait: initialIsPortrait
       };
     }
@@ -2319,6 +2619,11 @@
       const baseLicenseInfo = resolveLicenseInfo(item.license || "", "", tags, rawDesc);
       const finalLicenseInfo = applyManualLicenseOverride(override.license, baseLicenseInfo);
       const genres = normalizeGenres(null, "", override);
+      const videoInfo = resolveVideoMediaInfo(item, genres, item.link, account.id, photoId, rawThumb, largeUrl);
+
+      if (videoInfo.isVideo && state.genreLabelMap.has("VIDEOS") && !genres.includes("VIDEOS")) {
+        genres.push("VIDEOS");
+      }
 
       return {
         id: photoId,
@@ -2338,7 +2643,10 @@
         genre: genres[0],
         genres,
         licenseCategory: finalLicenseInfo.category,
-        licenseLabel: finalLicenseInfo.label
+        licenseLabel: finalLicenseInfo.label,
+        isVideo: videoInfo.isVideo,
+        videoUrls: videoInfo.videoUrls,
+        videoEmbedUrl: videoInfo.videoEmbedUrl
       };
     }
 
@@ -2496,6 +2804,7 @@
       state.currentHeroPhoto = candidate;
       els.heroTitle.textContent = candidate.title;
       els.heroCredit.textContent = `Published: ${formatDate(candidate.publishedAt)}`;
+      els.heroDetailBtn.textContent = candidate.isVideo ? "この動画を見る" : "この写真を見る";
       els.heroDetailBtn.onclick = () => openModal(candidate);
 
       const quickSrc = candidate.thumbUrl || candidate.heroUrl;
@@ -2585,7 +2894,7 @@
         li.setAttribute("aria-selected", index === state.activeSuggestionIndex ? "true" : "false");
         li.innerHTML = `
           <span class="suggest-tag-label"><span class="suggest-hash">#</span>${highlightMatchedTag(tagObj.label, raw)}</span>
-          <span class="suggest-tag-count">${tagObj.count.toLocaleString()}枚</span>
+          <span class="suggest-tag-count">${tagObj.count.toLocaleString()}件</span>
         `;
         li.addEventListener("mousedown", (e) => {
           e.preventDefault();
@@ -2774,7 +3083,7 @@
         btn.type = "button";
         btn.className = `filter-tile ${isSelected ? "is-selected" : ""}`;
         btn.setAttribute("aria-pressed", isSelected ? "true" : "false");
-        btn.innerHTML = `<span>${escapeHtml(genre.label)}</span><span class="tile-count">${count.toLocaleString()}枚</span>`;
+        btn.innerHTML = `<span>${escapeHtml(genre.label)}</span><span class="tile-count">${count.toLocaleString()}件</span>`;
         btn.addEventListener("click", () => {
           if (genre.id === "ALL") {
             state.selectedGenres = [];
@@ -2822,7 +3131,7 @@
         btn.type = "button";
         btn.className = `filter-tile ${isSelected ? "is-selected" : ""}`;
         btn.setAttribute("aria-pressed", isSelected ? "true" : "false");
-        btn.innerHTML = `<span>${escapeHtml(lic.label)}</span><span class="tile-count">${count.toLocaleString()}枚</span>`;
+        btn.innerHTML = `<span>${escapeHtml(lic.label)}</span><span class="tile-count">${count.toLocaleString()}件</span>`;
         btn.addEventListener("click", () => {
           state.selectedLicense = lic.id;
           renderFilterTiles();
@@ -2902,12 +3211,25 @@
           })
           .join("");
 
+        const videoOverlayHtml = photo.isVideo
+          ? `<div class="card-video-indicator" aria-hidden="true">
+               <span class="card-video-play-circle">
+                 <svg viewBox="0 0 24 24"><polygon points="8,5 19,12 8,19" /></svg>
+               </span>
+             </div>`
+          : "";
+
+        const mediaTagHtml = photo.isVideo
+          ? `<span class="card-media-tag">VIDEO</span>`
+          : "";
+
         const card = document.createElement("article");
         card.className = "photo-card";
         card.tabIndex = 0;
         card.innerHTML = `
           <div class="card-thumb-wrap">
             <img class="card-thumb" src="${escapeHtml(photo.thumbUrl)}" alt="${escapeHtml(photo.title)}" loading="lazy" decoding="async" />
+            ${videoOverlayHtml}
             <div class="card-genre-badges">${genreBadgesHtml}</div>
           </div>
           <div class="card-body">
@@ -2918,6 +3240,7 @@
             <h3 class="card-title">${escapeHtml(photo.title)}</h3>
             <div class="card-footer-line">
               <span>${escapeHtml(photo.licenseLabel)}</span>
+              ${mediaTagHtml}
             </div>
           </div>
         `;
@@ -3036,7 +3359,7 @@ ${photo.licenseLabel}`;
       if (imgEl && imgEl.naturalWidth > 0 && imgEl.naturalHeight > 0) {
         photo._isPortrait = imgEl.naturalHeight > imgEl.naturalWidth;
       }
-      const isPortrait = Boolean(photo._isPortrait);
+      const isPortrait = !photo.isVideo && Boolean(photo._isPortrait);
       els.modalImage.classList.toggle("is-portrait", isPortrait);
       if (els.modalImageStage) {
         els.modalImageStage.classList.toggle("is-portrait", isPortrait);
@@ -3044,33 +3367,163 @@ ${photo.licenseLabel}`;
     }
 
     els.modalImage.addEventListener("load", () => {
-      if (state.currentModalPhoto) {
+      if (state.currentModalPhoto && !state.currentModalPhoto.isVideo) {
         syncModalImageOrientation(state.currentModalPhoto, els.modalImage);
       }
     });
+
+    function resetModalVideoStage() {
+      if (els.modalVideoPosterOverlay) {
+        els.modalVideoPosterOverlay.hidden = true;
+        els.modalVideoPosterOverlay.onclick = null;
+      }
+      if (els.modalVideoPlayer) {
+        els.modalVideoPlayer.onerror = null;
+        els.modalVideoPlayer.onloadeddata = null;
+        try {
+          els.modalVideoPlayer.pause();
+        } catch (e) {}
+        els.modalVideoPlayer.removeAttribute("src");
+        els.modalVideoPlayer.removeAttribute("poster");
+        try {
+          els.modalVideoPlayer.load();
+        } catch (e) {}
+        els.modalVideoPlayer.hidden = true;
+      }
+      if (els.modalVideoIframe) {
+        els.modalVideoIframe.src = "about:blank";
+        els.modalVideoIframe.hidden = true;
+      }
+      if (els.modalVideoStage) {
+        els.modalVideoStage.hidden = true;
+      }
+    }
+
+    function showModalVideoEmbed(photo) {
+      if (!els.modalVideoStage || !els.modalVideoIframe) return;
+      if (els.modalVideoPosterOverlay) {
+        els.modalVideoPosterOverlay.hidden = true;
+      }
+      if (els.modalVideoPlayer) {
+        try {
+          els.modalVideoPlayer.pause();
+        } catch (e) {}
+        els.modalVideoPlayer.hidden = true;
+      }
+      els.modalImage.hidden = true;
+      els.modalVideoStage.hidden = false;
+      els.modalVideoIframe.hidden = false;
+      els.modalVideoIframe.title = `${photo.title} - Flickr動画プレーヤー`;
+      els.modalVideoIframe.src = photo.videoEmbedUrl || buildFlickrEmbedPlayerUrl(photo.flickrPageUrl, photo.accountId, photo.id);
+    }
+
+    function startModalVideoPlayback(photo) {
+      if (!photo || !state.currentModalPhoto || state.currentModalPhoto.id !== photo.id) return;
+      if (els.modalVideoPosterOverlay) {
+        els.modalVideoPosterOverlay.hidden = true;
+      }
+      els.modalImage.hidden = true;
+
+      const directUrls = Array.isArray(photo.videoUrls) ? photo.videoUrls : [];
+      if (directUrls.length > 0 && els.modalVideoPlayer && els.modalVideoStage) {
+        let candidateIdx = 0;
+
+        const tryNextDirectUrl = () => {
+          if (!state.currentModalPhoto || state.currentModalPhoto.id !== photo.id) return;
+          if (candidateIdx >= directUrls.length) {
+            showModalVideoEmbed(photo);
+            return;
+          }
+          const nextUrl = directUrls[candidateIdx++];
+          els.modalVideoStage.hidden = false;
+          els.modalVideoIframe.hidden = true;
+          els.modalVideoPlayer.hidden = false;
+          els.modalVideoPlayer.poster = photo.largeUrl || photo.thumbUrl || "";
+          els.modalVideoPlayer.src = nextUrl;
+          try {
+            els.modalVideoPlayer.load();
+            const playPromise = els.modalVideoPlayer.play();
+            if (playPromise && typeof playPromise.catch === "function") {
+              playPromise.catch(() => {});
+            }
+          } catch (e) {}
+        };
+
+        els.modalVideoPlayer.onerror = () => {
+          tryNextDirectUrl();
+        };
+
+        tryNextDirectUrl();
+        return;
+      }
+
+      showModalVideoEmbed(photo);
+    }
+
+    function renderModalVideoPosterFacade(photo) {
+      resetModalVideoStage();
+      if (els.modalImageStage) {
+        els.modalImageStage.classList.remove("is-portrait");
+        els.modalImageStage.classList.add("is-video");
+      }
+      els.modalImage.classList.remove("is-portrait");
+      els.modalImage.hidden = false;
+      els.modalImage.src = photo.thumbUrl || photo.largeUrl || "";
+      els.modalImage.alt = photo.title;
+
+      if (photo.largeUrl && photo.largeUrl !== photo.thumbUrl) {
+        const highResPoster = new Image();
+        highResPoster.decoding = "async";
+        highResPoster.onload = () => {
+          if (
+            state.currentModalPhoto &&
+            state.currentModalPhoto.id === photo.id &&
+            photo.isVideo &&
+            !els.modalImage.hidden
+          ) {
+            els.modalImage.src = photo.largeUrl;
+          }
+        };
+        highResPoster.src = photo.largeUrl;
+      }
+
+      if (els.modalVideoPosterOverlay) {
+        els.modalVideoPosterOverlay.hidden = false;
+        els.modalVideoPosterOverlay.onclick = () => startModalVideoPlayback(photo);
+      }
+    }
 
     function openModal(photo) {
       state.currentModalPhoto = photo;
       els.downloadStatusMsg.textContent = "";
       els.copyLicenseBtn.textContent = "ライセンス表記をコピーする";
 
-      syncModalImageOrientation(photo, null);
-      els.modalImage.src = photo.thumbUrl;
-      els.modalImage.alt = photo.title;
-      if (els.modalImage.complete && els.modalImage.naturalWidth > 0) {
-        syncModalImageOrientation(photo, els.modalImage);
-      }
-      if (photo.largeUrl && photo.largeUrl !== photo.thumbUrl) {
-        const highRes = new Image();
-        highRes.decoding = "async";
-        highRes.onload = () => {
-          photo._isPortrait = highRes.naturalHeight > highRes.naturalWidth;
-          if (state.currentModalPhoto && state.currentModalPhoto.id === photo.id) {
-            syncModalImageOrientation(photo, highRes);
-            els.modalImage.src = photo.largeUrl;
-          }
-        };
-        highRes.src = photo.largeUrl;
+      if (photo.isVideo) {
+        renderModalVideoPosterFacade(photo);
+      } else {
+        resetModalVideoStage();
+        if (els.modalImageStage) {
+          els.modalImageStage.classList.remove("is-video");
+        }
+        els.modalImage.hidden = false;
+        syncModalImageOrientation(photo, null);
+        els.modalImage.src = photo.thumbUrl;
+        els.modalImage.alt = photo.title;
+        if (els.modalImage.complete && els.modalImage.naturalWidth > 0) {
+          syncModalImageOrientation(photo, els.modalImage);
+        }
+        if (photo.largeUrl && photo.largeUrl !== photo.thumbUrl) {
+          const highRes = new Image();
+          highRes.decoding = "async";
+          highRes.onload = () => {
+            photo._isPortrait = highRes.naturalHeight > highRes.naturalWidth;
+            if (state.currentModalPhoto && state.currentModalPhoto.id === photo.id && !photo.isVideo) {
+              syncModalImageOrientation(photo, highRes);
+              els.modalImage.src = photo.largeUrl;
+            }
+          };
+          highRes.src = photo.largeUrl;
+        }
       }
 
       els.modalArchiveNo.textContent = photo.archiveNo;
@@ -3100,10 +3553,16 @@ ${photo.licenseLabel}`;
       licensePill.textContent = photo.licenseLabel;
       els.modalTagsRow.appendChild(licensePill);
 
-
-
       els.modalDescription.textContent = photo.description || "解説文は登録されていません。";
       els.modalFlickrPageLink.href = photo.flickrPageUrl;
+      if (els.modalFlickrPageLinkLabel) {
+        els.modalFlickrPageLinkLabel.textContent = photo.isVideo
+          ? "Flickrで元動画ページを開く ↗"
+          : "Flickrで元画像ページを開く ↗";
+      }
+      if (els.modalDownloadBtnLabel) {
+        els.modalDownloadBtnLabel.textContent = photo.isVideo ? "サムネイル保存" : "保存";
+      }
 
       els.modalTags.innerHTML = "";
       if (photo.tags.length > 0) {
@@ -3197,6 +3656,11 @@ ${photo.licenseLabel}`;
     }
 
     function closeModal() {
+      resetModalVideoStage();
+      if (els.modalImageStage) {
+        els.modalImageStage.classList.remove("is-video");
+      }
+      els.modalImage.hidden = false;
       els.detailModal.hidden = true;
       document.body.style.overflow = "";
       state.currentModalPhoto = null;
@@ -3210,7 +3674,7 @@ ${photo.licenseLabel}`;
     }
 
     function detectExtensionFromUrl(url) {
-      const match = String(url || "").match(/\.(png|webp|jpe?g)(?:[?#]|$)/i);
+      const match = String(url || "").match(/\.(png|webp|jpe?g|mp4|webm|mov)(?:[?#]|$)/i);
       if (!match) return "jpg";
       const ext = match[1].toLowerCase();
       return ext === "jpeg" ? "jpg" : ext;
@@ -3219,7 +3683,11 @@ ${photo.licenseLabel}`;
     function resolveDownloadFilename(photo, blob, sourceUrl) {
       const mimeType = blob && blob.type ? blob.type.toLowerCase() : "";
       let ext = "";
-      if (mimeType.includes("png")) {
+      if (mimeType.includes("mp4")) {
+        ext = "mp4";
+      } else if (mimeType.includes("webm")) {
+        ext = "webm";
+      } else if (mimeType.includes("png")) {
         ext = "png";
       } else if (mimeType.includes("webp")) {
         ext = "webp";
@@ -3282,7 +3750,9 @@ ${photo.licenseLabel}`;
             const { blob, sourceUrl } = await fetchPhotoBlob(photo);
             const filename = resolveDownloadFilename(photo, blob, sourceUrl);
             triggerBlobFileDownload(blob, filename);
-            els.downloadStatusMsg.textContent = "";
+            els.downloadStatusMsg.textContent = photo.isVideo
+              ? "サムネイル画像を保存しました。動画本体は上の「Flickrで元動画ページを開く」から取得できます。"
+              : "";
             return;
           } catch (err) {
             const fallbackLink = document.createElement("a");
@@ -3330,7 +3800,9 @@ ${photo.licenseLabel}`;
               const writable = await fileHandle.createWritable();
               await writable.write(blob);
               await writable.close();
-              els.downloadStatusMsg.textContent = "";
+              els.downloadStatusMsg.textContent = photo.isVideo
+                ? "サムネイル画像を保存しました。動画本体は上の「Flickrで元動画ページを開く」から取得できます。"
+                : "";
               return;
             } catch (err) {
               if (typeof fileHandle.remove === "function") {
@@ -3345,7 +3817,9 @@ ${photo.licenseLabel}`;
           const { blob, sourceUrl } = await fetchPhotoBlob(photo);
           const filename = resolveDownloadFilename(photo, blob, sourceUrl);
           triggerBlobFileDownload(blob, filename);
-          els.downloadStatusMsg.textContent = "";
+          els.downloadStatusMsg.textContent = photo.isVideo
+            ? "サムネイル画像を保存しました。動画本体は上の「Flickrで元動画ページを開く」から取得できます。"
+            : "";
         } catch (err) {
           window.open(imageUrl, "_blank", "noopener,noreferrer");
           els.downloadStatusMsg.textContent = "新しいタブで元画像を開きました（右クリックで「名前を付けて画像を保存」できます）。";
