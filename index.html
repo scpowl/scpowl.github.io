@@ -1936,6 +1936,8 @@
         <p>これまでクリエイティブ・コモンズの素材は海外サイトが中心で、日本国内の写真が少ないという課題がありました。</p>
         <p>当サイトでは、創作に活用しやすい写真をすべて日本国内で撮影し、CC0またはCC BY（2.0 / 4.0）の下で公開しています。</p>
         <p>CCライセンスの範囲内で幅広い用途にご利用いただけます。SCP財団以外の活動にもぜひお役立てください。</p>
+        <p>※動画ファイルはFlickrの規約上無料で保存することができないため、一部動画はFlickrではなくGoogle Driveからダウンロードする形式を取っています。</P>
+        <p>動画原本が見つからないファイルは、サムネイルのみダウンロード可能となっております。</P>
         <div class="about-social-links" aria-label="公式アカウントリンク">
           <a
             href="https://x.com/scpowl"
@@ -2012,8 +2014,9 @@
             <iframe
               id="modalVideoIframe"
               class="modal-video-iframe"
-              title="Flickr動画プレーヤー"
-              allow="autoplay; fullscreen; picture-in-picture"
+              title="動画プレーヤー"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
               allowfullscreen
               loading="lazy"
               hidden
@@ -2316,6 +2319,73 @@
         /live\.staticflickr\.com\/video\//i.test(s);
     }
 
+    function extractYouTubeVideoId(rawVal) {
+      const str = String(rawVal || "").trim();
+      if (!str) return "";
+      if (/^[a-zA-Z0-9_-]{11}$/.test(str)) {
+        return str;
+      }
+      try {
+        const parsed = new URL(str);
+        const host = parsed.hostname.replace(/^www\./i, "").toLowerCase();
+        if (host === "youtu.be") {
+          const seg = parsed.pathname.split("/").filter(Boolean)[0] || "";
+          if (/^[a-zA-Z0-9_-]{11}$/.test(seg)) return seg;
+        }
+        if (host === "youtube.com" || host === "m.youtube.com" || host === "youtube-nocookie.com") {
+          const vParam = parsed.searchParams.get("v");
+          if (vParam && /^[a-zA-Z0-9_-]{11}$/.test(vParam)) return vParam;
+          const pathMatch = parsed.pathname.match(/^\/(?:embed|shorts|live|v)\/([a-zA-Z0-9_-]{11})(?:[/?#]|$)/);
+          if (pathMatch) return pathMatch[1];
+        }
+      } catch (e) {
+        const fallbackMatch = str.match(/(?:youtu\.be\/|[?&]v=|\/(?:embed|shorts|live|v)\/)([a-zA-Z0-9_-]{11})(?:[?&#/]|$)/);
+        if (fallbackMatch) return fallbackMatch[1];
+      }
+      return "";
+    }
+
+    function buildYouTubeEmbedUrl(videoId) {
+      const id = String(videoId || "").trim();
+      if (!id) return "";
+      return `https://www.youtube-nocookie.com/embed/${encodeURIComponent(id)}?autoplay=1&rel=0&playsinline=1`;
+    }
+
+    function extractGoogleDriveFileId(rawVal) {
+      const str = String(rawVal || "").trim();
+      if (!str) return "";
+      if (/^[a-zA-Z0-9_-]{20,}$/.test(str) && !/^https?:/i.test(str)) {
+        return str;
+      }
+      const pathMatch = str.match(/\/file\/d\/([a-zA-Z0-9_-]{10,})/);
+      if (pathMatch) return pathMatch[1];
+      try {
+        const parsed = new URL(str);
+        const host = parsed.hostname.replace(/^www\./i, "").toLowerCase();
+        if (host === "drive.google.com" || host === "docs.google.com") {
+          const idParam = parsed.searchParams.get("id");
+          if (idParam && /^[a-zA-Z0-9_-]{10,}$/.test(idParam)) return idParam;
+        }
+      } catch (e) {
+        const idQueryMatch = str.match(/[?&]id=([a-zA-Z0-9_-]{10,})/);
+        if (idQueryMatch) return idQueryMatch[1];
+      }
+      return "";
+    }
+
+    function buildGoogleDriveDownloadUrl(rawVal) {
+      const str = String(rawVal || "").trim();
+      if (!str) return "";
+      const fileId = extractGoogleDriveFileId(str);
+      if (fileId) {
+        return `https://drive.google.com/uc?export=download&id=${encodeURIComponent(fileId)}`;
+      }
+      if (/^https?:\/\//i.test(str)) {
+        return str;
+      }
+      return "";
+    }
+
     function buildFlickrEmbedPlayerUrl(flickrPageUrl, accountId, photoId) {
       const page = String(flickrPageUrl || "").trim();
       if (page && /flickr\.com\/photos\/[^/]+\/\d+/i.test(page)) {
@@ -2332,12 +2402,38 @@
     }
 
     function resolveVideoMediaInfo(item, genres, flickrPageUrl, accountId, photoId, baseUrl, rawOriginal) {
+      const rawYouTubeVal =
+        item.youtubeUrl ||
+        item.youtube_url ||
+        item.youtubeId ||
+        item.youtube_id ||
+        item.ytUrl ||
+        item.yt_url ||
+        "";
+      const youtubeVideoId = extractYouTubeVideoId(rawYouTubeVal);
+      const youtubeEmbedUrl = youtubeVideoId ? buildYouTubeEmbedUrl(youtubeVideoId) : "";
+
+      const rawDriveVal =
+        item.driveUrl ||
+        item.drive_url ||
+        item.googleDriveUrl ||
+        item.google_drive_url ||
+        item.driveId ||
+        item.drive_id ||
+        item.downloadUrl ||
+        item.download_url ||
+        "";
+      const driveFileId = extractGoogleDriveFileId(rawDriveVal);
+      const driveDownloadUrl = buildGoogleDriveDownloadUrl(rawDriveVal);
+
       const mediaField = String(item.media || item.media_type || item.mediaType || item.type || "").trim().toLowerCase();
       const explicitVideoFlag = Boolean(
         item.is_video === true ||
         item.isVideo === true ||
         mediaField === "video" ||
-        (Array.isArray(genres) && genres.includes("VIDEOS"))
+        (Array.isArray(genres) && genres.includes("VIDEOS")) ||
+        Boolean(youtubeVideoId) ||
+        Boolean(driveDownloadUrl)
       );
 
       const directCandidates = [
@@ -2356,32 +2452,23 @@
         .map((u) => String(u || "").trim())
         .filter(Boolean);
 
-      const secret = String(item.secret || "").trim();
-      const originalSecret = String(item.originalsecret || item.original_secret || "").trim();
-      if (explicitVideoFlag && accountId && photoId && /^\d+$/.test(String(photoId))) {
-        if (secret) {
-          directCandidates.push(`https://www.flickr.com/photos/${accountId}/${photoId}/play/site/${secret}/`);
-          directCandidates.push(`https://www.flickr.com/photos/${accountId}/${photoId}/play/hd/${secret}/`);
-        }
-        if (originalSecret) {
-          directCandidates.push(`https://www.flickr.com/photos/${accountId}/${photoId}/play/orig/${originalSecret}/`);
-        }
-      }
-
-      const uniqueDirectUrls = Array.from(new Set(directCandidates));
-
       const explicitEmbedUrl = String(
         item.embedUrl || item.embed_url || item.playerUrl || item.player_url || ""
       ).trim();
 
-      const isVideo = explicitVideoFlag || uniqueDirectUrls.length > 0 || Boolean(explicitEmbedUrl);
-      const videoEmbedUrl = isVideo
-        ? (explicitEmbedUrl || buildFlickrEmbedPlayerUrl(flickrPageUrl, accountId, photoId))
-        : "";
+      const isYouTubeVideo = Boolean(youtubeEmbedUrl);
+      const isVideo = explicitVideoFlag || directCandidates.length > 0 || Boolean(explicitEmbedUrl);
+      // YouTubeのリンクが無い動画はページ上で再生を試みず、サムネイルのみ表示する
+      const videoEmbedUrl = isYouTubeVideo ? youtubeEmbedUrl : "";
 
       return {
         isVideo,
-        videoUrls: uniqueDirectUrls,
+        isYouTubeVideo,
+        youtubeVideoId,
+        youtubeEmbedUrl,
+        driveFileId,
+        driveDownloadUrl,
+        videoUrls: [],
         videoEmbedUrl
       };
     }
@@ -2588,6 +2675,11 @@
         licenseCategory: finalLicenseInfo.category,
         licenseLabel: finalLicenseInfo.label,
         isVideo: videoInfo.isVideo,
+        isYouTubeVideo: videoInfo.isYouTubeVideo,
+        youtubeVideoId: videoInfo.youtubeVideoId,
+        youtubeEmbedUrl: videoInfo.youtubeEmbedUrl,
+        driveFileId: videoInfo.driveFileId,
+        driveDownloadUrl: videoInfo.driveDownloadUrl,
         videoUrls: videoInfo.videoUrls,
         videoEmbedUrl: videoInfo.videoEmbedUrl,
         _isPortrait: initialIsPortrait
@@ -2645,6 +2737,11 @@
         licenseCategory: finalLicenseInfo.category,
         licenseLabel: finalLicenseInfo.label,
         isVideo: videoInfo.isVideo,
+        isYouTubeVideo: videoInfo.isYouTubeVideo,
+        youtubeVideoId: videoInfo.youtubeVideoId,
+        youtubeEmbedUrl: videoInfo.youtubeEmbedUrl,
+        driveFileId: videoInfo.driveFileId,
+        driveDownloadUrl: videoInfo.driveDownloadUrl,
         videoUrls: videoInfo.videoUrls,
         videoEmbedUrl: videoInfo.videoEmbedUrl
       };
@@ -3211,7 +3308,7 @@
           })
           .join("");
 
-        const videoOverlayHtml = photo.isVideo
+        const videoOverlayHtml = (photo.isVideo && photo.isYouTubeVideo)
           ? `<div class="card-video-indicator" aria-hidden="true">
                <span class="card-video-play-circle">
                  <svg viewBox="0 0 24 24"><polygon points="8,5 19,12 8,19" /></svg>
@@ -3359,7 +3456,8 @@ ${photo.licenseLabel}`;
       if (imgEl && imgEl.naturalWidth > 0 && imgEl.naturalHeight > 0) {
         photo._isPortrait = imgEl.naturalHeight > imgEl.naturalWidth;
       }
-      const isPortrait = !photo.isVideo && Boolean(photo._isPortrait);
+      const canPlayInlineVideo = Boolean(photo.isVideo && photo.isYouTubeVideo);
+      const isPortrait = !canPlayInlineVideo && Boolean(photo._isPortrait);
       els.modalImage.classList.toggle("is-portrait", isPortrait);
       if (els.modalImageStage) {
         els.modalImageStage.classList.toggle("is-portrait", isPortrait);
@@ -3367,7 +3465,7 @@ ${photo.licenseLabel}`;
     }
 
     els.modalImage.addEventListener("load", () => {
-      if (state.currentModalPhoto && !state.currentModalPhoto.isVideo) {
+      if (state.currentModalPhoto && !(state.currentModalPhoto.isVideo && state.currentModalPhoto.isYouTubeVideo)) {
         syncModalImageOrientation(state.currentModalPhoto, els.modalImage);
       }
     });
@@ -3400,6 +3498,7 @@ ${photo.licenseLabel}`;
     }
 
     function showModalVideoEmbed(photo) {
+      if (!photo || !photo.isYouTubeVideo || !photo.youtubeEmbedUrl) return;
       if (!els.modalVideoStage || !els.modalVideoIframe) return;
       if (els.modalVideoPosterOverlay) {
         els.modalVideoPosterOverlay.hidden = true;
@@ -3413,54 +3512,22 @@ ${photo.licenseLabel}`;
       els.modalImage.hidden = true;
       els.modalVideoStage.hidden = false;
       els.modalVideoIframe.hidden = false;
-      els.modalVideoIframe.title = `${photo.title} - Flickr動画プレーヤー`;
-      els.modalVideoIframe.src = photo.videoEmbedUrl || buildFlickrEmbedPlayerUrl(photo.flickrPageUrl, photo.accountId, photo.id);
+      els.modalVideoIframe.title = `${photo.title} - YouTube動画プレーヤー`;
+      els.modalVideoIframe.src = photo.youtubeEmbedUrl;
     }
 
     function startModalVideoPlayback(photo) {
-      if (!photo || !state.currentModalPhoto || state.currentModalPhoto.id !== photo.id) return;
+      if (!photo || !photo.isYouTubeVideo || !photo.youtubeEmbedUrl) return;
+      if (!state.currentModalPhoto || state.currentModalPhoto.id !== photo.id) return;
       if (els.modalVideoPosterOverlay) {
         els.modalVideoPosterOverlay.hidden = true;
       }
       els.modalImage.hidden = true;
-
-      const directUrls = Array.isArray(photo.videoUrls) ? photo.videoUrls : [];
-      if (directUrls.length > 0 && els.modalVideoPlayer && els.modalVideoStage) {
-        let candidateIdx = 0;
-
-        const tryNextDirectUrl = () => {
-          if (!state.currentModalPhoto || state.currentModalPhoto.id !== photo.id) return;
-          if (candidateIdx >= directUrls.length) {
-            showModalVideoEmbed(photo);
-            return;
-          }
-          const nextUrl = directUrls[candidateIdx++];
-          els.modalVideoStage.hidden = false;
-          els.modalVideoIframe.hidden = true;
-          els.modalVideoPlayer.hidden = false;
-          els.modalVideoPlayer.poster = photo.largeUrl || photo.thumbUrl || "";
-          els.modalVideoPlayer.src = nextUrl;
-          try {
-            els.modalVideoPlayer.load();
-            const playPromise = els.modalVideoPlayer.play();
-            if (playPromise && typeof playPromise.catch === "function") {
-              playPromise.catch(() => {});
-            }
-          } catch (e) {}
-        };
-
-        els.modalVideoPlayer.onerror = () => {
-          tryNextDirectUrl();
-        };
-
-        tryNextDirectUrl();
-        return;
-      }
-
       showModalVideoEmbed(photo);
     }
 
     function renderModalVideoPosterFacade(photo) {
+      if (!photo || !photo.isYouTubeVideo || !photo.youtubeEmbedUrl) return;
       resetModalVideoStage();
       if (els.modalImageStage) {
         els.modalImageStage.classList.remove("is-portrait");
@@ -3479,6 +3546,7 @@ ${photo.licenseLabel}`;
             state.currentModalPhoto &&
             state.currentModalPhoto.id === photo.id &&
             photo.isVideo &&
+            photo.isYouTubeVideo &&
             !els.modalImage.hidden
           ) {
             els.modalImage.src = photo.largeUrl;
@@ -3498,7 +3566,9 @@ ${photo.licenseLabel}`;
       els.downloadStatusMsg.textContent = "";
       els.copyLicenseBtn.textContent = "ライセンス表記をコピーする";
 
-      if (photo.isVideo) {
+      const canPlayInlineVideo = Boolean(photo.isVideo && photo.isYouTubeVideo && photo.youtubeEmbedUrl);
+
+      if (canPlayInlineVideo) {
         renderModalVideoPosterFacade(photo);
       } else {
         resetModalVideoStage();
@@ -3517,7 +3587,7 @@ ${photo.licenseLabel}`;
           highRes.decoding = "async";
           highRes.onload = () => {
             photo._isPortrait = highRes.naturalHeight > highRes.naturalWidth;
-            if (state.currentModalPhoto && state.currentModalPhoto.id === photo.id && !photo.isVideo) {
+            if (state.currentModalPhoto && state.currentModalPhoto.id === photo.id && !canPlayInlineVideo) {
               syncModalImageOrientation(photo, highRes);
               els.modalImage.src = photo.largeUrl;
             }
@@ -3561,7 +3631,11 @@ ${photo.licenseLabel}`;
           : "Flickrで元画像ページを開く ↗";
       }
       if (els.modalDownloadBtnLabel) {
-        els.modalDownloadBtnLabel.textContent = photo.isVideo ? "サムネイル保存" : "保存";
+        if (photo.isVideo) {
+          els.modalDownloadBtnLabel.textContent = photo.driveDownloadUrl ? "動画を保存" : "サムネイル保存";
+        } else {
+          els.modalDownloadBtnLabel.textContent = "保存";
+        }
       }
 
       els.modalTags.innerHTML = "";
@@ -3735,7 +3809,37 @@ ${photo.licenseLabel}`;
       }, 60000);
     }
 
+    function triggerGoogleDriveVideoDownload(photo) {
+      const driveDownloadUrl = photo.driveDownloadUrl;
+      if (!driveDownloadUrl) return false;
+
+      const link = document.createElement("a");
+      link.href = driveDownloadUrl;
+      link.rel = "noopener noreferrer";
+      link.style.display = "none";
+      document.body.appendChild(link);
+      link.click();
+      link.remove();
+
+      els.downloadStatusMsg.textContent =
+        "Google Driveから動画のダウンロードを開始しました。（大容量ファイルの場合は確認画面が表示されます）";
+      return true;
+    }
+
     async function downloadImageToPC(photo) {
+      if (photo.isVideo && photo.driveDownloadUrl) {
+        if (els.modalDownloadBtn.disabled) return;
+        els.modalDownloadBtn.disabled = true;
+        try {
+          triggerGoogleDriveVideoDownload(photo);
+        } finally {
+          setTimeout(() => {
+            els.modalDownloadBtn.disabled = false;
+          }, 600);
+        }
+        return;
+      }
+
       const imageUrl = photo.originalUrl || photo.largeUrl || photo.thumbUrl;
       const initialExt = detectExtensionFromUrl(imageUrl);
       const suggestedFilename = `${photo.archiveNo}_${photo.id}.${initialExt}`.replace(/[\\/:*?"<>|]/g, "_");
