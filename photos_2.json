@@ -194,7 +194,8 @@
         "RUINS_CONSTRUCTION",
         "APARTMENTS",
         "NATURE",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -224,7 +225,8 @@
         "STAIRS",
         "DOORS",
         "APARTMENTS",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -281,7 +283,8 @@
       "genres": [
         "ARCHITECTURE",
         "ROADS",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -311,7 +314,8 @@
         "RUINS_CONSTRUCTION",
         "DETACHED_HOUSES",
         "STREET",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -604,7 +608,8 @@
         "APARTMENTS",
         "SIGNS_NOTICES",
         "RUINS_CONSTRUCTION",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -661,7 +666,8 @@
       "description": "歩道脇に置かれた飛び出し坊やの看板。色あせや傷みが見られ、地域の交通安全を見守ってきた時間を感じさせる。",
       "genres": [
         "ROADS",
-        "SIGNS_NOTICES"
+        "SIGNS_NOTICES",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -689,7 +695,6 @@
       "description": "蛍光灯に照らされた無人の非常階段の踊り場。奥の防火扉と床の黄色い点字ブロックが、建物内の避難経路を静かに記録している。",
       "genres": [
         "STAIRS",
-        "OUTDOOR_PASSAGES",
         "DOORS",
         "ARCHITECTURE",
         "NIGHT",
@@ -721,7 +726,6 @@
       "description": "建物内の非常階段へ続く無人の通路。緑の避難口表示と黄色い誘導ブロックが、静かな空間に避難経路を示している。",
       "genres": [
         "INDOOR_PASSAGES",
-        "OUTDOOR_PASSAGES",
         "ARCHITECTURE"
       ]
     },
@@ -1015,7 +1019,8 @@
       "genres": [
         "TRANSPORT_INFRA",
         "ROADS",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -1218,7 +1223,8 @@
       "description": "蛍光灯に照らされた屋内駐車場に、円形の車両用ターンテーブルと自転車が並ぶ。静かな施設の一角を記録した写真。",
       "genres": [
         "APARTMENTS",
-        "PARKING"
+        "PARKING",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -1674,7 +1680,8 @@
       "genres": [
         "APARTMENTS",
         "STREET",
-        "RUINS_CONSTRUCTION"
+        "RUINS_CONSTRUCTION",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -1702,7 +1709,8 @@
       "description": "経年による汚れが残る団地の棟を見上げる。外階段や配管、電線が重なり、住宅地の日常と建物の年月を伝えている。",
       "genres": [
         "APARTMENTS",
-        "EQUIPMENT"
+        "EQUIPMENT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -1730,7 +1738,8 @@
       "genres": [
         "STAIRS",
         "APARTMENTS",
-        "PARKING"
+        "PARKING",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -1759,7 +1768,8 @@
       "genres": [
         "STAIRS",
         "APARTMENTS",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -1790,7 +1800,8 @@
         "EQUIPMENT",
         "RUINS_CONSTRUCTION",
         "NATURE",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -2016,7 +2027,8 @@
       "genres": [
         "ROADS",
         "SIGNS_NOTICES",
-        "RUINS_CONSTRUCTION"
+        "RUINS_CONSTRUCTION",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -2419,7 +2431,8 @@
       "genres": [
         "APARTMENTS",
         "STREET",
-        "SHOPS"
+        "SHOPS",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -2450,7 +2463,8 @@
         "STREET",
         "SHOPS",
         "ROADS",
-        "SIGNS_NOTICES"
+        "SIGNS_NOTICES",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -2618,7 +2632,9 @@
       "description": "白いタイルに覆われた無人の通路。開いたガラス扉の奥まで蛍光灯が照らし、整然とした空間の静けさを伝えている。",
       "genres": [
         "APARTMENTS",
-        "DOORS"
+        "INDOOR_PASSAGES",
+        "DOORS",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -2678,7 +2694,8 @@
         "APARTMENTS",
         "STREET",
         "ROADS",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -2734,7 +2751,8 @@
       ],
       "description": "木々が立ち並ぶ森の中を、砂利混じりの小道がゆるやかに曲がって続く。木漏れ日と豊かな緑が、静かな散策のひとときを伝える。",
       "genres": [
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -3006,7 +3024,10 @@
       "genres": [
         "STREET",
         "ROADS",
-        "NATURE"
+        "APARTMENTS",
+        "NATURE",
+        "OUTDOOR_PASSAGES",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -3267,7 +3288,8 @@
         "STREET",
         "EQUIPMENT",
         "NATURE",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -3695,7 +3717,8 @@
         "ROADS",
         "EQUIPMENT",
         "RUINS_CONSTRUCTION",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -3727,7 +3750,8 @@
         "ROADS",
         "EQUIPMENT",
         "RUINS_CONSTRUCTION",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -3848,7 +3872,8 @@
         "SHOPS",
         "ROADS",
         "SIGNS_NOTICES",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -3966,7 +3991,8 @@
       "genres": [
         "DETACHED_HOUSES",
         "RUINS_CONSTRUCTION",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -4060,7 +4086,8 @@
         "STREET",
         "SHOPS",
         "SIGNS_NOTICES",
-        "SHOT_ON_3DS"
+        "SHOT_ON_3DS",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -4249,7 +4276,8 @@
         "STREET",
         "SHOPS",
         "RUINS_CONSTRUCTION",
-        "SHOT_ON_3DS"
+        "SHOT_ON_3DS",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -4280,7 +4308,8 @@
         "APARTMENTS",
         "STREET",
         "SHOPS",
-        "SHOT_ON_3DS"
+        "SHOT_ON_3DS",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -4309,7 +4338,8 @@
         "DETACHED_HOUSES",
         "SHOPS",
         "NATURE",
-        "SHOT_ON_3DS"
+        "SHOT_ON_3DS",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -4340,7 +4370,8 @@
         "STREET",
         "SHOPS",
         "NATURE",
-        "SHOT_ON_3DS"
+        "SHOT_ON_3DS",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -4368,6 +4399,7 @@
       "genres": [
         "INDOOR_PASSAGES",
         "STREET",
+        "OUTDOOR_PASSAGES",
         "SHOPS",
         "ROADS",
         "SHOT_ON_3DS"
@@ -4433,7 +4465,9 @@
         "SHOPS",
         "ROADS",
         "NATURE",
-        "SHOT_ON_3DS"
+        "SHOT_ON_3DS",
+        "OUTDOOR_PASSAGES",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -4519,7 +4553,9 @@
         "APARTMENTS",
         "STREET",
         "SHOPS",
-        "ROADS"
+        "ROADS",
+        "OUTDOOR_PASSAGES",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -4579,7 +4615,9 @@
         "STREET",
         "SHOPS",
         "PARKING",
-        "ROADS"
+        "ROADS",
+        "OUTDOOR_PASSAGES",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -4610,7 +4648,8 @@
         "SHOPS",
         "ROADS",
         "SIGNS_NOTICES",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -4762,7 +4801,7 @@
       ],
       "description": "錆や塗装の剥がれが目立つアーケードの下、店のシャッターが閉じ、各国の旗が並ぶ。商店街の現在の姿を伝える一枚。",
       "genres": [
-        "DOORS",
+        "ITEMS_OBJECTS",
         "SHOPS"
       ]
     },
@@ -4791,7 +4830,8 @@
       "description": "商店街の一角に立つ、窓の少ないコンクリート建築。入口は柵で閉ざされ、壁の落書きや風化した表面が街の現在を伝えている。",
       "genres": [
         "APARTMENTS",
-        "SHOPS"
+        "SHOPS",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -5005,7 +5045,8 @@
         "DOORS",
         "APARTMENTS",
         "SHOPS",
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -5063,7 +5104,8 @@
       "genres": [
         "APARTMENTS",
         "SHOPS",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -5093,7 +5135,8 @@
         "STAIRS",
         "APARTMENTS",
         "SHOPS",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -5120,9 +5163,11 @@
       ],
       "description": "屋根付きの通路から、店先が並ぶ桐ケ丘中央商店街を望む。人影の少ない昼の通りに、赤茶色のタイルと時代を感じる建物が残る。",
       "genres": [
-        "DOORS",
         "ARCHITECTURE",
-        "SHOPS"
+        "STREET",
+        "ROADS",
+        "SHOPS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -5180,7 +5225,8 @@
         "DOORS",
         "APARTMENTS",
         "SHOPS",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -5210,7 +5256,8 @@
         "APARTMENTS",
         "SHOPS",
         "EQUIPMENT",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -5240,7 +5287,8 @@
         "APARTMENTS",
         "STREET",
         "SHOPS",
-        "RUINS_CONSTRUCTION"
+        "RUINS_CONSTRUCTION",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -5270,7 +5318,8 @@
         "APARTMENTS",
         "STREET",
         "SHOPS",
-        "RUINS_CONSTRUCTION"
+        "RUINS_CONSTRUCTION",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -5331,7 +5380,8 @@
       "genres": [
         "APARTMENTS",
         "STREET",
-        "SHOPS"
+        "SHOPS",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -5425,7 +5475,8 @@
         "ARCHITECTURE",
         "STREET",
         "SHOPS",
-        "ROADS"
+        "ROADS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -5515,7 +5566,8 @@
         "APARTMENTS",
         "PEDESTRIAN_BRIDGES",
         "SHOT_ON_3DS",
-        "VIDEOS"
+        "VIDEOS",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -5957,6 +6009,7 @@
       "description": "錆びた階段と手すりに草木が迫る桐ヶ丘赤羽台歩道橋。住宅地の一角に残る、時の経過を感じさせる昼の風景。",
       "genres": [
         "PEDESTRIAN_BRIDGES",
+        "STAIRS",
         "NATURE"
       ]
     },
@@ -5987,7 +6040,8 @@
         "APARTMENTS",
         "STREET",
         "PEDESTRIAN_BRIDGES",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -6045,7 +6099,8 @@
       "genres": [
         "APARTMENTS",
         "PEDESTRIAN_BRIDGES",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -6431,7 +6486,8 @@
         "STREET",
         "SHOPS",
         "STATIONS_RAILWAYS",
-        "ROADS"
+        "ROADS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -6492,7 +6548,8 @@
         "STAIRS",
         "APARTMENTS",
         "STREET",
-        "EQUIPMENT"
+        "EQUIPMENT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -6893,7 +6950,8 @@
       "description": "人影のない広い床とタイル壁が広がる屋内空間。開口部の向こうには集合住宅が見え、静かな日中の光が差し込んでいる。",
       "genres": [
         "APARTMENTS",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -6951,7 +7009,8 @@
         "STAIRS",
         "OUTDOOR_PASSAGES",
         "APARTMENTS",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -6982,7 +7041,8 @@
         "STREET",
         "STATIONS_RAILWAYS",
         "ROADS",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -7210,7 +7270,8 @@
       "description": "曇天の下、外壁の汚れや傷みが目立つ団地を正面から記録。窓や階段の造りに、年月を重ねた集合住宅の姿が残る。",
       "genres": [
         "APARTMENTS",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -7237,7 +7298,8 @@
       "description": "汚れや傷みが目立つ団地の外壁に、階段塔と窓が並ぶ。建物の足元には木々が茂り、曇り空の下で年月を感じさせる。",
       "genres": [
         "RUINS_CONSTRUCTION",
-        "APARTMENTS"
+        "APARTMENTS",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -7323,7 +7385,8 @@
       "genres": [
         "ROADS",
         "NATURE",
-        "SHOT_ON_3DS"
+        "SHOT_ON_3DS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -7350,8 +7413,9 @@
       "description": "街路樹に囲まれたコンクリートの壁の間を、車道が地下トンネルへと続く。都市の道路構造と周囲の緑を記録した一枚。",
       "genres": [
         "ROADS",
-        "NATURE",
-        "SHOT_ON_3DS"
+        "SHOT_ON_3DS",
+        "TRANSPORT_INFRA",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -7679,7 +7743,8 @@
         "APARTMENTS",
         "STREET",
         "NATURE",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -7824,7 +7889,8 @@
         "APARTMENTS",
         "STREET",
         "EQUIPMENT",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -7853,7 +7919,8 @@
         "INDOOR_PASSAGES",
         "DOORS",
         "APARTMENTS",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -7884,7 +7951,8 @@
         "INDOOR_PASSAGES",
         "APARTMENTS",
         "NATURE",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -8031,7 +8099,8 @@
       "genres": [
         "STAIRS",
         "APARTMENTS",
-        "EQUIPMENT"
+        "EQUIPMENT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -8242,7 +8311,8 @@
         "STAIRS",
         "APARTMENTS",
         "STREET",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -9226,7 +9296,8 @@
         "SHOPS",
         "ROADS",
         "SIGNS_NOTICES",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -9256,7 +9327,8 @@
         "DOORS",
         "STREET",
         "SHOPS",
-        "ROADS"
+        "ROADS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -9706,7 +9778,8 @@
       "genres": [
         "APARTMENTS",
         "STREET",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -10160,7 +10233,6 @@
       ],
       "description": "緑色の椅子と丸テーブルが並ぶ室内の休憩スペース。大きな窓の向こうには青い海と海岸線が広がり、くつろぎながら景色を楽しめる。",
       "genres": [
-        "INDOOR_PASSAGES",
         "NATURE",
         "ITEMS_OBJECTS"
       ]
@@ -10428,7 +10500,8 @@
         "ARCHITECTURE",
         "STREET",
         "ROADS",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -10487,7 +10560,8 @@
         "STREET",
         "ROADS",
         "SIGNS_NOTICES",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -11111,7 +11185,8 @@
       ],
       "description": "商業施設の一角にあるゲームセンター。プリントシール機が並ぶ明るい店内には人影がなく、木目調の床とカラフルな壁面が目を引く。",
       "genres": [
-        "SHOPS"
+        "SHOPS",
+        "PARKS_LEISURE_EVENTS"
       ]
     },
     {
@@ -11336,7 +11411,8 @@
       ],
       "description": "商品棚が空になった家電量販店の店内。段ボールやカートが残り、閉店後の広い売り場に静けさが漂う。",
       "genres": [
-        "SHOPS"
+        "SHOPS",
+        "RUINS_CONSTRUCTION"
       ]
     },
     {
@@ -11785,7 +11861,8 @@
         "STREET",
         "ROADS",
         "SIGNS_NOTICES",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -11843,7 +11920,8 @@
       "genres": [
         "APARTMENTS",
         "STREET",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -12207,7 +12285,8 @@
       "genres": [
         "ROADS",
         "NATURE",
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -12779,8 +12858,8 @@
       ],
       "description": "木組みの梁と柱が連なる寺院の回廊。明るい昼の光が通路の奥まで差し込み、静かな境内の奥行きを伝えています。",
       "genres": [
-        "INDOOR_PASSAGES",
         "ARCHITECTURE",
+        "OUTDOOR_PASSAGES",
         "SHRINES_HERITAGE",
         "NATURE"
       ]
@@ -12981,7 +13060,8 @@
       "description": "障子戸を開け放った和室から、木々の緑が広がる庭を望む。畳に差し込む昼の光が、静かな室内と屋外をつないでいる。",
       "genres": [
         "DETACHED_HOUSES",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -13037,7 +13117,7 @@
       "description": "太い梁と板張りの床が広がる古い和室。障子越しの光が室内に差し込み、囲炉裏の跡とともに往時の暮らしを伝えています。",
       "genres": [
         "SHRINES_HERITAGE",
-        "NATURE"
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -13894,7 +13974,8 @@
         "DETACHED_HOUSES",
         "STREET",
         "ROADS",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -13924,7 +14005,8 @@
         "OUTDOOR_PASSAGES",
         "APARTMENTS",
         "STREET",
-        "ROADS"
+        "ROADS",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -14415,7 +14497,8 @@
         "STREET",
         "SHOPS",
         "ROADS",
-        "EQUIPMENT"
+        "EQUIPMENT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -14567,7 +14650,8 @@
       "genres": [
         "SHOPS",
         "ROADS",
-        "SIGNS_NOTICES"
+        "SIGNS_NOTICES",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -14712,7 +14796,8 @@
       "genres": [
         "STAIRS",
         "DETACHED_HOUSES",
-        "STREET"
+        "STREET",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -14800,7 +14885,8 @@
       ],
       "description": "タイル張りの壁に小便器と洗面台が並ぶ公衆トイレ。大きな窓から昼の光が差し込み、無人の空間を静かに照らしている。",
       "genres": [
-        "OTHER",
+        "ITEMS_OBJECTS",
+        "EQUIPMENT",
         "NATURE"
       ]
     },
@@ -15382,7 +15468,8 @@
         "STATIONS_RAILWAYS",
         "ROADS",
         "SHOT_ON_3DS",
-        "VIDEOS"
+        "VIDEOS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -15448,7 +15535,8 @@
         "ROADS",
         "NIGHT",
         "SHOT_ON_3DS",
-        "VIDEOS"
+        "VIDEOS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -15791,7 +15879,8 @@
         "STATIONS_RAILWAYS",
         "ROADS",
         "NIGHT",
-        "SHOT_ON_3DS"
+        "SHOT_ON_3DS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -16222,7 +16311,8 @@
         "APARTMENTS",
         "STREET",
         "NATURE",
-        "SHOT_ON_3DS"
+        "SHOT_ON_3DS",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -16313,7 +16403,8 @@
         "INDOOR_PASSAGES",
         "ROADS",
         "NIGHT",
-        "SHOT_ON_3DS"
+        "SHOT_ON_3DS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -16497,7 +16588,8 @@
       "genres": [
         "APARTMENTS",
         "NIGHT",
-        "SHOT_ON_3DS"
+        "SHOT_ON_3DS",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -16527,7 +16619,8 @@
       "genres": [
         "APARTMENTS",
         "NIGHT",
-        "SHOT_ON_3DS"
+        "SHOT_ON_3DS",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -16618,7 +16711,8 @@
       "description": "青みを帯びた外壁に窓やベランダが連なるマンションを見上げた一枚。日常の都市景観と、建物の反復する造形を記録している。",
       "genres": [
         "APARTMENTS",
-        "SHOT_ON_3DS"
+        "SHOT_ON_3DS",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -17169,7 +17263,8 @@
         "ROADS",
         "NATURE",
         "NIGHT",
-        "SHOT_ON_3DS"
+        "SHOT_ON_3DS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -17199,7 +17294,8 @@
         "ARCHITECTURE",
         "STREET",
         "ROADS",
-        "SHOT_ON_3DS"
+        "SHOT_ON_3DS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -17380,7 +17476,8 @@
         "ROADS",
         "SIGNS_NOTICES",
         "NATURE",
-        "SHOT_ON_3DS"
+        "SHOT_ON_3DS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -17559,7 +17656,8 @@
         "APARTMENTS",
         "STREET",
         "NATURE",
-        "SHOT_ON_3DS"
+        "SHOT_ON_3DS",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -17590,7 +17688,8 @@
         "STATIONS_RAILWAYS",
         "ROADS",
         "NATURE",
-        "SHOT_ON_3DS"
+        "SHOT_ON_3DS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -17622,7 +17721,8 @@
         "ROADS",
         "PARKS_LEISURE_EVENTS",
         "NIGHT",
-        "SHOT_ON_3DS"
+        "SHOT_ON_3DS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -17653,7 +17753,9 @@
         "STATIONS_RAILWAYS",
         "ROADS",
         "NATURE",
-        "SHOT_ON_3DS"
+        "SHOT_ON_3DS",
+        "OUTDOOR_PASSAGES",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -17685,7 +17787,8 @@
         "STATIONS_RAILWAYS",
         "ROADS",
         "NATURE",
-        "SHOT_ON_3DS"
+        "SHOT_ON_3DS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -17750,7 +17853,8 @@
         "STATIONS_RAILWAYS",
         "ROADS",
         "NATURE",
-        "SHOT_ON_3DS"
+        "SHOT_ON_3DS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -17814,7 +17918,8 @@
         "ROADS",
         "SIGNS_NOTICES",
         "NIGHT",
-        "SHOT_ON_3DS"
+        "SHOT_ON_3DS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -17847,7 +17952,8 @@
         "STATIONS_RAILWAYS",
         "ROADS",
         "NIGHT",
-        "SHOT_ON_3DS"
+        "SHOT_ON_3DS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -17881,7 +17987,8 @@
         "STATIONS_RAILWAYS",
         "ROADS",
         "NIGHT",
-        "SHOT_ON_3DS"
+        "SHOT_ON_3DS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -17913,7 +18020,8 @@
         "STATIONS_RAILWAYS",
         "ROADS",
         "NIGHT",
-        "SHOT_ON_3DS"
+        "SHOT_ON_3DS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -17947,7 +18055,8 @@
         "ROADS",
         "NATURE",
         "NIGHT",
-        "SHOT_ON_3DS"
+        "SHOT_ON_3DS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -17980,7 +18089,8 @@
         "STATIONS_RAILWAYS",
         "ROADS",
         "NIGHT",
-        "SHOT_ON_3DS"
+        "SHOT_ON_3DS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -18039,7 +18149,8 @@
         "APARTMENTS",
         "STREET",
         "NATURE",
-        "SHOT_ON_3DS"
+        "SHOT_ON_3DS",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -18216,7 +18327,8 @@
         "OUTDOOR_UNITS",
         "NATURE",
         "NIGHT",
-        "SHOT_ON_3DS"
+        "SHOT_ON_3DS",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -18393,7 +18505,8 @@
       "description": "青空の下、ベージュ色のマンションを見上げた一枚。縦に連なるバルコニーや窓、隣接する建物が都市の住宅風景を伝えています。",
       "genres": [
         "APARTMENTS",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -18423,7 +18536,8 @@
         "DETACHED_HOUSES",
         "STREET",
         "SHOPS",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -18514,7 +18628,8 @@
         "STREET",
         "ROADS",
         "SIGNS_NOTICES",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -18544,7 +18659,9 @@
         "STREET",
         "ROADS",
         "RUINS_CONSTRUCTION",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -18573,7 +18690,9 @@
       "genres": [
         "APARTMENTS",
         "STREET",
-        "ROADS"
+        "ROADS",
+        "OUTDOOR_PASSAGES",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -18604,7 +18723,8 @@
         "STREET",
         "SHRINES_HERITAGE",
         "PARKS_LEISURE_EVENTS",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -18724,7 +18844,8 @@
         "SHOPS",
         "ROADS",
         "SIGNS_NOTICES",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -18837,7 +18958,8 @@
       "genres": [
         "APARTMENTS",
         "STREET",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -18957,7 +19079,8 @@
       "genres": [
         "APARTMENTS",
         "STREET",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -19137,7 +19260,8 @@
       "genres": [
         "APARTMENTS",
         "STREET",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -19321,7 +19445,8 @@
         "STREET",
         "PARKING",
         "ROADS",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -19439,7 +19564,8 @@
         "DETACHED_HOUSES",
         "DOORS",
         "RUINS_CONSTRUCTION",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -19468,7 +19594,8 @@
       "genres": [
         "ROADS",
         "NATURE",
-        "ITEMS_OBJECTS"
+        "ITEMS_OBJECTS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -19499,7 +19626,8 @@
         "SHOPS",
         "ROADS",
         "NATURE",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -19556,7 +19684,8 @@
         "SHOPS",
         "ROADS",
         "SIGNS_NOTICES",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -19644,7 +19773,8 @@
       "genres": [
         "DETACHED_HOUSES",
         "STREET",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -19672,7 +19802,8 @@
       "description": "陽射しを受けたベージュ色の外壁に、窓や小さなベランダが並ぶ古いアパート。電線の影が建物に重なり、懐かしい街角の表情を伝えています。",
       "genres": [
         "APARTMENTS",
-        "STREET"
+        "STREET",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -19758,6 +19889,7 @@
       "description": "古びた木造建物が路地の角に佇み、格子窓や傷んだ外壁に時代の面影が残る。背後の新しい建物との対比も印象的な街角の記録。",
       "genres": [
         "DETACHED_HOUSES",
+        "ARCHITECTURE",
         "STREET"
       ]
     },
@@ -19787,7 +19919,8 @@
         "STREET",
         "ROADS",
         "NATURE",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -19934,7 +20067,8 @@
       "description": "瓦屋根と鉄製のバルコニーを備えた古い住宅が、現代的な建物に挟まれて建つ。住宅街の新旧の景観を伝える一枚。",
       "genres": [
         "DETACHED_HOUSES",
-        "STREET"
+        "STREET",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -19997,7 +20131,8 @@
         "STREET",
         "ROADS",
         "NATURE",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -20028,7 +20163,8 @@
         "SHOPS",
         "ROADS",
         "SIGNS_NOTICES",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -20088,7 +20224,8 @@
         "STATIONS_RAILWAYS",
         "ROADS",
         "NATURE",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -20117,7 +20254,8 @@
         "DETACHED_HOUSES",
         "SIGNS_NOTICES",
         "RUINS_CONSTRUCTION",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -20208,7 +20346,8 @@
         "ROADS",
         "SIGNS_NOTICES",
         "EQUIPMENT",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -20236,7 +20375,8 @@
       "genres": [
         "STATIONS_RAILWAYS",
         "ROADS",
-        "SIGNS_NOTICES"
+        "SIGNS_NOTICES",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -20268,7 +20408,8 @@
         "ARCHITECTURE",
         "STATIONS_RAILWAYS",
         "ROADS",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -20562,7 +20703,8 @@
       "genres": [
         "DETACHED_HOUSES",
         "STREET",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -20592,7 +20734,8 @@
         "APARTMENTS",
         "STREET",
         "SHOPS",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -20649,6 +20792,7 @@
       "genres": [
         "ARCHITECTURE",
         "STREET",
+        "OUTDOOR_PASSAGES",
         "SHRINES_HERITAGE"
       ]
     },
@@ -20769,7 +20913,8 @@
         "STATIONS_RAILWAYS",
         "ROADS",
         "RUINS_CONSTRUCTION",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -20833,7 +20978,8 @@
         "ARCHITECTURE",
         "STATIONS_RAILWAYS",
         "ROADS",
-        "RUINS_CONSTRUCTION"
+        "RUINS_CONSTRUCTION",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -20864,7 +21010,8 @@
         "STATIONS_RAILWAYS",
         "ROADS",
         "RUINS_CONSTRUCTION",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -20895,7 +21042,8 @@
         "ROADS",
         "EQUIPMENT",
         "NATURE",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -20927,7 +21075,8 @@
         "ROADS",
         "SIGNS_NOTICES",
         "EQUIPMENT",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -20958,7 +21107,8 @@
         "STATIONS_RAILWAYS",
         "ROADS",
         "NATURE",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -20990,7 +21140,8 @@
         "INDOOR_PASSAGES",
         "STATIONS_RAILWAYS",
         "ROADS",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -21468,7 +21619,8 @@
         "STATIONS_RAILWAYS",
         "ROADS",
         "RUINS_CONSTRUCTION",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -21500,7 +21652,8 @@
         "STATIONS_RAILWAYS",
         "ROADS",
         "NATURE",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -21530,7 +21683,8 @@
       "genres": [
         "INDOOR_PASSAGES",
         "STATIONS_RAILWAYS",
-        "ROADS"
+        "ROADS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -21563,7 +21717,8 @@
         "STATIONS_RAILWAYS",
         "ROADS",
         "NATURE",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -21625,7 +21780,8 @@
       "genres": [
         "ROADS",
         "OUTDOOR_UNITS",
-        "EQUIPMENT"
+        "EQUIPMENT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -21655,7 +21811,8 @@
         "STATIONS_RAILWAYS",
         "ROADS",
         "SIGNS_NOTICES",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -21749,7 +21906,8 @@
         "DOORS",
         "ARCHITECTURE",
         "STATIONS_RAILWAYS",
-        "ROADS"
+        "ROADS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -21837,7 +21995,8 @@
       "genres": [
         "STATIONS_RAILWAYS",
         "PARKING",
-        "ROADS"
+        "ROADS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -21865,7 +22024,8 @@
       "description": "青空の下、白い外壁と段状の住棟が重なる河原町団地。低層部から高層階まで連なる窓やバルコニーが、都市の集合住宅の姿を伝えます。",
       "genres": [
         "APARTMENTS",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -21955,7 +22115,8 @@
         "INDOOR_PASSAGES",
         "DOORS",
         "APARTMENTS",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -22077,7 +22238,8 @@
         "INDOOR_PASSAGES",
         "APARTMENTS",
         "PARKING",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -22108,7 +22270,8 @@
         "OUTDOOR_PASSAGES",
         "DOORS",
         "APARTMENTS",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -22257,7 +22420,8 @@
         "STREET",
         "STATIONS_RAILWAYS",
         "ROADS",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -22359,7 +22523,7 @@
       "publishedAt": "2025-02-02 06:26:17",
       "dateTaken": "2025-01-29 14:54:23",
       "license": "CC_BY",
-      "genre": "PEDESTRIAN_BRIDGES",
+      "genre": "APARTMENTS",
       "tags": [
         "河原町団地",
         "団地の共用部",
@@ -22372,10 +22536,10 @@
       ],
       "description": "河原町団地の共用通路を、太い鉄骨の斜材が横切る。掲示板や案内が並ぶ日常の一角を、昼の光が静かに照らしている。",
       "genres": [
-        "PEDESTRIAN_BRIDGES",
         "APARTMENTS",
         "SIGNS_NOTICES",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -22405,7 +22569,8 @@
         "APARTMENTS",
         "STREET",
         "SIGNS_NOTICES",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -22435,7 +22600,8 @@
         "STAIRS",
         "STATIONS_RAILWAYS",
         "ROADS",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -22617,6 +22783,7 @@
         "STREET",
         "SHOPS",
         "SIGNS_NOTICES",
+        "ARCHITECTURE",
         "EQUIPMENT",
         "NATURE"
       ]
@@ -22705,6 +22872,7 @@
       "genres": [
         "STAIRS",
         "EQUIPMENT",
+        "APARTMENTS",
         "NATURE"
       ]
     },
@@ -22737,7 +22905,8 @@
         "SHOPS",
         "ROADS",
         "SIGNS_NOTICES",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -22765,7 +22934,8 @@
       "description": "窓とベランダが規則正しく並ぶ高層マンションを、地上から見上げた一枚。冬枯れの木々と曇り空が、静かな都市の暮らしを伝えます。",
       "genres": [
         "APARTMENTS",
-        "STREET"
+        "STREET",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -22824,7 +22994,8 @@
         "INDOOR_PASSAGES",
         "STATIONS_RAILWAYS",
         "ROADS",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -23774,7 +23945,8 @@
         "STATIONS_RAILWAYS",
         "ROADS",
         "SIGNS_NOTICES",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -23837,8 +24009,9 @@
         "ARCHITECTURE",
         "STATIONS_RAILWAYS",
         "ROADS",
+        "STAIRS",
         "SIGNS_NOTICES",
-        "NATURE"
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -23901,7 +24074,8 @@
         "SHOPS",
         "STATIONS_RAILWAYS",
         "ROADS",
-        "SIGNS_NOTICES"
+        "SIGNS_NOTICES",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -23963,7 +24137,8 @@
         "SHOPS",
         "STATIONS_RAILWAYS",
         "ROADS",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -23990,7 +24165,8 @@
       "description": "国道駅の高架下に残る古いアーチと重厚な鉄骨。壁の落書きや年季の入った構造が、都市の歴史を静かに伝えています。",
       "genres": [
         "STATIONS_RAILWAYS",
-        "ROADS"
+        "ROADS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -24022,7 +24198,8 @@
         "SHOPS",
         "STATIONS_RAILWAYS",
         "ROADS",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -24050,7 +24227,8 @@
       "genres": [
         "STATIONS_RAILWAYS",
         "ROADS",
-        "SIGNS_NOTICES"
+        "SIGNS_NOTICES",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -24340,7 +24518,8 @@
       "description": "引っ越したばかりの空室を、窓辺から差し込む昼の光が照らす。木目の床とすりガラスの窓が、新生活の始まりを静かに伝えている。",
       "genres": [
         "APARTMENTS",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -24423,7 +24602,8 @@
       "genres": [
         "ROADS",
         "NATURE",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -24628,7 +24808,8 @@
         "STREET",
         "SHOPS",
         "ROADS",
-        "SIGNS_NOTICES"
+        "SIGNS_NOTICES",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -24658,7 +24839,8 @@
         "STREET",
         "SHOPS",
         "ROADS",
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -24685,7 +24867,8 @@
       "description": "草木が茂る山あいの道沿いに、トタン屋根の小屋が佇む。人影のない静かな農村の一角を、曇天の柔らかな光が包んでいる。",
       "genres": [
         "DETACHED_HOUSES",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -24857,8 +25040,8 @@
       ],
       "description": "閉館したイトーヨーカドーの無人の通路。暗がりにエレベーターが稼働を続け、窓の外の夜景と点字ブロックが静かな余韻を残す。",
       "genres": [
-        "PEDESTRIAN_BRIDGES",
         "RUINS_CONSTRUCTION",
+        "OUTDOOR_PASSAGES",
         "NIGHT"
       ]
     },
@@ -25124,7 +25307,8 @@
       "genres": [
         "DETACHED_HOUSES",
         "STREET",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -25367,7 +25551,8 @@
         "ARCHITECTURE",
         "STREET",
         "ROADS",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -25631,7 +25816,8 @@
         "DETACHED_HOUSES",
         "STREET",
         "RUINS_CONSTRUCTION",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -25688,7 +25874,8 @@
       "description": "足場が組まれたアパートの外壁では、窓や雨戸が外され、室内がのぞく。解体作業の途中にある建物の姿を記録している。",
       "genres": [
         "APARTMENTS",
-        "RUINS_CONSTRUCTION"
+        "RUINS_CONSTRUCTION",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -25718,7 +25905,8 @@
         "APARTMENTS",
         "OUTDOOR_UNITS",
         "EQUIPMENT",
-        "RUINS_CONSTRUCTION"
+        "RUINS_CONSTRUCTION",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -25746,6 +25934,7 @@
       "description": "蔦が建物の壁や屋根を覆う、年季の入った焼肉店。赤い暖簾と店先の自動販売機が、街角のひっそりとした佇まいを伝えています。",
       "genres": [
         "STREET",
+        "ARCHITECTURE",
         "SHOPS",
         "EQUIPMENT"
       ]
@@ -25804,7 +25993,8 @@
       "description": "緑に覆われた平屋が、コンクリート塀越しに路地へ面している。木漏れ日が舗装路に伸び、住宅街の静かな昼の一角を記録している。",
       "genres": [
         "DETACHED_HOUSES",
-        "STREET"
+        "STREET",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -25860,7 +26050,8 @@
       "genres": [
         "DETACHED_HOUSES",
         "STREET",
-        "SHOPS"
+        "SHOPS",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -26096,7 +26287,8 @@
         "SHOPS",
         "ROADS",
         "EQUIPMENT",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -26212,7 +26404,8 @@
       "genres": [
         "ARCHITECTURE",
         "APARTMENTS",
-        "ROADS"
+        "ROADS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -26243,7 +26436,8 @@
         "ARCHITECTURE",
         "STREET",
         "ROADS",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -26271,7 +26465,8 @@
       "description": "色あせた外壁や傷んだ庇に、長く使われてきた家屋の年月がにじむ。玄関まわりの造りと生活の痕跡を記録した一枚。",
       "genres": [
         "DETACHED_HOUSES",
-        "STREET"
+        "STREET",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -26299,7 +26494,9 @@
       "description": "錆びた外壁や格子窓が残る古い家屋が、隣接する建物と狭い空間をつくる。年月を重ねた住宅の佇まいを伝える一枚。",
       "genres": [
         "RUINS_CONSTRUCTION",
-        "STREET"
+        "DETACHED_HOUSES",
+        "STREET",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -26418,7 +26615,8 @@
         "DETACHED_HOUSES",
         "STREET",
         "NIGHT",
-        "ITEMS_OBJECTS"
+        "ITEMS_OBJECTS",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -26651,9 +26849,9 @@
       "description": "文翔館の談話室に、木製のテーブルと椅子が静かに並ぶ。開いた扉の向こうから差す光が、薄暗い室内に奥行きを添えている。",
       "genres": [
         "INDOOR_PASSAGES",
+        "DOORS",
         "ARCHITECTURE",
         "SHRINES_HERITAGE",
-        "NIGHT",
         "ITEMS_OBJECTS"
       ]
     },
@@ -26866,7 +27064,8 @@
         "ARCHITECTURE",
         "STREET",
         "PARKING",
-        "ROADS"
+        "ROADS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -26895,7 +27094,8 @@
         "STREET",
         "SHOPS",
         "ROADS",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -26986,7 +27186,9 @@
         "DETACHED_HOUSES",
         "STREET",
         "PARKING",
-        "ROADS"
+        "ROADS",
+        "OUTDOOR_PASSAGES",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -27108,7 +27310,8 @@
         "ROADS",
         "SIGNS_NOTICES",
         "NIGHT",
-        "ITEMS_OBJECTS"
+        "ITEMS_OBJECTS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -27199,7 +27402,9 @@
         "STREET",
         "SHOPS",
         "PARKING",
-        "ROADS"
+        "ROADS",
+        "OUTDOOR_PASSAGES",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -27230,7 +27435,8 @@
         "ROADS",
         "SIGNS_NOTICES",
         "EQUIPMENT",
-        "NATURE"
+        "ARCHITECTURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -27261,7 +27467,8 @@
         "SHOPS",
         "ROADS",
         "EQUIPMENT",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -27292,7 +27499,8 @@
         "ARCHITECTURE",
         "STREET",
         "SHOPS",
-        "ROADS"
+        "ROADS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -27324,7 +27532,8 @@
         "SHOPS",
         "ROADS",
         "SIGNS_NOTICES",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -27949,7 +28158,8 @@
         "DETACHED_HOUSES",
         "STREET",
         "ROADS",
-        "OUTDOOR_UNITS"
+        "OUTDOOR_UNITS",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -28154,7 +28364,9 @@
         "SHOPS",
         "DETACHED_HOUSES",
         "STREET",
-        "ROADS"
+        "ROADS",
+        "OUTDOOR_PASSAGES",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -28242,7 +28454,8 @@
         "STREET",
         "SHOPS",
         "ROADS",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -28357,7 +28570,8 @@
       "description": "木の引き戸や格子窓に年月を重ねた風合いが残る一軒家。現代的な建物に隣接し、街並みの移り変わりを感じさせる。",
       "genres": [
         "DETACHED_HOUSES",
-        "STREET"
+        "STREET",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -28386,7 +28600,8 @@
         "ARCHITECTURE",
         "STREET",
         "ROADS",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -28417,7 +28632,8 @@
         "ROADS",
         "SIGNS_NOTICES",
         "NATURE",
-        "ITEMS_OBJECTS"
+        "ITEMS_OBJECTS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -28448,7 +28664,8 @@
         "STREET",
         "ROADS",
         "NATURE",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -28476,7 +28693,9 @@
       "genres": [
         "DETACHED_HOUSES",
         "STREET",
-        "ROADS"
+        "ROADS",
+        "OUTDOOR_PASSAGES",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -28771,7 +28990,8 @@
       ],
       "description": "赤茶色に風化した手すりと深い軒が印象的な木造二階建て。見上げる構図が、年月を重ねた一軒家の佇まいを伝えています。",
       "genres": [
-        "DETACHED_HOUSES"
+        "DETACHED_HOUSES",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -28859,7 +29079,8 @@
       "genres": [
         "ARCHITECTURE",
         "STREET",
-        "ROADS"
+        "ROADS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -28949,7 +29170,8 @@
         "APARTMENTS",
         "STREET",
         "PARKING",
-        "EQUIPMENT"
+        "EQUIPMENT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -29099,7 +29321,8 @@
       "genres": [
         "STAIRS",
         "APARTMENTS",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -29128,7 +29351,8 @@
       "genres": [
         "APARTMENTS",
         "STREET",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -29250,7 +29474,8 @@
         "STREET",
         "SHOPS",
         "ROADS",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -29282,7 +29507,8 @@
         "STREET",
         "ROADS",
         "NATURE",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -29431,7 +29657,8 @@
         "DETACHED_HOUSES",
         "STREET",
         "PARKING",
-        "ROADS"
+        "ROADS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -29459,7 +29686,8 @@
       "description": "植え込み越しに見上げた集合住宅。並ぶベランダや室外機、曇天の空が、日々の暮らしを支える建物の姿を伝えている。",
       "genres": [
         "APARTMENTS",
-        "OUTDOOR_UNITS"
+        "OUTDOOR_UNITS",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -29487,7 +29715,8 @@
       "description": "ひび割れや蔦が残る古い住宅が、曇天の住宅街に静かに佇む。植え込みや舗装の傷みも、建物の年月を伝えている。",
       "genres": [
         "DETACHED_HOUSES",
-        "STREET"
+        "STREET",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -29516,7 +29745,9 @@
       "genres": [
         "DETACHED_HOUSES",
         "STREET",
-        "ROADS"
+        "ROADS",
+        "OUTDOOR_PASSAGES",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -29778,7 +30009,9 @@
         "STREET",
         "ROADS",
         "NATURE",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -29986,7 +30219,8 @@
         "STREET",
         "ROADS",
         "SIGNS_NOTICES",
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -30015,7 +30249,8 @@
       "genres": [
         "OUTDOOR_PASSAGES",
         "APARTMENTS",
-        "STREET"
+        "STREET",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -30546,7 +30781,8 @@
         "DETACHED_HOUSES",
         "STREET",
         "NATURE",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -30660,7 +30896,8 @@
         "STREET",
         "SHOPS",
         "ROADS",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -30807,7 +31044,8 @@
         "SHOPS",
         "ROADS",
         "SIGNS_NOTICES",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -30862,6 +31100,7 @@
       "description": "蔵王のゲレンデにあるリフト乗り場を、曇り空の下で記録。草木に囲まれた木造の建物と電柱が、季節外れの静かな山の風景を伝える。",
       "genres": [
         "NATURE",
+        "ARCHITECTURE",
         "PARKS_LEISURE_EVENTS"
       ]
     },
@@ -30893,7 +31132,8 @@
         "SHOPS",
         "ROADS",
         "RUINS_CONSTRUCTION",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -30950,7 +31190,8 @@
       "genres": [
         "ARCHITECTURE",
         "STREET",
-        "ROADS"
+        "ROADS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -30978,7 +31219,8 @@
       "description": "木々と草に囲まれた山あいの舗装路が、先でゆるやかに曲がっていく。人影のない静かな道に、曇り空の淡い光が広がる。",
       "genres": [
         "ROADS",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -31033,7 +31275,8 @@
       "description": "草木が茂る斜面の上に、木の外壁と大きな屋根を持つ住宅が建つ。擁壁や電柱とともに、周囲の緑に包まれた静かな佇まいを記録している。",
       "genres": [
         "DETACHED_HOUSES",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -31090,6 +31333,7 @@
       "description": "シダや蔓草が生い茂る斜面に、古びた木造の建物がひっそりと佇む。電線の走る曇り空の下、自然に埋もれていく姿を記録している。",
       "genres": [
         "RUINS_CONSTRUCTION",
+        "ARCHITECTURE",
         "NATURE"
       ]
     },
@@ -31181,7 +31425,9 @@
         "STREET",
         "ROADS",
         "NATURE",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -31209,7 +31455,9 @@
       "description": "古い住宅が並ぶ細い路地。軒下には生活用品が置かれ、曇り空の下に静かな町の日常が残されています。",
       "genres": [
         "OUTDOOR_PASSAGES",
-        "STREET"
+        "DETACHED_HOUSES",
+        "STREET",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -31437,7 +31685,8 @@
         "DETACHED_HOUSES",
         "RUINS_CONSTRUCTION",
         "NATURE",
-        "ITEMS_OBJECTS"
+        "ITEMS_OBJECTS",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -31548,7 +31797,8 @@
       "description": "木々の茂る道路脇に、白い外壁の小さな建物がひっそりと建つ。落ち葉や舗装路とともに、郊外の静かな一角を記録している。",
       "genres": [
         "ARCHITECTURE",
-        "ROADS"
+        "ROADS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -31577,7 +31827,9 @@
         "DETACHED_HOUSES",
         "ROADS",
         "EQUIPMENT",
-        "NATURE"
+        "ARCHITECTURE",
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -31633,7 +31885,8 @@
         "ARCHITECTURE",
         "STREET",
         "ROADS",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -31677,7 +31930,7 @@
       "publishedAt": "2024-09-14 16:57:45",
       "dateTaken": "2024-09-08 15:50:05",
       "license": "CC_BY",
-      "genre": "PEDESTRIAN_BRIDGES",
+      "genre": "ROADS",
       "tags": [
         "liminalspace",
         "立入禁止の通路",
@@ -31691,7 +31944,6 @@
       ],
       "description": "竹垣と欄干に挟まれた細い通路は、中央まで草に覆われ、立入禁止の札が置かれている。木々に包まれた無人の風景が、境界のような静けさを漂わせる。",
       "genres": [
-        "PEDESTRIAN_BRIDGES",
         "OUTDOOR_PASSAGES",
         "ROADS",
         "RUINS_CONSTRUCTION",
@@ -31754,7 +32006,8 @@
         "STREET",
         "SHOPS",
         "PARKING",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -31927,7 +32180,9 @@
         "RUINS_CONSTRUCTION",
         "DETACHED_HOUSES",
         "ROADS",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -32106,7 +32361,8 @@
         "ROADS",
         "SIGNS_NOTICES",
         "RUINS_CONSTRUCTION",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -32134,7 +32390,8 @@
       "description": "白壁に木組みが映える二階建ての家屋。玄関前には軽自動車が停まり、草の伸びた敷地とともに、地域の暮らしの一場面を伝えている。",
       "genres": [
         "DETACHED_HOUSES",
-        "STREET"
+        "STREET",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -32163,7 +32420,8 @@
       "genres": [
         "DETACHED_HOUSES",
         "STREET",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -32425,6 +32683,7 @@
       "description": "赤茶色の鉄骨とブロック壁が露出した建物。青い養生シートに囲まれ、改修か解体の途中と思われる現場の様子を記録している。",
       "genres": [
         "STREET",
+        "ARCHITECTURE",
         "RUINS_CONSTRUCTION"
       ]
     },
@@ -32454,7 +32713,8 @@
       "genres": [
         "ARCHITECTURE",
         "ROADS",
-        "RUINS_CONSTRUCTION"
+        "RUINS_CONSTRUCTION",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -32486,7 +32746,8 @@
         "SHOPS",
         "ROADS",
         "SIGNS_NOTICES",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -32545,7 +32806,8 @@
       ],
       "description": "曇り空の下、板張りの古い家屋が静かに佇む。玄関や窓、敷地まわりの様子から、地域の日常の暮らしを伝える一枚。",
       "genres": [
-        "DETACHED_HOUSES"
+        "DETACHED_HOUSES",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -32574,7 +32836,8 @@
       "genres": [
         "DETACHED_HOUSES",
         "STREET",
-        "SHOPS"
+        "SHOPS",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -32634,7 +32897,8 @@
         "DETACHED_HOUSES",
         "STREET",
         "TRANSPORT_INFRA",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -32662,7 +32926,8 @@
       "description": "曇り空の下、木造の建物が並ぶ蔵王の街角。電線や植え込みとともに、温泉地の日常的な町並みを記録している。",
       "genres": [
         "DETACHED_HOUSES",
-        "STREET"
+        "STREET",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -32779,7 +33044,8 @@
       "genres": [
         "ROADS",
         "RUINS_CONSTRUCTION",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -32839,7 +33105,9 @@
       "genres": [
         "DETACHED_HOUSES",
         "STREET",
-        "ROADS"
+        "ROADS",
+        "OUTDOOR_PASSAGES",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -32866,7 +33134,8 @@
       ],
       "description": "蔵王に建つ二階建て家屋の外観。重なり合う屋根や窓、軒先の植木鉢に、地域の日常の暮らしが感じられる。",
       "genres": [
-        "DETACHED_HOUSES"
+        "DETACHED_HOUSES",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -32985,7 +33254,8 @@
         "OUTDOOR_PASSAGES",
         "APARTMENTS",
         "STREET",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -33014,7 +33284,8 @@
       "genres": [
         "DETACHED_HOUSES",
         "PARKING",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -33071,7 +33342,8 @@
       "genres": [
         "DETACHED_HOUSES",
         "STREET",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -33098,7 +33370,8 @@
       ],
       "description": "蔵王に建つ二階建ての木造家屋を正面から記録。板張りの外壁や色あせた窓まわりに、長く使われてきた住まいの佇まいが残る。",
       "genres": [
-        "DETACHED_HOUSES"
+        "DETACHED_HOUSES",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -33243,7 +33516,8 @@
       "genres": [
         "RUINS_CONSTRUCTION",
         "PARKING",
-        "ROADS"
+        "ROADS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -33272,7 +33546,8 @@
       "genres": [
         "OUTDOOR_PASSAGES",
         "DETACHED_HOUSES",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -33300,6 +33575,7 @@
       "description": "蔵王の一角に、赤茶色の古い建物や住宅が並ぶ。コンクリート塀と草木に囲まれた、曇天の静かな町並みを記録している。",
       "genres": [
         "STREET",
+        "ARCHITECTURE",
         "NATURE"
       ]
     },
@@ -33386,7 +33662,8 @@
       "genres": [
         "ARCHITECTURE",
         "STREET",
-        "ROADS"
+        "ROADS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -33497,7 +33774,8 @@
       "description": "蔵王の家屋の小さな中庭を記録した一枚。窓や引き戸のある壁際に鉢植えが並び、日々の暮らしの気配が感じられる。",
       "genres": [
         "DETACHED_HOUSES",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -33648,7 +33926,8 @@
         "DETACHED_HOUSES",
         "STREET",
         "TRANSPORT_INFRA",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -33762,7 +34041,8 @@
         "APARTMENTS",
         "DETACHED_HOUSES",
         "STREET",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -33820,7 +34100,8 @@
       "description": "草の茂る斜面の上に、赤い外壁の古い家屋と隣家が並ぶ。周囲の木々に包まれた、蔵王の山里の暮らしを伝える一枚。",
       "genres": [
         "DETACHED_HOUSES",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -34443,7 +34724,9 @@
       "genres": [
         "DETACHED_HOUSES",
         "STREET",
-        "ROADS"
+        "ROADS",
+        "OUTDOOR_PASSAGES",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -34473,7 +34756,8 @@
         "STATIONS_RAILWAYS",
         "ROADS",
         "EQUIPMENT",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -34502,7 +34786,8 @@
       "description": "曇天の下、電柱と電線が続く住宅街の道路を正面から捉えた一枚。人影の少ない静かな街並みが、日常の中の余白を感じさせます。",
       "genres": [
         "STREET",
-        "ROADS"
+        "ROADS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -34589,7 +34874,8 @@
       "genres": [
         "DETACHED_HOUSES",
         "STREET",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -34618,7 +34904,8 @@
         "SHOPS",
         "ROADS",
         "NATURE",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -34677,7 +34964,9 @@
         "SHOPS",
         "ROADS",
         "SIGNS_NOTICES",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -34707,7 +34996,8 @@
         "ARCHITECTURE",
         "STREET",
         "ROADS",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -34824,7 +35114,8 @@
         "SHOPS",
         "ROADS",
         "SIGNS_NOTICES",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -34999,7 +35290,8 @@
       "genres": [
         "APARTMENTS",
         "STREET",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -35028,7 +35320,8 @@
       "genres": [
         "DETACHED_HOUSES",
         "STREET",
-        "RUINS_CONSTRUCTION"
+        "RUINS_CONSTRUCTION",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -35058,7 +35351,8 @@
       "genres": [
         "APARTMENTS",
         "INDOOR_PASSAGES",
-        "DOORS"
+        "DOORS",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -35089,7 +35383,8 @@
         "APARTMENTS",
         "STREET",
         "RUINS_CONSTRUCTION",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -35175,7 +35470,8 @@
       "genres": [
         "APARTMENTS",
         "STREET",
-        "PARKING"
+        "PARKING",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -35203,7 +35499,8 @@
       "genres": [
         "APARTMENTS",
         "RUINS_CONSTRUCTION",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -35351,7 +35648,8 @@
         "DETACHED_HOUSES",
         "APARTMENTS",
         "STREET",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -35380,7 +35678,8 @@
         "STAIRS",
         "APARTMENTS",
         "RUINS_CONSTRUCTION",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -35408,8 +35707,11 @@
       "description": "道路沿いに建つ古いアパートの入口がバリケードで封鎖されている。背後の新しい集合住宅との対比に、街の移り変わりが感じられる。",
       "genres": [
         "STREET",
+        "APARTMENTS",
         "ROADS",
-        "RUINS_CONSTRUCTION"
+        "RUINS_CONSTRUCTION",
+        "OUTDOOR_PASSAGES",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -35439,7 +35741,8 @@
       "genres": [
         "OUTDOOR_PASSAGES",
         "APARTMENTS",
-        "PARKING"
+        "PARKING",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -35553,7 +35856,8 @@
         "STAIRS",
         "APARTMENTS",
         "RUINS_CONSTRUCTION",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -35583,7 +35887,8 @@
         "OUTDOOR_PASSAGES",
         "APARTMENTS",
         "EQUIPMENT",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -35641,7 +35946,8 @@
         "APARTMENTS",
         "SIGNS_NOTICES",
         "RUINS_CONSTRUCTION",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -35670,7 +35976,8 @@
       "genres": [
         "APARTMENTS",
         "EQUIPMENT",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -35785,7 +36092,8 @@
         "ARCHITECTURE",
         "ROADS",
         "EQUIPMENT",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -35903,7 +36211,8 @@
         "STREET",
         "ROADS",
         "RUINS_CONSTRUCTION",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -36412,7 +36721,8 @@
         "ROADS",
         "SIGNS_NOTICES",
         "NATURE",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -36611,7 +36921,8 @@
       "genres": [
         "APARTMENTS",
         "STREET",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -36929,7 +37240,8 @@
         "STREET",
         "EQUIPMENT",
         "NATURE",
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -37074,7 +37386,8 @@
         "ROADS",
         "TRANSPORT_INFRA",
         "SIGNS_NOTICES",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -37283,7 +37596,8 @@
         "ROADS",
         "RUINS_CONSTRUCTION",
         "NATURE",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -37313,7 +37627,8 @@
         "ARCHITECTURE",
         "ROADS",
         "RUINS_CONSTRUCTION",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -37432,7 +37747,8 @@
         "ROADS",
         "NATURE",
         "PARKS_LEISURE_EVENTS",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -37770,7 +38086,7 @@
         "DOORS",
         "ARCHITECTURE",
         "RUINS_CONSTRUCTION",
-        "NATURE",
+        "STAIRS",
         "PARKS_LEISURE_EVENTS"
       ]
     },
@@ -37886,7 +38202,8 @@
         "STAIRS",
         "APARTMENTS",
         "STREET",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -37914,7 +38231,8 @@
       "description": "フェンスに囲われた団地の外壁に、伸びた草木が迫る。人の気配が薄れた建物の姿が、敷地の時間の経過を静かに伝えている。",
       "genres": [
         "RUINS_CONSTRUCTION",
-        "APARTMENTS"
+        "APARTMENTS",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -37943,7 +38261,8 @@
       "genres": [
         "APARTMENTS",
         "PARKING",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -37971,7 +38290,8 @@
       "description": "フェンスと伸びた草に囲まれた団地の外観。青空の下、年月を感じさせる建物と手入れの行き届かない敷地が記録されています。",
       "genres": [
         "APARTMENTS",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -38001,7 +38321,8 @@
         "APARTMENTS",
         "STREET",
         "SIGNS_NOTICES",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -38030,7 +38351,9 @@
       "genres": [
         "APARTMENTS",
         "ROADS",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -38060,7 +38383,9 @@
         "STREET",
         "SHOPS",
         "ROADS",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -38169,7 +38494,8 @@
       "description": "青空の下、金網フェンス越しに見上げた古い団地。外壁の風化や窓辺の様子が、住宅地の年月を静かに伝えている。",
       "genres": [
         "APARTMENTS",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -38197,7 +38523,8 @@
       "description": "緑色の金網フェンス越しに、草のまばらな空き地と団地の建物を望む。青空の下、敷地を囲うフェンスが印象的な記録写真。",
       "genres": [
         "APARTMENTS",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -38676,7 +39003,8 @@
         "ROADS",
         "SIGNS_NOTICES",
         "NATURE",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -38856,7 +39184,8 @@
       "description": "湯沸かし器や流し台、収納棚が整然と並ぶ小さな給湯室。使い込まれた設備と青緑色の床が、職場の日常を静かに伝えています。",
       "genres": [
         "APARTMENTS",
-        "EQUIPMENT"
+        "EQUIPMENT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -38883,7 +39212,8 @@
       ],
       "description": "白い外壁に窓や小さなベランダが並ぶ集合住宅を、軒下から見上げた一枚。日中の柔らかな光が建物の質感を際立たせています。",
       "genres": [
-        "APARTMENTS"
+        "APARTMENTS",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -39034,7 +39364,8 @@
       "genres": [
         "ARCHITECTURE",
         "ROADS",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -39179,7 +39510,8 @@
       "genres": [
         "TRANSPORT_INFRA",
         "ROADS",
-        "SIGNS_NOTICES"
+        "SIGNS_NOTICES",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -39780,7 +40112,8 @@
         "STAIRS",
         "STREET",
         "ROADS",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -40074,7 +40407,8 @@
       "genres": [
         "APARTMENTS",
         "EQUIPMENT",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -40131,7 +40465,8 @@
       "genres": [
         "ROADS",
         "SIGNS_NOTICES",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -40248,7 +40583,9 @@
         "DETACHED_HOUSES",
         "STREET",
         "ROADS",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -40305,7 +40642,9 @@
       "genres": [
         "DETACHED_HOUSES",
         "STREET",
-        "ROADS"
+        "ROADS",
+        "OUTDOOR_PASSAGES",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -40334,7 +40673,8 @@
       "genres": [
         "ITEMS_OBJECTS",
         "ROADS",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -40510,7 +40850,8 @@
         "APARTMENTS",
         "EQUIPMENT",
         "NATURE",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -40540,7 +40881,8 @@
         "APARTMENTS",
         "STREET",
         "EQUIPMENT",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -40597,7 +40939,8 @@
       "genres": [
         "APARTMENTS",
         "EQUIPMENT",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -40716,7 +41059,6 @@
       ],
       "description": "居酒屋の裏手に並ぶ室外機や配管、ゴミ箱が、飲食店街の日常を伝える。看板のにぎわいとは異なる路地の実用的な風景。",
       "genres": [
-        "OUTDOOR_PASSAGES",
         "STREET",
         "SHOPS",
         "SIGNS_NOTICES",
@@ -41141,7 +41483,8 @@
         "APARTMENTS",
         "OUTDOOR_UNITS",
         "EQUIPMENT",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -41255,7 +41598,7 @@
       ],
       "description": "地下鉄駅のタイル壁に設けられた横長の開口部が、奥の照明を映し込む。反復する目地と直線が、無機質で静かな駅の表情をつくっている。",
       "genres": [
-        "INDOOR_PASSAGES"
+        "STATIONS_RAILWAYS"
       ]
     },
     {
@@ -41574,7 +41917,8 @@
       "genres": [
         "DETACHED_HOUSES",
         "STREET",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -41663,7 +42007,8 @@
         "RUINS_CONSTRUCTION",
         "DETACHED_HOUSES",
         "STREET",
-        "SHOPS"
+        "SHOPS",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -41836,7 +42181,8 @@
         "APARTMENTS",
         "STREET",
         "NATURE",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -41893,7 +42239,8 @@
       "genres": [
         "DETACHED_HOUSES",
         "STREET",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -41951,7 +42298,8 @@
       "description": "夕暮れの空を背に、窓やベランダが規則正しく並ぶ大規模な集合住宅を見上げる。街路樹と周辺の建物が、都市の日常を伝えている。",
       "genres": [
         "APARTMENTS",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -42647,6 +42995,7 @@
       "description": "夕暮れの神楽坂商店街に赤い提灯が連なり、街路樹や店先の灯りとともに祭りの訪れを告げています。",
       "genres": [
         "PARKS_LEISURE_EVENTS",
+        "SHOPS",
         "NIGHT"
       ]
     },
@@ -42799,7 +43148,8 @@
       "genres": [
         "DETACHED_HOUSES",
         "NATURE",
-        "ITEMS_OBJECTS"
+        "ITEMS_OBJECTS",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -43243,7 +43593,8 @@
         "ARCHITECTURE",
         "STREET",
         "ROADS",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -43271,6 +43622,7 @@
       "description": "古い建物に囲まれた空地には瓦礫や小石が散らばり、頭上には大きな雲が広がる。再開発前の街角の一場面を記録している。",
       "genres": [
         "STREET",
+        "ARCHITECTURE",
         "RUINS_CONSTRUCTION",
         "NATURE"
       ]
@@ -43509,7 +43861,8 @@
         "PARKING",
         "NATURE",
         "NIGHT",
-        "ITEMS_OBJECTS"
+        "ITEMS_OBJECTS",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -43914,7 +44267,8 @@
         "ROADS",
         "SIGNS_NOTICES",
         "NATURE",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -43941,7 +44295,8 @@
       "description": "錆びた窓枠や波板、ブルーシートが重なる古い二階建て住宅。曇り空の下、年月を経た街の暮らしの痕跡を伝えている。",
       "genres": [
         "DETACHED_HOUSES",
-        "STREET"
+        "STREET",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -44109,7 +44464,8 @@
       "genres": [
         "INDOOR_PASSAGES",
         "APARTMENTS",
-        "STREET"
+        "STREET",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -44166,7 +44522,8 @@
       "genres": [
         "DETACHED_HOUSES",
         "SHOPS",
-        "SIGNS_NOTICES"
+        "SIGNS_NOTICES",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -44315,7 +44672,9 @@
         "STREET",
         "SHOPS",
         "ROADS",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -44432,7 +44791,8 @@
       "description": "白い外壁の集合住宅で、玄関扉や共用通路を手前の木製フェンス越しに記録。植栽が添える、静かな日常の一場面。",
       "genres": [
         "DOORS",
-        "APARTMENTS"
+        "APARTMENTS",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -44460,7 +44820,8 @@
       "genres": [
         "APARTMENTS",
         "EQUIPMENT",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -44492,7 +44853,8 @@
         "STREET",
         "ROADS",
         "SIGNS_NOTICES",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -44524,7 +44886,9 @@
         "SHOPS",
         "ROADS",
         "EQUIPMENT",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -44634,7 +44998,8 @@
       "description": "住宅地のブロック塀の向こうに、幹の太い古木が枝葉を広げる。木漏れ日と苔むした塀が、静かな庭の時間を伝えている。",
       "genres": [
         "DETACHED_HOUSES",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -44663,7 +45028,8 @@
       "genres": [
         "STREET",
         "ROADS",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -44807,7 +45173,8 @@
       "genres": [
         "STAIRS",
         "APARTMENTS",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -44960,7 +45327,8 @@
       "genres": [
         "APARTMENTS",
         "STREET",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -45158,7 +45526,8 @@
         "SHOPS",
         "ROADS",
         "NATURE",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -45472,7 +45841,8 @@
         "DOORS",
         "DETACHED_HOUSES",
         "SHOPS",
-        "ROADS"
+        "ROADS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -45531,7 +45901,8 @@
         "DETACHED_HOUSES",
         "STREET",
         "SHOPS",
-        "SIGNS_NOTICES"
+        "SIGNS_NOTICES",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -45764,7 +46135,8 @@
       "description": "木々に囲まれた斜面に吊り橋が架かり、足元には鮮やかなピンクの花が咲く。緑豊かな山あいの散策路を記録した一枚。",
       "genres": [
         "ROADS",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -46024,7 +46396,8 @@
         "APARTMENTS",
         "STREET",
         "ROADS",
-        "SIGNS_NOTICES"
+        "SIGNS_NOTICES",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -46319,7 +46692,8 @@
         "ITEMS_OBJECTS",
         "ROADS",
         "EQUIPMENT",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -46918,7 +47292,8 @@
       "description": "黄色いタイル張りの建物の上部を見上げた一枚。テラスの手すりと外壁沿いの螺旋階段が、都市の建築の細部を伝えています。",
       "genres": [
         "STAIRS",
-        "APARTMENTS"
+        "APARTMENTS",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -46977,7 +47352,8 @@
         "DETACHED_HOUSES",
         "STREET",
         "NATURE",
-        "ITEMS_OBJECTS"
+        "ITEMS_OBJECTS",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -47101,7 +47477,8 @@
         "APARTMENTS",
         "STREET",
         "PARKING",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -47334,7 +47711,9 @@
         "APARTMENTS",
         "STREET",
         "ROADS",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -47448,7 +47827,8 @@
       ],
       "description": "複数棟に囲まれた集合住宅の中庭を、閉じた金属フェンス越しに見上げる。反復するバルコニーと曇天が、静かな都市の生活空間を伝える。",
       "genres": [
-        "APARTMENTS"
+        "APARTMENTS",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -47477,7 +47857,9 @@
         "DETACHED_HOUSES",
         "STREET",
         "ROADS",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -47507,7 +47889,8 @@
         "OUTDOOR_PASSAGES",
         "APARTMENTS",
         "NATURE",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -47568,7 +47951,8 @@
         "APARTMENTS",
         "STREET",
         "NATURE",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -47779,7 +48163,8 @@
       "genres": [
         "ITEMS_OBJECTS",
         "ROADS",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -47807,7 +48192,8 @@
       "description": "青空の下、ベランダや窓が連なるマンションを見上げた一枚。手前の電線や植え込みが街なかの暮らしを伝えます。",
       "genres": [
         "APARTMENTS",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -47838,7 +48224,8 @@
         "DETACHED_HOUSES",
         "STREET",
         "EQUIPMENT",
-        "NATURE"
+        "DOORS",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -47866,7 +48253,8 @@
       "genres": [
         "SHOPS",
         "ROADS",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -47925,7 +48313,8 @@
       "description": "大きな木の葉に覆われるように建つ古い木造家屋。木製の雨戸や門扉が残り、緑陰の中に静かな時間と住まいの歴史を感じさせる。",
       "genres": [
         "DETACHED_HOUSES",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -47986,6 +48375,7 @@
       "genres": [
         "STREET",
         "OUTDOOR_UNITS",
+        "ARCHITECTURE",
         "NATURE"
       ]
     },
@@ -48073,7 +48463,8 @@
         "DETACHED_HOUSES",
         "STREET",
         "NATURE",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -48302,7 +48693,8 @@
         "APARTMENTS",
         "OUTDOOR_UNITS",
         "EQUIPMENT",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -48331,7 +48723,8 @@
       "genres": [
         "STAIRS",
         "APARTMENTS",
-        "EQUIPMENT"
+        "EQUIPMENT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -48390,7 +48783,8 @@
         "ITEMS_OBJECTS",
         "ROADS",
         "RUINS_CONSTRUCTION",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -48453,7 +48847,8 @@
         "SHOPS",
         "DETACHED_HOUSES",
         "STREET",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -48482,7 +48877,8 @@
         "STAIRS",
         "OUTDOOR_PASSAGES",
         "APARTMENTS",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -48512,7 +48908,8 @@
         "DETACHED_HOUSES",
         "STREET",
         "NATURE",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -48657,7 +49054,8 @@
         "APARTMENTS",
         "STREET",
         "SHOPS",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -48690,7 +49088,9 @@
         "ROADS",
         "EQUIPMENT",
         "NATURE",
-        "ITEMS_OBJECTS"
+        "ITEMS_OBJECTS",
+        "OUTDOOR_PASSAGES",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -48750,7 +49150,8 @@
         "APARTMENTS",
         "SIGNS_NOTICES",
         "RUINS_CONSTRUCTION",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -48811,7 +49212,9 @@
         "DETACHED_HOUSES",
         "STREET",
         "ROADS",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -48839,7 +49242,6 @@
       ],
       "description": "金属柵の向こうへ、白い屋根に覆われた通路がまっすぐ伸びる。人影のない昼の空間に、無機質で静かな雰囲気が漂う。",
       "genres": [
-        "PEDESTRIAN_BRIDGES",
         "INDOOR_PASSAGES",
         "ARCHITECTURE"
       ]
@@ -48985,7 +49387,8 @@
       "genres": [
         "APARTMENTS",
         "STREET",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -49125,7 +49528,8 @@
       ],
       "description": "古びた木の台に白い紙を敷き、水と酒を紙コップで供える。簡素な供物から、日々の祈りや場を守る習わしがうかがえる。",
       "genres": [
-        "ITEMS_OBJECTS"
+        "ITEMS_OBJECTS",
+        "SHRINES_HERITAGE"
       ]
     },
     {
@@ -49296,6 +49700,7 @@
       "genres": [
         "DETACHED_HOUSES",
         "ARCHITECTURE",
+        "DOORS",
         "SHRINES_HERITAGE",
         "NIGHT"
       ]
@@ -49382,7 +49787,8 @@
       "genres": [
         "DETACHED_HOUSES",
         "STREET",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -49474,7 +49880,8 @@
         "STREET",
         "PARKING",
         "EQUIPMENT",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -49587,7 +49994,8 @@
         "SHOPS",
         "DETACHED_HOUSES",
         "STREET",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -49677,7 +50085,8 @@
         "STREET",
         "SHOPS",
         "ROADS",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -49708,7 +50117,8 @@
         "STREET",
         "SHOPS",
         "ROADS",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -49768,6 +50178,7 @@
         "DETACHED_HOUSES",
         "ARCHITECTURE",
         "STREET",
+        "DOORS",
         "RUINS_CONSTRUCTION",
         "NIGHT"
       ]
@@ -49912,7 +50323,8 @@
       "genres": [
         "DETACHED_HOUSES",
         "STREET",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -49943,7 +50355,9 @@
         "STREET",
         "ROADS",
         "NATURE",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -50002,7 +50416,8 @@
         "OUTDOOR_PASSAGES",
         "DETACHED_HOUSES",
         "STREET",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -50267,7 +50682,8 @@
       "genres": [
         "DETACHED_HOUSES",
         "STREET",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -50295,7 +50711,8 @@
       "genres": [
         "DETACHED_HOUSES",
         "STREET",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -50323,7 +50740,8 @@
       "genres": [
         "APARTMENTS",
         "PARKING",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -50352,7 +50770,8 @@
         "DOORS",
         "APARTMENTS",
         "RUINS_CONSTRUCTION",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -50383,7 +50802,8 @@
         "STREET",
         "PARKING",
         "NATURE",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -50412,7 +50832,8 @@
         "APARTMENTS",
         "STREET",
         "PARKING",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -50470,7 +50891,8 @@
       "genres": [
         "DETACHED_HOUSES",
         "OUTDOOR_UNITS",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -50559,7 +50981,9 @@
         "DETACHED_HOUSES",
         "STREET",
         "ROADS",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -50589,7 +51013,8 @@
         "OUTDOOR_PASSAGES",
         "DETACHED_HOUSES",
         "STREET",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -50617,7 +51042,8 @@
       "description": "電線とフェンス越しに、縦張りの外壁が目を引く二階建て住宅を望む。冬枯れの庭が広がり、静かな住宅街の日常を記録している。",
       "genres": [
         "DETACHED_HOUSES",
-        "STREET"
+        "STREET",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -50736,7 +51162,9 @@
         "DETACHED_HOUSES",
         "STREET",
         "ROADS",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -50766,7 +51194,8 @@
         "DETACHED_HOUSES",
         "STREET",
         "NATURE",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -50965,7 +51394,8 @@
         "STREET",
         "RUINS_CONSTRUCTION",
         "NATURE",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -50993,7 +51423,8 @@
       "genres": [
         "ROADS",
         "NATURE",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -51022,6 +51453,7 @@
       "genres": [
         "DOORS",
         "ROADS",
+        "OUTDOOR_PASSAGES",
         "NATURE",
         "NIGHT"
       ]
@@ -51052,7 +51484,8 @@
         "DETACHED_HOUSES",
         "SHOPS",
         "SIGNS_NOTICES",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -51250,7 +51683,8 @@
       ],
       "description": "枯れ草の広がる敷地に、年季の入った平屋が静かに建つ。引き戸の窓や色あせた外壁が、郊外の日常と時の経過を伝えている。",
       "genres": [
-        "DETACHED_HOUSES"
+        "DETACHED_HOUSES",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -51334,7 +51768,8 @@
       "genres": [
         "DETACHED_HOUSES",
         "STREET",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -51363,7 +51798,8 @@
       "genres": [
         "DETACHED_HOUSES",
         "STREET",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -51421,7 +51857,8 @@
       "description": "青空の下、窓とベランダが整然と並ぶ団地。中央の外階段や前景の駐車車両が、日々の暮らしの気配を伝えています。",
       "genres": [
         "APARTMENTS",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -51479,7 +51916,9 @@
         "APARTMENTS",
         "STREET",
         "PARKING",
-        "ROADS"
+        "ROADS",
+        "OUTDOOR_PASSAGES",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -51560,7 +51999,8 @@
       "description": "冬枯れの庭に囲まれた木造住宅を、夕方の斜光がやわらかく照らす。竹垣や木柵が、静かな住まいの佇まいを伝えている。",
       "genres": [
         "DETACHED_HOUSES",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -51587,7 +52027,8 @@
       "description": "背の高い草木の向こうに、瓦屋根の古い家が見える。午後の光が枝葉を照らし、静かな暮らしの気配を伝えている。",
       "genres": [
         "DETACHED_HOUSES",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -51766,7 +52207,8 @@
         "DETACHED_HOUSES",
         "APARTMENTS",
         "STREET",
-        "SHOPS"
+        "SHOPS",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -51824,7 +52266,8 @@
         "ROADS",
         "EQUIPMENT",
         "NATURE",
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -51910,6 +52353,7 @@
       "genres": [
         "NATURE",
         "PARKS_LEISURE_EVENTS",
+        "SIGNS_NOTICES",
         "NIGHT"
       ]
     },
@@ -52054,7 +52498,8 @@
       "genres": [
         "DETACHED_HOUSES",
         "STREET",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -52293,7 +52738,8 @@
         "STAIRS",
         "OUTDOOR_PASSAGES",
         "APARTMENTS",
-        "PARKING"
+        "PARKING",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -52352,12 +52798,14 @@
       ],
       "description": "錆が広がる看板とシャッターが、かつての店舗の面影を残す。青空の下、道路に面した古びた建物の佇まいを記録している。",
       "genres": [
+        "SHOPS",
         "ARCHITECTURE",
         "STREET",
-        "SHOPS",
         "ROADS",
+        "RUINS_CONSTRUCTION",
         "SIGNS_NOTICES",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -52385,7 +52833,8 @@
       "genres": [
         "DETACHED_HOUSES",
         "STREET",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -52413,7 +52862,8 @@
       "description": "暗がりに赤茶色の外壁が浮かぶ古い家。格子窓と大きな引き戸が、夜の静けさの中に昔ながらの佇まいを伝えている。",
       "genres": [
         "DETACHED_HOUSES",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -52441,7 +52891,8 @@
       "genres": [
         "APARTMENTS",
         "STREET",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -52783,7 +53234,6 @@
       ],
       "description": "夜の路地に面した古い建物の外壁。格子窓から白と橙の光が漏れ、配管や室外機が生活の気配を伝えています。",
       "genres": [
-        "OUTDOOR_PASSAGES",
         "STREET",
         "OUTDOOR_UNITS",
         "EQUIPMENT",
@@ -52843,7 +53293,8 @@
       "description": "アスファルトと歩道の境目に、青と黄色のデュエル・マスターズのカードが一枚落ちている。通り過ぎる日常の中の小さな発見を記録した写真。",
       "genres": [
         "ROADS",
-        "ITEMS_OBJECTS"
+        "ITEMS_OBJECTS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -52958,7 +53409,8 @@
         "DETACHED_HOUSES",
         "STREET",
         "ROADS",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -53041,7 +53493,8 @@
         "DETACHED_HOUSES",
         "STREET",
         "PARKING",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -53069,7 +53522,8 @@
       "genres": [
         "APARTMENTS",
         "STREET",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -53156,7 +53610,8 @@
       ],
       "description": "枯れた蔓が外壁や窓を覆う古い建物。冬の静けさと年月を重ねた佇まいが、日中の淡い光の中に浮かび上がる。",
       "genres": [
-        "RUINS_CONSTRUCTION"
+        "RUINS_CONSTRUCTION",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -53186,7 +53641,8 @@
         "RUINS_CONSTRUCTION",
         "DETACHED_HOUSES",
         "STREET",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -53244,7 +53700,8 @@
       "genres": [
         "DETACHED_HOUSES",
         "STREET",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -53331,7 +53788,7 @@
       ],
       "description": "夜の路地に並ぶ金属製コンテナと収納庫。塗装の剥がれや地面に伸びるコードが、ひっそりとした街角の生活感を伝える。",
       "genres": [
-        "ARCHITECTURE",
+        "EQUIPMENT",
         "STREET",
         "NIGHT"
       ]
@@ -53507,7 +53964,9 @@
         "STREET",
         "SHOPS",
         "ROADS",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -53538,7 +53997,8 @@
         "TRANSPORT_INFRA",
         "NATURE",
         "NIGHT",
-        "ITEMS_OBJECTS"
+        "ITEMS_OBJECTS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -53624,7 +54084,8 @@
       "genres": [
         "SHOPS",
         "ROADS",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -53736,7 +54197,8 @@
       "genres": [
         "TRANSPORT_INFRA",
         "ROADS",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -53766,7 +54228,8 @@
       "genres": [
         "INDOOR_PASSAGES",
         "ROADS",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -53884,7 +54347,8 @@
       "genres": [
         "DETACHED_HOUSES",
         "RUINS_CONSTRUCTION",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -53914,7 +54378,8 @@
         "DETACHED_HOUSES",
         "STREET",
         "NATURE",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -53941,7 +54406,8 @@
       "description": "枯れ草が広がる空き地の奥に、赤茶色の手すりを備えた建物が佇む。暗い空の下、郊外の静かな夜の景色を記録している。",
       "genres": [
         "APARTMENTS",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -54317,7 +54783,8 @@
       "genres": [
         "DETACHED_HOUSES",
         "STREET",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -54375,7 +54842,8 @@
         "DOORS",
         "DETACHED_HOUSES",
         "STREET",
-        "EQUIPMENT"
+        "EQUIPMENT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -54638,6 +55106,7 @@
         "RUINS_CONSTRUCTION",
         "STREET",
         "EQUIPMENT",
+        "ARCHITECTURE",
         "NIGHT"
       ]
     },
@@ -54726,7 +55195,8 @@
         "DETACHED_HOUSES",
         "STREET",
         "OUTDOOR_UNITS",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -54900,7 +55370,8 @@
         "STREET",
         "ROADS",
         "SIGNS_NOTICES",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -54985,7 +55456,8 @@
         "STAIRS",
         "APARTMENTS",
         "STREET",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -55015,7 +55487,9 @@
         "DETACHED_HOUSES",
         "STREET",
         "PARKING",
-        "ROADS"
+        "ROADS",
+        "OUTDOOR_PASSAGES",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -55159,6 +55633,7 @@
       "genres": [
         "TRANSPORT_INFRA",
         "ROADS",
+        "OUTDOOR_PASSAGES",
         "NATURE",
         "NIGHT"
       ]
@@ -55251,7 +55726,8 @@
         "TRANSPORT_INFRA",
         "INDOOR_PASSAGES",
         "STREET",
-        "ROADS"
+        "ROADS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -55398,7 +55874,8 @@
       "genres": [
         "APARTMENTS",
         "DETACHED_HOUSES",
-        "STREET"
+        "STREET",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -55718,7 +56195,9 @@
         "APARTMENTS",
         "STREET",
         "ROADS",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -55775,7 +56254,8 @@
       "genres": [
         "APARTMENTS",
         "EQUIPMENT",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -55803,7 +56283,8 @@
       "description": "洗濯物が干された二階建てアパート。植木や自転車カバーも見える、住宅街の日常の暮らしを伝える一枚。",
       "genres": [
         "APARTMENTS",
-        "STREET"
+        "STREET",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -55862,7 +56343,8 @@
       "genres": [
         "DETACHED_HOUSES",
         "STREET",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -56031,7 +56513,8 @@
       "genres": [
         "PARKING",
         "ROADS",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -56120,7 +56603,8 @@
         "STREET",
         "ROADS",
         "NATURE",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -56378,7 +56862,8 @@
         "APARTMENTS",
         "STREET",
         "SIGNS_NOTICES",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -56493,7 +56978,8 @@
         "SHOPS",
         "ROADS",
         "SIGNS_NOTICES",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -56523,7 +57009,8 @@
         "DETACHED_HOUSES",
         "STREET",
         "NATURE",
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -56553,7 +57040,8 @@
         "DOORS",
         "APARTMENTS",
         "OUTDOOR_UNITS",
-        "EQUIPMENT"
+        "EQUIPMENT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -56581,7 +57069,8 @@
       "description": "木製の柵の向こうに、瓦屋根と風化した板壁の古い家が佇む。葉を落とした庭木に囲まれ、静かな冬の気配が漂う。",
       "genres": [
         "RUINS_CONSTRUCTION",
-        "DETACHED_HOUSES"
+        "DETACHED_HOUSES",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -56611,7 +57100,8 @@
         "DETACHED_HOUSES",
         "STREET",
         "NATURE",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -56640,7 +57130,8 @@
       "genres": [
         "DETACHED_HOUSES",
         "STREET",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -56666,7 +57157,8 @@
       ],
       "description": "住宅の前に金属製の物干し台と黒いフェンスが並ぶ。生け垣や落ち葉のある庭先に、暮らしの気配が静かに残る。",
       "genres": [
-        "DETACHED_HOUSES"
+        "DETACHED_HOUSES",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -56724,7 +57216,8 @@
       "genres": [
         "APARTMENTS",
         "STREET",
-        "EQUIPMENT"
+        "EQUIPMENT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -56965,7 +57458,8 @@
         "ROADS",
         "SIGNS_NOTICES",
         "NATURE",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -57024,7 +57518,8 @@
       "genres": [
         "APARTMENTS",
         "STREET",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -57082,7 +57577,8 @@
         "STAIRS",
         "DETACHED_HOUSES",
         "STREET",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -57168,7 +57664,8 @@
         "DETACHED_HOUSES",
         "STREET",
         "PARKING",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -57260,7 +57757,8 @@
         "INDOOR_PASSAGES",
         "APARTMENTS",
         "STREET",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -57292,7 +57790,8 @@
         "STREET",
         "OUTDOOR_UNITS",
         "NATURE",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -57413,7 +57912,8 @@
         "STAIRS",
         "APARTMENTS",
         "STREET",
-        "OUTDOOR_UNITS"
+        "OUTDOOR_UNITS",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -57442,7 +57942,8 @@
       "genres": [
         "APARTMENTS",
         "STREET",
-        "OUTDOOR_UNITS"
+        "OUTDOOR_UNITS",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -57903,7 +58404,8 @@
         "ARCHITECTURE",
         "STREET",
         "ROADS",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -58055,7 +58557,8 @@
         "APARTMENTS",
         "STREET",
         "NATURE",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -58085,7 +58588,8 @@
         "INDOOR_PASSAGES",
         "DOORS",
         "APARTMENTS",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -58114,7 +58618,8 @@
       "genres": [
         "APARTMENTS",
         "STREET",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -58142,7 +58647,8 @@
       "description": "レンガ壁に囲まれた小さな洗濯スペースに、業務用洗濯機が3台並ぶ。人影のない静かな室内の設備を記録した一枚。",
       "genres": [
         "APARTMENTS",
-        "EQUIPMENT"
+        "EQUIPMENT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -58502,7 +59008,8 @@
         "APARTMENTS",
         "STREET",
         "ROADS",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -58711,7 +59218,8 @@
         "ARCHITECTURE",
         "STREET",
         "ROADS",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -58743,7 +59251,8 @@
         "SHOPS",
         "ROADS",
         "SIGNS_NOTICES",
-        "OUTDOOR_UNITS"
+        "OUTDOOR_UNITS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -58923,7 +59432,8 @@
         "APARTMENTS",
         "SHOPS",
         "SIGNS_NOTICES",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -58953,7 +59463,8 @@
         "STREET",
         "SHOPS",
         "EQUIPMENT",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -59070,7 +59581,8 @@
         "STREET",
         "ROADS",
         "EQUIPMENT",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -59244,7 +59756,8 @@
       "description": "トタン張りの古い二階家が、細い路地に面して建つ。色あせた手すりや格子戸に、昔ながらの住宅街の面影が残る。",
       "genres": [
         "DETACHED_HOUSES",
-        "STREET"
+        "STREET",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -59272,7 +59785,8 @@
       "description": "色あせたトタン張りの古い家に赤い郵便受けが掛かる。背後の高層建築との対比に、街並みの移り変わりが感じられる。",
       "genres": [
         "DETACHED_HOUSES",
-        "STREET"
+        "STREET",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -59302,7 +59816,8 @@
         "DETACHED_HOUSES",
         "STREET",
         "SIGNS_NOTICES",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -59331,7 +59846,8 @@
         "RUINS_CONSTRUCTION",
         "DETACHED_HOUSES",
         "STREET",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -59359,7 +59875,8 @@
       "description": "錆びたトタン壁と蔦に覆われた、人気のない古い家屋。破れたブルーシートや残雪が、長く手入れされていない様子を伝える。",
       "genres": [
         "DETACHED_HOUSES",
-        "RUINS_CONSTRUCTION"
+        "RUINS_CONSTRUCTION",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -59473,7 +59990,8 @@
       "genres": [
         "OUTDOOR_PASSAGES",
         "APARTMENTS",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -59502,7 +60020,8 @@
       "genres": [
         "APARTMENTS",
         "STREET",
-        "ITEMS_OBJECTS"
+        "ITEMS_OBJECTS",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -59532,7 +60051,8 @@
         "ARCHITECTURE",
         "STREET",
         "SHOPS",
-        "ROADS"
+        "ROADS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -59705,7 +60225,8 @@
         "SHOPS",
         "DETACHED_HOUSES",
         "STREET",
-        "EQUIPMENT"
+        "EQUIPMENT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -59849,7 +60370,8 @@
         "RUINS_CONSTRUCTION",
         "ARCHITECTURE",
         "STREET",
-        "ROADS"
+        "ROADS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -60056,7 +60578,8 @@
       "genres": [
         "DOORS",
         "APARTMENTS",
-        "EQUIPMENT"
+        "EQUIPMENT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -60088,7 +60611,8 @@
         "DOORS",
         "APARTMENTS",
         "RUINS_CONSTRUCTION",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -60201,7 +60725,8 @@
       "genres": [
         "DETACHED_HOUSES",
         "STREET",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -60258,7 +60783,8 @@
       "description": "ツタや植栽が塀と建物を覆い始めた古い住宅。曇天の下、路面に残る雪や傷んだ外観が、静かな冬の街角の時間を伝えています。",
       "genres": [
         "DETACHED_HOUSES",
-        "STREET"
+        "STREET",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -60313,7 +60839,8 @@
       ],
       "description": "枯れ草が広がる敷地に、使用禁止のうんていが残されている。色あせた遊具と伸びた草が、子どもの声の遠のいた静かな時間を伝える。",
       "genres": [
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "RUINS_CONSTRUCTION"
       ]
     },
     {
@@ -60341,7 +60868,8 @@
       "description": "錆や塗装の剥落が目立つ団地のベランダを、午後の光が照らす。人影のない建物に、長い年月と静かな寂寥感が漂う。",
       "genres": [
         "APARTMENTS",
-        "RUINS_CONSTRUCTION"
+        "RUINS_CONSTRUCTION",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -60371,7 +60899,8 @@
         "APARTMENTS",
         "EQUIPMENT",
         "RUINS_CONSTRUCTION",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -60403,7 +60932,8 @@
         "SIGNS_NOTICES",
         "RUINS_CONSTRUCTION",
         "NATURE",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -60432,7 +60962,8 @@
       "genres": [
         "APARTMENTS",
         "RUINS_CONSTRUCTION",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -60460,7 +60991,8 @@
       "genres": [
         "APARTMENTS",
         "PARKS_LEISURE_EVENTS",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -60516,7 +61048,8 @@
       "genres": [
         "APARTMENTS",
         "STREET",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -60543,7 +61076,8 @@
       "description": "穏やかな川の対岸に住宅や小さな船着き場が並び、曇天の光景が水面に静かに映り込んでいる。",
       "genres": [
         "DETACHED_HOUSES",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -60572,7 +61106,8 @@
       "genres": [
         "INDOOR_PASSAGES",
         "APARTMENTS",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -60601,7 +61136,9 @@
         "INDOOR_PASSAGES",
         "APARTMENTS",
         "STREET",
-        "ROADS"
+        "ROADS",
+        "OUTDOOR_PASSAGES",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -60655,7 +61192,8 @@
       "description": "草地の向こうに、ベランダが幾層にも連なる団地が広がる。傾いた陽光と木々の影が、静かな暮らしの気配を映し出している。",
       "genres": [
         "APARTMENTS",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -60683,7 +61221,8 @@
       "description": "青空の下、長く連なる団地の外廊下を斜めから捉えた一枚。白い壁面に木々の影が落ち、日常の住まいの風景を伝えます。",
       "genres": [
         "APARTMENTS",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -60711,7 +61250,8 @@
       "genres": [
         "STAIRS",
         "APARTMENTS",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -60825,7 +61365,8 @@
       "description": "雪がまだらに残る駐車場の奥に、外壁の傷みが目立つ白い建物が立つ。水たまりと車が、冬の暮らしの一場面を伝えている。",
       "genres": [
         "DETACHED_HOUSES",
-        "PARKING"
+        "PARKING",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -60854,7 +61395,8 @@
       "genres": [
         "INDOOR_PASSAGES",
         "DOORS",
-        "APARTMENTS"
+        "APARTMENTS",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -60966,7 +61508,8 @@
       "genres": [
         "APARTMENTS",
         "STREET",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -61053,7 +61596,8 @@
         "ARCHITECTURE",
         "STREET",
         "ROADS",
-        "RUINS_CONSTRUCTION"
+        "RUINS_CONSTRUCTION",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -61082,7 +61626,8 @@
       "genres": [
         "DETACHED_HOUSES",
         "STREET",
-        "ITEMS_OBJECTS"
+        "ITEMS_OBJECTS",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -61110,7 +61655,9 @@
       "genres": [
         "DETACHED_HOUSES",
         "STREET",
-        "ROADS"
+        "ROADS",
+        "OUTDOOR_PASSAGES",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -61141,7 +61688,8 @@
         "APARTMENTS",
         "STREET",
         "SIGNS_NOTICES",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -61171,7 +61719,8 @@
         "APARTMENTS",
         "STREET",
         "PARKING",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -61344,7 +61893,8 @@
         "ITEMS_OBJECTS",
         "APARTMENTS",
         "STREET",
-        "EQUIPMENT"
+        "EQUIPMENT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -61543,7 +62093,8 @@
       "genres": [
         "DETACHED_HOUSES",
         "STREET",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -61572,7 +62123,8 @@
       "genres": [
         "APARTMENTS",
         "STREET",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -61600,7 +62152,8 @@
       "description": "青い外壁が目を引く古い二階建て住宅。閉じた雨戸や門扉、塀に囲まれ、曇天の下で静かな街角の佇まいを見せている。",
       "genres": [
         "DETACHED_HOUSES",
-        "STREET"
+        "STREET",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -61630,7 +62183,8 @@
         "APARTMENTS",
         "DETACHED_HOUSES",
         "STREET",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -61686,7 +62240,8 @@
       "description": "路地の角に建つ平屋住宅を、白い塀や電柱とともに記録。赤い瓦屋根と色あせた外壁が、静かな住宅街の一角を伝えています。",
       "genres": [
         "DETACHED_HOUSES",
-        "STREET"
+        "STREET",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -61853,7 +62408,8 @@
       "description": "窓や雨戸が並ぶ古い住宅を、濡れた路地から見上げる。電線と傷んだ外壁に、静かな住宅街の日常と年月が刻まれている。",
       "genres": [
         "DETACHED_HOUSES",
-        "STREET"
+        "STREET",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -61883,7 +62439,8 @@
         "DETACHED_HOUSES",
         "STREET",
         "OUTDOOR_UNITS",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -61913,7 +62470,8 @@
         "OUTDOOR_PASSAGES",
         "APARTMENTS",
         "PARKING",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -61941,7 +62499,8 @@
       "description": "赤い外壁の住宅を、ブロック塀と階段越しに捉えた街角の記録。塀際の青い自転車や電線が、日常の暮らしを伝えている。",
       "genres": [
         "DETACHED_HOUSES",
-        "STREET"
+        "STREET",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -62055,7 +62614,8 @@
       "description": "青緑のトタン壁と白い引き戸が目を引く古い家。雪の残る濡れた路地に、曇天の静かな住宅街の暮らしが記録されています。",
       "genres": [
         "DETACHED_HOUSES",
-        "STREET"
+        "STREET",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -62082,7 +62642,8 @@
       "description": "四角い箱のような形が印象的な住宅を正面から記録。曇天の下、控えめな色合いの外壁や窓、前面の塀が街並みに溶け込んでいる。",
       "genres": [
         "DETACHED_HOUSES",
-        "STREET"
+        "STREET",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -62167,7 +62728,8 @@
         "OUTDOOR_PASSAGES",
         "APARTMENTS",
         "PARKING",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -62228,7 +62790,8 @@
         "STAIRS",
         "INDOOR_PASSAGES",
         "APARTMENTS",
-        "STREET"
+        "STREET",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -62287,7 +62850,8 @@
         "APARTMENTS",
         "STREET",
         "OUTDOOR_UNITS",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -62397,7 +62961,8 @@
       "description": "曇り空の下、路地に面して建つ二階建て住宅。玄関先や周囲に残る雪と濡れた路面が、冬の日常の一場面を伝えている。",
       "genres": [
         "DETACHED_HOUSES",
-        "STREET"
+        "STREET",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -62425,7 +62990,9 @@
       "genres": [
         "DETACHED_HOUSES",
         "STREET",
-        "ROADS"
+        "ROADS",
+        "OUTDOOR_PASSAGES",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -62454,7 +63021,9 @@
         "APARTMENTS",
         "STREET",
         "ROADS",
-        "RUINS_CONSTRUCTION"
+        "RUINS_CONSTRUCTION",
+        "OUTDOOR_PASSAGES",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -62628,7 +63197,9 @@
       "genres": [
         "DETACHED_HOUSES",
         "STREET",
-        "ROADS"
+        "ROADS",
+        "OUTDOOR_PASSAGES",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -62744,7 +63315,8 @@
         "RUINS_CONSTRUCTION",
         "APARTMENTS",
         "NATURE",
-        "ITEMS_OBJECTS"
+        "ITEMS_OBJECTS",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -62772,7 +63344,8 @@
       "genres": [
         "INDOOR_PASSAGES",
         "APARTMENTS",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -62799,7 +63372,8 @@
       "description": "雪の残る濡れた路地に面したアパート。外廊下とフェンスが連なる建物の佇まいに、冬の曇天の静けさが漂う。",
       "genres": [
         "APARTMENTS",
-        "STREET"
+        "STREET",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -62880,7 +63454,8 @@
       "description": "赤い外壁の古い住宅と青い塀が路地に面し、雪の名残と濡れた路面が冬の静かな住宅街を伝えている。",
       "genres": [
         "DETACHED_HOUSES",
-        "STREET"
+        "STREET",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -63058,7 +63633,8 @@
       "genres": [
         "STAIRS",
         "INDOOR_PASSAGES",
-        "APARTMENTS"
+        "APARTMENTS",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -63264,6 +63840,7 @@
         "STREET",
         "SHOPS",
         "SIGNS_NOTICES",
+        "ARCHITECTURE",
         "NIGHT"
       ]
     },
@@ -63328,7 +63905,8 @@
         "SHOPS",
         "ROADS",
         "EQUIPMENT",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -63476,7 +64054,8 @@
       "description": "天井灯のある通路から、レンガ壁越しに建物の中庭を望む。枝葉の茂る植栽と青い外壁が、静かな都市の一角を形づくっている。",
       "genres": [
         "INDOOR_PASSAGES",
-        "APARTMENTS"
+        "APARTMENTS",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -63505,7 +64084,8 @@
       "genres": [
         "APARTMENTS",
         "STREET",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -63780,7 +64360,8 @@
         "STAIRS",
         "APARTMENTS",
         "STREET",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -63809,7 +64390,8 @@
       "genres": [
         "DETACHED_HOUSES",
         "STREET",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -63868,7 +64450,8 @@
       "genres": [
         "STAIRS",
         "APARTMENTS",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -63959,7 +64542,8 @@
         "ITEMS_OBJECTS",
         "STREET",
         "ROADS",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -63988,6 +64572,7 @@
       "description": "眼鏡店や小さな店舗が並ぶ商店街の通路。人影の少ない昼間、看板の色彩と使い込まれた床が静かな街の一角を伝える。",
       "genres": [
         "SHOPS",
+        "INDOOR_PASSAGES",
         "SIGNS_NOTICES"
       ]
     },
@@ -64018,7 +64603,8 @@
         "STAIRS",
         "APARTMENTS",
         "STREET",
-        "EQUIPMENT"
+        "EQUIPMENT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -64282,7 +64868,7 @@
       "description": "「下高井戸駅前市場」の看板をくぐると、青果店や小さな商店が並ぶ通りが続く。昔ながらの市場の佇まいを伝える一枚。",
       "genres": [
         "SHOPS",
-        "STATIONS_RAILWAYS",
+        "OUTDOOR_PASSAGES",
         "SIGNS_NOTICES"
       ]
     },
@@ -64367,7 +64953,6 @@
       ],
       "description": "風雨で染みや汚れが広がる外壁に、錆びたはしごや配管が並ぶ。建物の裏側にある実用的な設備の表情を記録した一枚。",
       "genres": [
-        "OUTDOOR_UNITS",
         "EQUIPMENT",
         "NATURE"
       ]
@@ -65306,7 +65891,8 @@
         "OUTDOOR_PASSAGES",
         "APARTMENTS",
         "STREET",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -66163,7 +66749,8 @@
         "DETACHED_HOUSES",
         "STREET",
         "OUTDOOR_UNITS",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -66192,7 +66779,8 @@
       "genres": [
         "DETACHED_HOUSES",
         "STREET",
-        "SHRINES_HERITAGE"
+        "SHRINES_HERITAGE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -66221,7 +66809,8 @@
       "genres": [
         "APARTMENTS",
         "EQUIPMENT",
-        "RUINS_CONSTRUCTION"
+        "RUINS_CONSTRUCTION",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -66394,7 +66983,8 @@
       "genres": [
         "DETACHED_HOUSES",
         "STREET",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -66546,7 +67136,8 @@
         "STREET",
         "PARKING",
         "NATURE",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -66576,7 +67167,8 @@
         "APARTMENTS",
         "STREET",
         "NATURE",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -66722,7 +67314,8 @@
       "description": "壁面に据え付けられた大型の電力盤。換気ファンや金網の通気口、塗装の傷みが見え、建物を支えてきた設備の経年を伝える。",
       "genres": [
         "APARTMENTS",
-        "EQUIPMENT"
+        "EQUIPMENT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -66777,7 +67370,8 @@
       "description": "淡いピンク色の外壁と切妻屋根が印象的な日本家屋。窓や雨戸の配置に、日々の暮らしを支える住宅の素朴な佇まいが記録されています。",
       "genres": [
         "DETACHED_HOUSES",
-        "STREET"
+        "STREET",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -66806,7 +67400,8 @@
       "genres": [
         "DETACHED_HOUSES",
         "STREET",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -66918,7 +67513,8 @@
         "ROADS",
         "TRANSPORT_INFRA",
         "EQUIPMENT",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -66975,7 +67571,8 @@
       "genres": [
         "DETACHED_HOUSES",
         "RUINS_CONSTRUCTION",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -67005,7 +67602,8 @@
         "DETACHED_HOUSES",
         "STREET",
         "RUINS_CONSTRUCTION",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -67175,7 +67773,8 @@
       "genres": [
         "DETACHED_HOUSES",
         "STREET",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -67204,7 +67803,8 @@
       "genres": [
         "DETACHED_HOUSES",
         "STREET",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -67317,7 +67917,8 @@
         "APARTMENTS",
         "DETACHED_HOUSES",
         "STREET",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -67410,7 +68011,8 @@
         "DETACHED_HOUSES",
         "STREET",
         "NATURE",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -67439,7 +68041,9 @@
         "ARCHITECTURE",
         "STREET",
         "ROADS",
-        "NIGHT"
+        "DETACHED_HOUSES",
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -67469,7 +68073,8 @@
         "APARTMENTS",
         "STREET",
         "NATURE",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -67498,7 +68103,8 @@
       "genres": [
         "APARTMENTS",
         "STREET",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -67527,7 +68133,8 @@
       "genres": [
         "DETACHED_HOUSES",
         "STREET",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -67587,7 +68194,8 @@
       "genres": [
         "DETACHED_HOUSES",
         "STREET",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -67702,7 +68310,8 @@
         "APARTMENTS",
         "STREET",
         "PARKING",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -67730,7 +68339,8 @@
       "description": "ベージュ色の外壁に玄関と窓が並ぶ住宅の一角。黒い手すりや濡れた路面に、日々の暮らしの気配が静かに残る。",
       "genres": [
         "DOORS",
-        "APARTMENTS"
+        "APARTMENTS",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -67760,7 +68370,8 @@
         "APARTMENTS",
         "STREET",
         "EQUIPMENT",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -67789,7 +68400,8 @@
       "genres": [
         "DETACHED_HOUSES",
         "STREET",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -67905,7 +68517,8 @@
         "ARCHITECTURE",
         "ROADS",
         "RUINS_CONSTRUCTION",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -67933,7 +68546,8 @@
       "description": "夜の住宅を見上げた一枚。窓や衛星放送アンテナ、壁を伝う配線が街灯に照らされ、静かな生活の気配を伝えている。",
       "genres": [
         "DETACHED_HOUSES",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -68019,7 +68633,8 @@
       "genres": [
         "DETACHED_HOUSES",
         "STREET",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -68080,7 +68695,8 @@
         "DETACHED_HOUSES",
         "STREET",
         "NATURE",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -68225,7 +68841,8 @@
         "APARTMENTS",
         "STREET",
         "NATURE",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -68254,7 +68871,8 @@
       "genres": [
         "INDOOR_PASSAGES",
         "ROADS",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -68403,7 +69021,8 @@
         "DOORS",
         "DETACHED_HOUSES",
         "STREET",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -68460,7 +69079,8 @@
       "genres": [
         "APARTMENTS",
         "PARKING",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -68490,7 +69110,8 @@
         "APARTMENTS",
         "STREET",
         "SHOPS",
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -68546,7 +69167,8 @@
       "description": "ベージュの外壁と使い込まれた木戸が印象的な二階建て住宅。植え込みや段差のある玄関先に、街角の暮らしの時間が刻まれている。",
       "genres": [
         "DETACHED_HOUSES",
-        "STREET"
+        "STREET",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -68604,7 +69226,9 @@
         "DETACHED_HOUSES",
         "STREET",
         "ROADS",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -68662,7 +69286,8 @@
         "INDOOR_PASSAGES",
         "APARTMENTS",
         "NATURE",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -68753,7 +69378,8 @@
         "ROADS",
         "TRANSPORT_INFRA",
         "PARKS_LEISURE_EVENTS",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -68931,7 +69557,8 @@
         "APARTMENTS",
         "OUTDOOR_UNITS",
         "EQUIPMENT",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -68960,7 +69587,8 @@
       "genres": [
         "DETACHED_HOUSES",
         "STREET",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -69101,7 +69729,8 @@
       "genres": [
         "DETACHED_HOUSES",
         "STREET",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -69160,7 +69789,8 @@
       "description": "天井灯に照らされたマンションの入口。ガラス扉や集合郵便受けが整然と並び、人影のない静かな共用空間が記録されています。",
       "genres": [
         "APARTMENTS",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -69190,6 +69820,7 @@
         "ITEMS_OBJECTS",
         "EQUIPMENT",
         "RUINS_CONSTRUCTION",
+        "DOORS",
         "NIGHT"
       ]
     },
@@ -69306,7 +69937,8 @@
       "genres": [
         "ROADS",
         "NIGHT",
-        "ITEMS_OBJECTS"
+        "ITEMS_OBJECTS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -69337,7 +69969,8 @@
         "DETACHED_HOUSES",
         "STREET",
         "NATURE",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -69367,7 +70000,8 @@
       "genres": [
         "INDOOR_PASSAGES",
         "ROADS",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -69423,6 +70057,7 @@
       "genres": [
         "ARCHITECTURE",
         "NATURE",
+        "DOORS",
         "NIGHT"
       ]
     },
@@ -69510,7 +70145,8 @@
         "STREET",
         "ROADS",
         "SIGNS_NOTICES",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -69539,7 +70175,8 @@
       "genres": [
         "APARTMENTS",
         "STREET",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -69595,7 +70232,8 @@
         "APARTMENTS",
         "STREET",
         "OUTDOOR_UNITS",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -69824,7 +70462,8 @@
       "genres": [
         "ITEMS_OBJECTS",
         "ROADS",
-        "RUINS_CONSTRUCTION"
+        "RUINS_CONSTRUCTION",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -70084,7 +70723,8 @@
         "DOORS",
         "ARCHITECTURE",
         "STREET",
-        "ROADS"
+        "ROADS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -70114,7 +70754,8 @@
         "APARTMENTS",
         "STREET",
         "NATURE",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -70377,7 +71018,8 @@
         "APARTMENTS",
         "RUINS_CONSTRUCTION",
         "NATURE",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -70438,7 +71080,8 @@
       "genres": [
         "SHOPS",
         "DETACHED_HOUSES",
-        "STREET"
+        "STREET",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -70867,6 +71510,7 @@
       "description": "青と黄色の日よけに「食事処 相州屋」と記された、年季の入った街角の店舗。看板や外壁に、地域の日常を伝える佇まいが残る。",
       "genres": [
         "STREET",
+        "ARCHITECTURE",
         "SHOPS",
         "SIGNS_NOTICES"
       ]
@@ -70898,7 +71542,8 @@
         "APARTMENTS",
         "STATIONS_RAILWAYS",
         "PARKING",
-        "EQUIPMENT"
+        "EQUIPMENT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -70926,7 +71571,8 @@
       "description": "電線が幾重にも交差する空の下、ベランダを備えた集合住宅を見上げる。入居募集の掲示が添えられた、街角の住まいの記録。",
       "genres": [
         "APARTMENTS",
-        "STREET"
+        "STREET",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -71042,7 +71688,8 @@
       "genres": [
         "APARTMENTS",
         "EQUIPMENT",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -71128,7 +71775,8 @@
       "description": "夜のマンションを正面から捉え、外廊下と窓が階ごとに規則正しく連なる。点々と灯る明かりが、静かな暮らしの気配を伝える。",
       "genres": [
         "APARTMENTS",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -71277,7 +71925,8 @@
       "genres": [
         "APARTMENTS",
         "STREET",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -71560,7 +72209,8 @@
       "genres": [
         "APARTMENTS",
         "STREET",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -71590,7 +72240,8 @@
         "STAIRS",
         "APARTMENTS",
         "STREET",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -71792,7 +72443,8 @@
       "genres": [
         "DETACHED_HOUSES",
         "STREET",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -71822,7 +72474,8 @@
         "STAIRS",
         "INDOOR_PASSAGES",
         "APARTMENTS",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -72223,7 +72876,8 @@
         "INDOOR_PASSAGES",
         "APARTMENTS",
         "EQUIPMENT",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -72253,7 +72907,8 @@
         "DETACHED_HOUSES",
         "STREET",
         "EQUIPMENT",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -72312,7 +72967,8 @@
       "genres": [
         "DETACHED_HOUSES",
         "APARTMENTS",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -72368,7 +73024,8 @@
       "genres": [
         "OUTDOOR_PASSAGES",
         "APARTMENTS",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -72428,7 +73085,8 @@
         "STAIRS",
         "APARTMENTS",
         "STREET",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -72694,7 +73352,8 @@
       "description": "夜の光に照らされたマンションの各階が、窓や手すりを規則正しく重ねています。無数の住戸が連なる都市の暮らしを感じさせる一枚です。",
       "genres": [
         "APARTMENTS",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -72751,7 +73410,8 @@
       "genres": [
         "STAIRS",
         "APARTMENTS",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -72780,7 +73440,8 @@
       "genres": [
         "APARTMENTS",
         "NATURE",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -72899,7 +73560,8 @@
         "STAIRS",
         "OUTDOOR_PASSAGES",
         "APARTMENTS",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -72953,8 +73615,8 @@
       ],
       "description": "夜の路地に面した農業用倉庫。錆びたトタン壁や伸びた蔦が、長く使われてきた建物の静かな佇まいを伝えています。",
       "genres": [
-        "OUTDOOR_PASSAGES",
         "STREET",
+        "ARCHITECTURE",
         "EQUIPMENT",
         "NIGHT"
       ]
@@ -72985,7 +73647,8 @@
         "DETACHED_HOUSES",
         "APARTMENTS",
         "STREET",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -73219,7 +73882,8 @@
         "SHOPS",
         "ROADS",
         "SIGNS_NOTICES",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -73559,6 +74223,7 @@
       "description": "草木が迫る細い道を、街灯の光が照らす夜の風景。暗がりに浮かぶ路面と静けさから、冷たい風が通り抜ける気配が伝わります。",
       "genres": [
         "OUTDOOR_PASSAGES",
+        "NATURE",
         "NIGHT"
       ]
     },
@@ -74240,7 +74905,8 @@
       "description": "住宅脇の植え込みに、猫よけとして置かれた水入りペットボトルが並ぶ。日差しを受けるタイル壁とともに、街角の日常を記録している。",
       "genres": [
         "ITEMS_OBJECTS",
-        "ROADS"
+        "ROADS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -74389,7 +75055,8 @@
         "APARTMENTS",
         "PARKING",
         "NATURE",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -74420,7 +75087,8 @@
         "TRANSPORT_INFRA",
         "PARKING",
         "ROADS",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -74508,7 +75176,8 @@
       "genres": [
         "APARTMENTS",
         "PARKING",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -74677,7 +75346,8 @@
       "description": "夜の暗がりに、窓明かりが点在する団地の外観が浮かび上がる。手前の植え込みとともに、住宅地の静かな夜の一場面を記録している。",
       "genres": [
         "APARTMENTS",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -74704,7 +75374,8 @@
       "description": "雨に濡れた横断歩道と歩道の縁石を、赤い光や街灯が照らす。水面のように光る路面が、夜の街角の静けさを伝えている。",
       "genres": [
         "ROADS",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -74900,7 +75571,8 @@
       "genres": [
         "ROADS",
         "SIGNS_NOTICES",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -74929,7 +75601,8 @@
       "genres": [
         "STAIRS",
         "APARTMENTS",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -74960,7 +75633,8 @@
         "OUTDOOR_PASSAGES",
         "APARTMENTS",
         "STREET",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -75185,7 +75859,8 @@
       "genres": [
         "ROADS",
         "EQUIPMENT",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -75333,7 +76008,8 @@
         "STREET",
         "ROADS",
         "NATURE",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -75699,6 +76375,8 @@
       "description": "夜の歩道橋を上から見下ろした一枚。白い柵に挟まれた暗い通路が奥へ伸び、街灯の淡い光が静かな夜の空気を映し出しています。",
       "genres": [
         "PEDESTRIAN_BRIDGES",
+        "OUTDOOR_PASSAGES",
+        "ROADS",
         "NIGHT"
       ]
     },
@@ -75727,7 +76405,8 @@
       "description": "夜の闇にそびえる団地の外壁を、無数のベランダと窓明かりが埋め尽くす。反復する階層が迫り、暮らしの気配と圧迫感を伝える。",
       "genres": [
         "APARTMENTS",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -75757,7 +76436,8 @@
         "APARTMENTS",
         "STREET",
         "NATURE",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -75786,7 +76466,8 @@
         "APARTMENTS",
         "PARKS_LEISURE_EVENTS",
         "NIGHT",
-        "ITEMS_OBJECTS"
+        "ITEMS_OBJECTS",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -75815,7 +76496,8 @@
       "genres": [
         "APARTMENTS",
         "STREET",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -75845,7 +76527,8 @@
         "STAIRS",
         "INDOOR_PASSAGES",
         "APARTMENTS",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -75874,7 +76557,8 @@
       "genres": [
         "APARTMENTS",
         "STREET",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -75903,7 +76587,8 @@
       "genres": [
         "APARTMENTS",
         "NATURE",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -76188,7 +76873,8 @@
       "genres": [
         "STAIRS",
         "APARTMENTS",
-        "STREET"
+        "STREET",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -76330,7 +77016,8 @@
         "ARCHITECTURE",
         "STREET",
         "SHOPS",
-        "ROADS"
+        "ROADS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -76357,7 +77044,8 @@
       "description": "ブロック塀の向こうに、風雨を重ねた木造家屋が建つ。窓辺の洗濯物や周囲の建物が、住宅街の日常と古い住まいの佇まいを伝えている。",
       "genres": [
         "DETACHED_HOUSES",
-        "STREET"
+        "STREET",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -76385,7 +77073,8 @@
       "genres": [
         "OUTDOOR_PASSAGES",
         "DETACHED_HOUSES",
-        "STREET"
+        "STREET",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -76416,7 +77105,8 @@
         "SHOPS",
         "ROADS",
         "SIGNS_NOTICES",
-        "ITEMS_OBJECTS"
+        "ITEMS_OBJECTS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -76446,7 +77136,8 @@
         "STREET",
         "SHOPS",
         "ROADS",
-        "SIGNS_NOTICES"
+        "SIGNS_NOTICES",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -76501,7 +77192,8 @@
       "genres": [
         "DETACHED_HOUSES",
         "STREET",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -76728,7 +77420,8 @@
         "OUTDOOR_PASSAGES",
         "DOORS",
         "APARTMENTS",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -76784,7 +77477,8 @@
         "ARCHITECTURE",
         "STREET",
         "SHOPS",
-        "ROADS"
+        "ROADS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -76960,6 +77654,7 @@
       "description": "青空の下、緑に囲まれた大型タンクや配管が並ぶ工場。産業施設と周囲の植生が共存する、昼間の屋外風景を記録している。",
       "genres": [
         "EQUIPMENT",
+        "ARCHITECTURE",
         "NATURE"
       ]
     },
@@ -77017,6 +77712,7 @@
       "description": "線路脇に建つ古びた駅舎。木の外壁や積まれた資材が、地方駅の日常と時の積み重なりを伝えている。",
       "genres": [
         "STATIONS_RAILWAYS",
+        "ARCHITECTURE",
         "NATURE"
       ]
     },
@@ -77152,7 +77848,8 @@
       "description": "草の茂るフェンスの向こうに、風雨で色あせた木造家屋が佇む。青空の下、地域に残る古い住まいの姿を記録している。",
       "genres": [
         "DETACHED_HOUSES",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -77400,7 +78097,8 @@
       ],
       "description": "コンクリート壁に白い通行止めの文字が残る道路脇。側溝のグレーチングや落ち葉が、静かな街角の一場面を伝えています。",
       "genres": [
-        "ROADS"
+        "ROADS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -77548,7 +78246,8 @@
       "genres": [
         "DETACHED_HOUSES",
         "STREET",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -77608,7 +78307,8 @@
       "genres": [
         "DETACHED_HOUSES",
         "APARTMENTS",
-        "STREET"
+        "STREET",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -77663,7 +78363,8 @@
       ],
       "description": "曇り空の下に建つ、白壁と濃い木部が印象的な戸建て住宅。切妻屋根やベランダ、屋上のアンテナが街なかの暮らしを伝える。",
       "genres": [
-        "DETACHED_HOUSES"
+        "DETACHED_HOUSES",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -77719,7 +78420,8 @@
       "genres": [
         "ITEMS_OBJECTS",
         "ROADS",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -77916,6 +78618,7 @@
       "genres": [
         "EQUIPMENT",
         "ARCHITECTURE",
+        "DOORS",
         "RUINS_CONSTRUCTION"
       ]
     },
@@ -78059,7 +78762,9 @@
         "STREET",
         "ROADS",
         "EQUIPMENT",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -78471,7 +79176,8 @@
       "description": "色あせた外壁と錆の浮く屋根が、年月を重ねた二階建てアパートの姿を伝える。入口脇の木々が建物に静かな生活感を添えている。",
       "genres": [
         "APARTMENTS",
-        "STREET"
+        "STREET",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -78670,7 +79376,8 @@
         "PARKING",
         "ROADS",
         "NATURE",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -78726,6 +79433,7 @@
       "description": "建物に挟まれた細い通路の両側に、自転車が整然と並ぶ。人影のない静けさと、奥へ続く直線的な構図が印象に残る。",
       "genres": [
         "ARCHITECTURE",
+        "OUTDOOR_PASSAGES",
         "PARKING"
       ]
     },
@@ -78981,7 +79689,8 @@
       "genres": [
         "SHOPS",
         "ROADS",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -79092,7 +79801,8 @@
       "description": "曇り空の下、閉じられた鎧戸のある木造家屋に桜の枝が重なる。春の花と静かな建物の対比を捉えた一枚。",
       "genres": [
         "DETACHED_HOUSES",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -79150,6 +79860,7 @@
       "description": "レンガ壁と瓦屋根が印象的な洋館風の建物を、草花の広がる庭越しに望む。枝を伸ばす木々が、静かな春の景色を縁取っている。",
       "genres": [
         "DETACHED_HOUSES",
+        "ARCHITECTURE",
         "NATURE"
       ]
     },
@@ -79423,7 +80134,8 @@
       "description": "レンガ敷きの歩道に、紫色のキックボードが置かれている。植え込みを背景に、身近な街角のひとときを切り取った一枚。",
       "genres": [
         "ITEMS_OBJECTS",
-        "ROADS"
+        "ROADS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -79531,8 +80243,6 @@
       ],
       "description": "木目調の収納家具とフローリングの間に、細い隙間がのぞく。端に見えるキャスターが、家具の足元を静かに伝えている。",
       "genres": [
-        "DOORS",
-        "NATURE",
         "ITEMS_OBJECTS"
       ]
     },
@@ -79758,7 +80468,8 @@
         "PARKING",
         "ROADS",
         "SIGNS_NOTICES",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -79787,6 +80498,7 @@
       "genres": [
         "STREET",
         "DOORS",
+        "INDOOR_PASSAGES",
         "SHOPS",
         "NIGHT"
       ]
@@ -80398,6 +81110,7 @@
       "description": "広々とした石畳の境内に、大本堂と屋根付きの香炉が並ぶ成田山新勝寺。参拝客が行き交う昼の穏やかな景観を記録しています。",
       "genres": [
         "SHRINES_HERITAGE",
+        "ARCHITECTURE",
         "NATURE",
         "PARKS_LEISURE_EVENTS"
       ]
@@ -80910,7 +81623,8 @@
         "INDOOR_PASSAGES",
         "STATIONS_RAILWAYS",
         "ROADS",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -81057,7 +81771,8 @@
       "genres": [
         "DETACHED_HOUSES",
         "NATURE",
-        "ITEMS_OBJECTS"
+        "ITEMS_OBJECTS",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -81201,7 +81916,8 @@
         "TRANSPORT_INFRA",
         "EQUIPMENT",
         "RUINS_CONSTRUCTION",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -81229,7 +81945,8 @@
       "description": "金属屋根を重ねた古い作業小屋。開け放たれた軒先に道具や袋が置かれ、冬枯れの草と午後の日差しが静かな佇まいを際立たせています。",
       "genres": [
         "DETACHED_HOUSES",
-        "ITEMS_OBJECTS"
+        "ITEMS_OBJECTS",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -81539,7 +82256,8 @@
       "genres": [
         "ROADS",
         "NATURE",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -81796,7 +82514,8 @@
       "description": "傷んだ壁や傾いた屋根が残る小屋の一角。枯れ草と置かれた鉢が、長く人の手が入っていない静かな佇まいを伝えています。",
       "genres": [
         "DETACHED_HOUSES",
-        "RUINS_CONSTRUCTION"
+        "RUINS_CONSTRUCTION",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -81910,6 +82629,7 @@
       "description": "枯れ枝の木々に囲まれた古い建物。日差しの中、傷んだ外壁や周囲に積もる落ち葉が、時の経過と静かな佇まいを伝えている。",
       "genres": [
         "RUINS_CONSTRUCTION",
+        "ARCHITECTURE",
         "NATURE"
       ]
     },
@@ -82251,7 +82971,8 @@
       "genres": [
         "APARTMENTS",
         "STREET",
-        "SIGNS_NOTICES"
+        "SIGNS_NOTICES",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -82278,7 +82999,8 @@
       ],
       "description": "灰色のアスファルトに白い線や文字が描かれ、警察による現場記録の痕跡をとどめている。日常の路上に残る一時的な光景を捉えた一枚。",
       "genres": [
-        "ROADS"
+        "ROADS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -82450,7 +83172,8 @@
       ],
       "description": "雪と氷に覆われた路面を足元から捉えた一枚。青みを帯びた凍結面が、冬の厳しい冷え込みと歩行時の危険を伝えています。",
       "genres": [
-        "ROADS"
+        "ROADS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -83088,7 +83811,8 @@
       "genres": [
         "ROADS",
         "SIGNS_NOTICES",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -83204,7 +83928,8 @@
       "genres": [
         "INDOOR_PASSAGES",
         "STATIONS_RAILWAYS",
-        "ROADS"
+        "ROADS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -83260,7 +83985,8 @@
         "ARCHITECTURE",
         "STREET",
         "ROADS",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -83543,7 +84269,8 @@
       "genres": [
         "TRANSPORT_INFRA",
         "ROADS",
-        "SIGNS_NOTICES"
+        "SIGNS_NOTICES",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -84102,7 +84829,8 @@
       "description": "夕日の斜光が住宅脇の植え込みや柵を照らし、手前には撮影者らしき人影が長く伸びる。何気ない街角に夕暮れの静けさが漂う。",
       "genres": [
         "DETACHED_HOUSES",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -84188,6 +84916,7 @@
       "description": "木々に囲まれたコンクリートの建物は、壁や軒先を蔦に覆われ、ひっそりと佇む。緑と青空が、時を経た建物の姿を際立たせている。",
       "genres": [
         "RUINS_CONSTRUCTION",
+        "ARCHITECTURE",
         "NATURE"
       ]
     },
@@ -84916,7 +85645,8 @@
       "description": "緑豊かな木々に挟まれた山間の道路が、曇り空の下で遠くへ続く。歩道と車道が並ぶ静かな道の初夏の風景。",
       "genres": [
         "ROADS",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -85056,7 +85786,8 @@
       "genres": [
         "APARTMENTS",
         "DETACHED_HOUSES",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -85250,7 +85981,8 @@
       "description": "住宅や緑に挟まれた静かな島の道路を、小さな白い犬が歩く。電柱の並ぶ日常の風景に、人影の少ない穏やかな時間が漂う。",
       "genres": [
         "ROADS",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -86048,7 +86780,8 @@
       ],
       "description": "青空の下、木々に囲まれた公園の入口に石柱が並ぶ。柱のモザイク装飾と緑の景観が、晴れた日の穏やかな園内を伝えている。",
       "genres": [
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "NATURE"
       ]
     },
     {
@@ -86164,7 +86897,8 @@
       "genres": [
         "STREET",
         "ROADS",
-        "SIGNS_NOTICES"
+        "SIGNS_NOTICES",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -86222,7 +86956,8 @@
       "description": "歩道に埋め込まれた「誰か見てるぞ あなたのマナー」の標示。目のイラストで通行人にマナーを促す、街角の小さな注意喚起を記録している。",
       "genres": [
         "ROADS",
-        "SIGNS_NOTICES"
+        "SIGNS_NOTICES",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -86360,7 +87095,8 @@
       "description": "灰色の舗装路を黒猫が横切る一瞬を捉えた写真。道路の広がりの中に小さく浮かぶ姿が、静かな街の日常を伝える。",
       "genres": [
         "ROADS",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -86445,6 +87181,7 @@
       "description": "錆が広がる細い鉄製通路が、川辺の枯れ木と曇り空の下に残る。使われなくなった設備の風化が静かに伝わる一枚。",
       "genres": [
         "EQUIPMENT",
+        "OUTDOOR_PASSAGES",
         "RUINS_CONSTRUCTION",
         "NATURE"
       ]
@@ -86745,6 +87482,7 @@
       "description": "木々に囲まれた社殿を見上げる一枚。朱塗りの柱や精緻な彫刻、緑青色の屋根が、歴史を重ねた境内の趣を伝えています。",
       "genres": [
         "SHRINES_HERITAGE",
+        "ARCHITECTURE",
         "NATURE"
       ]
     },
@@ -87053,7 +87791,8 @@
         "TRANSPORT_INFRA",
         "ROADS",
         "SIGNS_NOTICES",
-        "EQUIPMENT"
+        "EQUIPMENT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -87526,7 +88265,8 @@
       ],
       "description": "人影のない白い待合室に、窓から淡い光が差し込む。使い込まれた壁や床が、静かで時間の止まったような空気を伝えている。",
       "genres": [
-        "INDOOR_PASSAGES",
+        "STATIONS_RAILWAYS",
+        "ARCHITECTURE",
         "NATURE"
       ]
     },
@@ -88325,9 +89065,8 @@
       ],
       "description": "白い設備室の扉に高電圧を示す警告標識が掲げられ、手前の金属柵越しに施設の一角を記録している。",
       "genres": [
-        "STAIRS",
         "SIGNS_NOTICES",
-        "NATURE"
+        "DOORS"
       ]
     },
     {
@@ -88496,7 +89235,8 @@
         "ARCHITECTURE",
         "STREET",
         "SHOPS",
-        "ROADS"
+        "ROADS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -88695,7 +89435,8 @@
         "SHOPS",
         "ROADS",
         "SIGNS_NOTICES",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -88782,7 +89523,9 @@
         "DOORS",
         "APARTMENTS",
         "PARKING",
-        "NIGHT"
+        "INDOOR_PASSAGES",
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -88812,7 +89555,8 @@
         "OUTDOOR_PASSAGES",
         "APARTMENTS",
         "PARKING",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -89944,7 +90688,9 @@
       "genres": [
         "DETACHED_HOUSES",
         "ROADS",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -90064,7 +90810,8 @@
         "TRANSPORT_INFRA",
         "ROADS",
         "NATURE",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -90316,7 +91063,8 @@
       "genres": [
         "ITEMS_OBJECTS",
         "ROADS",
-        "EQUIPMENT"
+        "EQUIPMENT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -90631,7 +91379,8 @@
         "DETACHED_HOUSES",
         "STREET",
         "TRANSPORT_INFRA",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -90722,7 +91471,8 @@
         "STREET",
         "STATIONS_RAILWAYS",
         "ROADS",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -90780,7 +91530,8 @@
       "genres": [
         "DOORS",
         "DETACHED_HOUSES",
-        "EQUIPMENT"
+        "EQUIPMENT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -90893,7 +91644,8 @@
       "description": "蔦や庭木に包まれた古い一軒家。人影のない静かな佇まいと、年月を重ねた外観が印象に残る。",
       "genres": [
         "DETACHED_HOUSES",
-        "STREET"
+        "STREET",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -90978,7 +91730,8 @@
       ],
       "description": "木々に囲まれた白い鳥居の先は門で封鎖され、苔むした石段や石垣に静かな時間が刻まれている。差し込む光が境内の奥行きを際立たせる。",
       "genres": [
-        "SHRINES_HERITAGE"
+        "SHRINES_HERITAGE",
+        "STAIRS"
       ]
     },
     {
@@ -91750,7 +92503,8 @@
       "genres": [
         "TRANSPORT_INFRA",
         "ROADS",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -92066,7 +92820,8 @@
         "INDOOR_PASSAGES",
         "SHOPS",
         "ROADS",
-        "TRANSPORT_INFRA"
+        "TRANSPORT_INFRA",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -92151,7 +92906,8 @@
         "INDOOR_PASSAGES",
         "ROADS",
         "TRANSPORT_INFRA",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -92236,7 +92992,8 @@
         "APARTMENTS",
         "STREET",
         "RUINS_CONSTRUCTION",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -92267,7 +93024,8 @@
         "STREET",
         "ROADS",
         "OUTDOOR_UNITS",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -92910,7 +93668,8 @@
       "genres": [
         "RUINS_CONSTRUCTION",
         "DETACHED_HOUSES",
-        "NATURE"
+        "NATURE",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -92939,7 +93698,8 @@
         "TRANSPORT_INFRA",
         "ARCHITECTURE",
         "ROADS",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -93322,7 +94082,8 @@
       "description": "淡いベージュの壁に囲まれた住宅の階段。木製の手すりが壁に沿って伸び、静かな室内の一角を切り取っている。",
       "genres": [
         "STAIRS",
-        "DETACHED_HOUSES"
+        "DETACHED_HOUSES",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -93489,8 +94250,7 @@
       ],
       "description": "学校帰りに立ち寄った公園の滑り台を、階段の下から見上げた一枚。使い込まれた遊具と木々、曇り空が日常の記憶を伝える。",
       "genres": [
-        "ARCHITECTURE",
-        "NATURE",
+        "STAIRS",
         "PARKS_LEISURE_EVENTS"
       ]
     },
@@ -93686,7 +94446,8 @@
       "genres": [
         "ARCHITECTURE",
         "ROADS",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -94261,6 +95022,7 @@
       "genres": [
         "OUTDOOR_PASSAGES",
         "ARCHITECTURE",
+        "STAIRS",
         "STREET",
         "NIGHT"
       ]
@@ -94350,7 +95112,8 @@
       "genres": [
         "DETACHED_HOUSES",
         "STREET",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -94379,7 +95142,8 @@
         "OUTDOOR_PASSAGES",
         "APARTMENTS",
         "STREET",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -94408,7 +95172,8 @@
         "APARTMENTS",
         "STREET",
         "NATURE",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -94613,7 +95378,8 @@
         "STREET",
         "NATURE",
         "SHOT_ON_3DS",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -94778,6 +95544,8 @@
       "description": "青みを帯びた薄暮の空に、一本のアンテナが黒いシルエットで伸びる。静かな空の広がりと、街の暮らしを支える設備を捉えた一枚。",
       "genres": [
         "NATURE",
+        "EQUIPMENT",
+        "ITEMS_OBJECTS",
         "NIGHT"
       ]
     },
@@ -94807,7 +95575,8 @@
       "genres": [
         "APARTMENTS",
         "STREET",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -94836,7 +95605,8 @@
       "genres": [
         "APARTMENTS",
         "PARKING",
-        "NIGHT"
+        "NIGHT",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -94894,7 +95664,8 @@
         "STATIONS_RAILWAYS",
         "ROADS",
         "PARKS_LEISURE_EVENTS",
-        "SHOT_ON_3DS"
+        "SHOT_ON_3DS",
+        "OUTDOOR_PASSAGES"
       ]
     }
   ]
