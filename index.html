@@ -9,7 +9,6 @@
   <link rel="apple-touch-icon" href="./icon.png" />
   <link rel="preconnect" href="https://live.staticflickr.com" crossorigin />
   <link rel="dns-prefetch" href="https://www.flickr.com" />
-  <!-- SIL Open Font License 1.1: Noto Sans JP / Noto Sans Mono -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
@@ -33,7 +32,7 @@
       --accent-flickr-hover: #0050b3;
       --accent-green: #2f4f4f;
       --accent-red: #800000;
-      /* 規定フォント: SIL Open Font License (OFL 1.1) のみ指定 */
+      
       --font-title: "UniqueRegular", "Unique", "Noto Sans JP", sans-serif;
       --font-sans: "Noto Sans JP", sans-serif;
       --font-mono: "Noto Sans Mono", "Noto Sans JP", monospace;
@@ -1548,7 +1547,6 @@
       opacity: 0.92;
     }
 
-    /* Flickr 元画像リンク用 強調ボタン */
     .btn-flickr-origin {
       width: 100%;
       height: 48px;
@@ -1595,16 +1593,86 @@
 
     .action-buttons {
       display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr;
       gap: 10px;
+      width: 100%;
+    }
+
+    .save-menu-container {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
     }
 
     .btn-download {
+      width: 100%;
       background: var(--accent-blue);
       color: #ffffff;
+      border: 1.5px solid var(--accent-blue);
+    }
+
+    .save-menu-container.is-open .btn-download {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.42);
+      cursor: default;
+    }
+
+    .save-menu-container.is-open .btn-download:hover {
+      opacity: 1;
+    }
+
+    .save-quality-menu {
+      position: static;
+      width: 100%;
+      background: #ffffff;
+      border: 1.5px solid var(--accent-blue);
+      border-top: none;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .save-quality-menu[hidden] {
+      display: none;
+    }
+
+    .save-quality-option {
+      width: 100%;
+      min-height: 44px;
+      padding: 10px 6px;
+      background: #ffffff;
+      color: var(--text-primary);
+      border: none;
+      font-size: 13px;
+      font-weight: 700;
+      line-height: 1.35;
+      text-align: center;
+      white-space: nowrap;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background-color 0.15s ease, color 0.15s ease;
+    }
+
+    .save-quality-option + .save-quality-option {
+      border-top: 1px solid #cfd5dc;
+    }
+
+    .save-quality-option:hover:not(:disabled),
+    .save-quality-option:focus-visible:not(:disabled) {
+      background: var(--bg-tile-hover);
+      color: var(--accent-blue);
+      outline: none;
+    }
+
+    .save-quality-option:disabled {
+      opacity: 0.6;
+      cursor: wait;
     }
 
     .btn-share-x {
+      width: 100%;
       background: #111111;
       color: #ffffff;
     }
@@ -1615,6 +1683,11 @@
       font-weight: 500;
       color: var(--accent-green);
       min-height: 18px;
+    }
+
+    .action-hint.is-error {
+      color: var(--accent-red);
+      font-weight: 700;
     }
 
     @media (max-width: 860px) {
@@ -1699,7 +1772,7 @@
       .modal-image-stage {
         --stage-pad-x: 44px;
         --stage-pad-y: 12px;
-        /* 縦画像 (3024×4032 = 3:4) の規定縦サイズ */
+        
         --portrait-fixed-height: min(
           calc((100vw - (var(--stage-pad-x) * 2)) * 4032 / 3024),
           62dvh
@@ -1776,6 +1849,9 @@
       }
       .action-buttons {
         grid-template-columns: 1fr;
+      }
+      .save-quality-option {
+        font-size: 13px;
       }
       .page-btn {
         min-width: 36px;
@@ -1936,8 +2012,9 @@
         <p>これまでクリエイティブ・コモンズの素材は海外サイトが中心で、日本国内の写真が少ないという課題がありました。</p>
         <p>当サイトでは、創作に活用しやすい写真をすべて日本国内で撮影し、CC0またはCC BY（2.0 / 4.0）の下で公開しています。</p>
         <p>CCライセンスの範囲内で幅広い用途にご利用いただけます。SCP財団以外の活動にもぜひお役立てください。</p>
-        <p>※動画ファイルはFlickrの規約上無料で保存することができないため、一部動画はFlickrではなくGoogle Driveからダウンロードする形式を取っています。</P>
-        <p>動画原本が見つからないファイルは、サムネイルのみダウンロード可能となっております。</P>
+        <p> </p>
+        <p>※動画ファイルはFlickrの規約上無料で保存することができないため、一部動画はFlickrではなくGoogle Driveからダウンロードする形式を取っています。</p>
+        <p>過半数の動画は現在データの原本が失われているため、サムネイルのみダウンロード可能となっております。あらかじめご了承ください。</p>
         <div class="about-social-links" aria-label="公式アカウントリンク">
           <a
             href="https://x.com/scpowl"
@@ -1952,12 +2029,12 @@
             </svg>
           </a>
           <a
-            href="https://m.youtube.com/@%E3%83%95%E3%82%AF%E3%83%AD%E3%82%A6%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC?ra=m"
+            href="https://www.youtube.com/@%E3%81%95%E3%81%96%E3%81%AA%E3%81%BF-q2k"
             target="_blank"
             rel="noopener noreferrer"
             class="about-social-icon about-social-youtube"
-            aria-label="YouTube (フクロウアカデミー)"
-            title="YouTube (フクロウアカデミー)"
+            aria-label="YouTube (さざなみ)"
+            title="YouTube (さざなみ)"
           >
             <svg viewBox="0 0 24 24" aria-hidden="true">
               <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
@@ -2060,15 +2137,44 @@
               </span>
               <span id="modalFlickrPageLinkLabel">Flickrで元画像ページを開く ↗</span>
             </a>
-            <div class="action-buttons">
-              <button type="button" class="btn-action btn-download" id="modalDownloadBtn">
-                <span class="btn-icon">↓</span> <span id="modalDownloadBtnLabel">保存</span>
-              </button>
+            <div class="action-buttons" id="actionButtonsGroup">
+              <div class="save-menu-container is-open" id="saveMenuContainer">
+                <button
+                  type="button"
+                  class="btn-action btn-download"
+                  id="modalDownloadBtn"
+                  aria-haspopup="menu"
+                  aria-expanded="true"
+                  aria-controls="saveQualityMenu"
+                >
+                  <span class="btn-icon">↓</span> <span id="modalDownloadBtnLabel">保存</span>
+                </button>
+                <div class="save-quality-menu" id="saveQualityMenu" role="menu">
+                  <button
+                    type="button"
+                    class="save-quality-option"
+                    id="saveStandardBtn"
+                    data-quality="standard"
+                    role="menuitem"
+                  >
+                    標準画質（計測中...）
+                  </button>
+                  <button
+                    type="button"
+                    class="save-quality-option"
+                    id="saveOriginalBtn"
+                    data-quality="original"
+                    role="menuitem"
+                  >
+                    オリジナル画質（計測中...）
+                  </button>
+                </div>
+              </div>
               <a class="btn-action btn-share-x" id="modalShareXBtn" href="#" target="_blank" rel="noopener noreferrer">
                 <span class="btn-icon">𝕏</span> Xでシェアする
               </a>
             </div>
-            <p class="action-hint" id="downloadStatusMsg"></p>
+            <p class="action-hint" id="downloadStatusMsg" role="status" aria-live="polite"></p>
           </div>
         </div>
       </div>
@@ -2237,13 +2343,23 @@
       modalTags: document.getElementById("modalTags"),
       licenseCopyPreview: document.getElementById("licenseCopyPreview"),
       copyLicenseBtn: document.getElementById("copyLicenseBtn"),
+      saveMenuContainer: document.getElementById("saveMenuContainer"),
       modalDownloadBtn: document.getElementById("modalDownloadBtn"),
       modalDownloadBtnLabel: document.getElementById("modalDownloadBtnLabel"),
+      saveQualityMenu: document.getElementById("saveQualityMenu"),
+      saveStandardBtn: document.getElementById("saveStandardBtn"),
+      saveOriginalBtn: document.getElementById("saveOriginalBtn"),
       modalShareXBtn: document.getElementById("modalShareXBtn"),
       downloadStatusMsg: document.getElementById("downloadStatusMsg"),
       modalFlickrPageLink: document.getElementById("modalFlickrPageLink"),
       modalFlickrPageLinkLabel: document.getElementById("modalFlickrPageLinkLabel")
     };
+
+    function setDownloadStatusMessage(message, isError = false) {
+      if (!els.downloadStatusMsg) return;
+      els.downloadStatusMsg.textContent = message || "";
+      els.downloadStatusMsg.classList.toggle("is-error", Boolean(isError && message));
+    }
 
     function openMobileNav() {
       els.mainNav.classList.add("is-open");
@@ -2458,7 +2574,7 @@
 
       const isYouTubeVideo = Boolean(youtubeEmbedUrl);
       const isVideo = explicitVideoFlag || directCandidates.length > 0 || Boolean(explicitEmbedUrl);
-      // YouTubeのリンクが無い動画はページ上で再生を試みず、サムネイルのみ表示する
+
       const videoEmbedUrl = isYouTubeVideo ? youtubeEmbedUrl : "";
 
       return {
@@ -3563,7 +3679,7 @@ ${photo.licenseLabel}`;
 
     function openModal(photo) {
       state.currentModalPhoto = photo;
-      els.downloadStatusMsg.textContent = "";
+      setDownloadStatusMessage("", false);
       els.copyLicenseBtn.textContent = "ライセンス表記をコピーする";
 
       const canPlayInlineVideo = Boolean(photo.isVideo && photo.isYouTubeVideo && photo.youtubeEmbedUrl);
@@ -3663,7 +3779,7 @@ ${photo.licenseLabel}`;
         try {
           await copyTextToClipboard(copyString);
           els.copyLicenseBtn.textContent = "コピーしました";
-          els.downloadStatusMsg.textContent = "ライセンス表記をクリップボードにコピーしました。";
+          setDownloadStatusMessage("ライセンス表記をクリップボードにコピーしました。", false);
           setTimeout(() => {
             if (state.currentModalPhoto && state.currentModalPhoto.id === photo.id) {
               els.copyLicenseBtn.textContent = "ライセンス表記をコピーする";
@@ -3671,7 +3787,7 @@ ${photo.licenseLabel}`;
           }, 2200);
         } catch (err) {
           els.licenseCopyPreview.select();
-          els.downloadStatusMsg.textContent = "コピーに失敗しました。上の欄を選択してコピーしてください。";
+          setDownloadStatusMessage("コピーに失敗しました。上の欄を選択してコピーしてください。", true);
         }
       };
 
@@ -3679,7 +3795,32 @@ ${photo.licenseLabel}`;
       const shareUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(photo.flickrPageUrl)}`;
       els.modalShareXBtn.href = shareUrl;
 
-      els.modalDownloadBtn.onclick = () => downloadImageToPC(photo);
+      const isDirectDriveVideo = Boolean(photo.isVideo && photo.driveDownloadUrl);
+      if (isDirectDriveVideo) {
+        hideSaveQualityMenu();
+        els.modalDownloadBtn.onclick = () => downloadImageToPC(photo);
+      } else {
+        showSaveQualityMenu(photo);
+        els.modalDownloadBtn.onclick = (e) => {
+          e.stopPropagation();
+          setDownloadStatusMessage("下の「標準画質」または「オリジナル画質」を選択して保存してください。", false);
+          if (els.saveStandardBtn && !els.saveStandardBtn.disabled) {
+            els.saveStandardBtn.focus();
+          }
+        };
+        if (els.saveStandardBtn) {
+          els.saveStandardBtn.onclick = (e) => {
+            e.stopPropagation();
+            downloadImageToPC(photo, "standard");
+          };
+        }
+        if (els.saveOriginalBtn) {
+          els.saveOriginalBtn.onclick = (e) => {
+            e.stopPropagation();
+            downloadImageToPC(photo, "original");
+          };
+        }
+      }
 
       const { list: navList, index: navIndex } = getModalNavigationContext(photo);
       if (navList.length <= 1 || navIndex === -1) {
@@ -3730,6 +3871,7 @@ ${photo.licenseLabel}`;
     }
 
     function closeModal() {
+      abortUnneededPrefetches(new Set());
       resetModalVideoStage();
       if (els.modalImageStage) {
         els.modalImageStage.classList.remove("is-video");
@@ -3774,24 +3916,320 @@ ${photo.licenseLabel}`;
       return `${baseName}.${ext}`;
     }
 
-    async function fetchPhotoBlob(photo) {
-      const candidateUrls = Array.from(
-        new Set([photo.originalUrl, photo.largeUrl, photo.thumbUrl].filter(Boolean))
-      );
+    const PREFETCH_CACHE_LIMIT = 18;
+    const FETCH_HEADER_TIMEOUT_MS = 12000;
+    const FETCH_STALL_TIMEOUT_MS = 15000;
+    const downloadBlobCache = new Map();
 
+    function createTimeoutError(message = "通信がタイムアウトしました。") {
+      const err = new Error(message);
+      err.name = "TimeoutError";
+      return err;
+    }
+
+    function formatBytesToMB(bytes) {
+      const num = Number(bytes);
+      if (!Number.isFinite(num) || num <= 0) return "";
+      const mb = num / (1024 * 1024);
+      return `${mb < 0.01 ? "0.01" : mb.toFixed(2)} MB`;
+    }
+
+    function getPhotoQualityUrls(photo) {
+      const standardUrl = photo.largeUrl || photo.thumbUrl || photo.originalUrl || "";
+      const originalUrl = photo.originalUrl || photo.largeUrl || photo.thumbUrl || "";
+      return { standardUrl, originalUrl };
+    }
+
+    function updateSaveQualityMenuLabels(photo) {
+      if (!photo || !state.currentModalPhoto || state.currentModalPhoto.id !== photo.id) return;
+      const { standardUrl, originalUrl } = getPhotoQualityUrls(photo);
+
+      const formatOptionLabel = (baseLabel, url) => {
+        if (!url) return baseLabel;
+        const entry = downloadBlobCache.get(url);
+        const sizeBytes = (entry && entry.blob ? entry.blob.size : 0) || (entry ? entry.bytesTotal : 0);
+        if (sizeBytes > 0) {
+          return `${baseLabel}（${formatBytesToMB(sizeBytes)}）`;
+        }
+        if (entry && entry.status === "loading") {
+          return `${baseLabel}（計測中...）`;
+        }
+        if (entry && entry.status === "timeout") {
+          return `${baseLabel}（タイムアウト）`;
+        }
+        if (entry && entry.status === "error") {
+          return `${baseLabel}（再取得可）`;
+        }
+        return baseLabel;
+      };
+
+      if (els.saveStandardBtn) {
+        els.saveStandardBtn.textContent = formatOptionLabel("標準画質", standardUrl);
+      }
+      if (els.saveOriginalBtn) {
+        els.saveOriginalBtn.textContent = formatOptionLabel("オリジナル画質", originalUrl);
+      }
+    }
+
+    function showSaveQualityMenu(photo) {
+      if (!els.saveMenuContainer || !els.saveQualityMenu) return;
+      if (photo) {
+        prefetchModalPhoto(photo);
+        updateSaveQualityMenuLabels(photo);
+      }
+      els.saveMenuContainer.classList.add("is-open");
+      els.saveQualityMenu.hidden = false;
+      if (els.modalDownloadBtn) {
+        els.modalDownloadBtn.setAttribute("aria-haspopup", "menu");
+        els.modalDownloadBtn.setAttribute("aria-expanded", "true");
+      }
+    }
+
+    function hideSaveQualityMenu() {
+      if (els.saveMenuContainer) {
+        els.saveMenuContainer.classList.remove("is-open");
+      }
+      if (els.saveQualityMenu) {
+        els.saveQualityMenu.hidden = true;
+      }
+      if (els.modalDownloadBtn) {
+        els.modalDownloadBtn.removeAttribute("aria-haspopup");
+        els.modalDownloadBtn.removeAttribute("aria-expanded");
+      }
+    }
+
+    function evictOldestDownloadCacheEntries() {
+      while (downloadBlobCache.size > PREFETCH_CACHE_LIMIT) {
+        let evicted = false;
+        for (const [cachedUrl, entry] of downloadBlobCache.entries()) {
+          if (entry.status !== "loading") {
+            downloadBlobCache.delete(cachedUrl);
+            evicted = true;
+            break;
+          }
+        }
+        if (!evicted) break;
+      }
+    }
+
+    function abortUnneededPrefetches(keepUrlsSet) {
+      for (const [cachedUrl, entry] of Array.from(downloadBlobCache.entries())) {
+        if (entry.status === "loading" && !keepUrlsSet.has(cachedUrl)) {
+          entry.abortReason = "navigation";
+          if (entry.controller) {
+            try {
+              entry.controller.abort();
+            } catch (e) {}
+          }
+          downloadBlobCache.delete(cachedUrl);
+        }
+      }
+    }
+
+    function fetchUrlWithCacheAndProgress(url, { onProgress = null } = {}) {
+      if (!url) {
+        return Promise.reject(new Error("Empty URL"));
+      }
+
+      const existing = downloadBlobCache.get(url);
+      if (existing) {
+
+        downloadBlobCache.delete(url);
+        downloadBlobCache.set(url, existing);
+
+        if (existing.status === "done" && existing.blob) {
+          if (typeof onProgress === "function") {
+            onProgress(existing.blob.size, existing.blob.size);
+          }
+          return Promise.resolve({ blob: existing.blob, sourceUrl: url });
+        }
+
+        if (existing.status === "loading" && existing.promise) {
+          if (typeof onProgress === "function") {
+            existing.listeners.add(onProgress);
+            onProgress(existing.bytesLoaded, existing.bytesTotal);
+          }
+          return existing.promise;
+        }
+      }
+
+      const controller = new AbortController();
+      const entry = {
+        url,
+        status: "loading",
+        abortReason: null,
+        bytesLoaded: 0,
+        bytesTotal: 0,
+        blob: null,
+        promise: null,
+        controller,
+        listeners: new Set()
+      };
+      if (typeof onProgress === "function") {
+        entry.listeners.add(onProgress);
+      }
+
+      const notifyListeners = () => {
+        for (const fn of entry.listeners) {
+          try {
+            fn(entry.bytesLoaded, entry.bytesTotal);
+          } catch (e) {}
+        }
+        if (state.currentModalPhoto) {
+          const { standardUrl, originalUrl } = getPhotoQualityUrls(state.currentModalPhoto);
+          if (url === standardUrl || url === originalUrl) {
+            updateSaveQualityMenuLabels(state.currentModalPhoto);
+          }
+        }
+      };
+
+      let headerTimer = setTimeout(() => {
+        entry.abortReason = "timeout";
+        try {
+          controller.abort();
+        } catch (e) {}
+      }, FETCH_HEADER_TIMEOUT_MS);
+
+      let stallTimer = null;
+      const resetStallTimer = () => {
+        if (stallTimer) clearTimeout(stallTimer);
+        stallTimer = setTimeout(() => {
+          entry.abortReason = "timeout";
+          try {
+            controller.abort();
+          } catch (e) {}
+        }, FETCH_STALL_TIMEOUT_MS);
+      };
+
+      const clearAllTimers = () => {
+        if (headerTimer) {
+          clearTimeout(headerTimer);
+          headerTimer = null;
+        }
+        if (stallTimer) {
+          clearTimeout(stallTimer);
+          stallTimer = null;
+        }
+      };
+
+      entry.promise = (async () => {
+        try {
+
+          const response = await fetch(url, { mode: "cors", signal: controller.signal });
+          if (headerTimer) {
+            clearTimeout(headerTimer);
+            headerTimer = null;
+          }
+          if (!response.ok) {
+            throw new Error(`HTTP ${response.status}`);
+          }
+
+          const contentLengthHeader = response.headers.get("Content-Length");
+          const parsedTotal = contentLengthHeader ? parseInt(contentLengthHeader, 10) : 0;
+          if (Number.isFinite(parsedTotal) && parsedTotal > 0) {
+            entry.bytesTotal = parsedTotal;
+          }
+          notifyListeners();
+
+          let blob = null;
+          if (response.body && typeof response.body.getReader === "function") {
+            const reader = response.body.getReader();
+            const chunks = [];
+            resetStallTimer();
+            while (true) {
+              const { done, value } = await reader.read();
+              if (done) break;
+              resetStallTimer();
+              if (value && value.byteLength > 0) {
+                chunks.push(value);
+                entry.bytesLoaded += value.byteLength;
+                notifyListeners();
+              }
+            }
+            clearAllTimers();
+            const contentType = response.headers.get("Content-Type") || "image/jpeg";
+            blob = new Blob(chunks, { type: contentType });
+          } else {
+            resetStallTimer();
+            blob = await response.blob();
+            clearAllTimers();
+          }
+
+          if (!blob || blob.size === 0) {
+            throw new Error("Empty blob");
+          }
+
+          entry.status = "done";
+          entry.blob = blob;
+          entry.bytesTotal = blob.size;
+          entry.bytesLoaded = blob.size;
+          entry.controller = null;
+          entry.promise = null;
+          notifyListeners();
+          entry.listeners.clear();
+          evictOldestDownloadCacheEntries();
+
+          return { blob, sourceUrl: url };
+        } catch (err) {
+          clearAllTimers();
+          const isTimeout = Boolean(
+            err && (err.name === "TimeoutError" || (err.name === "AbortError" && entry.abortReason === "timeout"))
+          );
+          entry.status = isTimeout ? "timeout" : (err && err.name === "AbortError" ? "aborted" : "error");
+          entry.controller = null;
+          entry.promise = null;
+          entry.listeners.clear();
+          if (state.currentModalPhoto) {
+            updateSaveQualityMenuLabels(state.currentModalPhoto);
+          }
+          if (isTimeout) {
+            throw createTimeoutError("画像のダウンロードがタイムアウトしました。");
+          }
+          throw err;
+        }
+      })();
+
+      downloadBlobCache.set(url, entry);
+      evictOldestDownloadCacheEntries();
+      return entry.promise;
+    }
+
+    function prefetchModalPhoto(photo) {
+      if (!photo || (photo.isVideo && photo.driveDownloadUrl)) {
+        abortUnneededPrefetches(new Set());
+        return;
+      }
+      const { standardUrl, originalUrl } = getPhotoQualityUrls(photo);
+      const keepSet = new Set([standardUrl, originalUrl].filter(Boolean));
+      abortUnneededPrefetches(keepSet);
+
+      if (standardUrl) {
+        fetchUrlWithCacheAndProgress(standardUrl).catch(() => {});
+      }
+      if (originalUrl && originalUrl !== standardUrl) {
+        fetchUrlWithCacheAndProgress(originalUrl).catch(() => {});
+      }
+      updateSaveQualityMenuLabels(photo);
+    }
+
+    async function fetchPhotoBlobForQuality(photo, quality = "original", onProgress = null) {
+      const candidateUrls = quality === "standard"
+        ? Array.from(new Set([photo.largeUrl, photo.thumbUrl].filter(Boolean)))
+        : Array.from(new Set([photo.originalUrl, photo.largeUrl, photo.thumbUrl].filter(Boolean)));
+
+      let lastError = null;
       for (const url of candidateUrls) {
         try {
-          const response = await fetch(url, { mode: "cors", cache: "no-store" });
-          if (!response.ok) continue;
-          const blob = await response.blob();
-          if (blob && blob.size > 0) {
-            return { blob, sourceUrl: url };
-          }
+          return await fetchUrlWithCacheAndProgress(url, { onProgress });
         } catch (err) {
+          lastError = err;
+          if (err && err.name === "TimeoutError") {
+            throw err;
+          }
           continue;
         }
       }
-      throw new Error("All candidate image fetches failed");
+      throw lastError || new Error("All candidate image fetches failed");
     }
 
     function triggerBlobFileDownload(blob, filename) {
@@ -3803,7 +4241,7 @@ ${photo.licenseLabel}`;
       document.body.appendChild(a);
       a.click();
       a.remove();
-      // iOS Safariのダウンロード確認ダイアログで「ダウンロード」が押されるまでBlob URLを保持する
+
       setTimeout(() => {
         URL.revokeObjectURL(blobUrl);
       }, 60000);
@@ -3821,44 +4259,83 @@ ${photo.licenseLabel}`;
       link.click();
       link.remove();
 
-      els.downloadStatusMsg.textContent =
-        "Google Driveから動画のダウンロードを開始しました。（大容量ファイルの場合は確認画面が表示されます）";
+      setDownloadStatusMessage(
+        "Google Driveから動画のダウンロードを開始しました。（大容量ファイルの場合は確認画面が表示されます）",
+        false
+      );
       return true;
     }
 
-    async function downloadImageToPC(photo) {
+    function setDownloadControlsDisabled(disabled) {
+      if (els.modalDownloadBtn) els.modalDownloadBtn.disabled = disabled;
+      if (els.saveStandardBtn) els.saveStandardBtn.disabled = disabled;
+      if (els.saveOriginalBtn) els.saveOriginalBtn.disabled = disabled;
+    }
+
+    async function downloadImageToPC(photo, quality = "original") {
       if (photo.isVideo && photo.driveDownloadUrl) {
         if (els.modalDownloadBtn.disabled) return;
-        els.modalDownloadBtn.disabled = true;
+        setDownloadControlsDisabled(true);
         try {
           triggerGoogleDriveVideoDownload(photo);
         } finally {
           setTimeout(() => {
-            els.modalDownloadBtn.disabled = false;
+            setDownloadControlsDisabled(false);
           }, 600);
         }
         return;
       }
 
-      const imageUrl = photo.originalUrl || photo.largeUrl || photo.thumbUrl;
+      const qualityLabel = quality === "standard" ? "標準画質" : "オリジナル画質";
+      const imageUrl = quality === "standard"
+        ? (photo.largeUrl || photo.thumbUrl || photo.originalUrl)
+        : (photo.originalUrl || photo.largeUrl || photo.thumbUrl);
       const initialExt = detectExtensionFromUrl(imageUrl);
       const suggestedFilename = `${photo.archiveNo}_${photo.id}.${initialExt}`.replace(/[\\/:*?"<>|]/g, "_");
+      const timeoutErrorMessage = `エラー: ${qualityLabel}の取得がタイムアウトしました。通信環境をご確認のうえ、再度お試しください。`;
 
       if (els.modalDownloadBtn.disabled) return;
-      els.modalDownloadBtn.disabled = true;
+      setDownloadControlsDisabled(true);
+
+      const onProgress = (loaded, total) => {
+        if (!state.currentModalPhoto || state.currentModalPhoto.id !== photo.id) return;
+        if (total > 0) {
+          const pct = Math.min(100, Math.round((loaded / total) * 100));
+          setDownloadStatusMessage(
+            `${qualityLabel}をダウンロード中... ${pct}% (${formatBytesToMB(loaded)} / ${formatBytesToMB(total)})`,
+            false
+          );
+        } else if (loaded > 0) {
+          setDownloadStatusMessage(
+            `${qualityLabel}をダウンロード中... ${formatBytesToMB(loaded)}`,
+            false
+          );
+        }
+      };
 
       try {
         if (isSmartphoneView()) {
-          els.downloadStatusMsg.textContent = "ダウンロードを準備しています...";
+          const cachedEntry = downloadBlobCache.get(imageUrl);
+          if (!cachedEntry || cachedEntry.status !== "done") {
+            setDownloadStatusMessage(`${qualityLabel}を準備しています...`, false);
+          }
           try {
-            const { blob, sourceUrl } = await fetchPhotoBlob(photo);
+            const { blob, sourceUrl } = await fetchPhotoBlobForQuality(photo, quality, onProgress);
             const filename = resolveDownloadFilename(photo, blob, sourceUrl);
             triggerBlobFileDownload(blob, filename);
-            els.downloadStatusMsg.textContent = photo.isVideo
-              ? "サムネイル画像を保存しました。動画本体は上の「Flickrで元動画ページを開く」から取得できます。"
-              : "";
+            const sizeNote = formatBytesToMB(blob.size);
+            setDownloadStatusMessage(
+              photo.isVideo
+                ? `サムネイル画像（${qualityLabel}${sizeNote ? `・${sizeNote}` : ""}）を保存しました。動画本体は上の「Flickrで元動画ページを開く」から取得できます。`
+                : `${qualityLabel}${sizeNote ? `（${sizeNote}）` : ""}の保存を開始しました。`,
+              false
+            );
             return;
           } catch (err) {
+            if (err && err.name === "TimeoutError") {
+              setDownloadStatusMessage(timeoutErrorMessage, true);
+              return;
+            }
             const fallbackLink = document.createElement("a");
             fallbackLink.href = imageUrl;
             fallbackLink.download = suggestedFilename;
@@ -3868,7 +4345,7 @@ ${photo.licenseLabel}`;
             document.body.appendChild(fallbackLink);
             fallbackLink.click();
             fallbackLink.remove();
-            els.downloadStatusMsg.textContent = "画像を開きました。ブラウザのダウンロードまたは長押しで保存できます。";
+            setDownloadStatusMessage("画像を開きました。ブラウザのダウンロードまたは長押しで保存できます。", false);
             return;
           }
         }
@@ -3891,45 +4368,67 @@ ${photo.licenseLabel}`;
             });
           } catch (err) {
             if (err && err.name === "AbortError") {
-              els.downloadStatusMsg.textContent = "保存をキャンセルしました。";
+              setDownloadStatusMessage("保存をキャンセルしました。", false);
               return;
             }
             fileHandle = null;
           }
 
           if (fileHandle) {
-            els.downloadStatusMsg.textContent = "画像を保存しています...";
+            const cachedEntry = downloadBlobCache.get(imageUrl);
+            if (!cachedEntry || cachedEntry.status !== "done") {
+              setDownloadStatusMessage(`${qualityLabel}を保存しています...`, false);
+            }
             try {
-              const { blob } = await fetchPhotoBlob(photo);
+              const { blob } = await fetchPhotoBlobForQuality(photo, quality, onProgress);
               const writable = await fileHandle.createWritable();
               await writable.write(blob);
               await writable.close();
-              els.downloadStatusMsg.textContent = photo.isVideo
-                ? "サムネイル画像を保存しました。動画本体は上の「Flickrで元動画ページを開く」から取得できます。"
-                : "";
+              const sizeNote = formatBytesToMB(blob.size);
+              setDownloadStatusMessage(
+                photo.isVideo
+                  ? `サムネイル画像（${qualityLabel}${sizeNote ? `・${sizeNote}` : ""}）を保存しました。動画本体は上の「Flickrで元動画ページを開く」から取得できます。`
+                  : `${qualityLabel}${sizeNote ? `（${sizeNote}）` : ""}を保存しました。`,
+                false
+              );
               return;
             } catch (err) {
               if (typeof fileHandle.remove === "function") {
                 await fileHandle.remove().catch(() => {});
               }
+              if (err && err.name === "TimeoutError") {
+                setDownloadStatusMessage(timeoutErrorMessage, true);
+                return;
+              }
             }
           }
         }
 
-        els.downloadStatusMsg.textContent = "画像を準備しています...";
+        const cachedEntry = downloadBlobCache.get(imageUrl);
+        if (!cachedEntry || cachedEntry.status !== "done") {
+          setDownloadStatusMessage(`${qualityLabel}を準備しています...`, false);
+        }
         try {
-          const { blob, sourceUrl } = await fetchPhotoBlob(photo);
+          const { blob, sourceUrl } = await fetchPhotoBlobForQuality(photo, quality, onProgress);
           const filename = resolveDownloadFilename(photo, blob, sourceUrl);
           triggerBlobFileDownload(blob, filename);
-          els.downloadStatusMsg.textContent = photo.isVideo
-            ? "サムネイル画像を保存しました。動画本体は上の「Flickrで元動画ページを開く」から取得できます。"
-            : "";
+          const sizeNote = formatBytesToMB(blob.size);
+          setDownloadStatusMessage(
+            photo.isVideo
+              ? `サムネイル画像（${qualityLabel}${sizeNote ? `・${sizeNote}` : ""}）を保存しました。動画本体は上の「Flickrで元動画ページを開く」から取得できます。`
+              : `${qualityLabel}${sizeNote ? `（${sizeNote}）` : ""}を保存しました。`,
+            false
+          );
         } catch (err) {
+          if (err && err.name === "TimeoutError") {
+            setDownloadStatusMessage(timeoutErrorMessage, true);
+            return;
+          }
           window.open(imageUrl, "_blank", "noopener,noreferrer");
-          els.downloadStatusMsg.textContent = "新しいタブで元画像を開きました（右クリックで「名前を付けて画像を保存」できます）。";
+          setDownloadStatusMessage("新しいタブで元画像を開きました（右クリックで「名前を付けて画像を保存」できます）。", false);
         }
       } finally {
-        els.modalDownloadBtn.disabled = false;
+        setDownloadControlsDisabled(false);
       }
     }
 
@@ -4153,6 +4652,6 @@ ${photo.licenseLabel}`;
 
     syncGenreToggleControls();
     initArchive();
-  </script>
+</script>
 </body>
 </html>
