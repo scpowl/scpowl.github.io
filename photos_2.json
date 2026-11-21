@@ -39306,6 +39306,8 @@
       "thumbUrl": "https://live.staticflickr.com/31337/53897244346_5eefd5826a_z.jpg",
       "largeUrl": "https://live.staticflickr.com/31337/53897244346_5eefd5826a_z.jpg",
       "flickrPageUrl": "https://www.flickr.com/photos/199972864@N06/53897244346/",
+      "youtubeUrl": "https://www.youtube.com/shorts/5c_Z8UAgcgI",
+      "driveUrl": "https://drive.google.com/file/d/1LBCiFiXBKJ8bAQcZdIxlvqZD99iQ9m5P/view?usp=sharing",
       "publishedAt": "2024-08-02 14:15:25",
       "dateTaken": "2024-07-16 15:12:10",
       "license": "CC_BY",
@@ -39324,6 +39326,7 @@
       "description": "タイル張りの階段が地下へと続き、蛍光灯の黄色い光が濡れたような段差を照らす。人影のない静かな通路が奥行きを感じさせる。",
       "genres": [
         "STAIRS",
+        "VIDEOS",
         "INDOOR_PASSAGES",
         "NIGHT"
       ]
@@ -47526,6 +47529,8 @@
       "thumbUrl": "https://live.staticflickr.com/31337/53773780383_333b726817_z.jpg",
       "largeUrl": "https://live.staticflickr.com/31337/53773780383_333b726817_z.jpg",
       "flickrPageUrl": "https://www.flickr.com/photos/199972864@N06/53773780383/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=m6Nc7_Gvf0M",
+      "driveUrl": "https://drive.google.com/file/d/1L4WpUJoCuOJcBFvnXPxx4gL4meKm-KQJ/view?usp=sharing",
       "publishedAt": "2024-06-06 16:09:58",
       "dateTaken": "2024-04-23 15:42:25",
       "license": "CC0",
@@ -47545,7 +47550,8 @@
       "genres": [
         "STAIRS",
         "OUTDOOR_PASSAGES",
-        "ARCHITECTURE"
+        "ARCHITECTURE",
+        "VIDEOS"
       ]
     },
     {
@@ -47556,6 +47562,8 @@
       "thumbUrl": "https://live.staticflickr.com/31337/53773780458_60ff8324f8_z.jpg",
       "largeUrl": "https://live.staticflickr.com/31337/53773780458_60ff8324f8_z.jpg",
       "flickrPageUrl": "https://www.flickr.com/photos/199972864@N06/53773780458/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=QNT9a9Z2FiE",
+      "driveUrl": "https://drive.google.com/file/d/1SIHYZHl9GzEe6-hXnZWl9z1zafZ6lnWU/view?usp=sharing",
       "publishedAt": "2024-06-06 16:09:57",
       "dateTaken": "2024-04-23 15:43:04",
       "license": "CC0",
@@ -47574,7 +47582,8 @@
       "genres": [
         "INDOOR_PASSAGES",
         "STAIRS",
-        "ARCHITECTURE"
+        "ARCHITECTURE",
+        "VIDEOS"
       ]
     },
     {
@@ -47585,6 +47594,8 @@
       "thumbUrl": "https://live.staticflickr.com/31337/53773566861_72daa3a821_z.jpg",
       "largeUrl": "https://live.staticflickr.com/31337/53773566861_72daa3a821_z.jpg",
       "flickrPageUrl": "https://www.flickr.com/photos/199972864@N06/53773566861/",
+      "youtubeUrl": "https://www.youtube.com/shorts/UeTjTCsMWVc",
+      "driveUrl": "https://drive.google.com/file/d/1zcAmh6Bcy7SnoYucOMgrOghI3UfPtLnz/view?usp=drive_link",
       "publishedAt": "2024-06-06 16:04:00",
       "dateTaken": "2024-04-23 15:39:37",
       "license": "CC0",
@@ -47603,7 +47614,8 @@
       "description": "渋谷・道玄坂のビルにある、無人の階段と踊り場。くすんだ壁と蛍光灯の光が、日常から切り離されたような静けさを漂わせる。",
       "genres": [
         "STAIRS",
-        "ARCHITECTURE"
+        "ARCHITECTURE",
+        "VIDEOS"
       ]
     },
     {
@@ -64593,7 +64605,8 @@
       "description": "タイル張りの無人通路が奥の扉と階段へ続く。点字ブロックと淡い照明が、静かでどこか非現実的な空間を形づくっている。",
       "genres": [
         "INDOOR_PASSAGES",
-        "DOORS"
+        "DOORS",
+        "VIDEOS"
       ]
     },
     {
