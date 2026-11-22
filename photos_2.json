@@ -109,6 +109,523 @@
   ],
   "photos": [
     {
+      "id": "55664940827",
+      "owner": "201427948@N07",
+      "archiveNo": "NO.00003273",
+      "title": "藪、田んぼ、5時のチャイム",
+      "thumbUrl": "https://live.staticflickr.com/31337/55664940827_eaa7979862_z.jpg",
+      "largeUrl": "https://live.staticflickr.com/31337/55664940827_eaa7979862_b.jpg",
+      "flickrPageUrl": "https://www.flickr.com/photos/201427948@N07/55664940827/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=P4TWqBDibY0",
+      "driveUrl": "https://drive.google.com/file/d/1qkgQeYmpnVk9ZW7w5MjfqF5qEd9YKWo9/view?usp=sharing",
+      "publishedAt": "2026-11-21 18:37:00",
+      "dateTaken": "2026-7-7",
+      "license": "CC_BY",
+      "genre": "OUTDOOR_PASSAGES",
+      "tags": [
+        "藪",
+        "林の小道",
+        "土の道",
+        "落ち葉",
+        "木漏れ日",
+        "緑",
+        "田舎の風景",
+        "自然散策"
+      ],
+      "description": "藪に囲まれた細い土の小道が林の中を曲がり、落ち葉や草木に覆われた静かな緑の風景が広がる。遠くからうっすらと五時の放送が聞こえる",
+      "genres": [
+        "OUTDOOR_PASSAGES",
+        "VIDEOS",
+        "NATURE"
+      ]
+    },
+    {
+      "id": "55665978401",
+      "owner": "201427948@N07",
+      "archiveNo": "NO.00003275",
+      "title": "避難ルート（動画）",
+      "thumbUrl": "https://live.staticflickr.com/31337/55665978401_b9eaabdb25_z.jpg",
+      "largeUrl": "https://live.staticflickr.com/31337/55665978401_b9eaabdb25_b.jpg",
+      "flickrPageUrl": "https://www.flickr.com/photos/201427948@N07/55665978401/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=7easJ6HaOO8",
+      "driveUrl": "https://drive.google.com/file/d/1O3QzgnYg5lApywsNx1OEPGBUKWToYsmW/view?usp=sharing",
+      "publishedAt": "2026-11-21 19:03:02",
+      "dateTaken": "2026-10-16 10:34:59",
+      "license": "CC_BY",
+      "genre": "INDOOR_PASSAGES",
+      "tags": [
+        "屋内通路",
+        "避難ルート",
+        "避難誘導灯",
+        "消火器",
+        "扉",
+        "打ち放しコンクリート",
+        "コンクリート柱",
+        "公共施設"
+      ],
+      "description": "コンクリート打ち放しの柱が並ぶ屋内通路。奥に扉と避難誘導灯、消火器が設置され、避難ルートの一角を記録している。",
+      "genres": [
+        "INDOOR_PASSAGES",
+        "DOORS",
+        "SIGNS_NOTICES",
+        "EQUIPMENT",
+        "VIDEOS"
+      ]
+    },
+    {
+      "id": "55665978361",
+      "owner": "201427948@N07",
+      "archiveNo": "NO.00003277",
+      "title": "グリーンな駐車場",
+      "thumbUrl": "https://live.staticflickr.com/65535/55665978361_5b4cc2e8b6_z.jpg",
+      "largeUrl": "https://live.staticflickr.com/65535/55665978361_5b4cc2e8b6_b.jpg",
+      "flickrPageUrl": "https://www.flickr.com/photos/201427948@N07/55665978361/",
+      "publishedAt": "2026-11-21",
+      "dateTaken": "2026-10-08",
+      "license": "CC_BY",
+      "genre": "INDOOR_PASSAGES",
+      "tags": [
+        "地下駐車場",
+        "駐車場スロープ",
+        "緑色のタイル壁",
+        "車両通路",
+        "高さ制限表示",
+        "黄色と黒の警告 полос",
+        "円形の床模様",
+        "蛍光灯"
+      ],
+      "description": "緑色のタイル壁に囲まれた地下駐車場の通路。床の円形模様が奥へ続き、突き当たりには黄色と黒の高さ制限表示が見える。",
+      "genres": [
+        "INDOOR_PASSAGES",
+        "PARKING",
+        "TRANSPORT_INFRA"
+      ]
+    },
+    {
+      "id": "55665978301",
+      "owner": "201427948@N07",
+      "archiveNo": "NO.00003278",
+      "title": "スケルトンな通路",
+      "thumbUrl": "https://live.staticflickr.com/65535/55665978301_8e308a2545_z.jpg",
+      "largeUrl": "https://live.staticflickr.com/65535/55665978301_8e308a2545_b.jpg",
+      "flickrPageUrl": "https://www.flickr.com/photos/201427948@N07/55665978301/",
+      "publishedAt": "2026-11-21",
+      "dateTaken": "2026-10-18",
+      "license": "CC_BY",
+      "genre": "INDOOR_PASSAGES",
+      "tags": [
+        "連絡通路",
+        "屋内通路",
+        "歩道橋",
+        "ガラス壁",
+        "アーチ状天井",
+        "半透明パネル",
+        "自然光",
+        "床に落ちる影",
+        "金属製手すり"
+      ],
+      "description": "曲面の半透明屋根とガラス壁に包まれた細長い連絡通路。窓から差し込む光が床に格子状の影を落とし、奥の扉へ続いている。",
+      "genres": [
+        "INDOOR_PASSAGES",
+        "PEDESTRIAN_BRIDGES",
+        "ARCHITECTURE"
+      ]
+    },
+    {
+      "id": "55666148219",
+      "owner": "201427948@N07",
+      "archiveNo": "NO.00003279",
+      "title": "施設通路1",
+      "thumbUrl": "https://live.staticflickr.com/65535/55666148219_e34f3536fb_z.jpg",
+      "largeUrl": "https://live.staticflickr.com/65535/55666148219_e34f3536fb_b.jpg",
+      "flickrPageUrl": "https://www.flickr.com/photos/201427948@N07/55666148219/",
+      "publishedAt": "2026-11-21",
+      "dateTaken": "2026-10-13",
+      "license": "CC_BY",
+      "genre": "INDOOR_PASSAGES",
+      "tags": [
+        "施設通路",
+        "屋内廊下",
+        "長い廊下",
+        "誘導ブロック",
+        "カーペット敷き",
+        "白い壁",
+        "天井照明",
+        "防火扉"
+      ],
+      "description": "白い壁とカーペット敷きの長い施設通路。床には黄色い誘導ブロックが続き、天井照明の先に明るい出口が見える。",
+      "genres": [
+        "INDOOR_PASSAGES",
+        "ARCHITECTURE"
+      ]
+    },
+    {
+      "id": "55664983177",
+      "owner": "201427948@N07",
+      "archiveNo": "NO.00003280",
+      "title": "施設通路2",
+      "thumbUrl": "https://live.staticflickr.com/65535/55664983177_16a8f65eee_z.jpg",
+      "largeUrl": "https://live.staticflickr.com/65535/55664983177_16a8f65eee_b.jpg",
+      "flickrPageUrl": "https://www.flickr.com/photos/201427948@N07/55664983177/",
+      "publishedAt": "2026-11-21",
+      "dateTaken": "2026-10-13",
+      "license": "CC_BY",
+      "genre": "INDOOR_PASSAGES",
+      "tags": [
+        "施設通路",
+        "カーペット床",
+        "黄色い誘導ライン",
+        "青い床面",
+        "白い壁",
+        "天井照明",
+        "ドア",
+        "低い視点"
+      ],
+      "description": "白い壁とカーペット敷きの施設内通路を床近くから撮影。黄色いラインが奥の扉へ向かって延び、天井照明が続いている。",
+      "genres": [
+        "INDOOR_PASSAGES",
+        "ARCHITECTURE"
+      ]
+    },
+    {
+      "id": "55665978251",
+      "owner": "201427948@N07",
+      "archiveNo": "NO.00003281",
+      "title": "施設通路3",
+      "thumbUrl": "https://live.staticflickr.com/65535/55665978251_49bed6129f_z.jpg",
+      "largeUrl": "https://live.staticflickr.com/65535/55665978251_49bed6129f_b.jpg",
+      "flickrPageUrl": "https://www.flickr.com/photos/201427948@N07/55665978251/",
+      "publishedAt": "2026-11-21",
+      "dateTaken": "2026-10-13",
+      "license": "CC_BY",
+      "genre": "INDOOR_PASSAGES",
+      "tags": [
+        "施設内通路",
+        "白い壁",
+        "丸柱",
+        "防火扉",
+        "グレーの床",
+        "蛍光灯",
+        "案内番号",
+        "無人の空間"
+      ],
+      "description": "白い壁と丸柱がある施設内の通路。奥には扉があり、天井の蛍光灯が無人の空間を明るく照らしている。",
+      "genres": [
+        "INDOOR_PASSAGES",
+        "DOORS",
+        "ARCHITECTURE"
+      ]
+    },
+    {
+      "id": "55666386675",
+      "owner": "201427948@N07",
+      "archiveNo": "NO.00003282",
+      "title": "施設通路4",
+      "thumbUrl": "https://live.staticflickr.com/65535/55666386675_b88b9f6e13_z.jpg",
+      "largeUrl": "https://live.staticflickr.com/65535/55666386675_b88b9f6e13_b.jpg",
+      "flickrPageUrl": "https://www.flickr.com/photos/201427948@N07/55666386675/",
+      "publishedAt": "2026-11-21",
+      "dateTaken": "2026-10-13",
+      "license": "CC_BY",
+      "genre": "INDOOR_PASSAGES",
+      "tags": [
+        "屋内通路",
+        "施設内",
+        "白い壁",
+        "曲面壁",
+        "グレーの床",
+        "室内扉",
+        "蛍光灯",
+        "非常設備",
+        "無人"
+      ],
+      "description": "白い壁と灰色の床が続く施設内の通路。奥に扉があり、曲面壁の脇には赤い非常設備が設置されている。",
+      "genres": [
+        "INDOOR_PASSAGES",
+        "DOORS",
+        "ARCHITECTURE",
+        "EQUIPMENT"
+      ]
+    },
+    {
+      "id": "55666088323",
+      "owner": "201427948@N07",
+      "archiveNo": "NO.00003283",
+      "title": "地下鉄駅階段1",
+      "thumbUrl": "https://live.staticflickr.com/65535/55666088323_e53bd165f1_z.jpg",
+      "largeUrl": "https://live.staticflickr.com/65535/55666088323_e53bd165f1_b.jpg",
+      "flickrPageUrl": "https://www.flickr.com/photos/201427948@N07/55666088323/",
+      "publishedAt": "2026-11-21",
+      "dateTaken": "2026-10-08",
+      "license": "CC_BY",
+      "genre": "STAIRS",
+      "tags": [
+        "地下鉄駅",
+        "駅構内",
+        "階段",
+        "屋内通路",
+        "点字ブロック",
+        "誘導灯",
+        "コンクリート壁",
+        "案内表示"
+      ],
+      "description": "地下鉄駅構内にある階段と踊り場を撮影。床には黄色い点字ブロックが敷かれ、天井の誘導灯や案内表示が見える。",
+      "genres": [
+        "STAIRS",
+        "STATIONS_RAILWAYS",
+        "INDOOR_PASSAGES",
+        "TRANSPORT_INFRA"
+      ]
+    },
+    {
+      "id": "55666088253",
+      "owner": "201427948@N07",
+      "archiveNo": "NO.00003285",
+      "title": "地下鉄駅点検エリア1",
+      "thumbUrl": "https://live.staticflickr.com/65535/55666088253_340f4e3cd3_z.jpg",
+      "largeUrl": "https://live.staticflickr.com/65535/55666088253_340f4e3cd3_b.jpg",
+      "flickrPageUrl": "https://www.flickr.com/photos/201427948@N07/55666088253/",
+      "publishedAt": "2026-11-21",
+      "dateTaken": "2026-10-09",
+      "license": "CC_BY",
+      "genre": "STATIONS_RAILWAYS",
+      "tags": [
+        "地下鉄駅",
+        "駅構内",
+        "タイル張り通路",
+        "点検エリア",
+        "設備盤",
+        "カラーコーン",
+        "立入禁止",
+        "注意看板"
+      ],
+      "description": "地下鉄駅のタイル張り通路の一角が点検作業のためカラーコーンとバーで区画され、設備盤や注意看板が置かれている。",
+      "genres": [
+        "STATIONS_RAILWAYS",
+        "INDOOR_PASSAGES",
+        "EQUIPMENT",
+        "SIGNS_NOTICES",
+        "TRANSPORT_INFRA"
+      ]
+    },
+    {
+      "id": "55666148134",
+      "owner": "201427948@N07",
+      "archiveNo": "NO.00003286",
+      "title": "地下鉄駅点検エリア2",
+      "thumbUrl": "https://live.staticflickr.com/65535/55666148134_96af8ab1b8_z.jpg",
+      "largeUrl": "https://live.staticflickr.com/65535/55666148134_96af8ab1b8_b.jpg",
+      "flickrPageUrl": "https://www.flickr.com/photos/201427948@N07/55666148134/",
+      "publishedAt": "2026-11-21",
+      "dateTaken": "2026-10-09",
+      "license": "CC_BY",
+      "genre": "INDOOR_PASSAGES",
+      "tags": [
+        "地下鉄駅",
+        "点検エリア",
+        "タイル張りの壁",
+        "タイル床",
+        "蛍光灯",
+        "設備盤",
+        "配管",
+        "カラーコーン",
+        "無人の通路"
+      ],
+      "description": "地下鉄駅の点検エリアを記録した一枚。タイル張りの壁と床に囲まれた空間に設備盤や配管が並び、蛍光灯の下にカラーコーンが置かれている。",
+      "genres": [
+        "INDOOR_PASSAGES",
+        "STATIONS_RAILWAYS",
+        "EQUIPMENT",
+        "ARCHITECTURE"
+      ]
+    },
+    {
+      "id": "55666386625",
+      "owner": "201427948@N07",
+      "archiveNo": "NO.00003287",
+      "title": "地下鉄駅立入禁止エリア",
+      "thumbUrl": "https://live.staticflickr.com/65535/55666386625_51bf249faf_z.jpg",
+      "largeUrl": "https://live.staticflickr.com/65535/55666386625_51bf249faf_b.jpg",
+      "flickrPageUrl": "https://www.flickr.com/photos/201427948@N07/55666386625/",
+      "publishedAt": "2026-11-21",
+      "dateTaken": "2026-10-09",
+      "license": "CC_BY",
+      "genre": "STATIONS_RAILWAYS",
+      "tags": [
+        "地下鉄駅",
+        "駅構内",
+        "立入禁止",
+        "カラーコーン",
+        "バリケード",
+        "タイル壁",
+        "路線図",
+        "案内掲示"
+      ],
+      "description": "タイル張りの地下鉄駅構内で、カラーコーンとバーにより一角が立入禁止になっている。壁には路線図や案内掲示が並ぶ。",
+      "genres": [
+        "STATIONS_RAILWAYS",
+        "INDOOR_PASSAGES",
+        "SIGNS_NOTICES",
+        "TRANSPORT_INFRA"
+      ]
+    },
+    {
+      "id": "55663400746",
+      "owner": "201427948@N07",
+      "archiveNo": "NO.00003272",
+      "title": "Liminalな雑居ビル",
+      "thumbUrl": "https://live.staticflickr.com/31337/55663400746_5fbf2a5626_z.jpg",
+      "largeUrl": "https://live.staticflickr.com/31337/55663400746_5fbf2a5626_b.jpg",
+      "flickrPageUrl": "https://www.flickr.com/photos/201427948@N07/55663400746/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=89dy2KuXsJA",
+      "driveUrl": "https://drive.google.com/file/d/1HOQ8duq1UWFOQUdlOIO180Y7s021aQQN/view?usp=sharing",
+      "publishedAt": "2026-11-20",
+      "dateTaken": "2025-05-20",
+      "license": "CC_BY",
+      "genre": "STAIRS",
+      "tags": [
+        "階段",
+        "踊り場",
+        "雑居ビル",
+        "屋内",
+        "手すり",
+        "自転車",
+        "白い壁",
+        "リミナルスペース"
+      ],
+      "description": "雑居ビルの屋内階段と踊り場を捉えた動画。古びた階段や金属製の手すり、白い壁の前に黄緑色の自転車が置かれ、静かで少し不穏な雰囲気が漂う。",
+      "genres": [
+        "STAIRS",
+        "INDOOR_PASSAGES",
+        "ARCHITECTURE",
+        "VIDEOS",
+        "ITEMS_OBJECTS"
+      ]
+    },
+    {
+      "id": "55665978341",
+      "owner": "201427948@N07",
+      "archiveNo": "NO.00003274",
+      "title": "地下鉄通路",
+      "thumbUrl": "https://live.staticflickr.com/65535/55665978341_fde1ddacb5_z.jpg",
+      "largeUrl": "https://live.staticflickr.com/65535/55665978341_fde1ddacb5_b.jpg",
+      "flickrPageUrl": "https://www.flickr.com/photos/201427948@N07/55665978341/",
+      "publishedAt": "2026-11-21",
+      "dateTaken": "2026-10-09",
+      "license": "CC_BY",
+      "genre": "INDOOR_PASSAGES",
+      "tags": [
+        "地下鉄",
+        "地下通路",
+        "屋内通路",
+        "点字ブロック",
+        "タイル張り",
+        "蛍光灯",
+        "案内板",
+        "カラーコーン",
+        "駅構内"
+      ],
+      "description": "白いタイル張りの壁と蛍光灯が続く、静かな地下鉄の地下通路。床には黄色い点字ブロックが伸び、一角には点検用のカラーコーンが置かれている。",
+      "genres": [
+        "INDOOR_PASSAGES",
+        "STATIONS_RAILWAYS",
+        "SIGNS_NOTICES"
+      ]
+    },
+    {
+      "id": "55665978476",
+      "owner": "201427948@N07",
+      "archiveNo": "NO.00003276",
+      "title": "エスカレーターを下る動画",
+      "thumbUrl": "https://live.staticflickr.com/31337/55665978476_019fdfd248_z.jpg",
+      "largeUrl": "https://live.staticflickr.com/31337/55665978476_019fdfd248_b.jpg",
+      "flickrPageUrl": "https://www.flickr.com/photos/201427948@N07/55665978476/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=-AgxBKGZVBE",
+      "driveUrl": "https://drive.google.com/file/d/1YEiaUenHspuCQh-NJyGEwpB_4BKUP5yu/view?usp=drive_link",
+      "publishedAt": "2026-11-21",
+      "dateTaken": "2026-10-22",
+      "license": "CC_BY",
+      "genre": "STAIRS",
+      "tags": [
+        "エスカレーター",
+        "階段",
+        "駅構内",
+        "地下通路",
+        "蛍光灯",
+        "手すり",
+        "点字ブロック",
+        "白いタイル"
+      ],
+      "description": "駅構内の地下へと続く長いエスカレーターを見下ろした光景。白いタイル壁と蛍光灯が並ぶ天井、右奥の階段と黄色い点字ブロックが日常の移動空間を映し出している。",
+      "genres": [
+        "STAIRS",
+        "STATIONS_RAILWAYS",
+        "INDOOR_PASSAGES",
+        "VIDEOS"
+      ]
+    },
+    {
+      "id": "55666088263",
+      "owner": "201427948@N07",
+      "archiveNo": "NO.00003284",
+      "title": "地下鉄駅階段2",
+      "thumbUrl": "https://live.staticflickr.com/65535/55666088263_46a8d91921_z.jpg",
+      "largeUrl": "https://live.staticflickr.com/65535/55666088263_46a8d91921_b.jpg",
+      "flickrPageUrl": "https://www.flickr.com/photos/201427948@N07/55666088263/",
+      "publishedAt": "2026-11-21",
+      "dateTaken": "2026-10-08",
+      "license": "CC_BY",
+      "genre": "INDOOR_PASSAGES",
+      "tags": [
+        "地下鉄駅",
+        "地下通路",
+        "階段",
+        "シャッター",
+        "伊勢丹",
+        "ショーウィンドウ",
+        "タイル床",
+        "無人"
+      ],
+      "description": "地下鉄駅の地下通路と奥へ続く階段。右手には伊勢丹の閉まったシャッター、左手には光る展示ケースが並び、人通りのない静かな雰囲気が漂う。",
+      "genres": [
+        "INDOOR_PASSAGES",
+        "STAIRS",
+        "STATIONS_RAILWAYS",
+        "SHOPS"
+      ]
+    },
+    {
+      "id": "55666986184",
+      "owner": "199972864@N06",
+      "archiveNo": "NO.00003288",
+      "title": "水鳥の喧嘩",
+      "thumbUrl": "https://live.staticflickr.com/31337/55666986184_0500b41112_z.jpg",
+      "largeUrl": "https://live.staticflickr.com/31337/55666986184_0500b41112_b.jpg",
+      "flickrPageUrl": "https://www.flickr.com/photos/199972864@N06/55666986184/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=E-aiBWbV3Pg",
+      "driveUrl": "https://drive.google.com/file/d/1UuKu424ix3p8hsaCd553ihKNRcQBysuw/view?usp=sharing",
+      "publishedAt": "2026-11-22 16:48:47",
+      "dateTaken": "2024-02-01 12:04:44",
+      "license": "CC0",
+      "genre": "NATURE",
+      "tags": [
+        "水鳥",
+        "池",
+        "波紋",
+        "水面",
+        "冬の水辺",
+        "映り込み",
+        "鳥の喧嘩",
+        "石積みの岸辺"
+      ],
+      "description": "冬の池の水面で2羽の水鳥が向き合い、波紋が静かに広がる。岸辺の石積みと、水面に映る枯れ木の影が穏やかな水辺の風景を作っている。",
+      "genres": [
+        "NATURE",
+        "PARKS_LEISURE_EVENTS",
+        "VIDEOS"
+      ]
+    },
+    {
       "id": "55346954478",
       "owner": "201427948@N07",
       "archiveNo": "NO.00003271",
@@ -691,7 +1208,8 @@
         "STAIRS",
         "DOORS",
         "ARCHITECTURE",
-        "SHOT_ON_3DS"
+        "SHOT_ON_3DS",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -777,7 +1295,8 @@
       "description": "蛍光灯に照らされた無人の非常階段。緑色の床と金属の手すりが続き、避難口の表示が静かな建物内の一角を示している。",
       "genres": [
         "STAIRS",
-        "ARCHITECTURE"
+        "ARCHITECTURE",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -807,7 +1326,8 @@
         "STAIRS",
         "DOORS",
         "ARCHITECTURE",
-        "EQUIPMENT"
+        "EQUIPMENT",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -864,7 +1384,8 @@
       "description": "コンクリート壁に沿って折り返す屋内の非常階段。金属の手すりと円形照明が、無人で静かな建物の一角を形づくっています。",
       "genres": [
         "STAIRS",
-        "ARCHITECTURE"
+        "ARCHITECTURE",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -892,7 +1413,8 @@
       "description": "白いタイル壁に囲まれた非常階段の踊り場。緑色の床と手すりが奥へ続き、蛍光灯の光が無人の静かな空間を照らしている。",
       "genres": [
         "STAIRS",
-        "ARCHITECTURE"
+        "ARCHITECTURE",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -1210,7 +1732,8 @@
       "genres": [
         "APARTMENTS",
         "PARKING",
-        "ARCHITECTURE"
+        "ARCHITECTURE",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -1379,7 +1902,8 @@
       "description": "蛍光灯に照らされた地下駐車場。橙色の矢印が車両の進行方向を示し、奥には駐車中の車が見える。",
       "genres": [
         "PARKING",
-        "NIGHT"
+        "NIGHT",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -1408,7 +1932,8 @@
       "genres": [
         "STAIRS",
         "PARKING",
-        "SIGNS_NOTICES"
+        "SIGNS_NOTICES",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -1606,7 +2131,8 @@
       "description": "タイル張りの階段が踊り場を経て地下へと続く。淡い青の壁面と金属の手すりが、無人の静かな建物内部を形づくっている。",
       "genres": [
         "STAIRS",
-        "ARCHITECTURE"
+        "ARCHITECTURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -1720,7 +2246,6 @@
       "genres": [
         "STAIRS",
         "APARTMENTS",
-        "PARKING",
         "ARCHITECTURE"
       ]
     },
@@ -1893,7 +2418,8 @@
       ],
       "description": "降りしきる雪が自転車の車輪やサドルを白く覆う、街中の駐輪場。冬の厳しい天候と、そこに残された日常の風景を記録している。",
       "genres": [
-        "PARKING"
+        "PARKING",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -2407,7 +2933,6 @@
       "genres": [
         "APARTMENTS",
         "STREET",
-        "SHOPS",
         "ARCHITECTURE"
       ]
     },
@@ -2578,8 +3103,7 @@
       "description": "白い壁と光沢のある床が続く、静かな施設内の通路。壁時計や消火器が配され、奥の窓から昼の光が差し込んでいる。",
       "genres": [
         "INDOOR_PASSAGES",
-        "EQUIPMENT",
-        "ITEMS_OBJECTS"
+        "EQUIPMENT"
       ]
     },
     {
@@ -2754,7 +3278,6 @@
       "description": "テーブルと椅子が整然と並ぶ、明るい食堂。紫とベージュの市松模様の床が広がり、食事の時間を待つ静かな空間が記録されています。",
       "genres": [
         "SHOPS",
-        "ITEMS_OBJECTS",
         "INDOOR_PASSAGES"
       ]
     },
@@ -2815,7 +3338,7 @@
         "STREET",
         "SHOPS",
         "NIGHT",
-        "ITEMS_OBJECTS"
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -3083,7 +3606,8 @@
       "genres": [
         "STAIRS",
         "ARCHITECTURE",
-        "EQUIPMENT"
+        "EQUIPMENT",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -3139,7 +3663,8 @@
       "description": "雑居ビルの内部を見下ろす階段。茶色いタイルの段と金属の手すりが続き、ガラス壁越しに無人の共用空間が広がる。",
       "genres": [
         "STAIRS",
-        "ARCHITECTURE"
+        "ARCHITECTURE",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -3210,7 +3735,7 @@
       "publishedAt": "2026-06-20 17:38:05",
       "dateTaken": "2026-01-28 16:53:20",
       "license": "CC_BY",
-      "genre": "PARKING",
+      "genre": "DOORS",
       "tags": [
         "閉ざされた空き地",
         "緑色の金網ゲート",
@@ -3222,10 +3747,10 @@
       ],
       "description": "緑色の金網ゲートに閉ざされた空き地。背後には古びた住宅が並び、曇天の下、街の隙間に残る静かな空間を記録している。",
       "genres": [
-        "PARKING",
         "DOORS",
         "ARCHITECTURE",
-        "STREET"
+        "STREET",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -3286,8 +3811,7 @@
         "STREET",
         "SHOPS",
         "STATIONS_RAILWAYS",
-        "EQUIPMENT",
-        "ITEMS_OBJECTS"
+        "EQUIPMENT"
       ]
     },
     {
@@ -3314,7 +3838,8 @@
       ],
       "description": "高架の柱が連なる駐車場を、手前の進入禁止マークから奥へ見通す。昼の光と柱の影が、通路に強い奥行きを生んでいる。",
       "genres": [
-        "PARKING"
+        "PARKING",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -3341,7 +3866,8 @@
       ],
       "description": "高架の柱が連なる駐車場を、路面の矢印から奥へ見通す。昼の光が差し込み、車両と柱の影が幾何学的な景観をつくっている。",
       "genres": [
-        "PARKING"
+        "PARKING",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -3770,8 +4296,7 @@
       "genres": [
         "INDOOR_PASSAGES",
         "ARCHITECTURE",
-        "EQUIPMENT",
-        "ITEMS_OBJECTS"
+        "EQUIPMENT"
       ]
     },
     {
@@ -3889,7 +4414,8 @@
       "description": "什器の残る広い空き店舗。むき出しの床やレンガ柱、天井の灯りが、次の用途を待つ空間の静けさを伝えています。",
       "genres": [
         "SHOPS",
-        "RUINS_CONSTRUCTION"
+        "RUINS_CONSTRUCTION",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -3917,7 +4443,8 @@
       "description": "人影のない広い室内に、レンガ壁やカウンター、複数の出入口が残る。使われていない物件の静けさと、改装前の状態を記録した一枚。",
       "genres": [
         "SHOPS",
-        "RUINS_CONSTRUCTION"
+        "RUINS_CONSTRUCTION",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -4007,8 +4534,8 @@
       "genres": [
         "ARCHITECTURE",
         "STREET",
-        "SHOPS",
-        "SHOT_ON_3DS"
+        "SHOT_ON_3DS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -4036,10 +4563,10 @@
       "genres": [
         "APARTMENTS",
         "STREET",
-        "SHOPS",
         "SIGNS_NOTICES",
         "SHOT_ON_3DS",
-        "ARCHITECTURE"
+        "ARCHITECTURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -4067,7 +4594,6 @@
       "genres": [
         "ARCHITECTURE",
         "STREET",
-        "SHOPS",
         "SHOT_ON_3DS"
       ]
     },
@@ -4163,7 +4689,6 @@
         "STAIRS",
         "ARCHITECTURE",
         "STREET",
-        "SHOPS",
         "SIGNS_NOTICES",
         "SHOT_ON_3DS"
       ]
@@ -4195,7 +4720,6 @@
         "STAIRS",
         "ARCHITECTURE",
         "STREET",
-        "SHOPS",
         "SIGNS_NOTICES",
         "SHOT_ON_3DS"
       ]
@@ -4225,7 +4749,6 @@
       "genres": [
         "APARTMENTS",
         "STREET",
-        "SHOPS",
         "RUINS_CONSTRUCTION",
         "SHOT_ON_3DS",
         "ARCHITECTURE"
@@ -4257,7 +4780,6 @@
       "genres": [
         "APARTMENTS",
         "STREET",
-        "SHOPS",
         "SHOT_ON_3DS",
         "ARCHITECTURE"
       ]
@@ -4286,10 +4808,10 @@
       "description": "桐ケ丘中央商店街の一角に並ぶ、白い平屋建ての店舗。人通りのない舗装路と周囲の木々が、静かな街の一場面を伝えています。",
       "genres": [
         "DETACHED_HOUSES",
-        "SHOPS",
         "NATURE",
         "SHOT_ON_3DS",
-        "ARCHITECTURE"
+        "ARCHITECTURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -4475,7 +4997,8 @@
       "description": "閉じたシャッターが続く桐ケ丘中央商店街。傷みの目立つアーケードと静かな通路が、地域商店街の現在の姿を伝えています。",
       "genres": [
         "DOORS",
-        "SHOPS"
+        "SHOPS",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -4504,7 +5027,6 @@
       "genres": [
         "APARTMENTS",
         "STREET",
-        "SHOPS",
         "ROADS",
         "ARCHITECTURE"
       ]
@@ -4535,7 +5057,8 @@
       "genres": [
         "SHOPS",
         "SIGNS_NOTICES",
-        "EQUIPMENT"
+        "EQUIPMENT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -4564,7 +5087,6 @@
       "genres": [
         "APARTMENTS",
         "STREET",
-        "SHOPS",
         "PARKING",
         "ROADS",
         "ARCHITECTURE"
@@ -4627,7 +5149,6 @@
       "genres": [
         "ARCHITECTURE",
         "STREET",
-        "SHOPS",
         "SIGNS_NOTICES"
       ]
     },
@@ -4688,7 +5209,6 @@
       ],
       "description": "桐ケ丘中央商店街の屋根付き空間に、錆びた配電盤と落ち葉が残る。人影のない裏手の設備まわりから、静かな時間の経過が伝わる。",
       "genres": [
-        "SHOPS",
         "EQUIPMENT"
       ]
     },
@@ -4748,8 +5268,7 @@
       ],
       "description": "錆や塗装の剥がれが目立つアーケードの下、店のシャッターが閉じ、各国の旗が並ぶ。商店街の現在の姿を伝える一枚。",
       "genres": [
-        "ITEMS_OBJECTS",
-        "SHOPS"
+        "ITEMS_OBJECTS"
       ]
     },
     {
@@ -4777,7 +5296,6 @@
       "description": "商店街の一角に立つ、窓の少ないコンクリート建築。入口は柵で閉ざされ、壁の落書きや風化した表面が街の現在を伝えている。",
       "genres": [
         "APARTMENTS",
-        "SHOPS",
         "ARCHITECTURE"
       ]
     },
@@ -4806,7 +5324,6 @@
       "description": "桐ケ丘中央商店街の建物脇にある細い通路。配管や設備、傘とコンテナが置かれ、天窓から差す光が静かな裏方の風景を照らしている。",
       "genres": [
         "ARCHITECTURE",
-        "SHOPS",
         "OUTDOOR_UNITS",
         "EQUIPMENT"
       ]
@@ -4839,7 +5356,6 @@
         "DOORS",
         "ARCHITECTURE",
         "STREET",
-        "SHOPS",
         "EQUIPMENT"
       ]
     },
@@ -4854,7 +5370,7 @@
       "publishedAt": "2026-06-20 17:37:37",
       "dateTaken": "2026-06-16 15:10:27",
       "license": "CC_BY",
-      "genre": "SHOPS",
+      "genre": "DOORS",
       "tags": [
         "桐ケ丘中央商店街",
         "シャッターの閉じた店舗",
@@ -4868,7 +5384,6 @@
       "description": "屋根付き商店街の一角に、閉じたシャッターと店先の看板や陳列台が残る。人影のない昼の光景が、地域商店街の日常を伝えている。",
       "genres": [
         "DOORS",
-        "SHOPS",
         "SIGNS_NOTICES"
       ]
     },
@@ -4988,9 +5503,9 @@
       "genres": [
         "DOORS",
         "APARTMENTS",
-        "SHOPS",
         "PARKS_LEISURE_EVENTS",
-        "ARCHITECTURE"
+        "ARCHITECTURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -5047,9 +5562,9 @@
       "description": "桐ケ丘中央商店街の一角。団地の建物脇に草木が茂り、舗装路とフェンスの先に周辺の建物が見える、曇天の静かな風景。",
       "genres": [
         "APARTMENTS",
-        "SHOPS",
         "NATURE",
-        "ARCHITECTURE"
+        "ARCHITECTURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -5078,7 +5593,6 @@
       "genres": [
         "STAIRS",
         "APARTMENTS",
-        "SHOPS",
         "ARCHITECTURE"
       ]
     },
@@ -5138,7 +5652,8 @@
       "genres": [
         "DOORS",
         "SHOPS",
-        "SIGNS_NOTICES"
+        "SIGNS_NOTICES",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -5167,7 +5682,6 @@
       "genres": [
         "DOORS",
         "APARTMENTS",
-        "SHOPS",
         "ARCHITECTURE"
       ]
     },
@@ -5196,7 +5710,6 @@
       "description": "桐ケ丘中央商店街に残る、コンクリート造りの古い建物を見上げた一枚。錆びた手すりや露出した配管が、長い年月を経た街の表情を伝えています。",
       "genres": [
         "APARTMENTS",
-        "SHOPS",
         "EQUIPMENT",
         "ARCHITECTURE"
       ]
@@ -5227,7 +5740,6 @@
       "genres": [
         "APARTMENTS",
         "STREET",
-        "SHOPS",
         "RUINS_CONSTRUCTION",
         "ARCHITECTURE"
       ]
@@ -5258,7 +5770,6 @@
       "genres": [
         "APARTMENTS",
         "STREET",
-        "SHOPS",
         "RUINS_CONSTRUCTION",
         "ARCHITECTURE"
       ]
@@ -5289,9 +5800,8 @@
       "genres": [
         "ARCHITECTURE",
         "STREET",
-        "SHOPS",
         "RUINS_CONSTRUCTION",
-        "PARKS_LEISURE_EVENTS"
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -5320,7 +5830,6 @@
       "genres": [
         "APARTMENTS",
         "STREET",
-        "SHOPS",
         "ARCHITECTURE"
       ]
     },
@@ -5349,8 +5858,7 @@
       "genres": [
         "APARTMENTS",
         "STAIRS",
-        "ARCHITECTURE",
-        "SHOPS"
+        "ARCHITECTURE"
       ]
     },
     {
@@ -5379,8 +5887,7 @@
       "genres": [
         "APARTMENTS",
         "ARCHITECTURE",
-        "STREET",
-        "SHOPS"
+        "STREET"
       ]
     },
     {
@@ -5426,7 +5933,7 @@
       "publishedAt": "2026-06-20 17:37:27",
       "dateTaken": "2026-06-16 15:28:49",
       "license": "CC_BY",
-      "genre": "SHOPS",
+      "genre": "SIGNS_NOTICES",
       "tags": [
         "桐ケ丘中央商店街",
         "クリーニング店",
@@ -5439,7 +5946,6 @@
       ],
       "description": "色あせた黄色い看板に「クリーニング」の文字が残る店舗。使われなくなった店先と雑草が、商店街の移り変わりを静かに伝えている。",
       "genres": [
-        "SHOPS",
         "SIGNS_NOTICES"
       ]
     },
@@ -6143,7 +6649,7 @@
       "publishedAt": "2026-06-20 17:37:13",
       "dateTaken": "2026-06-16 17:00:13",
       "license": "CC_BY",
-      "genre": "SHOPS",
+      "genre": "NIGHT",
       "tags": [
         "居酒屋",
         "路上テラス席",
@@ -6156,7 +6662,6 @@
       ],
       "description": "暖簾と提灯が並ぶ居酒屋の店先に、木製カウンターと赤い座席が設けられた路上テラス。夕暮れの街に漂う、気取らない賑わいを伝える。",
       "genres": [
-        "SHOPS",
         "NIGHT"
       ]
     },
@@ -6303,7 +6808,8 @@
       "description": "緑に包まれた掛川城の庭園を、砂利道が茶室へと導く。木漏れ日の差す静かな景観に、城郭ゆかりの庭の趣が感じられる。",
       "genres": [
         "NATURE",
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -6332,7 +6838,8 @@
       "genres": [
         "SHOPS",
         "PARKS_LEISURE_EVENTS",
-        "ITEMS_OBJECTS"
+        "ITEMS_OBJECTS",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -6390,8 +6897,7 @@
       "genres": [
         "STREET",
         "SHOPS",
-        "SIGNS_NOTICES",
-        "PARKS_LEISURE_EVENTS"
+        "SIGNS_NOTICES"
       ]
     },
     {
@@ -6420,7 +6926,6 @@
       "genres": [
         "ARCHITECTURE",
         "STREET",
-        "SHOPS",
         "ROADS"
       ]
     },
@@ -6450,9 +6955,7 @@
       "genres": [
         "APARTMENTS",
         "ARCHITECTURE",
-        "STREET",
-        "SHOPS",
-        "PARKING"
+        "STREET"
       ]
     },
     {
@@ -6497,7 +7000,7 @@
       "publishedAt": "2026-06-20 17:37:08",
       "dateTaken": "2026-01-28 17:46:23",
       "license": "CC_BY",
-      "genre": "SHOPS",
+      "genre": "DOORS",
       "tags": [
         "夜の街並み",
         "古い二階建て建物",
@@ -6509,10 +7012,8 @@
       ],
       "description": "夜の路地に立つ、シャッターを閉じた古い二階建ての建物。色あせた看板や外階段に、街の時間の積み重なりが感じられる。",
       "genres": [
-        "SHOPS",
         "DOORS",
         "ARCHITECTURE",
-        "STREET",
         "SIGNS_NOTICES",
         "NIGHT"
       ]
@@ -7080,7 +7581,8 @@
       "description": "木々に囲まれた芝生の庭に、白い椅子とテーブルが数多く並ぶ。人影のない昼下がり、催しの準備を思わせる静かな光景。",
       "genres": [
         "PARKS_LEISURE_EVENTS",
-        "ITEMS_OBJECTS"
+        "ITEMS_OBJECTS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -7108,7 +7610,8 @@
       "description": "青い椅子が列をなして並ぶ、広々とした会議室。整然とした配置と落ち着いた色調が、催しの開始前の静けさを伝えています。",
       "genres": [
         "ARCHITECTURE",
-        "ITEMS_OBJECTS"
+        "ITEMS_OBJECTS",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -7279,7 +7782,8 @@
       ],
       "description": "多数のテーブルとベンチが並ぶ広い屋外テラス。晴れた日の光を受け、奥には水辺と緑の木々が広がっています。",
       "genres": [
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "ITEMS_OBJECTS"
       ]
     },
     {
@@ -7424,7 +7928,8 @@
       "genres": [
         "SHOPS",
         "EQUIPMENT",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -7631,7 +8136,6 @@
         "OUTDOOR_PASSAGES",
         "DOORS",
         "ARCHITECTURE",
-        "TRANSPORT_INFRA",
         "EQUIPMENT",
         "NATURE"
       ]
@@ -7689,7 +8193,8 @@
       ],
       "description": "タイル張りの壁に動物の頭部が飾られ、その下にコインロッカーが並ぶ駅構内。公共空間の意外な取り合わせを記録しています。",
       "genres": [
-        "STATIONS_RAILWAYS"
+        "STATIONS_RAILWAYS",
+        "ITEMS_OBJECTS"
       ]
     },
     {
@@ -7772,8 +8277,7 @@
       "description": "イオンの館内に設けられた静かな廊下。奥の縞模様の展示と立入防止のロープが、無人の空間に整然とした印象を添えている。",
       "genres": [
         "INDOOR_PASSAGES",
-        "SHOPS",
-        "PARKS_LEISURE_EVENTS"
+        "SHOPS"
       ]
     },
     {
@@ -7951,7 +8455,8 @@
       "description": "色とりどりの旗が頭上を飾る、富士急ハイランドの飲食店前。石畳の広場にはテーブル席が並び、曇り空の下で静かなひとときを見せている。",
       "genres": [
         "SHOPS",
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -8083,7 +8588,7 @@
       "publishedAt": "2026-06-20 17:36:37",
       "dateTaken": "2025-09-04 13:05:26",
       "license": "CC_BY",
-      "genre": "PARKS_LEISURE_EVENTS",
+      "genre": "ITEMS_OBJECTS",
       "tags": [
         "ハンモック",
         "室内休憩スペース",
@@ -8096,7 +8601,8 @@
       ],
       "description": "窓から光が差し込む室内に、色鮮やかなハンモックが並ぶ。人影のない静かな休憩空間の様子を記録している。",
       "genres": [
-        "PARKS_LEISURE_EVENTS"
+        "ITEMS_OBJECTS",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -8126,7 +8632,7 @@
         "STAIRS",
         "ARCHITECTURE",
         "SIGNS_NOTICES",
-        "PARKS_LEISURE_EVENTS"
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -8155,7 +8661,6 @@
       "genres": [
         "STAIRS",
         "ARCHITECTURE",
-        "PARKS_LEISURE_EVENTS",
         "INDOOR_PASSAGES"
       ]
     },
@@ -8185,8 +8690,7 @@
       "genres": [
         "INDOOR_PASSAGES",
         "STAIRS",
-        "ARCHITECTURE",
-        "PARKS_LEISURE_EVENTS"
+        "ARCHITECTURE"
       ]
     },
     {
@@ -8417,7 +8921,8 @@
       "description": "階段の上から、タイル張りの踊り場と中央の円柱を見下ろす。大きな窓から淡い光が差し込む、静かな屋内空間の記録。",
       "genres": [
         "STAIRS",
-        "ARCHITECTURE"
+        "ARCHITECTURE",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -8444,7 +8949,8 @@
       ],
       "description": "上階から見下ろした、ガラスと金属の手すりが巡る屋内階段。折り返しながら続く段差が、幾何学的な奥行きを生み出している。",
       "genres": [
-        "STAIRS"
+        "STAIRS",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -8931,7 +9437,8 @@
       ],
       "description": "黄色や赤のエア遊具と色鮮やかなマットが並ぶ屋内のキッズスペース。案内板や受付台も見え、施設内の子ども向け遊び場の様子を伝えています。",
       "genres": [
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -9016,7 +9523,6 @@
       "genres": [
         "ARCHITECTURE",
         "STREET",
-        "PARKS_LEISURE_EVENTS",
         "NIGHT"
       ]
     },
@@ -9073,7 +9579,8 @@
       "description": "紫の暖簾が揺れる足湯施設の入口。木の階段と手すりの先に湯処があり、明るい日差しの中で温泉街のくつろぎを感じさせる。",
       "genres": [
         "STAIRS",
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -9162,7 +9669,6 @@
         "DOORS",
         "ARCHITECTURE",
         "STREET",
-        "TRANSPORT_INFRA",
         "OUTDOOR_PASSAGES"
       ]
     },
@@ -9337,8 +9843,7 @@
       "genres": [
         "INDOOR_PASSAGES",
         "ARCHITECTURE",
-        "NIGHT",
-        "ITEMS_OBJECTS"
+        "NIGHT"
       ]
     },
     {
@@ -9421,7 +9926,8 @@
       ],
       "description": "赤・黄・青の大型エア遊具が室内に設置され、床には色鮮やかなマットが広がる。手前の靴置き場から、靴を脱いで遊ぶ施設の様子が伝わる。",
       "genres": [
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -9448,7 +9954,8 @@
       ],
       "description": "赤や青、黄色のエア遊具が並ぶ屋内キッズスペース。ネット付きの遊具も見え、明るい照明の下に遊び場の設備が広がっています。",
       "genres": [
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -9644,7 +10151,8 @@
       "description": "東京メトロの駅構内に設置された乗り越し精算機。案内表示に「休止中」とあり、利用できない状態の駅設備を記録している。",
       "genres": [
         "STATIONS_RAILWAYS",
-        "EQUIPMENT"
+        "EQUIPMENT",
+        "ITEMS_OBJECTS"
       ]
     },
     {
@@ -9927,7 +10435,8 @@
       "description": "ホテルの立体駐車場を、スロープと支柱が交差する構造に注目して記録。無人の昼間、コンクリートの質感と都市施設の機能的な佇まいが見える。",
       "genres": [
         "ARCHITECTURE",
-        "PARKING"
+        "PARKING",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -10094,7 +10603,8 @@
       "description": "乗り物型遊具やゲーム機が並ぶ、カラフルな屋内キッズスペース。遊び場の設備や明るい雰囲気を記録した一枚です。",
       "genres": [
         "PARKS_LEISURE_EVENTS",
-        "ITEMS_OBJECTS"
+        "ITEMS_OBJECTS",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -10410,7 +10920,6 @@
       "description": "手すりと金網に囲まれたコンクリート階段が、木々の間を抜けて港と青い海へ続く。海辺の日常の動線を記録した一枚。",
       "genres": [
         "STAIRS",
-        "TRANSPORT_INFRA",
         "NATURE",
         "OUTDOOR_PASSAGES"
       ]
@@ -10752,7 +11261,8 @@
       ],
       "description": "卓球台が並ぶ屋内施設。青い仕切りで区切られた無人の空間に、整然とした台と木目の床が広がっています。",
       "genres": [
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -10839,7 +11349,8 @@
       ],
       "description": "大きな木々に囲まれた小さな遊び場に、使い込まれたブランコが残る。木漏れ日が差す静かな昼の風景を記録している。",
       "genres": [
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "ITEMS_OBJECTS"
       ]
     },
     {
@@ -10894,7 +11405,8 @@
       "genres": [
         "SHOPS",
         "NATURE",
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -11010,7 +11522,8 @@
         "STAIRS",
         "DOORS",
         "ARCHITECTURE",
-        "EQUIPMENT"
+        "EQUIPMENT",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -11037,7 +11550,8 @@
       "description": "雑居ビルの階段を見上げた一枚。木調の手すりと赤茶色の段が重なり、壁際のガラスブロック窓から柔らかな光が差し込む。",
       "genres": [
         "STAIRS",
-        "ARCHITECTURE"
+        "ARCHITECTURE",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -11065,7 +11579,8 @@
       "description": "商業施設の一角にあるゲームセンター。プリントシール機が並ぶ明るい店内には人影がなく、木目調の床とカラフルな壁面が目を引く。",
       "genres": [
         "SHOPS",
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -11291,7 +11806,8 @@
       "description": "商品棚が空になった家電量販店の店内。段ボールやカートが残り、閉店後の広い売り場に静けさが漂う。",
       "genres": [
         "SHOPS",
-        "RUINS_CONSTRUCTION"
+        "RUINS_CONSTRUCTION",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -11319,7 +11835,8 @@
       "description": "閉店した家電量販店の通路に、商品棚やガラスケースが残る。明るい照明の下、客の姿はなく、営業を終えた店内の静けさが広がる。",
       "genres": [
         "SHOPS",
-        "RUINS_CONSTRUCTION"
+        "RUINS_CONSTRUCTION",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -11347,7 +11864,8 @@
       "description": "閉店後の家電量販店に、金属製の什器や商品台が残る。明るい通路と暗い店内の対比が、営業を終えた店舗の静けさを伝える。",
       "genres": [
         "SHOPS",
-        "RUINS_CONSTRUCTION"
+        "RUINS_CONSTRUCTION",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -11375,7 +11893,8 @@
       "description": "閉店した家電量販店の売り場に、撤去途中の棚や台車が残る。明るい照明の下、営業を終えた商業施設の静けさが広がる。",
       "genres": [
         "SHOPS",
-        "RUINS_CONSTRUCTION"
+        "RUINS_CONSTRUCTION",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -11403,7 +11922,8 @@
       "description": "閉店後の家電量販店に、空になった金属棚と段ボール箱が残る。蛍光灯に照らされた無人の売り場が、店舗の撤退を静かに伝えている。",
       "genres": [
         "SHOPS",
-        "RUINS_CONSTRUCTION"
+        "RUINS_CONSTRUCTION",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -11431,7 +11951,8 @@
       "description": "商品が撤去された家電量販店の売り場に、配線や買い物かごが残る。閉店後の広々とした店内と、営業の痕跡を記録した一枚。",
       "genres": [
         "SHOPS",
-        "RUINS_CONSTRUCTION"
+        "RUINS_CONSTRUCTION",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -11457,7 +11978,8 @@
       ],
       "description": "閉店した家電量販店の広い通路。人影の少ない店内に天井照明が床へ映り込み、営業を終えた施設の静けさが漂う。",
       "genres": [
-        "SHOPS"
+        "SHOPS",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -11485,7 +12007,8 @@
       "description": "閉店した家電量販店の広い売り場に、案内柱と照明だけが残る。磨かれた床に静けさが広がり、営業時のにぎわいを思わせる。",
       "genres": [
         "SHOPS",
-        "RUINS_CONSTRUCTION"
+        "RUINS_CONSTRUCTION",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -11512,7 +12035,8 @@
       "description": "閉店した家電量販店の広い売り場。緑のマットと無人の通路、点灯した照明が、営業を終えた店舗の静けさを伝えています。",
       "genres": [
         "SHOPS",
-        "RUINS_CONSTRUCTION"
+        "RUINS_CONSTRUCTION",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -11540,7 +12064,8 @@
       "description": "蛍光灯に照らされた屋内駐輪場。自転車やバイクが壁際に並び、中央の通路が奥へと伸びる、静かな施設の一角を記録している。",
       "genres": [
         "PARKING",
-        "NIGHT"
+        "NIGHT",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -11598,7 +12123,8 @@
       "genres": [
         "PARKING",
         "EQUIPMENT",
-        "ITEMS_OBJECTS"
+        "ITEMS_OBJECTS",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -12020,7 +12546,8 @@
       "description": "閉店後のモールに段ボール箱や備品が残り、広い売り場は静まり返っています。営業を終えた施設の移り変わりを伝える一枚です。",
       "genres": [
         "SHOPS",
-        "RUINS_CONSTRUCTION"
+        "RUINS_CONSTRUCTION",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -12073,7 +12600,8 @@
       ],
       "description": "閉店した家電量販店の広い売り場。商品棚や陳列台が残る無人の店内に、蛍光灯の光が静かに反射しています。",
       "genres": [
-        "SHOPS"
+        "SHOPS",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -12101,7 +12629,8 @@
       "description": "閉店後の家電量販店に、空の棚や什器、段ボール箱が残る。明るい照明の下に広がる無人の売り場が、営業を終えた店舗の静けさを伝える。",
       "genres": [
         "SHOPS",
-        "RUINS_CONSTRUCTION"
+        "RUINS_CONSTRUCTION",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -12130,7 +12659,8 @@
       "genres": [
         "SHOPS",
         "RUINS_CONSTRUCTION",
-        "ITEMS_OBJECTS"
+        "ITEMS_OBJECTS",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -12352,8 +12882,7 @@
       "genres": [
         "STAIRS",
         "INDOOR_PASSAGES",
-        "ARCHITECTURE",
-        "ITEMS_OBJECTS"
+        "ARCHITECTURE"
       ]
     },
     {
@@ -12410,8 +12939,7 @@
       "description": "木目調の壁と大理石の床が続くホテルロビー。左右に並ぶ椅子や天井灯が、静かで格式ある空間を印象づけています。",
       "genres": [
         "INDOOR_PASSAGES",
-        "ARCHITECTURE",
-        "ITEMS_OBJECTS"
+        "ARCHITECTURE"
       ]
     },
     {
@@ -12439,8 +12967,7 @@
       "description": "天井の照明が廊下を明るく照らし、縞模様のカーペットが奥へと続く。椅子や小さなテーブルが置かれた、静かなホテルの共用空間。",
       "genres": [
         "INDOOR_PASSAGES",
-        "ARCHITECTURE",
-        "ITEMS_OBJECTS"
+        "ARCHITECTURE"
       ]
     },
     {
@@ -12552,7 +13079,8 @@
       "genres": [
         "STAIRS",
         "SHOPS",
-        "NIGHT"
+        "NIGHT",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -13148,7 +13676,8 @@
       "description": "草地に色とりどりのテントやタープが並ぶ、晴れた日の屋外風景。人影のない設営場所に、静かな時間が流れている。",
       "genres": [
         "NATURE",
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -13229,7 +13758,8 @@
       ],
       "description": "人影のないテントの下に、ビールケースを脚にしたテーブルが置かれている。白いテントやブルーシートが並び、屋外イベントの準備風景を伝える。",
       "genres": [
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -13312,7 +13842,9 @@
       ],
       "description": "商品がほとんど並んでいない棚の間に、木目の床が奥へ続く。営業を終えたような静けさが漂う、空っぽのTSUTAYAの店内。",
       "genres": [
-        "SHOPS"
+        "SHOPS",
+        "INDOOR_PASSAGES",
+        "DOORS"
       ]
     },
     {
@@ -13339,7 +13871,8 @@
       "description": "商品がほとんど撤去され、陳列棚や什器だけが残る店内。閉店後の売り場の広さと、静まり返った様子が記録されています。",
       "genres": [
         "SHOPS",
-        "RUINS_CONSTRUCTION"
+        "RUINS_CONSTRUCTION",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -13452,7 +13985,6 @@
       "genres": [
         "ARCHITECTURE",
         "STREET",
-        "SHOPS",
         "SIGNS_NOTICES"
       ]
     },
@@ -13592,7 +14124,8 @@
       "description": "大きな緑の黒板と黒いアップライトピアノが並ぶ、静かな教室。授業や音楽活動の場として使われてきた室内の様子を記録している。",
       "genres": [
         "OTHER",
-        "ARCHITECTURE"
+        "ARCHITECTURE",
+        "ITEMS_OBJECTS"
       ]
     },
     {
@@ -13647,8 +14180,7 @@
       "description": "家具のない広い部屋に、窓から昼の光が差し込む。整然とした室内と外の緑が、使われる前の静かな空間を伝えている。",
       "genres": [
         "INDOOR_PASSAGES",
-        "ARCHITECTURE",
-        "ITEMS_OBJECTS"
+        "ARCHITECTURE"
       ]
     },
     {
@@ -14028,7 +14560,8 @@
       "description": "雑居ビルの内部に続く折り返し階段を、手すり越しに見下ろす。無人の階段室に、直線と斜線が重なる建築の構造が浮かび上がる。",
       "genres": [
         "STAIRS",
-        "ARCHITECTURE"
+        "ARCHITECTURE",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -14085,8 +14618,7 @@
       "description": "家具のない広い部屋に木目の床が広がり、閉じたカーテンの隙間から昼の光が差し込む。使われていない空間の静けさが残る一枚。",
       "genres": [
         "INDOOR_PASSAGES",
-        "ARCHITECTURE",
-        "ITEMS_OBJECTS"
+        "ARCHITECTURE"
       ]
     },
     {
@@ -14431,8 +14963,7 @@
       "genres": [
         "ARCHITECTURE",
         "APARTMENTS",
-        "STREET",
-        "SHOPS"
+        "STREET"
       ]
     },
     {
@@ -14546,7 +15077,8 @@
       "description": "雑居ビルの無機質な階段を見上げる一枚。踊り場の隅に置かれた物が、ひっそりとした建物内部の空気を伝えている。",
       "genres": [
         "STAIRS",
-        "ARCHITECTURE"
+        "ARCHITECTURE",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -14604,8 +15136,7 @@
       "description": "雑居ビルの奥へ続く細い通路に、椅子やかご、備品が並ぶ。窓から昼の光が差し込み、人影のない建物の静けさが伝わる。",
       "genres": [
         "INDOOR_PASSAGES",
-        "ARCHITECTURE",
-        "ITEMS_OBJECTS"
+        "ARCHITECTURE"
       ]
     },
     {
@@ -14751,7 +15282,9 @@
       "description": "白い壁に囲まれた雑居ビルの階段と踊り場。金属の手すりや使い込まれた床が、建物の日常的な内部空間を伝えています。",
       "genres": [
         "STAIRS",
-        "ARCHITECTURE"
+        "ARCHITECTURE",
+        "INDOOR_PASSAGES",
+        "DOORS"
       ]
     },
     {
@@ -14866,7 +15399,8 @@
       ],
       "description": "木枠と錆びた車輪を備えた古い手押し車が、木陰の屋外に置かれている。ブルーシートや周囲の道具とともに、使い込まれた暮らしの道具を記録する。",
       "genres": [
-        "ITEMS_OBJECTS"
+        "ITEMS_OBJECTS",
+        "RUINS_CONSTRUCTION"
       ]
     },
     {
@@ -15081,7 +15615,8 @@
       "description": "人影のない家電量販店に、空の棚と買い物カートが並ぶ。明るい蛍光灯の下、営業中とも閉店後ともつかない静かな店内を記録している。",
       "genres": [
         "SHOPS",
-        "VIDEOS"
+        "VIDEOS",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -15169,7 +15704,6 @@
       "description": "公民館の広い空き部屋に、窓から昼の光が差し込む。整然とした室内と窓外の緑や遊具が、利用の合間の静けさを伝えている。",
       "genres": [
         "ARCHITECTURE",
-        "PARKS_LEISURE_EVENTS",
         "VIDEOS",
         "INDOOR_PASSAGES"
       ]
@@ -15228,7 +15762,8 @@
       "genres": [
         "STAIRS",
         "SHOT_ON_3DS",
-        "VIDEOS"
+        "VIDEOS",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -15259,9 +15794,9 @@
       "genres": [
         "STAIRS",
         "ARCHITECTURE",
-        "ITEMS_OBJECTS",
         "SHOT_ON_3DS",
-        "VIDEOS"
+        "VIDEOS",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -15325,7 +15860,8 @@
       "genres": [
         "PARKING",
         "SHOT_ON_3DS",
-        "VIDEOS"
+        "VIDEOS",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -15453,7 +15989,8 @@
         "STAIRS",
         "DOORS",
         "ARCHITECTURE",
-        "SHOT_ON_3DS"
+        "SHOT_ON_3DS",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -15512,7 +16049,8 @@
       "genres": [
         "STAIRS",
         "ARCHITECTURE",
-        "SHOT_ON_3DS"
+        "SHOT_ON_3DS",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -15664,7 +16202,8 @@
       "description": "人影のない室内に、長いカウンターと黒いマットが伸びる。低解像度の記録が、用途の見えにくい空間の静けさを際立たせている。",
       "genres": [
         "ARCHITECTURE",
-        "SHOT_ON_3DS"
+        "SHOT_ON_3DS",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -15784,7 +16323,6 @@
         "STATIONS_RAILWAYS",
         "EQUIPMENT",
         "RUINS_CONSTRUCTION",
-        "ITEMS_OBJECTS",
         "SHOT_ON_3DS",
         "SIGNS_NOTICES"
       ]
@@ -15845,7 +16383,8 @@
       "description": "蛍光灯が続く地下駐車場に、車と柱が点在する。人影のない広い空間が、静かでどこか現実離れした印象を残す。",
       "genres": [
         "PARKING",
-        "SHOT_ON_3DS"
+        "SHOT_ON_3DS",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -15874,7 +16413,8 @@
       "description": "蛍光灯が照らす無人の地下駐車場。白線や車止めが並ぶ広い空間を、3DSの低解像度映像が静かで非現実的な雰囲気に記録している。",
       "genres": [
         "PARKING",
-        "SHOT_ON_3DS"
+        "SHOT_ON_3DS",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -15935,7 +16475,6 @@
         "ARCHITECTURE",
         "STREET",
         "NATURE",
-        "ITEMS_OBJECTS",
         "SHOT_ON_3DS"
       ]
     },
@@ -16220,7 +16759,7 @@
       "publishedAt": "2025-02-02 12:17:20",
       "dateTaken": "2025-01-30 01:14:05",
       "license": "CC_BY",
-      "genre": "STREET",
+      "genre": "PARKS_LEISURE_EVENTS",
       "tags": [
         "liminalspace",
         "住宅街の公園",
@@ -16233,8 +16772,6 @@
       ],
       "description": "遊具と砂地の広場が広がる、昼下がりの住宅街の公園。人影のない静かな景色に、どこか境界的な雰囲気が漂う。",
       "genres": [
-        "STREET",
-        "NATURE",
         "PARKS_LEISURE_EVENTS",
         "SHOT_ON_3DS",
         "OUTDOOR_PASSAGES"
@@ -16387,7 +16924,8 @@
       "genres": [
         "APARTMENTS",
         "SHOT_ON_3DS",
-        "ARCHITECTURE"
+        "ARCHITECTURE",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -16417,7 +16955,8 @@
       "genres": [
         "APARTMENTS",
         "SHOT_ON_3DS",
-        "ARCHITECTURE"
+        "ARCHITECTURE",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -16596,7 +17135,6 @@
       "description": "高層ビルに囲まれた広場を、昼の光が照らす。人影のない舗装面と静けさが、日常から切り離されたような都市の一瞬を記録している。",
       "genres": [
         "ARCHITECTURE",
-        "PARKS_LEISURE_EVENTS",
         "SHOT_ON_3DS",
         "OUTDOOR_PASSAGES",
         "STREET"
@@ -16718,7 +17256,8 @@
       "genres": [
         "STAIRS",
         "ARCHITECTURE",
-        "SHOT_ON_3DS"
+        "SHOT_ON_3DS",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -16805,7 +17344,8 @@
       "genres": [
         "DOORS",
         "ARCHITECTURE",
-        "SHOT_ON_3DS"
+        "SHOT_ON_3DS",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -16954,7 +17494,8 @@
       "genres": [
         "STAIRS",
         "ARCHITECTURE",
-        "SHOT_ON_3DS"
+        "SHOT_ON_3DS",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -16996,7 +17537,7 @@
       "publishedAt": "2025-02-02 12:17:05",
       "dateTaken": "2025-01-28 03:20:02",
       "license": "CC_BY",
-      "genre": "ARCHITECTURE",
+      "genre": "STREET",
       "tags": [
         "東京の夕景",
         "都市のシルエット",
@@ -17009,7 +17550,6 @@
       ],
       "description": "夕焼けの残る空を背に、東京のビル群と住宅街が黒いシルエットで広がる。3DSで撮影された、街の薄暮を伝える記録写真。",
       "genres": [
-        "ARCHITECTURE",
         "STREET",
         "NIGHT",
         "SHOT_ON_3DS"
@@ -17026,7 +17566,7 @@
       "publishedAt": "2025-02-02 12:17:05",
       "dateTaken": "2025-01-28 03:19:36",
       "license": "CC_BY",
-      "genre": "ARCHITECTURE",
+      "genre": "STREET",
       "tags": [
         "東京の街並み",
         "高層ビル",
@@ -17039,7 +17579,6 @@
       ],
       "description": "高所から見渡す東京の街並み。夕暮れの薄曇りの空の下、ビルや住宅が広がり、道路には車の灯りが点々と続いている。",
       "genres": [
-        "ARCHITECTURE",
         "STREET",
         "ROADS",
         "SHOT_ON_3DS"
@@ -17056,7 +17595,7 @@
       "publishedAt": "2025-02-02 12:17:05",
       "dateTaken": "2025-01-28 03:17:10",
       "license": "CC_BY",
-      "genre": "ARCHITECTURE",
+      "genre": "STREET",
       "tags": [
         "東京の市街地",
         "高層ビル",
@@ -17069,7 +17608,6 @@
       ],
       "description": "高層ビルに囲まれた東京の交差点を上空から捉えた一枚。車が行き交う道路と街の密集した景観が記録されています。",
       "genres": [
-        "ARCHITECTURE",
         "STREET",
         "ROADS",
         "SHOT_ON_3DS"
@@ -17086,7 +17624,7 @@
       "publishedAt": "2025-02-02 12:17:04",
       "dateTaken": "2025-01-28 03:17:05",
       "license": "CC_BY",
-      "genre": "ARCHITECTURE",
+      "genre": "STREET",
       "tags": [
         "東京スカイツリー",
         "東京の市街地",
@@ -17099,7 +17637,6 @@
       ],
       "description": "高所から見渡した東京の街並みの向こうに、建設中の東京スカイツリーが立つ。3DSで撮影された、当時の都市景観を伝える一枚。",
       "genres": [
-        "ARCHITECTURE",
         "STREET",
         "SHOT_ON_3DS"
       ]
@@ -17172,7 +17709,7 @@
       "publishedAt": "2025-02-02 12:17:02",
       "dateTaken": "2025-01-28 01:59:15",
       "license": "CC_BY",
-      "genre": "ARCHITECTURE",
+      "genre": "STREET",
       "tags": [
         "土のう",
         "ピンク色の養生シート",
@@ -17184,7 +17721,6 @@
       ],
       "description": "建物脇に土のうやバケツ、シートが積まれ、通路の一角が資材置き場になっている。日常の街角に残る雑多な風景を記録する。",
       "genres": [
-        "ARCHITECTURE",
         "STREET",
         "SHOT_ON_3DS",
         "ITEMS_OBJECTS"
@@ -17427,8 +17963,7 @@
       "genres": [
         "APARTMENTS",
         "STREET",
-        "SHOT_ON_3DS",
-        "ARCHITECTURE"
+        "SHOT_ON_3DS"
       ]
     },
     {
@@ -17488,7 +18023,6 @@
       "genres": [
         "STATIONS_RAILWAYS",
         "ROADS",
-        "PARKS_LEISURE_EVENTS",
         "SHOT_ON_3DS"
       ]
     },
@@ -18278,7 +18812,6 @@
       "genres": [
         "DETACHED_HOUSES",
         "STREET",
-        "SHOPS",
         "NIGHT",
         "ARCHITECTURE"
       ]
@@ -18339,7 +18872,6 @@
         "DETACHED_HOUSES",
         "ARCHITECTURE",
         "STREET",
-        "SHOPS",
         "NIGHT"
       ]
     },
@@ -18563,7 +19095,7 @@
       "publishedAt": "2025-02-02 06:27:29",
       "dateTaken": "2025-01-26 07:41:32",
       "license": "CC_BY",
-      "genre": "SHOPS",
+      "genre": "ARCHITECTURE",
       "tags": [
         "ピンク色の建物",
         "店舗兼住宅",
@@ -18578,7 +19110,6 @@
       "genres": [
         "ARCHITECTURE",
         "STREET",
-        "SHOPS",
         "ROADS",
         "SIGNS_NOTICES",
         "NIGHT"
@@ -18766,7 +19297,7 @@
       "publishedAt": "2025-02-02 06:27:25",
       "dateTaken": "2025-01-26 17:03:28",
       "license": "CC_BY",
-      "genre": "SHOPS",
+      "genre": "DOORS",
       "tags": [
         "レトロな小規模ビル",
         "シャッターのある店舗",
@@ -18782,7 +19313,6 @@
         "DOORS",
         "ARCHITECTURE",
         "STREET",
-        "SHOPS",
         "NIGHT"
       ]
     },
@@ -19015,7 +19545,8 @@
       "description": "車も人影もない屋内駐車場の入口。梁や配管が続く無機質な空間に、昼の光が差し込み、静けさと非現実感を漂わせている。",
       "genres": [
         "PARKING",
-        "EQUIPMENT"
+        "EQUIPMENT",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -19029,7 +19560,7 @@
       "publishedAt": "2025-02-02 06:27:20",
       "dateTaken": "2025-01-28 16:02:43",
       "license": "CC_BY",
-      "genre": "SHOPS",
+      "genre": "ARCHITECTURE",
       "tags": [
         "古い商店",
         "シャッターの閉まった店舗",
@@ -19044,7 +19575,6 @@
       "genres": [
         "ARCHITECTURE",
         "STREET",
-        "SHOPS",
         "SIGNS_NOTICES"
       ]
     },
@@ -19074,7 +19604,6 @@
       "genres": [
         "ARCHITECTURE",
         "STREET",
-        "SHOPS",
         "SIGNS_NOTICES"
       ]
     },
@@ -19165,7 +19694,6 @@
         "OUTDOOR_PASSAGES",
         "DETACHED_HOUSES",
         "STREET",
-        "PARKING",
         "ROADS",
         "ARCHITECTURE"
       ]
@@ -19574,7 +20102,8 @@
       "genres": [
         "STAIRS",
         "DOORS",
-        "ARCHITECTURE"
+        "ARCHITECTURE",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -19792,7 +20321,7 @@
       "publishedAt": "2025-02-02 06:27:03",
       "dateTaken": "2025-01-26 16:26:37",
       "license": "CC_BY",
-      "genre": "SHOPS",
+      "genre": "ARCHITECTURE",
       "tags": [
         "古びた建物",
         "レトロな住宅",
@@ -19805,7 +20334,6 @@
       ],
       "description": "夕方の光が差す路地に、色あせた壁や錆びた外装が残る古い建物。電線や軒先の生活用品が、街の日常を伝えている。",
       "genres": [
-        "SHOPS",
         "ARCHITECTURE",
         "STREET",
         "NIGHT"
@@ -19868,7 +20396,6 @@
       "genres": [
         "ARCHITECTURE",
         "STREET",
-        "SHOPS",
         "ROADS",
         "SIGNS_NOTICES",
         "NIGHT"
@@ -20192,7 +20719,8 @@
       ],
       "description": "ガラスの手すりに囲まれた幅広い階段が、明るい屋内空間の上階へと続く。人影のない静けさが印象に残る。",
       "genres": [
-        "STAIRS"
+        "STAIRS",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -20249,7 +20777,8 @@
       "description": "灰色の壁に囲まれた無人のエレベーターホール。閉じた扉と階数表示、天井の蛍光灯が、業務施設の簡素で静かな空間を記録している。",
       "genres": [
         "DOORS",
-        "ARCHITECTURE"
+        "ARCHITECTURE",
+        "EQUIPMENT"
       ]
     },
     {
@@ -20309,7 +20838,8 @@
       "description": "壁の非常灯だけが階段の踊り場を照らし、上階へ続く段差は暗闇に沈む。人影のない静けさが、日常から切り離された空間を感じさせる。",
       "genres": [
         "STAIRS",
-        "ARCHITECTURE"
+        "ARCHITECTURE",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -20369,7 +20899,6 @@
       "genres": [
         "ARCHITECTURE",
         "STREET",
-        "SHOPS",
         "NIGHT"
       ]
     },
@@ -21198,7 +21727,8 @@
       ],
       "description": "レンガ壁に囲まれた階段が、暖色の灯りの先へ地下深く続く。人影のない静けさと奥行きが、日常から切り離された空間を感じさせる。",
       "genres": [
-        "STAIRS"
+        "STAIRS",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -21911,9 +22441,7 @@
         "OUTDOOR_PASSAGES",
         "ARCHITECTURE",
         "PARKING",
-        "ROADS",
-        "PARKS_LEISURE_EVENTS",
-        "ITEMS_OBJECTS"
+        "ROADS"
       ]
     },
     {
@@ -22356,7 +22884,8 @@
       "genres": [
         "STAIRS",
         "DOORS",
-        "ARCHITECTURE"
+        "ARCHITECTURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -22647,7 +23176,8 @@
       "description": "大理石張りの壁に囲まれた無人の空間に、曲線を描くらせん階段が続く。静けさと非日常感が漂う、役所建築の一場面。",
       "genres": [
         "STAIRS",
-        "ARCHITECTURE"
+        "ARCHITECTURE",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -22734,8 +23264,7 @@
       "description": "大理石調の壁に挟まれた市役所の通路が、暖かな照明の下で奥へと伸びる。人影のない静けさが、日常の中の境界的な空間を印象づける。",
       "genres": [
         "INDOOR_PASSAGES",
-        "ARCHITECTURE",
-        "ITEMS_OBJECTS"
+        "ARCHITECTURE"
       ]
     },
     {
@@ -22994,7 +23523,8 @@
       ],
       "description": "人影のない広い屋内駐車場に、蛍光灯の光が均一に広がる。灰色の床と橙色の壁が、静かでどこか非現実的な空間をつくっている。",
       "genres": [
-        "PARKING"
+        "PARKING",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -23022,7 +23552,8 @@
       ],
       "description": "蛍光灯に照らされた地下駐車場に車の姿はなく、白線と黒いポールが静かな空間を区切る。日常の場所に漂う非現実的な余白を記録している。",
       "genres": [
-        "PARKING"
+        "PARKING",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -23348,7 +23879,8 @@
       "description": "市役所の螺旋階段を上階から見下ろした一枚。石張りの壁と金属の手すりが円を描き、無人の空間に静かな余韻を残す。",
       "genres": [
         "STAIRS",
-        "ARCHITECTURE"
+        "ARCHITECTURE",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -23377,7 +23909,8 @@
       "genres": [
         "STAIRS",
         "DOORS",
-        "ARCHITECTURE"
+        "ARCHITECTURE",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -23845,7 +24378,7 @@
       "publishedAt": "2025-02-02 06:25:45",
       "dateTaken": "2025-01-29 12:45:03",
       "license": "CC_BY",
-      "genre": "SHOPS",
+      "genre": "ARCHITECTURE",
       "tags": [
         "レトロな店舗建築",
         "シャッターの閉じた店",
@@ -23858,8 +24391,7 @@
       "description": "電線が幾重にも走る青空の下、シャッターを閉じた古い店舗が静かに佇む。周囲の建物とともに、街角の懐かしい景観を伝えている。",
       "genres": [
         "ARCHITECTURE",
-        "STREET",
-        "SHOPS"
+        "STREET"
       ]
     },
     {
@@ -24227,7 +24759,8 @@
       "genres": [
         "STAIRS",
         "RUINS_CONSTRUCTION",
-        "NIGHT"
+        "NIGHT",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -24285,7 +24818,6 @@
       "description": "休講を知らずに訪れた講義室には、机が整然と並び、窓からの光だけが差し込む。人影のない静けさが、取り残されたような空気を漂わせる。",
       "genres": [
         "ARCHITECTURE",
-        "ITEMS_OBJECTS",
         "INDOOR_PASSAGES"
       ]
     },
@@ -24404,7 +24936,6 @@
         "STREET",
         "SHOPS",
         "ROADS",
-        "PARKS_LEISURE_EVENTS",
         "OUTDOOR_PASSAGES"
       ]
     },
@@ -24578,7 +25109,8 @@
       "genres": [
         "STAIRS",
         "SIGNS_NOTICES",
-        "RUINS_CONSTRUCTION"
+        "RUINS_CONSTRUCTION",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -25022,7 +25554,8 @@
       "genres": [
         "STAIRS",
         "RUINS_CONSTRUCTION",
-        "NIGHT"
+        "NIGHT",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -25197,8 +25730,7 @@
       "description": "樹木のそばに残る、半円形のコンクリート遺構。風雨にさらされた表面や開口部が、かつての用途と時代の痕跡を伝えています。",
       "genres": [
         "ARCHITECTURE",
-        "SHRINES_HERITAGE",
-        "PARKS_LEISURE_EVENTS"
+        "SHRINES_HERITAGE"
       ]
     },
     {
@@ -25283,7 +25815,8 @@
       "description": "大きな木々の木陰にベンチやテーブルが置かれた、人気のない公園。緑の植え込みと静かな昼の空気が広がっています。",
       "genres": [
         "PARKS_LEISURE_EVENTS",
-        "ITEMS_OBJECTS"
+        "ITEMS_OBJECTS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -25692,8 +26225,7 @@
       "description": "田畑と林に囲まれた場所に、シャッターを閉じた家屋がぽつんと建つ。曇り空の下、静かな郊外の一角を記録している。",
       "genres": [
         "ARCHITECTURE",
-        "DETACHED_HOUSES",
-        "SHOPS"
+        "DETACHED_HOUSES"
       ]
     },
     {
@@ -25781,7 +26313,8 @@
       "genres": [
         "ARCHITECTURE",
         "EQUIPMENT",
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -26165,8 +26698,8 @@
         "RUINS_CONSTRUCTION",
         "DETACHED_HOUSES",
         "STREET",
-        "ITEMS_OBJECTS",
-        "ARCHITECTURE"
+        "ARCHITECTURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -26253,9 +26786,7 @@
       "description": "電柱と電線が交差する道沿いに、シャッターや自転車のある古い建物が並ぶ。曇天の下、日常の街角の風景を記録している。",
       "genres": [
         "ARCHITECTURE",
-        "STREET",
-        "SHOPS",
-        "PARKING"
+        "STREET"
       ]
     },
     {
@@ -26339,7 +26870,8 @@
       "genres": [
         "ARCHITECTURE",
         "SHRINES_HERITAGE",
-        "ITEMS_OBJECTS"
+        "ITEMS_OBJECTS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -26429,7 +26961,8 @@
       "genres": [
         "OTHER",
         "PARKS_LEISURE_EVENTS",
-        "ITEMS_OBJECTS"
+        "ITEMS_OBJECTS",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -26577,8 +27110,7 @@
       "description": "閉店したような古い木造店舗が、近代的なビルに挟まれて街路に並ぶ。曇天の静かな昼間に、町の変化を感じさせる一角を記録している。",
       "genres": [
         "ARCHITECTURE",
-        "STREET",
-        "SHOPS"
+        "STREET"
       ]
     },
     {
@@ -26726,7 +27258,6 @@
       "genres": [
         "DETACHED_HOUSES",
         "STREET",
-        "PARKING",
         "ROADS",
         "OUTDOOR_PASSAGES",
         "ARCHITECTURE"
@@ -26790,7 +27321,8 @@
         "ARCHITECTURE",
         "STREET",
         "SIGNS_NOTICES",
-        "STAIRS"
+        "STAIRS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -26819,7 +27351,8 @@
       "genres": [
         "STAIRS",
         "ARCHITECTURE",
-        "RUINS_CONSTRUCTION"
+        "RUINS_CONSTRUCTION",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -26909,7 +27442,8 @@
       "description": "棚に鍋や食器、清掃用具などが所狭しと並ぶ倉庫。日用品や備品が集められた、雑然とした保管場所の様子を記録している。",
       "genres": [
         "EQUIPMENT",
-        "ITEMS_OBJECTS"
+        "ITEMS_OBJECTS",
+        "RUINS_CONSTRUCTION"
       ]
     },
     {
@@ -26938,8 +27472,6 @@
       "genres": [
         "DETACHED_HOUSES",
         "STREET",
-        "SHOPS",
-        "PARKING",
         "ROADS",
         "ARCHITECTURE"
       ]
@@ -27032,7 +27564,6 @@
         "DETACHED_HOUSES",
         "ARCHITECTURE",
         "STREET",
-        "SHOPS",
         "ROADS"
       ]
     },
@@ -27180,7 +27711,8 @@
       ],
       "description": "文翔館の何も置かれていない一室。白壁と木組みの天井、奥へ続く扉が、静けさと建物の歴史を感じさせます。",
       "genres": [
-        "ARCHITECTURE"
+        "ARCHITECTURE",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -27330,8 +27862,8 @@
       "genres": [
         "DOORS",
         "STREET",
-        "SHOPS",
-        "EQUIPMENT"
+        "EQUIPMENT",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -27491,7 +28023,7 @@
       "publishedAt": "2024-09-14 16:58:57",
       "dateTaken": "2024-09-13 16:18:44",
       "license": "CC_BY",
-      "genre": "SHOPS",
+      "genre": "STREET",
       "tags": [
         "白い看板",
         "閉店した店舗",
@@ -27504,7 +28036,6 @@
       "description": "赤い屋根の小さな店舗に、文字のない大きな白い看板が掲げられている。閉じたシャッターと曇天が、静かな通りの一角を伝える。",
       "genres": [
         "STREET",
-        "SHOPS",
         "SIGNS_NOTICES"
       ]
     },
@@ -27874,7 +28405,7 @@
       "publishedAt": "2024-09-14 16:58:50",
       "dateTaken": "2024-09-13 16:23:38",
       "license": "CC_BY",
-      "genre": "SHOPS",
+      "genre": "DETACHED_HOUSES",
       "tags": [
         "道路沿いの古い家屋",
         "シャッターと格子戸",
@@ -27886,7 +28417,6 @@
       ],
       "description": "道路に面した古い家屋を正面から記録。青白の日よけや格子戸、軒先に並ぶ袋が、曇り空の下の静かな暮らしを伝えています。",
       "genres": [
-        "SHOPS",
         "DETACHED_HOUSES",
         "STREET",
         "ROADS",
@@ -27973,10 +28503,8 @@
       "description": "曇天の下、横断歩道の先に古びた角地の建物が立つ。電線が交差する静かな街角の、日常の風景を記録している。",
       "genres": [
         "ARCHITECTURE",
-        "STREET",
         "SHOPS",
         "ROADS",
-        "NATURE",
         "OUTDOOR_PASSAGES"
       ]
     },
@@ -28007,7 +28535,8 @@
       "genres": [
         "ARCHITECTURE",
         "SHRINES_HERITAGE",
-        "ITEMS_OBJECTS"
+        "ITEMS_OBJECTS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -28120,9 +28649,7 @@
       "description": "道路に面して建つ古い家屋と、背後に並ぶ集合住宅。新旧の建物が混在する街角の様子を、曇天の下に記録している。",
       "genres": [
         "ARCHITECTURE",
-        "STREET",
         "ROADS",
-        "NATURE",
         "OUTDOOR_PASSAGES"
       ]
     },
@@ -28149,11 +28676,9 @@
       ],
       "description": "道路脇に建つ、時計や宝石を扱う古い店舗。色あせた看板や白い外壁に、街角で時を重ねた建物の佇まいが残る。",
       "genres": [
-        "STREET",
         "SHOPS",
         "ROADS",
         "SIGNS_NOTICES",
-        "NATURE",
         "ITEMS_OBJECTS"
       ]
     },
@@ -28389,7 +28914,6 @@
       "genres": [
         "ARCHITECTURE",
         "SHOPS",
-        "STATIONS_RAILWAYS",
         "SIGNS_NOTICES"
       ]
     },
@@ -28450,7 +28974,8 @@
       "description": "朝食前の静かな食堂。窓辺に整えられたテーブルと椅子の向こうに、曇り空の下で広がる街並みが見える。",
       "genres": [
         "SHOPS",
-        "ITEMS_OBJECTS"
+        "ITEMS_OBJECTS",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -28653,8 +29178,7 @@
       "description": "円柱が並ぶ市民ホールのロビーに、ターコイズ色のベンチが整然と置かれている。人影のない広い空間が静けさを漂わせる。",
       "genres": [
         "INDOOR_PASSAGES",
-        "ARCHITECTURE",
-        "PARKS_LEISURE_EVENTS"
+        "ARCHITECTURE"
       ]
     },
     {
@@ -28683,7 +29207,6 @@
       "genres": [
         "APARTMENTS",
         "STREET",
-        "PARKING",
         "EQUIPMENT",
         "ARCHITECTURE"
       ]
@@ -28967,7 +29490,7 @@
       "publishedAt": "2024-09-14 16:58:27",
       "dateTaken": "2024-09-08 22:03:54",
       "license": "CC_BY",
-      "genre": "SHOPS",
+      "genre": "STREET",
       "tags": [
         "夜の住宅街",
         "道路沿いの家屋",
@@ -28981,7 +29504,6 @@
       "description": "夜の散歩道で、街灯に照らされた道路沿いの二階建て家屋を記録。店先や横断歩道が静かな住宅街の夜を伝えます。",
       "genres": [
         "STREET",
-        "SHOPS",
         "ROADS",
         "NIGHT"
       ]
@@ -29160,7 +29682,6 @@
         "ARCHITECTURE",
         "DETACHED_HOUSES",
         "STREET",
-        "PARKING",
         "ROADS",
         "OUTDOOR_PASSAGES"
       ]
@@ -29597,7 +30118,6 @@
         "INDOOR_PASSAGES",
         "OUTDOOR_PASSAGES",
         "STATIONS_RAILWAYS",
-        "PARKS_LEISURE_EVENTS",
         "NIGHT"
       ]
     },
@@ -29626,7 +30146,8 @@
       "description": "文翔館の議場を正面から捉えた一枚。天窓の連なるアーチ天井と磨かれた床が、静かな大空間の荘厳さを伝える。",
       "genres": [
         "ARCHITECTURE",
-        "SHRINES_HERITAGE"
+        "SHRINES_HERITAGE",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -29714,8 +30235,7 @@
         "TRANSPORT_INFRA",
         "STREET",
         "ROADS",
-        "SIGNS_NOTICES",
-        "PARKS_LEISURE_EVENTS"
+        "SIGNS_NOTICES"
       ]
     },
     {
@@ -29774,7 +30294,6 @@
       "genres": [
         "OUTDOOR_PASSAGES",
         "STREET",
-        "PARKING",
         "ROADS"
       ]
     },
@@ -29834,7 +30353,8 @@
         "DOORS",
         "ARCHITECTURE",
         "OUTDOOR_UNITS",
-        "NATURE"
+        "NATURE",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -29862,7 +30382,8 @@
       "description": "青緑色に沈む無人の階段を、落ち葉が縁取る。夜のスポーツ施設に漂う静けさと、日常から切り離されたような空気を記録している。",
       "genres": [
         "STAIRS",
-        "NIGHT"
+        "NIGHT",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -30274,8 +30795,6 @@
       "genres": [
         "OUTDOOR_PASSAGES",
         "DETACHED_HOUSES",
-        "STREET",
-        "NATURE",
         "NIGHT",
         "ARCHITECTURE"
       ]
@@ -30421,8 +30940,6 @@
       "description": "夕暮れの蔵王、古い建物に挟まれた細い路地が奥へ続く。山影と淡い空を背景に、静かな温泉街の一角を記録している。",
       "genres": [
         "OUTDOOR_PASSAGES",
-        "STREET",
-        "NATURE",
         "NIGHT"
       ]
     },
@@ -30465,7 +30982,7 @@
       "publishedAt": "2024-09-14 16:58:02",
       "dateTaken": "2024-09-08 18:15:47",
       "license": "CC_BY",
-      "genre": "STREET",
+      "genre": "NIGHT",
       "tags": [
         "温泉街",
         "湯けむり",
@@ -30478,8 +30995,6 @@
       ],
       "description": "山あいの温泉街を流れる水路に湯けむりが漂い、曇り空の下、静かな町並みと夕暮れの灯りが旅情を誘います。",
       "genres": [
-        "STREET",
-        "NATURE",
         "NIGHT",
         "OUTDOOR_PASSAGES"
       ]
@@ -30537,11 +31052,9 @@
       "description": "交差点の角に建つ、看板を掲げた白い二階建て店舗。色あせた外壁や周囲の電線に、蔵王の町の日常的な風景が残されています。",
       "genres": [
         "ARCHITECTURE",
-        "STREET",
         "SHOPS",
         "ROADS",
         "SIGNS_NOTICES",
-        "NATURE",
         "OUTDOOR_PASSAGES"
       ]
     },
@@ -30874,7 +31387,7 @@
       "publishedAt": "2024-09-14 16:57:54",
       "dateTaken": "2024-09-08 18:18:43",
       "license": "CC_BY",
-      "genre": "STREET",
+      "genre": "SHOPS",
       "tags": [
         "liminalspace",
         "夜の温泉街",
@@ -30887,9 +31400,7 @@
       ],
       "description": "夕暮れから夜へ移る蔵王の温泉街。街灯に照らされた石畳の通りと建物が静かに並び、山あいの旅先の空気を伝えています。",
       "genres": [
-        "STREET",
         "SHOPS",
-        "NATURE",
         "NIGHT",
         "OUTDOOR_PASSAGES"
       ]
@@ -30920,9 +31431,7 @@
       "genres": [
         "RUINS_CONSTRUCTION",
         "DETACHED_HOUSES",
-        "STREET",
         "ROADS",
-        "NATURE",
         "NIGHT",
         "ARCHITECTURE"
       ]
@@ -30983,7 +31492,8 @@
       "genres": [
         "STAIRS",
         "ARCHITECTURE",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -31352,7 +31862,8 @@
       ],
       "description": "錆の浮いた大型コンテナに、家具や袋詰めの不用品が積まれている。草に囲まれた屋外の廃棄物集積場所を記録した一枚。",
       "genres": [
-        "ITEMS_OBJECTS"
+        "ITEMS_OBJECTS",
+        "RUINS_CONSTRUCTION"
       ]
     },
     {
@@ -31379,9 +31890,7 @@
       "description": "曇天の下、白い建物に隣接する舗装地と通信アンテナが写る。人影のない静かな郊外の一角を記録している。",
       "genres": [
         "ARCHITECTURE",
-        "STREET",
         "ROADS",
-        "NATURE",
         "OUTDOOR_PASSAGES"
       ]
     },
@@ -31499,10 +32008,7 @@
       "description": "傾斜した舗装地の奥に、赤い庇が目を引く横長の建物が建つ。山並みを雲が覆う曇天のもと、敷地の高低差が際立つ。",
       "genres": [
         "DETACHED_HOUSES",
-        "STREET",
-        "SHOPS",
         "PARKING",
-        "NATURE",
         "ARCHITECTURE"
       ]
     },
@@ -31589,7 +32095,8 @@
       "genres": [
         "RUINS_CONSTRUCTION",
         "NATURE",
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -31618,7 +32125,8 @@
       "genres": [
         "RUINS_CONSTRUCTION",
         "ARCHITECTURE",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -31646,7 +32154,9 @@
       "description": "木々に囲まれた塀の前に、冷蔵庫や洗濯機などの家電が並ぶ。草地に面した屋外の一角に、地域の暮らしと廃棄の現場が記録されている。",
       "genres": [
         "ITEMS_OBJECTS",
-        "NATURE"
+        "NATURE",
+        "RUINS_CONSTRUCTION",
+        "EQUIPMENT"
       ]
     },
     {
@@ -31706,7 +32216,8 @@
       "description": "草が伸びた小さな公園にブランコやすべり台が残り、背後には霧のかかる山並みと建物が見える。蔵王の静かな曇天の風景。",
       "genres": [
         "NATURE",
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -31735,10 +32246,8 @@
       "genres": [
         "OUTDOOR_PASSAGES",
         "ARCHITECTURE",
-        "STREET",
         "OUTDOOR_UNITS",
-        "EQUIPMENT",
-        "NATURE"
+        "EQUIPMENT"
       ]
     },
     {
@@ -31767,9 +32276,7 @@
       "genres": [
         "DOORS",
         "ARCHITECTURE",
-        "STREET",
         "PARKING",
-        "NATURE",
         "OUTDOOR_PASSAGES"
       ]
     },
@@ -31916,8 +32423,6 @@
       "description": "蔵王の住宅街に並ぶ家屋を見上げた一枚。傷みの残る外壁や窓、空を横切る電線が、地域の日常の風景を伝えています。",
       "genres": [
         "DETACHED_HOUSES",
-        "STREET",
-        "NATURE",
         "ARCHITECTURE"
       ]
     },
@@ -31974,7 +32479,8 @@
       "genres": [
         "ITEMS_OBJECTS",
         "EQUIPMENT",
-        "NATURE"
+        "NATURE",
+        "RUINS_CONSTRUCTION"
       ]
     },
     {
@@ -32003,9 +32509,7 @@
       "genres": [
         "OUTDOOR_PASSAGES",
         "ARCHITECTURE",
-        "STREET",
-        "ROADS",
-        "NATURE"
+        "ROADS"
       ]
     },
     {
@@ -32119,8 +32623,7 @@
       "description": "白い外壁と大きな窓が目を引く、蔵王の街角の建物。店先の植栽や電線とともに、静かな地方の町並みを伝えています。",
       "genres": [
         "ARCHITECTURE",
-        "STREET",
-        "SHOPS"
+        "STREET"
       ]
     },
     {
@@ -32238,11 +32741,9 @@
       "description": "曇り空の下、平屋の建物と小さな看板が並ぶ蔵王の街角。電線が交差する静かな道路に、地方の町の日常が記録されています。",
       "genres": [
         "ARCHITECTURE",
-        "STREET",
         "SHOPS",
         "ROADS",
         "SIGNS_NOTICES",
-        "NATURE",
         "OUTDOOR_PASSAGES"
       ]
     },
@@ -32271,11 +32772,9 @@
       "description": "曇り空の下、車庫に車を収めた店舗兼住宅が並ぶ。看板や建物の佇まいに、蔵王の町の日常が記録されている。",
       "genres": [
         "ARCHITECTURE",
-        "STREET",
         "SHOPS",
         "PARKING",
-        "SIGNS_NOTICES",
-        "NATURE"
+        "SIGNS_NOTICES"
       ]
     },
     {
@@ -32361,9 +32860,7 @@
       "description": "蔵王の町並みに残る古い建物が、赤い屋根と湯気の立つ水路を見せる。曇り空の下、草木に囲まれた温泉街の日常を記録している。",
       "genres": [
         "DETACHED_HOUSES",
-        "ARCHITECTURE",
-        "STREET",
-        "NATURE"
+        "ARCHITECTURE"
       ]
     },
     {
@@ -32391,9 +32888,6 @@
       "description": "石垣沿いの水路に小さな橋が架かる、蔵王の山あいの町並み。曇天の下、古い家並みと静かな生活道が続いています。",
       "genres": [
         "DETACHED_HOUSES",
-        "STREET",
-        "TRANSPORT_INFRA",
-        "NATURE",
         "ARCHITECTURE",
         "OUTDOOR_PASSAGES",
         "ROADS"
@@ -32481,11 +32975,8 @@
       "description": "山あいの町に並ぶ古い商店と駐車中の車。曇り空の下、霧にかすむ山並みと素朴な街角が、蔵王の日常を伝えています。",
       "genres": [
         "ARCHITECTURE",
-        "STREET",
         "SHOPS",
-        "PARKING",
-        "SIGNS_NOTICES",
-        "NATURE"
+        "SIGNS_NOTICES"
       ]
     },
     {
@@ -32572,9 +33063,7 @@
       "genres": [
         "OUTDOOR_PASSAGES",
         "ARCHITECTURE",
-        "STREET",
-        "EQUIPMENT",
-        "NATURE"
+        "EQUIPMENT"
       ]
     },
     {
@@ -32662,8 +33151,9 @@
       "genres": [
         "STAIRS",
         "ARCHITECTURE",
-        "TRANSPORT_INFRA",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES",
+        "RUINS_CONSTRUCTION"
       ]
     },
     {
@@ -32720,9 +33210,7 @@
       "genres": [
         "APARTMENTS",
         "ARCHITECTURE",
-        "STREET",
         "PARKING",
-        "NATURE",
         "OUTDOOR_PASSAGES"
       ]
     },
@@ -32752,8 +33240,6 @@
       "genres": [
         "OUTDOOR_PASSAGES",
         "APARTMENTS",
-        "STREET",
-        "NATURE",
         "ARCHITECTURE"
       ]
     },
@@ -32782,7 +33268,6 @@
       "description": "蔵王の集落に建つ、車庫を備えた古い家屋。傷んだ白壁や石積みの基礎が、曇り空の下で静かな山里の暮らしを伝えています。",
       "genres": [
         "DETACHED_HOUSES",
-        "PARKING",
         "NATURE",
         "ARCHITECTURE"
       ]
@@ -32840,8 +33325,6 @@
       "description": "蔵王の路地に建つ、淡いピンク色の二階建て住宅。色あせや外壁の傷み、周囲の電柱と電線が、地域の日常の風景を伝えています。",
       "genres": [
         "DETACHED_HOUSES",
-        "STREET",
-        "NATURE",
         "ARCHITECTURE"
       ]
     },
@@ -32899,9 +33382,7 @@
       "genres": [
         "STAIRS",
         "OUTDOOR_PASSAGES",
-        "ARCHITECTURE",
-        "STREET",
-        "NATURE"
+        "ARCHITECTURE"
       ]
     },
     {
@@ -32928,9 +33409,7 @@
       "description": "蔵王の町に建つ、赤い屋根と白壁が印象的な古い建物。手前の草木が茂り、曇天の下に静かな山あいの風情が漂う。",
       "genres": [
         "RUINS_CONSTRUCTION",
-        "ARCHITECTURE",
-        "STREET",
-        "NATURE"
+        "ARCHITECTURE"
       ]
     },
     {
@@ -32985,9 +33464,7 @@
       ],
       "description": "蔵王の集落に建つ灰色の住宅を、川辺の草地や電線とともに記録。曇天の下、山あいの町の日常が静かに広がっています。",
       "genres": [
-        "ARCHITECTURE",
-        "STREET",
-        "NATURE"
+        "ARCHITECTURE"
       ]
     },
     {
@@ -33423,7 +33900,6 @@
       "genres": [
         "DETACHED_HOUSES",
         "STREET",
-        "TRANSPORT_INFRA",
         "NATURE",
         "ARCHITECTURE"
       ]
@@ -33829,7 +34305,8 @@
       "genres": [
         "SHOPS",
         "NATURE",
-        "ITEMS_OBJECTS"
+        "ITEMS_OBJECTS",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -34533,7 +35010,8 @@
       "description": "人影のないゲームセンターに、クレーンゲームの青紫やピンクの光が浮かぶ。奥へ続く通路と静けさが、日常から切り離されたような空気を漂わせる。",
       "genres": [
         "PARKS_LEISURE_EVENTS",
-        "NIGHT"
+        "NIGHT",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -34980,7 +35458,6 @@
       "genres": [
         "APARTMENTS",
         "STREET",
-        "PARKING",
         "ARCHITECTURE"
       ]
     },
@@ -35010,7 +35487,8 @@
         "APARTMENTS",
         "RUINS_CONSTRUCTION",
         "NATURE",
-        "ARCHITECTURE"
+        "ARCHITECTURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -35100,7 +35578,6 @@
         "DOORS",
         "ARCHITECTURE",
         "STREET",
-        "PARKING",
         "NATURE"
       ]
     },
@@ -35127,7 +35604,8 @@
       ],
       "description": "白い壁際に、傷んだ椅子と小さなテーブルが並ぶ。強い日差しが影を地面に落とし、使い込まれた屋外の一角を静かに記録している。",
       "genres": [
-        "ITEMS_OBJECTS"
+        "ITEMS_OBJECTS",
+        "RUINS_CONSTRUCTION"
       ]
     },
     {
@@ -35337,7 +35815,8 @@
       "genres": [
         "ITEMS_OBJECTS",
         "NATURE",
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "RUINS_CONSTRUCTION"
       ]
     },
     {
@@ -36784,7 +37263,8 @@
       "genres": [
         "ARCHITECTURE",
         "NATURE",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -37061,7 +37541,7 @@
       "publishedAt": "2024-09-14 14:07:54",
       "dateTaken": "2024-08-13 17:19:14",
       "license": "CC_BY",
-      "genre": "TRANSPORT_INFRA",
+      "genre": "OUTDOOR_PASSAGES",
       "tags": [
         "liminalspace",
         "歩行者用トンネル",
@@ -37075,7 +37555,6 @@
       ],
       "description": "薄暗いコンクリートのトンネルが、明るい出口の先に停まる廃車へ視線を導く。内外の明暗差が、静かな非日常感を生んでいる。",
       "genres": [
-        "TRANSPORT_INFRA",
         "OUTDOOR_PASSAGES",
         "ROADS",
         "NIGHT",
@@ -37519,7 +37998,8 @@
       "description": "人影のない屋外プールに、青い水面と白い滑り台が静かに佇む。木々に囲まれた明るい景色が、日常から切り離されたような空気を漂わせる。",
       "genres": [
         "PARKS_LEISURE_EVENTS",
-        "OTHER"
+        "OTHER",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -37547,7 +38027,8 @@
       "description": "水をたたえた青いプールの周囲に人影はなく、手前の乾いた床や飛び込み台が静けさを際立たせる。木々に囲まれた夏の日の記録。",
       "genres": [
         "PARKS_LEISURE_EVENTS",
-        "OTHER"
+        "OTHER",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -37575,7 +38056,8 @@
       "description": "青空の下、木々に囲まれた屋外プールに人影はない。水面に遊具が映り、静けさとどこか非現実的な空気が漂う。",
       "genres": [
         "PARKS_LEISURE_EVENTS",
-        "OTHER"
+        "OTHER",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -37607,7 +38089,8 @@
         "ARCHITECTURE",
         "RUINS_CONSTRUCTION",
         "STAIRS",
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -37782,7 +38265,6 @@
       "description": "金網フェンスの向こうに、草地と駐車車両、複数の団地棟が広がる。青空の下、手入れの行き届かない敷地が静かな郊外の一角を伝える。",
       "genres": [
         "APARTMENTS",
-        "PARKING",
         "NATURE",
         "ARCHITECTURE",
         "RUINS_CONSTRUCTION"
@@ -37937,7 +38419,8 @@
       "description": "金網越しに見える無人の屋外プール。高い日差しが水面や設備に影を落とし、利用者のいない静かな時間を記録している。",
       "genres": [
         "PARKS_LEISURE_EVENTS",
-        "OTHER"
+        "OTHER",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -37991,7 +38474,8 @@
       "description": "金網越しに、土のグラウンドと校舎、木々が広がる。晴れた日の穏やかな校庭の風景を記録している。",
       "genres": [
         "PARKS_LEISURE_EVENTS",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -38140,8 +38624,7 @@
       "genres": [
         "INDOOR_PASSAGES",
         "ARCHITECTURE",
-        "SIGNS_NOTICES",
-        "ITEMS_OBJECTS"
+        "SIGNS_NOTICES"
       ]
     },
     {
@@ -38291,8 +38774,7 @@
         "DOORS",
         "ARCHITECTURE",
         "EQUIPMENT",
-        "NATURE",
-        "ITEMS_OBJECTS"
+        "NATURE"
       ]
     },
     {
@@ -38650,7 +39132,6 @@
         "OUTDOOR_PASSAGES",
         "STREET",
         "SHOPS",
-        "TRANSPORT_INFRA",
         "SIGNS_NOTICES",
         "NATURE"
       ]
@@ -38766,7 +39247,6 @@
       "description": "青空の下にそびえる巨大な倉庫。赤茶色に錆びた外壁と手前の駐車車両が、工業施設の日常的な姿を伝えている。",
       "genres": [
         "ARCHITECTURE",
-        "PARKING",
         "EQUIPMENT",
         "NATURE"
       ]
@@ -39032,7 +39512,8 @@
       "genres": [
         "TRANSPORT_INFRA",
         "ROADS",
-        "SIGNS_NOTICES"
+        "SIGNS_NOTICES",
+        "ITEMS_OBJECTS"
       ]
     },
     {
@@ -39237,7 +39718,8 @@
       ],
       "description": "ベージュ系のタイルに囲まれた浴室。浴槽には折りたたみ式のふたが載り、水栓や床の排水口まで収めた住宅設備の記録です。",
       "genres": [
-        "ITEMS_OBJECTS"
+        "ITEMS_OBJECTS",
+        "OTHER"
       ]
     },
     {
@@ -39691,7 +40173,8 @@
       "description": "夏の日差しの下、木々に囲まれた小学校へ続く道。人影のない校庭と静かな校舎が、休暇中の学校のひとときを伝えます。",
       "genres": [
         "ARCHITECTURE",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -39719,7 +40202,8 @@
       "description": "青空の下、校舎に隣接する公園に滑り台やブランコが並ぶ。夏休みの静けさと、木々の濃い緑が印象に残る。",
       "genres": [
         "NATURE",
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -39928,7 +40412,8 @@
         "APARTMENTS",
         "EQUIPMENT",
         "NATURE",
-        "ARCHITECTURE"
+        "ARCHITECTURE",
+        "DOORS"
       ]
     },
     {
@@ -40249,7 +40734,8 @@
       ],
       "description": "青い魚箱に多彩な鮮魚が並ぶ市場の一角。行き交う買い物客の足元に、魚を選ぶ日常の活気が広がっています。",
       "genres": [
-        "SHOPS"
+        "SHOPS",
+        "ITEMS_OBJECTS"
       ]
     },
     {
@@ -40426,7 +40912,8 @@
       "description": "境内の笹に、願い事を書いた色とりどりの短冊が結ばれている。夏の七夕行事のにぎわいと、人々の願いを伝える一枚。",
       "genres": [
         "SHRINES_HERITAGE",
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "SIGNS_NOTICES"
       ]
     },
     {
@@ -40698,7 +41185,6 @@
         "INDOOR_PASSAGES",
         "ARCHITECTURE",
         "NATURE",
-        "PARKS_LEISURE_EVENTS",
         "NIGHT"
       ]
     },
@@ -40729,7 +41215,6 @@
         "INDOOR_PASSAGES",
         "ARCHITECTURE",
         "NATURE",
-        "PARKS_LEISURE_EVENTS",
         "ITEMS_OBJECTS"
       ]
     },
@@ -40847,7 +41332,8 @@
       "description": "緑色に塗られた階段室を上階から見下ろす。金属の手すりが幾重にも重なり、無人の静けさと奥へ続く空間の印象を残している。",
       "genres": [
         "STAIRS",
-        "ARCHITECTURE"
+        "ARCHITECTURE",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -41056,7 +41542,8 @@
       "description": "白い小タイルに囲まれた階段が、建物の吹き抜けを下へ伸びる。ガラスの手すりと無人の静けさが、日常の建築に独特の余白を生んでいる。",
       "genres": [
         "STAIRS",
-        "ARCHITECTURE"
+        "ARCHITECTURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -41172,7 +41659,6 @@
       "genres": [
         "INDOOR_PASSAGES",
         "ARCHITECTURE",
-        "PARKS_LEISURE_EVENTS",
         "NIGHT"
       ]
     },
@@ -41402,7 +41888,9 @@
       ],
       "description": "色とりどりのホールドが並ぶボルダリング壁を、使用禁止のテープが横切る。利用できない状態が、静かな施設の一場面として記録されている。",
       "genres": [
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "RUINS_CONSTRUCTION",
+        "SIGNS_NOTICES"
       ]
     },
     {
@@ -41551,7 +42039,8 @@
       "genres": [
         "STAIRS",
         "ARCHITECTURE",
-        "ITEMS_OBJECTS"
+        "ITEMS_OBJECTS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -41579,7 +42068,8 @@
       "genres": [
         "SHOPS",
         "SIGNS_NOTICES",
-        "NATURE"
+        "NATURE",
+        "ITEMS_OBJECTS"
       ]
     },
     {
@@ -41609,7 +42099,8 @@
         "STAIRS",
         "ARCHITECTURE",
         "NATURE",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -42304,7 +42795,8 @@
       "genres": [
         "STAIRS",
         "ARCHITECTURE",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -42332,7 +42824,8 @@
       "genres": [
         "SHOPS",
         "NATURE",
-        "ITEMS_OBJECTS"
+        "ITEMS_OBJECTS",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -42484,7 +42977,9 @@
         "SHOPS",
         "NATURE",
         "PARKS_LEISURE_EVENTS",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES",
+        "ROADS"
       ]
     },
     {
@@ -42605,7 +43100,8 @@
         "STAIRS",
         "TRANSPORT_INFRA",
         "EQUIPMENT",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -42695,7 +43191,8 @@
       "genres": [
         "STREET",
         "NATURE",
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -42724,7 +43221,8 @@
       "genres": [
         "ARCHITECTURE",
         "EQUIPMENT",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -42927,7 +43425,6 @@
       "description": "古びた建物の窓辺に鉢植えが並び、路地に緑を添えている。タイル壁や室外機とともに、日常の街角の風景を記録する。",
       "genres": [
         "STREET",
-        "SHOPS",
         "OUTDOOR_UNITS",
         "NATURE"
       ]
@@ -43016,7 +43513,6 @@
       "description": "日暮里・谷中の細い路地に、古い建物や小さな店舗が並ぶ。室外機や段差のある入口が、下町の日常の風景を伝えている。",
       "genres": [
         "STREET",
-        "SHOPS",
         "OUTDOOR_UNITS",
         "NATURE"
       ]
@@ -43047,7 +43543,6 @@
       "genres": [
         "ARCHITECTURE",
         "STREET",
-        "SHOPS",
         "NATURE"
       ]
     },
@@ -43312,7 +43807,8 @@
       ],
       "description": "金網越しに、橋の下を流れる浅い水路と露出した川底を望む。重厚な梁が連なる薄暗い空間の奥に、外の光が差し込んでいる。",
       "genres": [
-        "TRANSPORT_INFRA"
+        "TRANSPORT_INFRA",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -43342,7 +43838,8 @@
       "genres": [
         "STAIRS",
         "INDOOR_PASSAGES",
-        "TRANSPORT_INFRA"
+        "TRANSPORT_INFRA",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -43686,7 +44183,8 @@
       "genres": [
         "STAIRS",
         "ARCHITECTURE",
-        "RUINS_CONSTRUCTION"
+        "RUINS_CONSTRUCTION",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -43742,7 +44240,6 @@
       "genres": [
         "ARCHITECTURE",
         "STREET",
-        "SHOPS",
         "NATURE"
       ]
     },
@@ -43889,7 +44386,8 @@
       "description": "砂地の広場に、緑や黄色の曲がった鉄棒が並ぶ。人影のない静かな公園の一角に、住宅街の日常が記録されている。",
       "genres": [
         "NATURE",
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "ITEMS_OBJECTS"
       ]
     },
     {
@@ -43915,7 +44413,8 @@
       ],
       "description": "緑の大きな受け皿と青赤の支柱が目を引く、ラッパ型の水飲み場。落ち葉の散る屋外に、使い込まれた姿で立っている。",
       "genres": [
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "ITEMS_OBJECTS"
       ]
     },
     {
@@ -44178,7 +44677,6 @@
       "genres": [
         "APARTMENTS",
         "STREET",
-        "SHOPS",
         "ROADS",
         "NATURE",
         "ARCHITECTURE"
@@ -44477,7 +44975,9 @@
       ],
       "description": "草木が茂る中、コンクリート階段は壁に遮られて途切れている。日差しを受けた静かな一角に、使われなくなった場所の気配が漂う。",
       "genres": [
-        "STAIRS"
+        "STAIRS",
+        "OUTDOOR_PASSAGES",
+        "NATURE"
       ]
     },
     {
@@ -45202,7 +45702,8 @@
       "genres": [
         "STAIRS",
         "ARCHITECTURE",
-        "NIGHT"
+        "NIGHT",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -45229,7 +45730,8 @@
       "description": "白い小タイルの壁と淡いピンクの床が続く、無人の階段空間。折れ曲がる段差と幾何学的な構成が、静かで無機質な印象を残す。",
       "genres": [
         "STAIRS",
-        "ARCHITECTURE"
+        "ARCHITECTURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -45345,7 +45847,6 @@
         "ARCHITECTURE",
         "DOORS",
         "DETACHED_HOUSES",
-        "SHOPS",
         "ROADS"
       ]
     },
@@ -45582,7 +46083,8 @@
       "description": "木製ベンチと白い椅子が並ぶ、屋根付きの休憩スペース。人影のない静かな空間に、外の緑と日中の光が差し込んでいる。",
       "genres": [
         "PARKS_LEISURE_EVENTS",
-        "ITEMS_OBJECTS"
+        "ITEMS_OBJECTS",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -45751,7 +46253,8 @@
       ],
       "description": "緑豊かな屋外の屋根下に、飲料自動販売機が二台並ぶ。隣接するトイレへの案内表示も見え、休憩場所の様子を伝えている。",
       "genres": [
-        "ITEMS_OBJECTS"
+        "ITEMS_OBJECTS",
+        "EQUIPMENT"
       ]
     },
     {
@@ -46109,7 +46612,8 @@
       ],
       "description": "土の地面に設置されたシーソーを、強い日差しが照らす。遊ぶ人の姿はなく、長く伸びた影が静かな昼下がりの遊び場を印象づける。",
       "genres": [
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "ITEMS_OBJECTS"
       ]
     },
     {
@@ -46138,7 +46642,8 @@
       "genres": [
         "STAIRS",
         "ARCHITECTURE",
-        "NATURE"
+        "NATURE",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -46167,7 +46672,8 @@
       "description": "赤い座席がスクリーンへ向かって並ぶ、無人のミニシアター。上映前の静けさと、暗い館内に浮かぶ客席の色彩を記録している。",
       "genres": [
         "SHOPS",
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -46375,7 +46881,8 @@
       "description": "渋谷・道玄坂の雑居ビルを見上げる一枚。白いタイルと蛍光灯が重なる無人の空間に、日常から切り離されたような不穏さが漂う。",
       "genres": [
         "STAIRS",
-        "ARCHITECTURE"
+        "ARCHITECTURE",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -46532,7 +47039,8 @@
       "genres": [
         "STAIRS",
         "ARCHITECTURE",
-        "NIGHT"
+        "NIGHT",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -47615,7 +48123,8 @@
       "genres": [
         "STAIRS",
         "ARCHITECTURE",
-        "VIDEOS"
+        "VIDEOS",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -47644,7 +48153,8 @@
       "genres": [
         "ITEMS_OBJECTS",
         "SIGNS_NOTICES",
-        "NIGHT"
+        "NIGHT",
+        "RUINS_CONSTRUCTION"
       ]
     },
     {
@@ -47940,7 +48450,8 @@
       "description": "閉店間際の八百屋を入口から捉えた一枚。商品棚や買い物かごが残る店内に、営業を終える時間帯の静かな気配が漂う。",
       "genres": [
         "SHOPS",
-        "NATURE"
+        "NATURE",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -47998,7 +48509,8 @@
       ],
       "description": "住宅脇の草地に自転車が置かれ、手前の柵越しに見える。伸びた草や使い込まれた車体が、暮らしの一角を伝えている。",
       "genres": [
-        "PARKING"
+        "PARKING",
+        "ITEMS_OBJECTS"
       ]
     },
     {
@@ -48559,7 +49071,6 @@
       "genres": [
         "APARTMENTS",
         "STREET",
-        "SHOPS",
         "NIGHT",
         "ARCHITECTURE"
       ]
@@ -48590,7 +49101,6 @@
       "genres": [
         "APARTMENTS",
         "STREET",
-        "PARKING",
         "ROADS",
         "EQUIPMENT",
         "NATURE",
@@ -48658,7 +49168,8 @@
         "SIGNS_NOTICES",
         "RUINS_CONSTRUCTION",
         "NATURE",
-        "ARCHITECTURE"
+        "ARCHITECTURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -49065,7 +49576,8 @@
       ],
       "description": "スポッチャのキッズスペースに設けられたボールプールと遊具。人影のない室内に人工照明が広がり、遊び場の静かな一瞬を記録している。",
       "genres": [
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -49093,7 +49605,8 @@
       ],
       "description": "スポッチャのキッズスペースに、トランポリンや階段状の遊具が並ぶ。鮮やかな床と無人の空間が、営業前のような静けさを漂わせている。",
       "genres": [
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -49388,7 +49901,6 @@
         "DETACHED_HOUSES",
         "DOORS",
         "STREET",
-        "PARKING",
         "EQUIPMENT",
         "NIGHT",
         "ARCHITECTURE"
@@ -49420,7 +49932,8 @@
         "STAIRS",
         "ARCHITECTURE",
         "SIGNS_NOTICES",
-        "NIGHT"
+        "NIGHT",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -49461,7 +49974,7 @@
       "publishedAt": "2024-02-25 11:48:20",
       "dateTaken": "2024-01-30 19:50:26",
       "license": "CC_BY",
-      "genre": "SHOPS",
+      "genre": "DETACHED_HOUSES",
       "tags": [
         "夜の住宅街",
         "小規模な公共施設",
@@ -49474,7 +49987,6 @@
       ],
       "description": "暗い住宅街の一角に建つ、格子窓とコンクリート塀を備えた小さな建物。街灯に照らされた外観が、夜の静けさを伝えています。",
       "genres": [
-        "SHOPS",
         "DETACHED_HOUSES",
         "STREET",
         "NIGHT",
@@ -49506,7 +50018,6 @@
       "genres": [
         "ARCHITECTURE",
         "STREET",
-        "SHOPS",
         "NIGHT"
       ]
     },
@@ -49537,7 +50048,8 @@
         "DOORS",
         "STREET",
         "SHOPS",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -50061,7 +50573,7 @@
       "publishedAt": "2024-02-25 11:48:08",
       "dateTaken": "2024-01-30 18:38:27",
       "license": "CC_BY",
-      "genre": "TRANSPORT_INFRA",
+      "genre": "ARCHITECTURE",
       "tags": [
         "夜の街並み",
         "古い商業ビル",
@@ -50074,7 +50586,6 @@
       ],
       "description": "暗い夜空を背に、古びた商業ビルと電柱の変圧器、幾重にも絡む電線が並ぶ。街の設備と建物の質感を記録した一枚。",
       "genres": [
-        "TRANSPORT_INFRA",
         "ARCHITECTURE",
         "STREET",
         "EQUIPMENT",
@@ -50222,7 +50733,6 @@
       "description": "夜の集合住宅の入口が外灯に照らされ、砂利敷きの駐車場には小型トラックが停まる。静かな夜の建物の佇まいを記録している。",
       "genres": [
         "APARTMENTS",
-        "PARKING",
         "NIGHT",
         "ARCHITECTURE"
       ]
@@ -50346,7 +50856,8 @@
       "description": "蛍光灯が照らす無人の屋内駐車場。灰色のコンクリートと奥へ続く空間が、静かで少し非現実的な雰囲気を漂わせています。",
       "genres": [
         "PARKING",
-        "NIGHT"
+        "NIGHT",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -50408,7 +50919,9 @@
         "STREET",
         "EQUIPMENT",
         "NATURE",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES",
+        "DOORS"
       ]
     },
     {
@@ -50436,7 +50949,8 @@
       "genres": [
         "STAIRS",
         "ARCHITECTURE",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -51052,7 +51566,8 @@
         "EQUIPMENT",
         "NATURE",
         "PARKS_LEISURE_EVENTS",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -51078,7 +51593,8 @@
       ],
       "description": "木々や草に囲まれた場所に、緑と青の小舟が重ねて置かれている。使われなくなったボートが静かに時を重ねる、郊外の一角を記録した写真。",
       "genres": [
-        "ITEMS_OBJECTS"
+        "ITEMS_OBJECTS",
+        "RUINS_CONSTRUCTION"
       ]
     },
     {
@@ -51659,7 +52175,9 @@
         "STREET",
         "SHOPS",
         "NATURE",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES",
+        "RUINS_CONSTRUCTION"
       ]
     },
     {
@@ -51689,7 +52207,6 @@
         "DETACHED_HOUSES",
         "APARTMENTS",
         "STREET",
-        "SHOPS",
         "ARCHITECTURE"
       ]
     },
@@ -51890,7 +52407,6 @@
       "description": "夕日を背に、遊覧船乗り場の窓口はシャッターを閉じている。柵の影が広場に長く伸び、営業の合間の静かな港辺を記録する。",
       "genres": [
         "SHOPS",
-        "TRANSPORT_INFRA",
         "NATURE",
         "PARKS_LEISURE_EVENTS",
         "NIGHT"
@@ -52041,7 +52557,8 @@
         "APARTMENTS",
         "DOORS",
         "ARCHITECTURE",
-        "NATURE"
+        "NATURE",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -52070,7 +52587,8 @@
       "genres": [
         "TRANSPORT_INFRA",
         "EQUIPMENT",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -52220,7 +52738,6 @@
         "STAIRS",
         "OUTDOOR_PASSAGES",
         "APARTMENTS",
-        "PARKING",
         "ARCHITECTURE"
       ]
     },
@@ -52833,7 +53350,8 @@
       ],
       "description": "無数の細い糸が室内を覆い、奥の窓や照明を透かして見せる。規則的な線が重なり、静かで境界の曖昧な空間をつくり出している。",
       "genres": [
-        "STAIRS"
+        "STAIRS",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -53214,7 +53732,6 @@
       "genres": [
         "DOORS",
         "STREET",
-        "SHOPS",
         "SIGNS_NOTICES",
         "NATURE",
         "ITEMS_OBJECTS"
@@ -53305,7 +53822,9 @@
         "STREET",
         "NATURE",
         "NIGHT",
-        "RUINS_CONSTRUCTION"
+        "RUINS_CONSTRUCTION",
+        "OUTDOOR_PASSAGES",
+        "ROADS"
       ]
     },
     {
@@ -53448,7 +53967,6 @@
         "RUINS_CONSTRUCTION",
         "DETACHED_HOUSES",
         "STREET",
-        "SHOPS",
         "ROADS",
         "NIGHT",
         "ARCHITECTURE"
@@ -53554,7 +54072,7 @@
       "publishedAt": "2024-02-25 11:24:38",
       "dateTaken": "2024-01-04 21:15:06",
       "license": "CC_BY",
-      "genre": "SHOPS",
+      "genre": "ROADS",
       "tags": [
         "夜の街並み",
         "コインランドリー",
@@ -53566,7 +54084,6 @@
       ],
       "description": "夜の道路沿いに建つコインランドリー。二階の窓から暖かな光が漏れ、店先には黒い車が静かに停まっている。",
       "genres": [
-        "SHOPS",
         "ROADS",
         "NIGHT"
       ]
@@ -53595,7 +54112,8 @@
       "description": "夜の校庭に、仮設のプレハブ校舎が長く連なる。壁面の灯りが無人の建物を照らし、学校施設の一時的な姿を記録している。",
       "genres": [
         "ARCHITECTURE",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -53979,7 +54497,8 @@
         "RUINS_CONSTRUCTION",
         "STAIRS",
         "STREET",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -54441,7 +54960,6 @@
       "description": "駐車場の路面に、青いドラム缶と白い袋が並ぶ。人工照明に照らされた無人の一角を、何気ない街の記録として捉えている。",
       "genres": [
         "ITEMS_OBJECTS",
-        "PARKING",
         "NATURE",
         "NIGHT"
       ]
@@ -54967,7 +55485,6 @@
       "genres": [
         "DETACHED_HOUSES",
         "STREET",
-        "PARKING",
         "ROADS",
         "OUTDOOR_PASSAGES",
         "ARCHITECTURE"
@@ -55266,7 +55783,6 @@
       "description": "夕暮れの港に倉庫が黒い輪郭を浮かべ、水面には淡い光が揺れる。工業地帯の静かな一瞬を、広い空とともに記録している。",
       "genres": [
         "ARCHITECTURE",
-        "TRANSPORT_INFRA",
         "EQUIPMENT",
         "NATURE",
         "NIGHT"
@@ -55441,7 +55957,8 @@
       "description": "蛍光灯に照らされた屋内の駐輪場。コンクリートの段差と金属の手すりが続く、無機質で静かな通路を記録している。",
       "genres": [
         "STAIRS",
-        "PARKING"
+        "PARKING",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -55560,7 +56077,8 @@
       "genres": [
         "SHOPS",
         "EQUIPMENT",
-        "ITEMS_OBJECTS"
+        "ITEMS_OBJECTS",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -55856,7 +56374,8 @@
       ],
       "description": "蛍光灯に照らされた無人の階段。灰色のタイルと金属柵が続く静かな踊り場に、赤いコーンがひとつ置かれている。",
       "genres": [
-        "STAIRS"
+        "STAIRS",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -56730,7 +57249,6 @@
         "DOORS",
         "ARCHITECTURE",
         "STREET",
-        "PARKING",
         "OUTDOOR_UNITS",
         "EQUIPMENT"
       ]
@@ -56760,7 +57278,8 @@
       "description": "擁壁に挟まれた細く急なコンクリート階段が、斜面の上へ続く。金網や冬枯れの草木、足元の落ち葉が静かな屋外の一角を伝える。",
       "genres": [
         "STAIRS",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -57058,7 +57577,8 @@
       ],
       "description": "コンクリートの小さな保管庫の奥に、タイヤが四本並ぶ。入口から差し込む斜光が、無機質な空間に穏やかな陰影をつくっている。",
       "genres": [
-        "PARKING"
+        "PARKING",
+        "ITEMS_OBJECTS"
       ]
     },
     {
@@ -57116,7 +57636,6 @@
       "genres": [
         "DETACHED_HOUSES",
         "STREET",
-        "PARKING",
         "NATURE",
         "ARCHITECTURE"
       ]
@@ -57333,7 +57852,6 @@
       "genres": [
         "ARCHITECTURE",
         "STREET",
-        "SHOPS",
         "SIGNS_NOTICES",
         "EQUIPMENT"
       ]
@@ -57490,7 +58008,6 @@
         "DOORS",
         "ARCHITECTURE",
         "STREET",
-        "TRANSPORT_INFRA",
         "NATURE",
         "NIGHT"
       ]
@@ -57610,7 +58127,8 @@
       "genres": [
         "STAIRS",
         "SHOPS",
-        "NIGHT"
+        "NIGHT",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -57668,7 +58186,6 @@
       "description": "新宿三丁目の細い路地に並ぶ自動販売機と、シートで覆われた店舗の裏手。夜の街の実用的で雑然とした表情が記録されています。",
       "genres": [
         "STREET",
-        "SHOPS",
         "OUTDOOR_UNITS",
         "EQUIPMENT",
         "NIGHT"
@@ -57732,7 +58249,8 @@
         "STAIRS",
         "DOORS",
         "ARCHITECTURE",
-        "NIGHT"
+        "NIGHT",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -58011,7 +58529,8 @@
         "STREET",
         "NATURE",
         "NIGHT",
-        "ARCHITECTURE"
+        "ARCHITECTURE",
+        "RUINS_CONSTRUCTION"
       ]
     },
     {
@@ -58522,7 +59041,6 @@
         "PEDESTRIAN_BRIDGES",
         "STATIONS_RAILWAYS",
         "NATURE",
-        "PARKS_LEISURE_EVENTS",
         "STREET",
         "ROADS",
         "TRANSPORT_INFRA"
@@ -58703,7 +59221,6 @@
       "genres": [
         "ARCHITECTURE",
         "STREET",
-        "SHOPS",
         "ROADS",
         "SIGNS_NOTICES",
         "OUTDOOR_UNITS"
@@ -58720,7 +59237,7 @@
       "publishedAt": "2024-02-25 09:21:20",
       "dateTaken": "2024-02-02 16:28:57",
       "license": "CC_BY",
-      "genre": "SHOPS",
+      "genre": "ARCHITECTURE",
       "tags": [
         "渋谷",
         "雑居ビル",
@@ -58733,7 +59250,6 @@
       ],
       "description": "渋谷の街角に建つ、看板や窓、並んだ室外機が目を引く雑居ビル。日常の都市景観を記録した一枚。",
       "genres": [
-        "SHOPS",
         "ARCHITECTURE",
         "STREET",
         "SIGNS_NOTICES",
@@ -58887,7 +59403,9 @@
         "SHOPS",
         "SIGNS_NOTICES",
         "NIGHT",
-        "ARCHITECTURE"
+        "ARCHITECTURE",
+        "INDOOR_PASSAGES",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -58918,7 +59436,9 @@
         "SHOPS",
         "EQUIPMENT",
         "NATURE",
-        "ARCHITECTURE"
+        "ARCHITECTURE",
+        "INDOOR_PASSAGES",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -59152,7 +59672,8 @@
         "ARCHITECTURE",
         "EQUIPMENT",
         "RUINS_CONSTRUCTION",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -59180,8 +59701,7 @@
       "description": "低層の古い店舗ビルを見上げると、レンガ調の外壁や庇、閉じたシャッターが目に入る。背後の高層ビルとの対比に、街の新旧が表れている。",
       "genres": [
         "ARCHITECTURE",
-        "STREET",
-        "SHOPS"
+        "STREET"
       ]
     },
     {
@@ -59400,7 +59920,7 @@
       "publishedAt": "2024-02-25 02:51:52",
       "dateTaken": "2024-02-06 13:33:55",
       "license": "CC_BY",
-      "genre": "SHOPS",
+      "genre": "ARCHITECTURE",
       "tags": [
         "ガムテープで塞がれた窓",
         "古い建物",
@@ -59413,7 +59933,6 @@
       ],
       "description": "窓をテープで塞いだ古い建物を、コンクリート塀越しに見上げる。閉じたシャッターや色あせた外壁に、街角の静かな時間が刻まれている。",
       "genres": [
-        "SHOPS",
         "ARCHITECTURE",
         "STREET"
       ]
@@ -59881,7 +60400,9 @@
       "description": "雪を載せた古い木造店舗が路地に並び、濡れた路面に曇天の光が映る。電柱や電線と新しい建物が、街の移り変わりを伝えている。",
       "genres": [
         "STREET",
-        "SHOPS"
+        "SHOPS",
+        "OUTDOOR_PASSAGES",
+        "ROADS"
       ]
     },
     {
@@ -60064,7 +60585,9 @@
         "APARTMENTS",
         "RUINS_CONSTRUCTION",
         "NIGHT",
-        "ARCHITECTURE"
+        "ARCHITECTURE",
+        "INDOOR_PASSAGES",
+        "SIGNS_NOTICES"
       ]
     },
     {
@@ -60090,7 +60613,9 @@
       ],
       "description": "草木に囲まれた公園で、使用禁止の札が掲げられた滑り台。色あせや錆が進み、遊ばれなくなった場所の時間を伝えている。",
       "genres": [
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "RUINS_CONSTRUCTION",
+        "SIGNS_NOTICES"
       ]
     },
     {
@@ -60265,7 +60790,8 @@
       "genres": [
         "ARCHITECTURE",
         "STREET",
-        "SHOPS"
+        "SHOPS",
+        "RUINS_CONSTRUCTION"
       ]
     },
     {
@@ -60444,7 +60970,8 @@
         "APARTMENTS",
         "PARKS_LEISURE_EVENTS",
         "NIGHT",
-        "ARCHITECTURE"
+        "ARCHITECTURE",
+        "RUINS_CONSTRUCTION"
       ]
     },
     {
@@ -60471,7 +60998,8 @@
       ],
       "description": "土の地面に置かれた、コアラをかたどった乗り物遊具。強い日差しの下、正面を見つめる表情が印象的です。",
       "genres": [
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "ITEMS_OBJECTS"
       ]
     },
     {
@@ -60616,7 +61144,9 @@
       ],
       "description": "枯れ草や雑草に囲まれた鉄棒が、赤と黄色の支柱を残して立つ。人影のない屋外に、使われなくなった遊具の静かな佇まいが広がる。",
       "genres": [
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "RUINS_CONSTRUCTION",
+        "ITEMS_OBJECTS"
       ]
     },
     {
@@ -60703,7 +61233,8 @@
         "STAIRS",
         "APARTMENTS",
         "NATURE",
-        "ARCHITECTURE"
+        "ARCHITECTURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -60788,9 +61319,9 @@
       "description": "漁港の大きな作業施設前に、青いコンテナやパレットが並ぶ。雨上がりの路面に建物と車が映り、港の日常業務を伝えている。",
       "genres": [
         "ARCHITECTURE",
-        "TRANSPORT_INFRA",
         "EQUIPMENT",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -60877,7 +61408,8 @@
       "genres": [
         "RUINS_CONSTRUCTION",
         "NATURE",
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "SIGNS_NOTICES"
       ]
     },
     {
@@ -60904,7 +61436,8 @@
       ],
       "description": "枯れ草が広がる空き地に、色あせた鉄棒が残る。木々に囲まれた静かな場所に、かつての遊び場の面影が漂う。",
       "genres": [
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "RUINS_CONSTRUCTION"
       ]
     },
     {
@@ -60931,7 +61464,8 @@
       ],
       "description": "日差しの差し込む公園の砂地に、黄色いキリン型遊具が立つ。木々と植え込みを背景に、子どもたちの遊び場の一角を記録している。",
       "genres": [
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "ITEMS_OBJECTS"
       ]
     },
     {
@@ -60990,7 +61524,6 @@
       "description": "曇り空の下、年季の入った漁業施設の前に緑色の船が並ぶ。港の仕事を支える建物と船の、落ち着いた日常風景を記録している。",
       "genres": [
         "ARCHITECTURE",
-        "TRANSPORT_INFRA",
         "EQUIPMENT",
         "NATURE"
       ]
@@ -61199,7 +61732,8 @@
       ],
       "description": "枯れ草や雑草に囲まれたうんていが、午後の光を受けて静かに佇む。使用禁止となった遊具と、手入れの途絶えた場所の様子を記録している。",
       "genres": [
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "RUINS_CONSTRUCTION"
       ]
     },
     {
@@ -61460,9 +61994,9 @@
       "description": "漁港に建つ無機質な施設の外壁を見上げた一枚。室外機や配管が並ぶ建物と、曇天の下に続く静かな通路が記録されています。",
       "genres": [
         "ARCHITECTURE",
-        "TRANSPORT_INFRA",
         "OUTDOOR_UNITS",
-        "EQUIPMENT"
+        "EQUIPMENT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -61650,7 +62184,7 @@
       "publishedAt": "2024-02-25 02:51:12",
       "dateTaken": "2024-02-06 14:43:10",
       "license": "CC_BY",
-      "genre": "SHOPS",
+      "genre": "ARCHITECTURE",
       "tags": [
         "老朽化した建物",
         "破れた外壁",
@@ -61664,7 +62198,7 @@
       "genres": [
         "ARCHITECTURE",
         "STREET",
-        "SHOPS"
+        "RUINS_CONSTRUCTION"
       ]
     },
     {
@@ -61778,7 +62312,8 @@
       ],
       "description": "青や白の皿や茶碗が、使い込まれた水色の箱に雑然と収められている。日々の暮らしの痕跡を伝える食器の記録。",
       "genres": [
-        "ITEMS_OBJECTS"
+        "ITEMS_OBJECTS",
+        "RUINS_CONSTRUCTION"
       ]
     },
     {
@@ -61921,7 +62456,6 @@
         "STAIRS",
         "OUTDOOR_PASSAGES",
         "APARTMENTS",
-        "PARKING",
         "NATURE",
         "ARCHITECTURE"
       ]
@@ -62179,7 +62713,6 @@
       "genres": [
         "OUTDOOR_PASSAGES",
         "APARTMENTS",
-        "PARKING",
         "NATURE",
         "ARCHITECTURE"
       ]
@@ -62211,7 +62744,8 @@
         "STREET",
         "SHOPS",
         "EQUIPMENT",
-        "NATURE"
+        "NATURE",
+        "DOORS"
       ]
     },
     {
@@ -62330,7 +62864,8 @@
       "description": "シャッターの開いた搬入口に、濡れた路面が広がる。人影のない業務空間が、日常の裏側にある静けさを伝えている。",
       "genres": [
         "ARCHITECTURE",
-        "EQUIPMENT"
+        "EQUIPMENT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -62356,7 +62891,8 @@
       ],
       "description": "雪の残る公園に、赤や黄色の塗装が鮮やかなグローブジャングルジムが立つ。昭和の遊具の面影を伝える一景。",
       "genres": [
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "ITEMS_OBJECTS"
       ]
     },
     {
@@ -62704,8 +63240,7 @@
       "genres": [
         "DETACHED_HOUSES",
         "ARCHITECTURE",
-        "STREET",
-        "SHOPS"
+        "STREET"
       ]
     },
     {
@@ -62733,7 +63268,8 @@
       "genres": [
         "STAIRS",
         "ARCHITECTURE",
-        "NIGHT"
+        "NIGHT",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -62932,8 +63468,8 @@
       "genres": [
         "ARCHITECTURE",
         "STREET",
-        "SHOPS",
-        "NATURE"
+        "NATURE",
+        "RUINS_CONSTRUCTION"
       ]
     },
     {
@@ -62962,7 +63498,6 @@
       "genres": [
         "ARCHITECTURE",
         "STREET",
-        "SHOPS",
         "RUINS_CONSTRUCTION"
       ]
     },
@@ -62993,7 +63528,6 @@
         "DETACHED_HOUSES",
         "ARCHITECTURE",
         "STREET",
-        "SHOPS",
         "NIGHT"
       ]
     },
@@ -63653,7 +64187,6 @@
         "DETACHED_HOUSES",
         "ARCHITECTURE",
         "STREET",
-        "SHOPS",
         "NIGHT"
       ]
     },
@@ -63684,7 +64217,6 @@
         "ARCHITECTURE",
         "STREET",
         "SHRINES_HERITAGE",
-        "PARKS_LEISURE_EVENTS",
         "NIGHT"
       ]
     },
@@ -64081,7 +64613,8 @@
       "description": "閉店後の施設に残る、地下へ降りるタイル張りの階段。無人の暗い空間に手すりが続き、赤茶色の壁と静けさが印象に残る。",
       "genres": [
         "STAIRS",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -64374,7 +64907,8 @@
       "description": "洗濯機と乾燥機が並ぶ、無人のコインランドリー。青空柄の壁紙と蛍光灯の白い光が、静かで少し非現実的な空間をつくっている。",
       "genres": [
         "SHOPS",
-        "NATURE"
+        "NATURE",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -64491,7 +65025,8 @@
       "description": "青灰色の容器に、古い扇風機や生活ごみがまとめられている。使われなくなった家電と雑多な廃棄物が、街角の暮らしの一場面を伝える。",
       "genres": [
         "ITEMS_OBJECTS",
-        "NATURE"
+        "NATURE",
+        "RUINS_CONSTRUCTION"
       ]
     },
     {
@@ -64690,7 +65225,8 @@
       ],
       "description": "洗濯機と乾燥機が並ぶコインランドリーの一角。壁の利用案内や使い込まれた床が、日々の暮らしを支える場所の素朴な雰囲気を伝えています。",
       "genres": [
-        "SHOPS"
+        "SHOPS",
+        "DOORS"
       ]
     },
     {
@@ -64746,7 +65282,8 @@
       "description": "ガラス戸越しに、洗濯機や乾燥機が並ぶコインランドリーの店内を記録。蛍光灯の白い光と使い込まれた床に、日々の暮らしの気配が漂う。",
       "genres": [
         "SHOPS",
-        "NATURE"
+        "NATURE",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -64774,7 +65311,8 @@
       "genres": [
         "ARCHITECTURE",
         "SHOPS",
-        "EQUIPMENT"
+        "EQUIPMENT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -64834,7 +65372,8 @@
         "PARKING",
         "STREET",
         "SIGNS_NOTICES",
-        "NATURE"
+        "NATURE",
+        "ITEMS_OBJECTS"
       ]
     },
     {
@@ -64922,7 +65461,8 @@
       "description": "裏口からのぞく魚屋の作業場。魚介を並べた冷蔵ケースや業務用設備が見え、日々の商いを支える店の裏側を記録している。",
       "genres": [
         "SHOPS",
-        "EQUIPMENT"
+        "EQUIPMENT",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -65218,7 +65758,8 @@
       "genres": [
         "DOORS",
         "SHOPS",
-        "SIGNS_NOTICES"
+        "SIGNS_NOTICES",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -65479,7 +66020,8 @@
       "description": "蛍光灯に照らされた商店街の通路。店先には商品が並ぶ一方、閉じたシャッターと人影のない空間が静かな昼の一幕を伝える。",
       "genres": [
         "DOORS",
-        "SHOPS"
+        "SHOPS",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -65565,7 +66107,8 @@
       "genres": [
         "EQUIPMENT",
         "STREET",
-        "SHOPS"
+        "SHOPS",
+        "ITEMS_OBJECTS"
       ]
     },
     {
@@ -65682,8 +66225,7 @@
         "STREET",
         "SHOPS",
         "SIGNS_NOTICES",
-        "EQUIPMENT",
-        "PARKS_LEISURE_EVENTS"
+        "EQUIPMENT"
       ]
     },
     {
@@ -65712,7 +66254,8 @@
       "genres": [
         "SHOPS",
         "NATURE",
-        "NIGHT"
+        "NIGHT",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -65800,7 +66343,8 @@
       "genres": [
         "STREET",
         "SHOPS",
-        "EQUIPMENT"
+        "EQUIPMENT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -65915,7 +66459,9 @@
       "description": "鉢植えや包まれた花束が通路の両側に並ぶ花屋の店内。明るい照明の下、色鮮やかな花々が訪れる人を迎えます。",
       "genres": [
         "SHOPS",
-        "NATURE"
+        "NATURE",
+        "INDOOR_PASSAGES",
+        "ITEMS_OBJECTS"
       ]
     },
     {
@@ -66095,7 +66641,9 @@
       "genres": [
         "STREET",
         "SHOPS",
-        "EQUIPMENT"
+        "EQUIPMENT",
+        "OUTDOOR_PASSAGES",
+        "ITEMS_OBJECTS"
       ]
     },
     {
@@ -66109,7 +66657,7 @@
       "publishedAt": "2024-02-24 16:17:58",
       "dateTaken": "2024-02-14 16:16:19",
       "license": "CC_BY",
-      "genre": "SHOPS",
+      "genre": "ARCHITECTURE",
       "tags": [
         "茶色い外壁",
         "古い商店建築",
@@ -66124,7 +66672,6 @@
       "genres": [
         "ARCHITECTURE",
         "STREET",
-        "SHOPS",
         "NATURE",
         "NIGHT"
       ]
@@ -66215,7 +66762,8 @@
         "DETACHED_HOUSES",
         "STREET",
         "SHRINES_HERITAGE",
-        "ARCHITECTURE"
+        "ARCHITECTURE",
+        "RUINS_CONSTRUCTION"
       ]
     },
     {
@@ -66291,7 +66839,7 @@
       "publishedAt": "2024-02-24 16:17:55",
       "dateTaken": "2024-02-14 16:18:50",
       "license": "CC_BY",
-      "genre": "SHOPS",
+      "genre": "ARCHITECTURE",
       "tags": [
         "赤茶色の外壁",
         "古い雑居建築",
@@ -66304,7 +66852,6 @@
       ],
       "description": "赤茶色の外壁と錆びたトタンが目を引く、路地に建つ古い建物。木の扉やガラスブロック窓、電柱が密集する街角の生活感を伝えています。",
       "genres": [
-        "SHOPS",
         "ARCHITECTURE",
         "STREET"
       ]
@@ -66361,7 +66908,8 @@
       ],
       "description": "店先の棚やかごに、花鉢や観葉植物が値札とともに並ぶ。色鮮やかな花々が、街角の花屋の日常を伝えている。",
       "genres": [
-        "SHOPS"
+        "SHOPS",
+        "ITEMS_OBJECTS"
       ]
     },
     {
@@ -66662,7 +67210,8 @@
       "genres": [
         "OTHER",
         "EQUIPMENT",
-        "ITEMS_OBJECTS"
+        "ITEMS_OBJECTS",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -66692,7 +67241,8 @@
       "genres": [
         "ARCHITECTURE",
         "EQUIPMENT",
-        "ITEMS_OBJECTS"
+        "ITEMS_OBJECTS",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -66720,8 +67270,7 @@
       "description": "人影のない多目的ホールに、広い床と閉じた壁面収納が広がる。非常口灯の緑が静かな室内に浮かび、使われていない時間の気配を伝える。",
       "genres": [
         "INDOOR_PASSAGES",
-        "ARCHITECTURE",
-        "PARKS_LEISURE_EVENTS"
+        "ARCHITECTURE"
       ]
     },
     {
@@ -66777,7 +67326,8 @@
       "description": "青と黄色の遊具に、使用禁止を知らせる札が重なる。冬枯れの公園を背景に、遊べない滑り台の静かな一場面を切り取っている。",
       "genres": [
         "RUINS_CONSTRUCTION",
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "SIGNS_NOTICES"
       ]
     },
     {
@@ -66919,7 +67469,8 @@
       "description": "暗い舗装路の端に、ピンク色の動物型遊具がぽつんと置かれている。人影のない夜の公園に、静けさと寂しさが漂う一枚。",
       "genres": [
         "PARKS_LEISURE_EVENTS",
-        "NIGHT"
+        "NIGHT",
+        "ITEMS_OBJECTS"
       ]
     },
     {
@@ -67124,7 +67675,8 @@
       "description": "橋の巨大な梁と橋脚が川面を覆い、隙間から細い光が差し込む。水面の反射が、橋下の静かで奥行きある空間を際立たせている。",
       "genres": [
         "TRANSPORT_INFRA",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -67322,7 +67874,7 @@
       "description": "青い板の隙間から、古びた小屋の奥にいる猫を捉えた一枚。木材や新聞紙が残る空間に、静かな日常の気配が漂う。",
       "genres": [
         "NATURE",
-        "ITEMS_OBJECTS"
+        "RUINS_CONSTRUCTION"
       ]
     },
     {
@@ -67683,7 +68235,8 @@
       ],
       "description": "川沿いに建つ古いトタン小屋。錆びた壁や壊れた窓、足元の枯れ草が、都市の片隅に残る時間の積み重なりを伝えています。",
       "genres": [
-        "ARCHITECTURE"
+        "ARCHITECTURE",
+        "RUINS_CONSTRUCTION"
       ]
     },
     {
@@ -67863,7 +68416,8 @@
       "genres": [
         "STAIRS",
         "ARCHITECTURE",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -68009,7 +68563,8 @@
       "genres": [
         "STREET",
         "NATURE",
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -68158,7 +68713,9 @@
       "description": "カプセルトイの機械が通路の両側に整然と並ぶ店内。人影のない明るい空間に、木目調の床が奥へと続いている。",
       "genres": [
         "SHOPS",
-        "EQUIPMENT"
+        "EQUIPMENT",
+        "INDOOR_PASSAGES",
+        "ITEMS_OBJECTS"
       ]
     },
     {
@@ -68245,7 +68802,8 @@
       "description": "青い小型ボートが船底を上にして岸辺に置かれ、背後には漁具や別の船が見える。港の日常と、使い込まれた船着き場の様子を伝える。",
       "genres": [
         "ITEMS_OBJECTS",
-        "NATURE"
+        "NATURE",
+        "RUINS_CONSTRUCTION"
       ]
     },
     {
@@ -68469,7 +69027,7 @@
       "publishedAt": "2024-01-03 16:18:53",
       "dateTaken": "2024-01-03 08:05:48",
       "license": "CC0",
-      "genre": "SHOPS",
+      "genre": "STREET",
       "tags": [
         "古い家屋",
         "格子窓",
@@ -68481,7 +69039,6 @@
       ],
       "description": "暗い路地に面した古い家屋。格子窓や使い込まれた外壁が、夜の静けさの中にひっそりと浮かび上がっています。",
       "genres": [
-        "SHOPS",
         "STREET",
         "NIGHT"
       ]
@@ -68543,7 +69100,6 @@
         "APARTMENTS",
         "STREET",
         "SHOPS",
-        "PARKS_LEISURE_EVENTS",
         "ARCHITECTURE"
       ]
     },
@@ -68809,7 +69365,6 @@
         "OUTDOOR_PASSAGES",
         "ROADS",
         "TRANSPORT_INFRA",
-        "PARKS_LEISURE_EVENTS",
         "NIGHT",
         "ARCHITECTURE"
       ]
@@ -68899,7 +69454,8 @@
       "genres": [
         "STAIRS",
         "ARCHITECTURE",
-        "NIGHT"
+        "NIGHT",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -68957,7 +69513,8 @@
       "genres": [
         "DOORS",
         "ARCHITECTURE",
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -69104,7 +69661,8 @@
       "description": "夜の立体駐車場を中央の通路から見通す。並ぶ車と天井灯が奥へ続き、無人の静けさと人工的な空間の奥行きを記録している。",
       "genres": [
         "PARKING",
-        "NIGHT"
+        "NIGHT",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -69132,7 +69690,8 @@
       "genres": [
         "STAIRS",
         "ARCHITECTURE",
-        "NIGHT"
+        "NIGHT",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -69490,7 +70049,8 @@
         "ARCHITECTURE",
         "NATURE",
         "DOORS",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -69547,7 +70107,8 @@
       "description": "蛍光灯に照らされた屋内の長い通路に、自転車が整然と並ぶ。日常の移動を支える駐輪施設の様子を記録している。",
       "genres": [
         "PARKING",
-        "NIGHT"
+        "NIGHT",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -69866,7 +70427,9 @@
       ],
       "description": "青緑色のタイルに囲まれた公園の男性用トイレ。小便器を囲む手すりや床の落ち葉が、屋外施設の日常的な佇まいを伝えている。",
       "genres": [
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "ITEMS_OBJECTS",
+        "EQUIPMENT"
       ]
     },
     {
@@ -70274,8 +70837,8 @@
       "description": "人影のないゲームセンターに、景品を詰めたクレーンゲームが並ぶ。木目の床と白やピンクの筐体が、静かな店内を彩っている。",
       "genres": [
         "SHOPS",
-        "PARKS_LEISURE_EVENTS",
-        "ITEMS_OBJECTS"
+        "ITEMS_OBJECTS",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -70330,7 +70893,8 @@
       "description": "赤茶色に塗られた階段を上から捉えた一枚。段ごとの滑り止めや黒いマット、緑の手すりが、建物の日常的な動線を伝えている。",
       "genres": [
         "STAIRS",
-        "ARCHITECTURE"
+        "ARCHITECTURE",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -70539,7 +71103,8 @@
       "genres": [
         "SHOPS",
         "NIGHT",
-        "ITEMS_OBJECTS"
+        "ITEMS_OBJECTS",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -70710,7 +71275,8 @@
       ],
       "description": "白い石調の踏み板と青い装飾タイルが交互に並ぶ階段。手すりと壁に囲まれた静かな屋内空間を、上階へ向かう視点で捉えている。",
       "genres": [
-        "STAIRS"
+        "STAIRS",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -70827,7 +71393,8 @@
       "description": "鮮やかな緑の金網越しに、コンクリート壁に囲まれた無人の空間が見える。フェンスの格子が、何気ない建物の隙間を印象的に切り取っている。",
       "genres": [
         "DOORS",
-        "ARCHITECTURE"
+        "ARCHITECTURE",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -70971,7 +71538,6 @@
       "genres": [
         "APARTMENTS",
         "STATIONS_RAILWAYS",
-        "PARKING",
         "EQUIPMENT",
         "ARCHITECTURE"
       ]
@@ -71525,7 +72091,8 @@
       "description": "赤い階段と緑の手すりが幾重にも重なり、吹き抜けの底へ視線を導く。高所から見下ろした建築の構造美を捉えた一枚。",
       "genres": [
         "STAIRS",
-        "ARCHITECTURE"
+        "ARCHITECTURE",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -71700,7 +72267,8 @@
       "genres": [
         "STAIRS",
         "DOORS",
-        "ARCHITECTURE"
+        "ARCHITECTURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -72018,7 +72586,8 @@
       "description": "左右に分かれる階段が、無人の踊り場へ続く建物内部。蛍光灯の淡い光と静かな色調が、日常の中の境界のような空間を際立たせています。",
       "genres": [
         "STAIRS",
-        "ARCHITECTURE"
+        "ARCHITECTURE",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -72396,7 +72965,8 @@
       ],
       "description": "左右に分かれた階段の中央を、幅広いスロープがまっすぐ貫く。人影のない静かな空間に、手すりと段差が整然と並ぶ。",
       "genres": [
-        "STAIRS"
+        "STAIRS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -72514,7 +73084,8 @@
       ],
       "description": "黄色や青、緑のパーツが組み合わさった複合遊具を内側から捉えた一枚。木々に囲まれた公園の遊び場の様子が伝わります。",
       "genres": [
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -72542,7 +73113,8 @@
       "genres": [
         "SIGNS_NOTICES",
         "PARKS_LEISURE_EVENTS",
-        "NIGHT"
+        "NIGHT",
+        "RUINS_CONSTRUCTION"
       ]
     },
     {
@@ -73019,7 +73591,8 @@
         "STREET",
         "ARCHITECTURE",
         "EQUIPMENT",
-        "NIGHT"
+        "NIGHT",
+        "RUINS_CONSTRUCTION"
       ]
     },
     {
@@ -73136,7 +73709,8 @@
       "genres": [
         "STAIRS",
         "NATURE",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -73194,7 +73768,8 @@
       "description": "街灯の光が木立の間から園路を照らし、落ち葉の散る小さな公園に静かな夜の表情を浮かび上がらせています。",
       "genres": [
         "PARKS_LEISURE_EVENTS",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -73556,7 +74131,7 @@
       "publishedAt": "2023-10-26 10:31:36",
       "dateTaken": "2023-10-23 19:37:45",
       "license": "CC0",
-      "genre": "TRANSPORT_INFRA",
+      "genre": "PARKS_LEISURE_EVENTS",
       "tags": [
         "木製の橋",
         "木道",
@@ -73569,9 +74144,9 @@
       ],
       "description": "暗い夜の公園に、木板を渡した小さな橋が浮かび上がる。手すりや足元の草まで照らされ、静かな場所の素朴な造りを伝えている。",
       "genres": [
-        "TRANSPORT_INFRA",
         "PARKS_LEISURE_EVENTS",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -74223,7 +74798,8 @@
       ],
       "description": "砂地に置かれた黄色と緑のシーソーを、強い日差しが照らす。遊具の影が地面に大きく伸び、静かな公園の一角を切り取っている。",
       "genres": [
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "ITEMS_OBJECTS"
       ]
     },
     {
@@ -74396,7 +74972,8 @@
         "ARCHITECTURE",
         "RUINS_CONSTRUCTION",
         "NATURE",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -74576,7 +75153,6 @@
       "description": "夜の闇に浮かぶ、年季の入った団地の外観。連なる廊下や窓、手前の駐車車両が、静かな住宅地の暮らしを伝えています。",
       "genres": [
         "APARTMENTS",
-        "PARKING",
         "NIGHT",
         "ARCHITECTURE"
       ]
@@ -74636,7 +75212,8 @@
       "description": "夜の公園に立つ滑り台を正面から捉えた一枚。街灯に照らされた赤い滑走面と黄色や青の遊具が、静かな園内に浮かび上がる。",
       "genres": [
         "PARKS_LEISURE_EVENTS",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -74692,7 +75269,8 @@
       "description": "草地に隣接した土の広場に、長い金属製のシーソーが置かれている。傾いた遊具と地面に伸びる影が、静かな公園の一角を伝える。",
       "genres": [
         "PARKS_LEISURE_EVENTS",
-        "NIGHT"
+        "NIGHT",
+        "ITEMS_OBJECTS"
       ]
     },
     {
@@ -74719,7 +75297,8 @@
       "description": "夜の公園に、緑の支柱と白い脚のブランコが静かに並ぶ。人影のない遊び場に、遊具の長い影が伸びている。",
       "genres": [
         "PARKS_LEISURE_EVENTS",
-        "NIGHT"
+        "NIGHT",
+        "ITEMS_OBJECTS"
       ]
     },
     {
@@ -74943,7 +75522,8 @@
       ],
       "description": "砂地の上に、金属チェーンで吊られたブランコが静かに揺れる。人影のない遊具と擦れた地面が、使われてきた時間を伝えている。",
       "genres": [
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "ITEMS_OBJECTS"
       ]
     },
     {
@@ -75667,7 +76247,8 @@
       "description": "青い手すりに沿って、点字ブロックのある階段が暗がりへ続く。街の片隅にひっそりと伸びる抜け道を、上から見下ろした一枚。",
       "genres": [
         "STAIRS",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -75695,7 +76276,8 @@
       "description": "住宅街の小さな公園に、ブランコやすべり台が並ぶ。木陰と日差しが地面に濃い明暗をつくり、鉄柵越しに静かな昼の風景を記録している。",
       "genres": [
         "NATURE",
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -76021,7 +76603,8 @@
       ],
       "description": "砂地の広がる公園に、二台のブランコが並ぶ。昼の光が地面に木漏れ日と影を落とし、遊びの合間の静けさを伝えている。",
       "genres": [
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "ITEMS_OBJECTS"
       ]
     },
     {
@@ -76048,7 +76631,8 @@
       ],
       "description": "砂地の広場に鉄棒や遊具が並び、木々の影が地面に伸びる。人影のない昼下がりの公園の一角を記録している。",
       "genres": [
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "ITEMS_OBJECTS"
       ]
     },
     {
@@ -76263,7 +76847,7 @@
       "publishedAt": "2023-07-17 08:22:43",
       "dateTaken": "2023-07-08 10:27:08",
       "license": "CC0",
-      "genre": "STAIRS",
+      "genre": "STATIONS_RAILWAYS",
       "tags": [
         "駅舎の天井",
         "吹き抜け",
@@ -76276,7 +76860,8 @@
       ],
       "description": "駅舎の吹き抜けを見上げると、長いコードの照明が高窓とアーチ窓の間に連なり、静かな空間の趣を伝えています。",
       "genres": [
-        "STAIRS"
+        "STATIONS_RAILWAYS",
+        "ITEMS_OBJECTS"
       ]
     },
     {
@@ -76361,7 +76946,8 @@
       "description": "店先に大根や白菜、長ねぎ、トマトなどが並び、手書きの値札が目を引く。地域の暮らしを支える八百屋の素朴な売り場風景。",
       "genres": [
         "SHOPS",
-        "NATURE"
+        "NATURE",
+        "ITEMS_OBJECTS"
       ]
     },
     {
@@ -76653,7 +77239,8 @@
       "genres": [
         "PARKING",
         "STREET",
-        "NATURE"
+        "NATURE",
+        "ITEMS_OBJECTS"
       ]
     },
     {
@@ -76942,7 +77529,8 @@
       "genres": [
         "ARCHITECTURE",
         "STREET",
-        "SHOPS"
+        "SHOPS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -76972,8 +77560,7 @@
         "ARCHITECTURE",
         "DETACHED_HOUSES",
         "STREET",
-        "SHOPS",
-        "PARKING"
+        "SHOPS"
       ]
     },
     {
@@ -77002,7 +77589,8 @@
       "genres": [
         "SHOPS",
         "STREET",
-        "SIGNS_NOTICES"
+        "SIGNS_NOTICES",
+        "RUINS_CONSTRUCTION"
       ]
     },
     {
@@ -77281,7 +77869,8 @@
       "description": "生け垣の前に設けられた、使い込まれた屋外の水飲み場。水受けに残る水垢や落ち葉が、日常的に使われる場所の様子を伝えています。",
       "genres": [
         "NATURE",
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "ITEMS_OBJECTS"
       ]
     },
     {
@@ -77307,7 +77896,8 @@
       ],
       "description": "草地と土に囲まれた公園に、青い持ち手の木製シーソーが傾いて設置されている。使い込まれた遊具が静かな昼の風景を伝える。",
       "genres": [
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "ITEMS_OBJECTS"
       ]
     },
     {
@@ -77389,7 +77979,8 @@
       "genres": [
         "STAIRS",
         "ARCHITECTURE",
-        "NATURE"
+        "NATURE",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -77446,7 +78037,8 @@
         "SHOPS",
         "ARCHITECTURE",
         "STREET",
-        "NATURE"
+        "NATURE",
+        "RUINS_CONSTRUCTION"
       ]
     },
     {
@@ -77593,7 +78185,8 @@
       "genres": [
         "STAIRS",
         "ARCHITECTURE",
-        "NATURE"
+        "NATURE",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -77767,7 +78360,8 @@
       "description": "赤いテントに「こけし食堂」と記された街角の店。閉じたシャッターや軒先の洗濯物が、日々の暮らしとともにある古い街並みを伝えています。",
       "genres": [
         "STREET",
-        "SHOPS"
+        "SHOPS",
+        "ARCHITECTURE"
       ]
     },
     {
@@ -77854,7 +78448,8 @@
         "DOORS",
         "ARCHITECTURE",
         "SIGNS_NOTICES",
-        "RUINS_CONSTRUCTION"
+        "RUINS_CONSTRUCTION",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -78048,8 +78643,7 @@
       "description": "草木が生い茂る山林の小道脇に、防犯カメラ作動中を知らせる赤い看板が立つ。人目の届きにくい場所を守る注意喚起の記録。",
       "genres": [
         "SIGNS_NOTICES",
-        "NATURE",
-        "ITEMS_OBJECTS"
+        "NATURE"
       ]
     },
     {
@@ -78166,7 +78760,8 @@
       "genres": [
         "STAIRS",
         "ARCHITECTURE",
-        "NIGHT"
+        "NIGHT",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -78495,7 +79090,8 @@
       "description": "黄色い幕に「お買得品コーナー」と掲げられた店内の一角。 terrazzo風のカウンターとタイル床が写り、買い物の場の日常を切り取っています。",
       "genres": [
         "SHOPS",
-        "NATURE"
+        "NATURE",
+        "ITEMS_OBJECTS"
       ]
     },
     {
@@ -78632,7 +79228,8 @@
       ],
       "description": "大きな木のそばに、使い込まれた木製ベンチが置かれている。落ち葉に覆われた地面と控えめな緑が、静かな公園の一角を伝える。",
       "genres": [
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "ITEMS_OBJECTS"
       ]
     },
     {
@@ -78747,7 +79344,6 @@
         "DETACHED_HOUSES",
         "ARCHITECTURE",
         "STREET",
-        "PARKING",
         "ROADS",
         "NATURE",
         "NIGHT",
@@ -78836,7 +79432,8 @@
       "genres": [
         "STREET",
         "PARKING",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -79006,7 +79603,8 @@
       "description": "錆の浮いた金属柵の向こうに、雑草の茂る従業員用エリアが見える。無機質な施設の一角に、年月の経過が刻まれている。",
       "genres": [
         "STAIRS",
-        "EQUIPMENT"
+        "EQUIPMENT",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -79034,7 +79632,8 @@
       ],
       "description": "金属の手すりに囲まれた広い踊り場から、階段が上下へ伸びる。人影のない無機質な空間に、蛍光灯の光が静かに広がっている。",
       "genres": [
-        "STAIRS"
+        "STAIRS",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -79091,7 +79690,8 @@
       "genres": [
         "DOORS",
         "ARCHITECTURE",
-        "RUINS_CONSTRUCTION"
+        "RUINS_CONSTRUCTION",
+        "DETACHED_HOUSES"
       ]
     },
     {
@@ -79290,7 +79890,8 @@
       "description": "広い樹冠を持つ大木が、曇天の公園に静かに立つ。足元の芝生や花壇とともに、季節の移ろいを感じさせる一景。",
       "genres": [
         "NATURE",
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -79981,7 +80582,8 @@
       "genres": [
         "STAIRS",
         "NATURE",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -80066,7 +80668,9 @@
       ],
       "description": "ミッキー形の窓が並ぶ白い車両が、明るく広々とした屋内ホームに停車する。石畳風の床と遠くの乗客が、リゾート駅の雰囲気を伝える。",
       "genres": [
-        "STATIONS_RAILWAYS"
+        "STATIONS_RAILWAYS",
+        "INDOOR_PASSAGES",
+        "PARKS_LEISURE_EVENTS"
       ]
     },
     {
@@ -80368,8 +80972,7 @@
       ],
       "description": "木造の柱やベンチが残る小湊鉄道の駅舎。壁の案内掲示と改札口に、地域の暮らしを支える小さな駅の日常が感じられる。",
       "genres": [
-        "STATIONS_RAILWAYS",
-        "PARKS_LEISURE_EVENTS"
+        "STATIONS_RAILWAYS"
       ]
     },
     {
@@ -80483,7 +81086,7 @@
         "SHRINES_HERITAGE",
         "ARCHITECTURE",
         "NATURE",
-        "PARKS_LEISURE_EVENTS"
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -80569,7 +81172,8 @@
       "description": "横浜の高架下に連なるコンクリートの橋脚。雨上がりの濡れた路面に街の建物がのぞき、都市の構造と静かな余韻を伝える。",
       "genres": [
         "ARCHITECTURE",
-        "TRANSPORT_INFRA"
+        "TRANSPORT_INFRA",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -80625,7 +81229,8 @@
         "ARCHITECTURE",
         "SHRINES_HERITAGE",
         "NATURE",
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -80683,7 +81288,8 @@
       "genres": [
         "ARCHITECTURE",
         "SHRINES_HERITAGE",
-        "NATURE"
+        "NATURE",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -80713,7 +81319,8 @@
         "ARCHITECTURE",
         "SHRINES_HERITAGE",
         "NATURE",
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -80743,7 +81350,8 @@
         "ARCHITECTURE",
         "SHRINES_HERITAGE",
         "NATURE",
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -80801,7 +81409,8 @@
       "genres": [
         "ARCHITECTURE",
         "SHRINES_HERITAGE",
-        "NATURE"
+        "NATURE",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -80830,7 +81439,8 @@
         "ARCHITECTURE",
         "SHRINES_HERITAGE",
         "NATURE",
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -81023,7 +81633,8 @@
       "description": "山あいの青緑色の湖に、橋の一部が水面下へ沈んでいる。冬枯れの岸辺とともに、水位の変化を伝える静かな風景。",
       "genres": [
         "TRANSPORT_INFRA",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -81143,7 +81754,6 @@
       "genres": [
         "DETACHED_HOUSES",
         "NATURE",
-        "ITEMS_OBJECTS",
         "ARCHITECTURE"
       ]
     },
@@ -81200,7 +81810,8 @@
       "description": "草津の湯もみ場に並ぶ木の湯船と湯もみ板。舞台や提灯が整えられ、湯もみの伝統を伝える静かな空間が広がる。",
       "genres": [
         "ARCHITECTURE",
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -81317,7 +81928,6 @@
       "description": "金属屋根を重ねた古い作業小屋。開け放たれた軒先に道具や袋が置かれ、冬枯れの草と午後の日差しが静かな佇まいを際立たせています。",
       "genres": [
         "DETACHED_HOUSES",
-        "ITEMS_OBJECTS",
         "ARCHITECTURE"
       ]
     },
@@ -81376,7 +81986,8 @@
       "genres": [
         "NATURE",
         "PARKS_LEISURE_EVENTS",
-        "ITEMS_OBJECTS"
+        "ITEMS_OBJECTS",
+        "SIGNS_NOTICES"
       ]
     },
     {
@@ -81599,7 +82210,7 @@
       "description": "石灯籠が並ぶ神社の境内。石畳の参道と玉砂利の広場を、木々の緑が静かに包み込んでいます。",
       "genres": [
         "SHRINES_HERITAGE",
-        "PARKS_LEISURE_EVENTS"
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -81715,8 +82326,7 @@
         "STAIRS",
         "DOORS",
         "ARCHITECTURE",
-        "SHOPS",
-        "ITEMS_OBJECTS"
+        "SHOPS"
       ]
     },
     {
@@ -81746,7 +82356,8 @@
       "genres": [
         "SHOPS",
         "PARKS_LEISURE_EVENTS",
-        "ITEMS_OBJECTS"
+        "ITEMS_OBJECTS",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -81945,7 +82556,8 @@
       "genres": [
         "DETACHED_HOUSES",
         "STAIRS",
-        "ARCHITECTURE"
+        "ARCHITECTURE",
+        "RUINS_CONSTRUCTION"
       ]
     },
     {
@@ -82086,7 +82698,8 @@
       ],
       "description": "乾いた地面に、緑と黄色のカエル型ロッキング遊具が一台置かれている。強い日差しの下、遊ぶ人のいない公園の静かな一場面。",
       "genres": [
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "ITEMS_OBJECTS"
       ]
     },
     {
@@ -82113,7 +82726,8 @@
       ],
       "description": "乾いた地面に置かれた、茶色い動物型のロッキング遊具。強い日差しの下、子どもたちが遊ぶ公園の一角を記録している。",
       "genres": [
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "ITEMS_OBJECTS"
       ]
     },
     {
@@ -82198,7 +82812,8 @@
         "DOORS",
         "ARCHITECTURE",
         "NATURE",
-        "ITEMS_OBJECTS"
+        "ITEMS_OBJECTS",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -82573,7 +83188,9 @@
       "description": "雪が降り続く夜の広場に、傘をさした雪だるまが立つ。街灯に照らされた雪原と長く伸びる影が、静かな冬の情景を伝えている。",
       "genres": [
         "PARKS_LEISURE_EVENTS",
-        "NIGHT"
+        "NIGHT",
+        "NATURE",
+        "ITEMS_OBJECTS"
       ]
     },
     {
@@ -82626,7 +83243,9 @@
       ],
       "description": "厚く雪をかぶったベンチが並び、周囲の植え込みにも雪が積もる。人影のない冬の公園に、静かな時間が流れている。",
       "genres": [
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "NATURE",
+        "ITEMS_OBJECTS"
       ]
     },
     {
@@ -82682,7 +83301,8 @@
       "description": "雨に濡れた階段が、中央の溝に沿って奥の灯りへ伸びる。濡れた表面の反射が、夜の静けさと奥行きを際立たせている。",
       "genres": [
         "STAIRS",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -83070,7 +83690,8 @@
       "description": "池に架かる石橋の先に、刈り込まれた木々や花が広がる日本庭園。晴れた日の水面に緑が映り、穏やかな散策の景色を伝える。",
       "genres": [
         "NATURE",
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -83239,7 +83860,8 @@
       "description": "木製デッキに小さな遊具が並ぶ屋上テラス。植栽の向こうに建物を望み、都会の中の憩いの場を記録している。",
       "genres": [
         "ARCHITECTURE",
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -83439,7 +84061,8 @@
       "description": "分岐する線路が架線柱の連なりとともに遠くへ伸びる。雲の広がる青空と逆光が、郊外の静かな鉄道風景を印象づけている。",
       "genres": [
         "STATIONS_RAILWAYS",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -83466,7 +84089,8 @@
       "description": "青空の下、跨線橋がホームをまたぐ地方駅。複数の線路が遠くへ伸び、静かな昼の駅の佇まいを伝えている。",
       "genres": [
         "STATIONS_RAILWAYS",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -84315,7 +84939,6 @@
       ],
       "description": "曇天の下、道路脇に小型船や漁具が並ぶ海沿いの港。日々の漁港の営みと、静かな海辺の風景を記録している。",
       "genres": [
-        "TRANSPORT_INFRA",
         "NATURE",
         "ITEMS_OBJECTS"
       ]
@@ -84470,7 +85093,7 @@
       "publishedAt": "2023-03-27 01:22:18",
       "dateTaken": "2023-03-26 17:21:09",
       "license": "CC0",
-      "genre": "TRANSPORT_INFRA",
+      "genre": "NATURE",
       "tags": [
         "山あいの川",
         "コンクリート護岸",
@@ -84482,7 +85105,6 @@
       ],
       "description": "山並みを望む川沿いに橋と護岸が続き、冬枯れの草むらを清流が縫う。澄んだ青空の下、穏やかな里山の景観を記録している。",
       "genres": [
-        "TRANSPORT_INFRA",
         "NATURE"
       ]
     },
@@ -84767,7 +85389,7 @@
       "genres": [
         "STATIONS_RAILWAYS",
         "NATURE",
-        "PARKS_LEISURE_EVENTS"
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -84972,7 +85594,7 @@
       "publishedAt": "2023-03-27 01:22:08",
       "dateTaken": "2023-03-26 17:21:25",
       "license": "CC0",
-      "genre": "TRANSPORT_INFRA",
+      "genre": "OUTDOOR_PASSAGES",
       "tags": [
         "公園の通り道",
         "コンクリートの通路",
@@ -84985,7 +85607,6 @@
       ],
       "description": "コンクリートの短い通路を抜けると、落ち葉の散る斜面が広がる。公園の中にある、素朴で静かな通り道の一景。",
       "genres": [
-        "TRANSPORT_INFRA",
         "OUTDOOR_PASSAGES",
         "ROADS",
         "NATURE",
@@ -85241,7 +85862,8 @@
       "description": "白い壁に囲まれたスーパーの階段が、折り返しながら上階へ続く。人影のない静かな店内空間を、石目調の手すりが斜めに横切る。",
       "genres": [
         "STAIRS",
-        "SHOPS"
+        "SHOPS",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -85383,7 +86005,8 @@
       "genres": [
         "STAIRS",
         "ARCHITECTURE",
-        "NATURE"
+        "NATURE",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -85468,7 +86091,8 @@
       ],
       "description": "コンクリート壁に囲まれた広い室内の片隅に、木製の椅子が一脚置かれている。低い視点が空間の静けさと余白を際立たせる。",
       "genres": [
-        "ITEMS_OBJECTS"
+        "ITEMS_OBJECTS",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -85497,7 +86121,8 @@
       "genres": [
         "STAIRS",
         "SHOPS",
-        "NATURE"
+        "NATURE",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -85552,7 +86177,8 @@
       "description": "白い手すりを備えた階段が、暗い壁面を横切るように伸びる。直線と反復する格子が、静かな建築空間に幾何学的な表情を添えている。",
       "genres": [
         "STAIRS",
-        "ARCHITECTURE"
+        "ARCHITECTURE",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -85949,7 +86575,8 @@
       "genres": [
         "STAIRS",
         "ARCHITECTURE",
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -85979,7 +86606,8 @@
         "ARCHITECTURE",
         "SHRINES_HERITAGE",
         "NATURE",
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -86008,7 +86636,8 @@
         "ARCHITECTURE",
         "SHRINES_HERITAGE",
         "NATURE",
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -86038,7 +86667,8 @@
         "PARKING",
         "ARCHITECTURE",
         "EQUIPMENT",
-        "NATURE"
+        "NATURE",
+        "RUINS_CONSTRUCTION"
       ]
     },
     {
@@ -86184,7 +86814,8 @@
       "genres": [
         "ARCHITECTURE",
         "PARKS_LEISURE_EVENTS",
-        "ITEMS_OBJECTS"
+        "ITEMS_OBJECTS",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -86426,7 +87057,7 @@
       "publishedAt": "2023-03-13 13:17:13",
       "dateTaken": "2023-03-03 20:34:15",
       "license": "CC0",
-      "genre": "TRANSPORT_INFRA",
+      "genre": "NATURE",
       "tags": [
         "破損した金網フェンス",
         "曲がった支柱",
@@ -86439,8 +87070,8 @@
       ],
       "description": "枯れ草の広がる地面を囲む金網フェンスが大きく破れ、支柱も曲がっている。傷みの進んだ屋外設備の様子を記録した一枚。",
       "genres": [
-        "TRANSPORT_INFRA",
-        "NATURE"
+        "NATURE",
+        "RUINS_CONSTRUCTION"
       ]
     },
     {
@@ -86496,7 +87127,8 @@
       ],
       "description": "木立に囲まれた公園の広場に、四本のコンクリート柱が立つ。人影のない静かな空間に、テーブルとベンチが見える。",
       "genres": [
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -86639,7 +87271,8 @@
       "description": "木々に囲まれた斜面を上る階段の先に、小さな祠が佇む。参拝へ続く道と境内の静けさを伝える一枚。",
       "genres": [
         "STAIRS",
-        "SHRINES_HERITAGE"
+        "SHRINES_HERITAGE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -86746,7 +87379,8 @@
       ],
       "description": "土の広がる公園に、木製のテーブルとベンチが円形の石敷きの上に設けられている。人影のない静かな休憩場所を記録した一枚。",
       "genres": [
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "ITEMS_OBJECTS"
       ]
     },
     {
@@ -86772,7 +87406,8 @@
       ],
       "description": "木立に囲まれた公園に、赤い階段と黄色い滑走面の滑り台が立つ。人影のない砂地の遊び場が、静かな日中のひとときを伝えている。",
       "genres": [
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "ITEMS_OBJECTS"
       ]
     },
     {
@@ -86883,7 +87518,8 @@
       "genres": [
         "STAIRS",
         "SIGNS_NOTICES",
-        "NIGHT"
+        "NIGHT",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -87191,7 +87827,8 @@
       ],
       "description": "吹き抜けの屋内階段を上から見下ろす。赤茶色に塗られた踏み板と黒い滑り止めが並び、塗装直後の整然とした様子が記録されている。",
       "genres": [
-        "STAIRS"
+        "STAIRS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -87499,7 +88136,8 @@
       ],
       "description": "土の地面に置かれた、塗装の剥がれた動物型ロッキング遊具。使い込まれた表情から、地域の公園で親しまれてきた様子がうかがえます。",
       "genres": [
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "ITEMS_OBJECTS"
       ]
     },
     {
@@ -87754,7 +88392,8 @@
       "genres": [
         "DOORS",
         "STATIONS_RAILWAYS",
-        "EQUIPMENT"
+        "EQUIPMENT",
+        "ITEMS_OBJECTS"
       ]
     },
     {
@@ -87781,7 +88420,8 @@
       "description": "緑色の券売機にユーカリが丘線の運賃が掲示されている。大人200円、小人100円の表示が、地域鉄道の駅の日常を伝える。",
       "genres": [
         "STATIONS_RAILWAYS",
-        "EQUIPMENT"
+        "EQUIPMENT",
+        "ITEMS_OBJECTS"
       ]
     },
     {
@@ -88041,7 +88681,8 @@
       "description": "暗い夜空に一つだけ浮かぶ白い提灯。赤い文字と柔らかな光が際立ち、祭りの夜を思わせる静かな情景を記録している。",
       "genres": [
         "PARKS_LEISURE_EVENTS",
-        "NIGHT"
+        "NIGHT",
+        "ITEMS_OBJECTS"
       ]
     },
     {
@@ -88299,7 +88940,8 @@
       "genres": [
         "SHRINES_HERITAGE",
         "PARKS_LEISURE_EVENTS",
-        "NIGHT"
+        "NIGHT",
+        "ITEMS_OBJECTS"
       ]
     },
     {
@@ -88327,7 +88969,8 @@
       "description": "街灯に照らされた夜の公園に、ブランコや遊具が静かに佇む。人影のない園内と冬枯れの木々が、夜更けの落ち着いた空気を伝えている。",
       "genres": [
         "PARKS_LEISURE_EVENTS",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -89724,7 +90367,8 @@
       "genres": [
         "STAIRS",
         "ARCHITECTURE",
-        "NATURE"
+        "NATURE",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -89752,7 +90396,8 @@
       "genres": [
         "STAIRS",
         "ARCHITECTURE",
-        "NATURE"
+        "NATURE",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -89778,8 +90423,7 @@
       ],
       "description": "木枠の開口部に、白いすりガラスの折れ戸が閉じている。装飾を抑えた浴室まわりの建具を正面から記録した一枚。",
       "genres": [
-        "DOORS",
-        "ARCHITECTURE"
+        "DOORS"
       ]
     },
     {
@@ -89895,7 +90539,9 @@
       "description": "壁沿いにガシャポン機が並ぶ、人気のない店内。色とりどりの床タイルが広がり、日常から切り離されたような静けさが漂う。",
       "genres": [
         "SHOPS",
-        "EQUIPMENT"
+        "EQUIPMENT",
+        "INDOOR_PASSAGES",
+        "ITEMS_OBJECTS"
       ]
     },
     {
@@ -89921,8 +90567,8 @@
       ],
       "description": "枝葉の向こうに、石積みの壁と小さな暗い入口がのぞく。落ち葉や石段に囲まれた、森の中の隠れ場所を記録した一枚。",
       "genres": [
-        "ARCHITECTURE",
-        "NATURE"
+        "NATURE",
+        "SHRINES_HERITAGE"
       ]
     },
     {
@@ -90327,7 +90973,8 @@
       "genres": [
         "SHOPS",
         "PARKS_LEISURE_EVENTS",
-        "ITEMS_OBJECTS"
+        "ITEMS_OBJECTS",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -90466,7 +91113,8 @@
       "description": "広い地下の駐輪場に自転車が壁沿いに並ぶ。人影のない無機質な空間に、蛍光灯の光と静けさが漂う。",
       "genres": [
         "PARKING",
-        "NIGHT"
+        "NIGHT",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -90548,7 +91196,9 @@
       ],
       "description": "江ノ島の緑深い斜面を上るコンクリート階段。落ち葉が散る静かな道に、木々の間から柔らかな光が差し込んでいます。",
       "genres": [
-        "STAIRS"
+        "STAIRS",
+        "OUTDOOR_PASSAGES",
+        "NATURE"
       ]
     },
     {
@@ -90721,8 +91371,8 @@
       ],
       "description": "漁港近くの広い道が防波堤に沿って海へ伸びる。曇天の下、穏やかな水面と対岸の山並みが静かな港町の昼を伝える。",
       "genres": [
-        "TRANSPORT_INFRA",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -90751,7 +91401,6 @@
       "genres": [
         "DETACHED_HOUSES",
         "STREET",
-        "TRANSPORT_INFRA",
         "NATURE",
         "ARCHITECTURE"
       ]
@@ -90782,8 +91431,8 @@
       "genres": [
         "STREET",
         "SHOPS",
-        "TRANSPORT_INFRA",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -91104,7 +91753,8 @@
       "description": "木々に囲まれた白い鳥居の先は門で封鎖され、苔むした石段や石垣に静かな時間が刻まれている。差し込む光が境内の奥行きを際立たせる。",
       "genres": [
         "SHRINES_HERITAGE",
-        "STAIRS"
+        "STAIRS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -91161,7 +91811,8 @@
       "genres": [
         "STAIRS",
         "NATURE",
-        "NIGHT"
+        "NIGHT",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -91246,8 +91897,7 @@
       ],
       "description": "朱色の欄干と金色の柱が彩るホテル三日月の館内通路。人影のない広い空間に暖かな照明が灯り、華やかさと静けさが同居しています。",
       "genres": [
-        "INDOOR_PASSAGES",
-        "TRANSPORT_INFRA"
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -91450,7 +92100,8 @@
         "SHOPS",
         "SIGNS_NOTICES",
         "EQUIPMENT",
-        "NATURE"
+        "NATURE",
+        "ITEMS_OBJECTS"
       ]
     },
     {
@@ -91705,7 +92356,8 @@
       "genres": [
         "OTHER",
         "ARCHITECTURE",
-        "ITEMS_OBJECTS"
+        "ITEMS_OBJECTS",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -91789,7 +92441,8 @@
       "description": "汚れや錆が目立つ屋外階段を、中央のスロープに沿って見上げる。落ち葉も残る荒れた足元が、長く使われてきた様子を伝えている。",
       "genres": [
         "STAIRS",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -91963,7 +92616,8 @@
       "genres": [
         "SIGNS_NOTICES",
         "NATURE",
-        "PARKS_LEISURE_EVENTS"
+        "PARKS_LEISURE_EVENTS",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -92307,7 +92961,8 @@
       "description": "床近くから見上げると、金属の梯子が天井へ向かってまっすぐ伸び、先の見えない奥行きと薄暗い空間が印象に残る。",
       "genres": [
         "STAIRS",
-        "NIGHT"
+        "NIGHT",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -92533,7 +93188,8 @@
       "description": "タイル張りの壁際に、緑色の公衆電話が三台並ぶ。二台には受話器が備わり、かつての公共空間の設備を記録している。",
       "genres": [
         "STATIONS_RAILWAYS",
-        "EQUIPMENT"
+        "EQUIPMENT",
+        "ITEMS_OBJECTS"
       ]
     },
     {
@@ -92615,7 +93271,8 @@
       ],
       "description": "青い手すりと金属柵が幾何学模様を描く階段を上から見下ろす。踊り場が重なり、吸い込まれるような奥行きと緊張感が漂う。",
       "genres": [
-        "STAIRS"
+        "STAIRS",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -92759,7 +93416,8 @@
       "description": "白い壁に囲まれたビルの階段を上から見下ろす。青と白の踏み板が踊り場へ続き、無人の静けさにどこか緊張感が漂う。",
       "genres": [
         "STAIRS",
-        "ARCHITECTURE"
+        "ARCHITECTURE",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -92787,7 +93445,8 @@
       "description": "白い壁に「6」の表示があるビルの階段踊り場。手すりと黄色い点字ブロックが、静かな室内の移動空間を伝えている。",
       "genres": [
         "STAIRS",
-        "ARCHITECTURE"
+        "ARCHITECTURE",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -92925,7 +93584,8 @@
       "genres": [
         "STAIRS",
         "ARCHITECTURE",
-        "NATURE"
+        "NATURE",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -93011,7 +93671,8 @@
       "genres": [
         "DOORS",
         "STATIONS_RAILWAYS",
-        "NATURE"
+        "NATURE",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -93070,8 +93731,7 @@
         "TRANSPORT_INFRA",
         "ARCHITECTURE",
         "ROADS",
-        "NATURE",
-        "OUTDOOR_PASSAGES"
+        "NATURE"
       ]
     },
     {
@@ -93456,7 +94116,8 @@
       "genres": [
         "STAIRS",
         "DETACHED_HOUSES",
-        "ARCHITECTURE"
+        "ARCHITECTURE",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -93483,7 +94144,8 @@
       "description": "強い日差しの下、金網の柵に挟まれた橋が緑の木立へ続く。人影のない静けさと、先に何かが待つような奥行きが印象に残る。",
       "genres": [
         "TRANSPORT_INFRA",
-        "NATURE"
+        "NATURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
@@ -94148,7 +94810,6 @@
       ],
       "description": "夜の住宅街に、防災水そうの標識とシャッター付きの防災倉庫が並ぶ。地域を支える身近な防災設備を記録した一枚。",
       "genres": [
-        "ARCHITECTURE",
         "STREET",
         "SIGNS_NOTICES",
         "NIGHT"
@@ -94232,7 +94893,8 @@
       "description": "木の踏み板と壁沿いの手すりが、暗がりの下へと続く夜の階段。先の見えない構図が、静けさと心細さを漂わせています。",
       "genres": [
         "STAIRS",
-        "NIGHT"
+        "NIGHT",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -94368,7 +95030,8 @@
       "genres": [
         "STAIRS",
         "ARCHITECTURE",
-        "RUINS_CONSTRUCTION"
+        "RUINS_CONSTRUCTION",
+        "SIGNS_NOTICES"
       ]
     },
     {
@@ -94457,7 +95120,8 @@
       "genres": [
         "SHOPS",
         "NATURE",
-        "ITEMS_OBJECTS"
+        "ITEMS_OBJECTS",
+        "INDOOR_PASSAGES"
       ]
     },
     {
@@ -94980,7 +95644,8 @@
         "APARTMENTS",
         "PARKING",
         "NIGHT",
-        "ARCHITECTURE"
+        "ARCHITECTURE",
+        "OUTDOOR_PASSAGES"
       ]
     },
     {
